@@ -1,0 +1,524 @@
+id,name,slug,logo,date_launched,notice,weekly_visits,spot_volume_usd
+4098,QuickSwap v3 (Polygon),quickswap-v3,https://s2.coinmarketcap.com/static/img/exchanges/64x64/4098.png,2020-10-07T00:00:00.000Z,,35390.0,27210251.1391758
+16,Poloniex,poloniex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/16.png,2014-01-10T00:00:00.000Z,,73390.0,460341447.07854056
+21,BTCC,btcc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/21.png,2011-06-01T00:00:00.000Z,,155100.0,
+24,Kraken,kraken,https://s2.coinmarketcap.com/static/img/exchanges/64x64/24.png,2011-07-28T00:00:00.000Z,,871315.0,406016532.68905246
+34,Bittylicious,bittylicious,https://s2.coinmarketcap.com/static/img/exchanges/64x64/34.png,2013-05-22T00:00:00.000Z,,2723.0,20688.03226447
+36,CEX.IO,cex-io,https://s2.coinmarketcap.com/static/img/exchanges/64x64/36.png,2013-06-30T00:00:00.000Z,,140623.0,1564692.37604984
+37,Bitfinex,bitfinex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/37.png,2012-10-11T00:00:00.000Z,,113067.0,109349279.24465062
+42,HitBTC,hitbtc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/42.png,2013-12-01T00:00:00.000Z,,21803.0,90836312.4741666
+50,EXMO,exmo,https://s2.coinmarketcap.com/static/img/exchanges/64x64/50.png,2015-04-05T00:00:00.000Z,,50513.0,38459741.12415194
+4152,Liquidswap,liquidswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/4152.png,2022-10-17T00:00:00.000Z,,3941.0,6142.80954878
+61,Okcoin,okcoin,https://s2.coinmarketcap.com/static/img/exchanges/64x64/61.png,2013-04-20T00:00:00.000Z,,5379.0,18126.21645739
+4159,WingRiders DEX,wingriders-dex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/4159.png,2022-04-11T00:00:00.000Z,,1350.0,33416.18642302
+68,Indodax,indodax,https://s2.coinmarketcap.com/static/img/exchanges/64x64/68.png,2014-02-15T00:00:00.000Z,,357293.0,7934122.68805883
+70,Bitstamp,bitstamp,https://s2.coinmarketcap.com/static/img/exchanges/64x64/70.png,2011-07-04T00:00:00.000Z,,158956.0,147308058.9644071
+73,Zaif,zaif,https://s2.coinmarketcap.com/static/img/exchanges/64x64/73.png,2014-05-28T00:00:00.000Z,,230128.0,471678.91467573
+80,Coinmate,coinmate,https://s2.coinmarketcap.com/static/img/exchanges/64x64/80.png,2013-12-12T00:00:00.000Z,,19917.0,791039.30179849
+89,Coinbase Exchange,coinbase-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/89.png,2014-05-24T00:00:00.000Z,,32048.0,1390283756.6844623
+10330,Cellana Finance,cellana-finance,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10330.png,2024-02-27T00:00:00.000Z,,1458.0,18234133.66310214
+8282,Zenlink (Astar),zenlink-astar,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8282.png,2021-11-02T00:00:00.000Z,,453.0,1541.15458384
+96,Bitonic,bitonic,https://s2.coinmarketcap.com/static/img/exchanges/64x64/96.png,2012-03-09T00:00:00.000Z,,12505.0,76680.30065335
+100,YoBit,yobit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/100.png,2014-08-25T00:00:00.000Z,,97944.0,60728472.19804826
+102,HTX,htx,https://s2.coinmarketcap.com/static/img/exchanges/64x64/102.png,2013-09-01T00:00:00.000Z,Huobi Rebrands to HTX. Read more [here](https://www.huobi.com/support/en-us/detail/84948926582328).,1732930.0,1537068381.6140063
+106,Coincheck,coincheck,https://s2.coinmarketcap.com/static/img/exchanges/64x64/106.png,2012-08-28T00:00:00.000Z,,258438.0,38450219.91238368
+10348,Trader Joe v2.2 (Avalanche),trader-joe-v2-2-avalanche,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10348.png,,,80713.0,15577582.13015657
+10349,Trader Joe v2.2 (Arbitrum),trader-joe-v2-2-arbitrum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10349.png,,,80713.0,3184758.89728472
+6255,Velocimeter,velocimeter,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6255.png,,,195.0,7.25120952
+2162,MagicSwap,magicswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/2162.png,,,218.0,621.89909245
+10361,CoinUp.io,coinup-io,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10361.png,2021-08-31T00:00:00.000Z,,167823.0,2845820666.013819
+10363,Dragonswap,dragonswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10363.png,,,4412.0,336521.31002226
+6268,LFGSwap (Core),lfgswap-core,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6268.png,,,31.0,290.59185024
+125,Bitso,bitso,https://s2.coinmarketcap.com/static/img/exchanges/64x64/125.png,2014-05-17T00:00:00.000Z,,136722.0,17652157.96176412
+6267,Shadowswap,shadowswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6267.png,,,124.0,214.23294538
+127,BTCBOX,btcbox,https://s2.coinmarketcap.com/static/img/exchanges/64x64/127.png,2014-03-06T00:00:00.000Z,,727.0,411834.84502439
+137,CoinCorner,coincorner,https://s2.coinmarketcap.com/static/img/exchanges/64x64/137.png,2014-07-14T00:00:00.000Z,,4832.0,119046.21984344
+139,bitFlyer,bitflyer,https://s2.coinmarketcap.com/static/img/exchanges/64x64/139.png,2014-01-09T00:00:00.000Z,,412178.0,38668612.39679321
+6291,ArcherSwap,archerswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6291.png,,,38.0,13036.52206816
+151,Gemini,gemini,https://s2.coinmarketcap.com/static/img/exchanges/64x64/151.png,2015-10-01T00:00:00.000Z,,153525.0,29629901.53241225
+154,Dex-Trade,dex-trade,https://s2.coinmarketcap.com/static/img/exchanges/64x64/154.png,2018-12-18T00:00:00.000Z,,550369.0,100599687.0567819
+157,BitMEX,bitmex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/157.png,2014-04-01T00:00:00.000Z,,102112.0,47270.58687768
+10403,Raydium (CPMM),raydium-cpmm,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10403.png,,,225952.0,2154111.72332205
+166,Independent Reserve,independent-reserve,https://s2.coinmarketcap.com/static/img/exchanges/64x64/166.png,2013-05-24T00:00:00.000Z,,32096.0,2373664.22081583
+6310,Trader Joe (BSC),trader-joe-bsc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6310.png,,,80713.0,108.90425555
+171,Luno,luno,https://s2.coinmarketcap.com/static/img/exchanges/64x64/171.png,2017-02-11T00:00:00.000Z,,147773.0,4763927.20668493
+174,Coinone,coinone,https://s2.coinmarketcap.com/static/img/exchanges/64x64/174.png,2014-06-11T00:00:00.000Z,,119412.0,18843125.6363691
+194,Korbit,korbit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/194.png,2013-07-25T00:00:00.000Z,,13191.0,6612133.57426525
+8388,Salavi Exchange,salavi-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8388.png,2023-06-30T00:00:00.000Z,,4363.0,75889460.78847384
+200,Bithumb,bithumb,https://s2.coinmarketcap.com/static/img/exchanges/64x64/200.png,2014-01-01T00:00:00.000Z,,593710.0,426505167.8414014
+201,Lykke Exchange,lykke-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/201.png,2016-06-29T00:00:00.000Z,,3084.0,14259.10958432
+10445,Ebi.xyz,ebi-xyz,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10445.png,2024-06-19T00:00:00.000Z,,30398.0,
+209,Kuna,kuna,https://s2.coinmarketcap.com/static/img/exchanges/64x64/209.png,2016-03-12T00:00:00.000Z,,26222.0,3882999.35445964
+213,Mercatox,mercatox,https://s2.coinmarketcap.com/static/img/exchanges/64x64/213.png,2015-10-12T00:00:00.000Z,,2623.0,10584510.54067391
+215,P2B,p2b,https://s2.coinmarketcap.com/static/img/exchanges/64x64/215.png,2018-01-01T00:00:00.000Z,,2366695.0,1027178365.495052
+219,Tidex,tidex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/219.png,2017-10-18T00:00:00.000Z,,521.0,261149101.72953644
+223,FreiExchange,freiexchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/223.png,2016-12-20T00:00:00.000Z,,1562.0,2406.09261497
+224,BTC Markets,btc-markets,https://s2.coinmarketcap.com/static/img/exchanges/64x64/224.png,2013-11-22T00:00:00.000Z,,71652.0,2064173.97920893
+225,Paribu,paribu,https://s2.coinmarketcap.com/static/img/exchanges/64x64/225.png,2017-02-14T00:00:00.000Z,,210221.0,68899858.62353924
+8418,APX v2 (BSC),apollox-v2-bsc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8418.png,2023-08-27T00:00:00.000Z,,625.0,
+228,BTC-Alpha,btc-alpha,https://s2.coinmarketcap.com/static/img/exchanges/64x64/228.png,2016-03-01T00:00:00.000Z,,75782.0,335084971.13176006
+243,BtcTurk | Kripto,btcturk-kripto,https://s2.coinmarketcap.com/static/img/exchanges/64x64/243.png,2013-07-02T00:00:00.000Z,,67158.0,75170067.67992516
+246,WX Network,waves-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/246.png,2016-06-01T00:00:00.000Z,,6187.0,4581.02659507
+248,Koinim,koinim,https://s2.coinmarketcap.com/static/img/exchanges/64x64/248.png,2013-04-01T00:00:00.000Z,,232.0,50.51888158
+249,StellarTerm,stellar-decentralized-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/249.png,2017-07-01T00:00:00.000Z,,2921.0,784873.54062243
+6394,Solidly (Ethereum),solidly-ethereum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6394.png,,,74.0,1608729.50495185
+250,Buda,buda,https://s2.coinmarketcap.com/static/img/exchanges/64x64/250.png,2015-04-21T00:00:00.000Z,,34046.0,256204.32172898
+252,BTC Trade UA,btc-trade-ua,https://s2.coinmarketcap.com/static/img/exchanges/64x64/252.png,2014-05-01T00:00:00.000Z,,5820.0,1637.18663874
+253,LocalTrade,localtrade,https://s2.coinmarketcap.com/static/img/exchanges/64x64/253.png,2017-11-04T00:00:00.000Z,,528.0,38543848.10095467
+257,Bitbank,bitbank,https://s2.coinmarketcap.com/static/img/exchanges/64x64/257.png,2014-05-07T00:00:00.000Z,,129268.0,13846690.84011606
+258,Mercado Bitcoin,mercado-bitcoin,https://s2.coinmarketcap.com/static/img/exchanges/64x64/258.png,2013-06-12T00:00:00.000Z,,189123.0,2430074.47941779
+261,Altcoin Trader,altcoin-trader,https://s2.coinmarketcap.com/static/img/exchanges/64x64/261.png,2014-07-01T00:00:00.000Z,,58330.0,794315.77358598
+6406,Bitlo,bitlo,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6406.png,2018-06-04T00:00:00.000Z,,66213.0,2733711.51264148
+6407,THENA FUSION,thena-v2,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6407.png,2023-04-14T00:00:00.000Z,,11804.0,10956809.00636976
+267,Bancor Network,bancor-network,https://s2.coinmarketcap.com/static/img/exchanges/64x64/267.png,2017-01-01T00:00:00.000Z,,1295.0,290910.59592819
+270,Binance,binance,https://s2.coinmarketcap.com/static/img/exchanges/64x64/270.png,2017-07-14T00:00:00.000Z,,10403969.0,7843063945.133545
+6420,ApeSwap (Arbitrum),apeswap-arbitrum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6420.png,,,192.0,106.23571366
+294,OKX,okx,https://s2.coinmarketcap.com/static/img/exchanges/64x64/294.png,2017-01-03T00:00:00.000Z,,4121684.0,1151473770.4705248
+6444,Uniswap v3 (BSC),uniswap-bsc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6444.png,,,626539.0,9779767.5791507
+302,Gate.io,gate-io,https://s2.coinmarketcap.com/static/img/exchanges/64x64/302.png,2013-01-01T00:00:00.000Z,,5665954.0,792674020.7821412
+311,KuCoin,kucoin,https://s2.coinmarketcap.com/static/img/exchanges/64x64/311.png,2017-08-13T00:00:00.000Z,,1305213.0,424038712.2540347
+10557,Raydium (CLMM),raydium-clmm,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10557.png,,,225952.0,74549051.17684422
+8511,ICDex,icdex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8511.png,2022-09-30T00:00:00.000Z,,2765.0,29171.59087587
+8513,Sonic,sonic,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8513.png,2021-10-31T00:00:00.000Z,,197.0,86499.47808433
+321,Coinut,coinut,https://s2.coinmarketcap.com/static/img/exchanges/64x64/321.png,2013-11-23T00:00:00.000Z,,204.0,710.3360713
+325,Orbix,satang-pro,https://s2.coinmarketcap.com/static/img/exchanges/64x64/325.png,2017-11-01T00:00:00.000Z,Satang pro has been rebranded to Orbix.,8476.0,391048.37708292
+2373,Verse,verse,https://s2.coinmarketcap.com/static/img/exchanges/64x64/2373.png,,,37922.0,6392.47781174
+6472,Flipster,flipster,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6472.png,2020-12-31T00:00:00.000Z,,49484.0,78057.546591
+8521,Aerodrome Finance,aerodrome-finance,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8521.png,2023-08-27T00:00:00.000Z,,150299.0,10040302.43916542
+330,BigONE,bigone,https://s2.coinmarketcap.com/static/img/exchanges/64x64/330.png,2017-06-24T00:00:00.000Z,,1555695.0,267593368.0635861
+333,LBank,lbank,https://s2.coinmarketcap.com/static/img/exchanges/64x64/333.png,2016-10-01T00:00:00.000Z,,2570627.0,970462202.8602834
+335,GOPAX,gopax,https://s2.coinmarketcap.com/static/img/exchanges/64x64/335.png,2017-06-14T00:00:00.000Z,,23567.0,1129926.1153749
+339,Bibox,bibox,https://s2.coinmarketcap.com/static/img/exchanges/64x64/339.png,2017-11-01T00:00:00.000Z,We have received reports from multiple users being unable to withdraw funds from this exchange. Please exercise caution while trading and always [DYOR](https://support.coinmarketcap.com/hc/en-us/articles/360043659351-Listings-Criteria).,554.0,253747021.0924729
+350,CoinEx,coinex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/350.png,2017-12-01T00:00:00.000Z,,330018.0,109802927.9141983
+351,Upbit,upbit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/351.png,2017-10-24T00:00:00.000Z,,1054599.0,1122359079.6970117
+354,TradeOgre,tradeogre,https://s2.coinmarketcap.com/static/img/exchanges/64x64/354.png,2018-01-01T00:00:00.000Z,,137913.0,2647663.62913708
+10599,Digitra.com,digitra-com,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10599.png,2022-07-31T00:00:00.000Z,,10435.0,25404.33926352
+360,C-Patex,c-patex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/360.png,2014-11-01T00:00:00.000Z,,189684.0,44561245.66012782
+6506,Arbidex,arbidex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6506.png,,,90.0,192.49256315
+363,Fatbtc,fatbtc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/363.png,2014-05-01T00:00:00.000Z,,736.0,
+364,Paymium,paymium,https://s2.coinmarketcap.com/static/img/exchanges/64x64/364.png,2010-05-01T00:00:00.000Z,,2618.0,151761.46910886
+369,RuDEX,rudex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/369.png,2017-04-18T00:00:00.000Z,,26.0,0.0
+370,ZebPay,zebpay,https://s2.coinmarketcap.com/static/img/exchanges/64x64/370.png,2014-08-01T00:00:00.000Z,,49071.0,178064.25577286
+8563,BITFLEX,bitflex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8563.png,2022-10-30T00:00:00.000Z,,7504.0,23137373.06761353
+376,Bitbns,bitbns,https://s2.coinmarketcap.com/static/img/exchanges/64x64/376.png,2017-11-01T00:00:00.000Z,,15100.0,1488923.83675617
+378,Unocoin,unocoin,https://s2.coinmarketcap.com/static/img/exchanges/64x64/378.png,2011-09-01T00:00:00.000Z,,10019.0,52453.28602285
+8570,Swapsicle v2 (Mantle),swapsicle-v2-mantle,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8570.png,,,76.0,1457.8642523
+380,LATOKEN,latoken,https://s2.coinmarketcap.com/static/img/exchanges/64x64/380.png,2017-07-01T00:00:00.000Z,,1792671.0,243025508.5369576
+385,Cryptonex,cryptonex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/385.png,2017-10-01T00:00:00.000Z,,53.0,23346261.08668889
+6530,ThetaSwap,thetaswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6530.png,2021-02-03T00:00:00.000Z,,780.0,51383.8581911
+391,CoinTiger,cointiger,https://s2.coinmarketcap.com/static/img/exchanges/64x64/391.png,2017-12-01T00:00:00.000Z,We have received multiple reports of some users being unable to withdraw their funds. Please exercise caution and do your own research (DYOR)!,272.0,
+406,BitMart,bitmart,https://s2.coinmarketcap.com/static/img/exchanges/64x64/406.png,2018-03-15T00:00:00.000Z,,2815105.0,638646473.98773
+407,DigiFinex,digifinex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/407.png,2018-04-01T00:00:00.000Z,,3673228.0,952717262.1556702
+415,Bilaxy,bilaxy,https://s2.coinmarketcap.com/static/img/exchanges/64x64/415.png,2018-04-24T00:00:00.000Z,,221.0,202256736.5102086
+419,Graviex,graviex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/419.png,2018-02-06T00:00:00.000Z,,19003.0,1086.66707149
+422,ABCC,abcc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/422.png,2018-04-28T00:00:00.000Z,,61.0,20925682.78753388
+425,WazirX,wazirx,https://s2.coinmarketcap.com/static/img/exchanges/64x64/425.png,2018-03-08T00:00:00.000Z,,196641.0,0.0
+8617,M2,m2,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8617.png,2023-10-09T00:00:00.000Z,,33446.0,46566.30241859
+433,Bitrue,bitrue,https://s2.coinmarketcap.com/static/img/exchanges/64x64/433.png,2018-07-20T00:00:00.000Z,,249275.0,2367335990.282788
+436,Bitkub,bitkub,https://s2.coinmarketcap.com/static/img/exchanges/64x64/436.png,2018-02-14T00:00:00.000Z,,377740.0,26671742.19273807
+440,Cryptology,cryptology,https://s2.coinmarketcap.com/static/img/exchanges/64x64/440.png,2018-01-01T00:00:00.000Z,,10568.0,31561900.69665313
+8634,iZiSwap (Scroll),iziswap-scroll,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8634.png,,,38366.0,1508823.23994422
+8636,KyberSwap (Scroll),kyberswap-scroll,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8636.png,,,32881.0,1674.03518412
+8638,Syncswap (Scroll),syncswap-scroll,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8638.png,,,21864.0,542460.87971534
+453,AscendEX (BitMax),ascendex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/453.png,2018-07-01T00:00:00.000Z,,1005338.0,610662530.1515685
+6597,FlairDex,flairdex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6597.png,,,24.0,474.11188936
+460,Coinsbit,coinsbit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/460.png,2018-08-21T00:00:00.000Z,,13347.0,
+10702,Coin8 Exchange,coin8-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10702.png,2023-10-31T00:00:00.000Z,,5239.0,440995045.12989545
+8658,Skydrome (Scroll),skydrome-scroll,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8658.png,,,111.0,9400.49490552
+477,ProBit Global,probit-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/477.png,2018-11-30T00:00:00.000Z,,160385.0,460420680.3888521
+479,Dcoin,dcoin,https://s2.coinmarketcap.com/static/img/exchanges/64x64/479.png,2018-05-01T00:00:00.000Z,,74.0,18266454.45626078
+480,Cat.Ex,catex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/480.png,2018-08-13T00:00:00.000Z,,1145.0,35013124.36061647
+487,VinDAX,vindax,https://s2.coinmarketcap.com/static/img/exchanges/64x64/487.png,2019-03-08T00:00:00.000Z,,3164.0,19415062.83950116
+488,Coinmetro,coinmetro,https://s2.coinmarketcap.com/static/img/exchanges/64x64/488.png,2017-12-04T00:00:00.000Z,,5325.0,865219.89843499
+491,SafeTrade,safetrade,https://s2.coinmarketcap.com/static/img/exchanges/64x64/491.png,,,6360.0,108942.00788909
+6637,BloFin,blofin,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6637.png,2023-01-11T00:00:00.000Z,,128355.0,465042094.7188984
+498,Polyx,polyx,https://s2.coinmarketcap.com/static/img/exchanges/64x64/498.png,2018-11-01T00:00:00.000Z,,56.0,32037414.88957237
+500,Tokenize Xchange,tokenize-xchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/500.png,2018-02-01T00:00:00.000Z,,4435.0,89196736.58416602
+501,WhiteBIT,whitebit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/501.png,2018-12-01T00:00:00.000Z,,4809103.0,1220311517.3326688
+503,Birake Exchange,birake-network,https://s2.coinmarketcap.com/static/img/exchanges/64x64/503.png,2018-12-27T00:00:00.000Z,,276.0,954.96584361
+8701,Millionero,millionero,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8701.png,2022-03-30T00:00:00.000Z,,1006.0,79715886.82274856
+513,Bitget,bitget,https://s2.coinmarketcap.com/static/img/exchanges/64x64/513.png,2018-04-05T00:00:00.000Z,,4339592.0,1482739999.6003327
+514,Finexbox,finexbox,https://s2.coinmarketcap.com/static/img/exchanges/64x64/514.png,2018-05-19T00:00:00.000Z,,2792.0,4724171.71586703
+516,dYdX,dydx,https://s2.coinmarketcap.com/static/img/exchanges/64x64/516.png,2019-04-17T00:00:00.000Z,,5304.0,
+517,CoinW,coinw,https://s2.coinmarketcap.com/static/img/exchanges/64x64/517.png,2017-07-01T00:00:00.000Z,,2190326.0,744695992.9133104
+6661,Koi Finance,koi-finance,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6661.png,,,81.0,103787.90089342
+6663,SpaceFi (zkSync),spacefi-zksync,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6663.png,,,33.0,19165.72142592
+520,Bitvavo,bitvavo,https://s2.coinmarketcap.com/static/img/exchanges/64x64/520.png,2019-03-08T00:00:00.000Z,,271760.0,104355181.93135794
+521,Bybit,bybit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/521.png,2018-03-01T00:00:00.000Z,,4724633.0,2603676993.690113
+522,Deribit,deribit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/522.png,2016-06-01T00:00:00.000Z,,104518.0,
+525,XT.COM,xt,https://s2.coinmarketcap.com/static/img/exchanges/64x64/525.png,2018-10-01T00:00:00.000Z,,1882241.0,566204604.398725
+6669,Ramses,ramses-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6669.png,,,452.0,6970.88371669
+10770,Aibit,aibit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10770.png,2023-07-23T00:00:00.000Z,,230223.0,93172880.82326788
+10771,BXTEN,bxten,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10771.png,2024-06-19T00:00:00.000Z,,132328.0,231590004.97538948
+10783,HyperPay Futures,hyperpay-futures,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10783.png,2017-02-28T00:00:00.000Z,,95.0,
+544,MEXC,mexc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/544.png,2018-04-07T00:00:00.000Z,,5002908.0,949614615.194637
+561,PayBito,paybito,https://s2.coinmarketcap.com/static/img/exchanges/64x64/561.png,2018-06-12T00:00:00.000Z,,2810.0,40806109.35186667
+6706,PancakeSwap v3 (BSC),pancakeswap-v3,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6706.png,,,261581.0,84338745.32404475
+6707,PancakeSwap v3 (Ethereum),pancakeswap-v3-eth,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6707.png,,,261581.0,14660983.65287436
+564,SecondBTC,secondbtc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/564.png,2018-06-15T00:00:00.000Z,,13041.0,24764767.99728275
+567,Remitano,remitano,https://s2.coinmarketcap.com/static/img/exchanges/64x64/567.png,2014-01-01T00:00:00.000Z,,114202.0,4114184.29721863
+6713,Sushiswap v3 (Arbitrum),sushiswap-v3-arbitrum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6713.png,,,255666.0,955160.88287044
+8767,ONUS Pro,onus-pro,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8767.png,2023-03-22T00:00:00.000Z,,36871.0,102861.11295393
+6728,Sushiswap v3 (Polygon),sushiswap-v3-polygon,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6728.png,,,255666.0,610878.5318807
+585,BitStorage,bitstorage,https://s2.coinmarketcap.com/static/img/exchanges/64x64/585.png,2018-03-05T00:00:00.000Z,,303693.0,12435252.5146038
+587,IndoEx,indoex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/587.png,2019-01-16T00:00:00.000Z,,6176.0,3585589847.511033
+6732,Vertex Protocol,vertex-protocol,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6732.png,,,44.0,3438005.32905648
+594,Bitci TR,bitci,https://s2.coinmarketcap.com/static/img/exchanges/64x64/594.png,2018-08-18T00:00:00.000Z,,10285.0,70320783.71657565
+8790,dYdX v4,dydx-v4,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8790.png,2023-10-01T00:00:00.000Z,,22998.0,
+599,BankCEX,bankcex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/599.png,2018-12-01T00:00:00.000Z,,113.0,3371944.24815021
+6745,Sushiswap v3 (Optimism),sushiswap-v3-optimism,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6745.png,,,255666.0,36353.85379414
+6746,Sushiswap v3 (Ethereum),sushiswap-v3-ethereum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6746.png,,,255666.0,87274.36247557
+603,50x,50x,https://s2.coinmarketcap.com/static/img/exchanges/64x64/603.png,2018-10-25T00:00:00.000Z,,81.0,29515.28363131
+10846,TNNS PROX,tnns-prox,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10846.png,2023-05-31T00:00:00.000Z,,,246054387.79256767
+6757,Velocimeter v2,velocimeter-v2,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6757.png,,,50.0,1127.25538814
+622,NovaDAX,novadax,https://s2.coinmarketcap.com/static/img/exchanges/64x64/622.png,2018-10-30T00:00:00.000Z,,38331.0,10161032.19081282
+10866,3EX,3ex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10866.png,2017-08-31T00:00:00.000Z,,69376.0,195528693.2075273
+6771,QuickSwap v3 (Polygon zkEVM),quickswap-polygon-zkevm,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6771.png,,,35390.0,2277832.54140253
+629,Ecxx,ecxx,https://s2.coinmarketcap.com/static/img/exchanges/64x64/629.png,2019-03-21T00:00:00.000Z,,26.0,
+630,Binance.US,binance-us,https://s2.coinmarketcap.com/static/img/exchanges/64x64/630.png,2019-09-19T00:00:00.000Z,,230920.0,4942609.82729069
+633,Mandala Exchange,mandala,https://s2.coinmarketcap.com/static/img/exchanges/64x64/633.png,2020-11-16T00:00:00.000Z,,666.0,57797933.10054925
+644,FOBLGATE,foblgate,https://s2.coinmarketcap.com/static/img/exchanges/64x64/644.png,2019-07-08T00:00:00.000Z,,561.0,12653.51761602
+10885,Orderly Network (EVM),orderly-network-evm,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10885.png,2022-10-10T00:00:00.000Z,,11267.0,
+653,BITEXLIVE,bitexlive,https://s2.coinmarketcap.com/static/img/exchanges/64x64/653.png,2017-06-30T00:00:00.000Z,,605.0,12517744.44904034
+655,TimeX,timex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/655.png,2019-07-07T00:00:00.000Z,,62.0,667573.08944701
+6800,Trader Joe v2.1 (Avalanche),trader-joe-v2-1-avalanche,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6800.png,,,80713.0,18843105.87395692
+657,CoinJar,coinjar,https://s2.coinmarketcap.com/static/img/exchanges/64x64/657.png,2013-05-22T00:00:00.000Z,,10133.0,1568481.74570218
+658,BTSE,btse,https://s2.coinmarketcap.com/static/img/exchanges/64x64/658.png,2018-09-20T00:00:00.000Z,,112155.0,105855518.7503468
+6799,Trader Joe v2.1 (Arbitrum),trader-joe-v2-1-arbitrum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6799.png,,,80713.0,255391.04436279
+6801,Trader Joe v2.1 (BSC),trader-joe-v2-1-bsc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6801.png,,,80713.0,534.83042751
+6813,SyncSwap (zkSync Era),syncswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6813.png,,,21864.0,579846.09475458
+10922,Megabit,megabit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10922.png,2019-04-15T00:00:00.000Z,,2230.0,2422091.70468538
+8877,SithSwap,sithswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8877.png,,,55.0,4.70451224
+8884,FMCPAY,fmcpay-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8884.png,2021-04-27T00:00:00.000Z,,27374.0,139808764.56000394
+8885,UEEx,ueex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8885.png,2022-01-11T00:00:00.000Z,,396.0,196268967.44501007
+4788,PancakeSwap v2 (Aptos),pancakeswap-aptos,https://s2.coinmarketcap.com/static/img/exchanges/64x64/4788.png,,,4446.0,214085.72395858
+6842,DoveSwap v3,doveswap-v3,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6842.png,,,95.0,1442.64761032
+699,Currency.com,currency-com,https://s2.coinmarketcap.com/static/img/exchanges/64x64/699.png,2019-01-15T00:00:00.000Z,,5349.0,74216558.22168832
+705,Delta Exchange,delta-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/705.png,2018-08-01T00:00:00.000Z,,180321.0,
+10946,XEX,xex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10946.png,2019-06-11T00:00:00.000Z,,,
+710,Tokocrypto,tokocrypto,https://s2.coinmarketcap.com/static/img/exchanges/64x64/710.png,2018-06-01T00:00:00.000Z,,90163.0,8525912.57990706
+717,BitoPro,bitopro,https://s2.coinmarketcap.com/static/img/exchanges/64x64/717.png,2018-03-07T00:00:00.000Z,,43872.0,8356497.3050089
+8913,OKX Ordinals,okx-ordinals,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8913.png,,,4121684.0,131306.97923326
+10962,Skybit,skybit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10962.png,2020-02-27T00:00:00.000Z,,,829356.70739393
+10963,BITmarkets,bitmarkets,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10963.png,2022-02-01T00:00:00.000Z,,,173487424.12411636
+723,Reku,rekeningku-com,https://s2.coinmarketcap.com/static/img/exchanges/64x64/723.png,2018-01-18T00:00:00.000Z,,28365.0,3951260.35628106
+8915,Persistence DEX,persistence-dex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8915.png,2022-10-31T00:00:00.000Z,,525.0,34823.83728792
+731,Emirex,emirex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/731.png,2019-09-10T00:00:00.000Z,,59.0,359857.46941432
+6883,Balancer v2 (Avalanche),balancer-v2-avalanche,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6883.png,,,13668.0,191720.89029547
+741,ACE,ace,https://s2.coinmarketcap.com/static/img/exchanges/64x64/741.png,2018-11-10T00:00:00.000Z,,10883.0,5779304.26446543
+756,ViteX,vitex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/756.png,2019-07-30T00:00:00.000Z,,62.0,3775.64007367
+8961,BlueBit,bluebit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8961.png,2022-03-30T00:00:00.000Z,,117743.0,85245966.42173776
+8977,SquadSwap v2,squadswap-v2,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8977.png,,,276.0,68896.26817286
+790,Pionex,pionex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/790.png,2019-06-24T00:00:00.000Z,,522214.0,905498894.5261608
+795,HashKey Exchange,hashkey-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/795.png,,,21305.0,17530025.97446075
+6945,SaucerSwap v1,saucer-swap-v1,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6945.png,,,13289.0,183210.40370708
+802,digitalexchange.id,digitalexchange-id,https://s2.coinmarketcap.com/static/img/exchanges/64x64/802.png,2019-06-28T00:00:00.000Z,,1275.0,24918.44131237
+9015,Websea,websea,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9015.png,2023-08-27T00:00:00.000Z,,45765.0,370528540.7228503
+826,BCEX Korea,bcex-korea,https://s2.coinmarketcap.com/static/img/exchanges/64x64/826.png,2019-03-18T00:00:00.000Z,,133.0,12323034.50340359
+834,Nominex,nominex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/834.png,2019-08-28T00:00:00.000Z,,5039.0,47843198.02904774
+843,BitHash,bithash,https://s2.coinmarketcap.com/static/img/exchanges/64x64/843.png,2016-06-23T00:00:00.000Z,,227.0,32873767.87215295
+844,NiceHash,nicehash,https://s2.coinmarketcap.com/static/img/exchanges/64x64/844.png,2019-08-04T00:00:00.000Z,,630374.0,134889.92860226
+6993,Cetus,cetus,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6993.png,,,14816.0,72518774.2175354
+856,Tokenlon,tokenlon,https://s2.coinmarketcap.com/static/img/exchanges/64x64/856.png,2019-07-29T00:00:00.000Z,,862.0,1269666.17274097
+857,FMFW.io,bitcoin-com-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/857.png,2008-01-01T00:00:00.000Z,,1017.0,75286886.3036035
+863,StakeCube,stakecube,https://s2.coinmarketcap.com/static/img/exchanges/64x64/863.png,2019-05-13T00:00:00.000Z,,31712.0,22890.07883029
+867,Qmall Exchange,qmall,https://s2.coinmarketcap.com/static/img/exchanges/64x64/867.png,2019-01-07T00:00:00.000Z,,8102.0,58781237.87623462
+868,MAX Exchange,max-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/868.png,2018-02-25T00:00:00.000Z,,49898.0,9985033.7335212
+7023,BlueMove (Sui),bluemove-sui,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7023.png,,,374.0,41574.10970214
+7024,AnimeSwap (Sui),animeswap-sui,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7024.png,,,1040.0,
+890,Bitay,bitay,https://s2.coinmarketcap.com/static/img/exchanges/64x64/890.png,2018-12-28T00:00:00.000Z,,6723.0,6506832.56743797
+7042,Chronos Exchange,chronos-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7042.png,2023-04-26T00:00:00.000Z,,124.0,467.58695279
+908,VALR,valr,https://s2.coinmarketcap.com/static/img/exchanges/64x64/908.png,2019-03-01T00:00:00.000Z,,35752.0,6481969.02859113
+9108,ChangeNOW,changenow,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9108.png,2015-12-31T00:00:00.000Z,,127209.0,156153.87429349
+922,StormGain,stormgain,https://s2.coinmarketcap.com/static/img/exchanges/64x64/922.png,2019-07-01T00:00:00.000Z,,88948.0,1251741.09080693
+7066,Ramses v2,ramses-v2,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7066.png,,,452.0,8894553.75031334
+7070,Maverick Protocol,maverick-protocol,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7070.png,2023-03-07T00:00:00.000Z,,1435.0,55.12392224
+7071,SmarDex,smardex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7071.png,2023-03-08T00:00:00.000Z,"This page presents data regarding Smardex's trading pairs across all the chains it supports, which include eth, polygon, bsc, base, and arbitrum.",3605.0,320722.59498835
+937,Biconomy.com,biconomy,https://s2.coinmarketcap.com/static/img/exchanges/64x64/937.png,2019-10-01T00:00:00.000Z,,2371663.0,569994845.4892119
+7084,AmpleSwap,ampleswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7084.png,2021-10-20T00:00:00.000Z,,163.0,10.04130799
+7085,Fairdesk,fairdesk,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7085.png,2021-09-25T00:00:00.000Z,,9851.0,17090083.97643184
+7086,UniSat,unisat,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7086.png,,,53001.0,10517.06983052
+943,Hotcoin,hotcoin-global,https://s2.coinmarketcap.com/static/img/exchanges/64x64/943.png,2017-11-17T00:00:00.000Z,,1324802.0,736386362.605583
+945,SWFT Trade,swft-octopus-trade,https://s2.coinmarketcap.com/static/img/exchanges/64x64/945.png,2017-08-01T00:00:00.000Z,,50.0,320676990.01409084
+949,CoinDCX,coindcx,https://s2.coinmarketcap.com/static/img/exchanges/64x64/949.png,2018-04-07T00:00:00.000Z,CoinDCX claims that its PoR figures are understated due to balances held on other CEXes.,196586.0,4189919.58175362
+955,Phemex,phemex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/955.png,2019-11-25T00:00:00.000Z,,157243.0,71945559.73575447
+961,Bitspay,bitspay,https://s2.coinmarketcap.com/static/img/exchanges/64x64/961.png,2020-01-01T00:00:00.000Z,,5269.0,474295999.2694313
+9158,Curve (Celo),curve-celo,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9158.png,,,27329.0,3077.26847189
+5071,AnimeSwap (Aptos),animeswap-aptos,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5071.png,,,1040.0,284.93822264
+9168,Merchant Moe,merchant-moe,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9168.png,,,975.0,51086.59162239
+5072,AUX Exchange,aux-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5072.png,,,46.0,790.23464478
+7126,PulseX,pulsex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7126.png,,,8537.0,7046608.65959096
+983,Loopring Exchange,loopring-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/983.png,2020-02-27T00:00:00.000Z,,843.0,64171.44071525
+988,BitTrade,bittrade,https://s2.coinmarketcap.com/static/img/exchanges/64x64/988.png,,"Huobi Japan has been rebranded to BitTrade. For official announcement, kindly visit [here](https://bittrade.zendesk.com/hc/ja/articles/18647354768153-%E3%83%93%E3%83%83%E3%83%88%E3%83%88%E3%83%AC%E3%83%BC%E3%83%89%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%B8%E7%A4%BE%E5%90%8D%E5%A4%89%E6%9B%B4%E3%81%AE%E3%81%8A%E7%9F%A5%E3%82%89%E3%81%9B)",7406.0,4717334.88578502
+9181,UZX,uzx,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9181.png,2023-04-15T00:00:00.000Z,,441892.0,482203436.97105485
+5101,Camelot,camelot,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5101.png,,,1913.0,195045.08874509
+1006,Jubi,jubi-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1006.png,2014-01-01T00:00:00.000Z,,127.0,115040764.4090148
+9200,Zedcex Exchange,zedcex-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9200.png,2023-07-31T00:00:00.000Z,,96.0,1288801249.6296237
+1009,Giottus,giottus,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1009.png,2018-04-14T00:00:00.000Z,,19154.0,67379.47592147
+9202,4E,4e,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9202.png,2023-08-07T00:00:00.000Z,,185.0,182905108.96120328
+1011,Coinlist Pro,coinlist-pro,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1011.png,2020-07-28T00:00:00.000Z,,6266.0,120690.88016958
+5115,Curve (Polygon),curve-polygon,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5115.png,,,27329.0,48056.28068224
+5116,Beethoven X (Optimism),beethoven-x-optimism,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5116.png,,,,1216705.70368461
+5118,Curve (Arbitrum),curve-finance-arbitrum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5118.png,,,121.0,2904163.62055864
+5120,Curve (Avalanche),curve-avalanche,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5120.png,,,4.0,36752.76754205
+9217,GroveX,grovex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9217.png,2023-03-31T00:00:00.000Z,,67167.0,319252336.70482945
+9218,Hibt,hibt,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9218.png,2022-05-09T00:00:00.000Z,HotsCoin has rebranded to HIBT. Find more details about the rebranding [here](https://support.hotscoin.co/hc/en-us/articles/9531512621967-HotsCoin-Rebranding-Announcement-Renaming-to-HIBT).,1134967.0,883534381.0430523
+5121,Curve (Fantom),curve-fantom,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5121.png,,,26.0,228.81726117
+1029,CoinZoom,coinzoom,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1029.png,2020-03-01T00:00:00.000Z,,10813.0,87603.48956154
+5132,Curve (Optimism),curve-optimism,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5132.png,,,115.0,1315562.36251086
+1037,Flybit,flybit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1037.png,,,552.0,0.0
+5136,Curve (Gnosis),curve-gnosis,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5136.png,,,1.0,214485.96564683
+7194,Balancer v2 (Polygon zkEVM),balancer-v2-polygon-zkevm,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7194.png,,,13668.0,33.60588476
+1063,Curve (Ethereum),curve-finance,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1063.png,2020-01-01T00:00:00.000Z,,27329.0,60971697.97083418
+1064,BingX,bingx,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1064.png,2018-05-01T00:00:00.000Z,,1160346.0,252913305.5925071
+1069,Uniswap v2,uniswap-v2,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1069.png,2018-11-01T00:00:00.000Z,,173657.0,55430777.06604886
+1071,APROBIT,aprobit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1071.png,2020-06-01T00:00:00.000Z,,1836.0,0.0
+5194,Equalizer,equalizer-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5194.png,,,539.0,145636.54535352
+1100,Ripio,ripio,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1100.png,2019-04-09T00:00:00.000Z,,16584.0,962524.09749245
+1101,Polkaswap,polkaswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1101.png,,,1913.0,18247.62090905
+9297,Liquidswap v0.5,liquidswap-0-5,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9297.png,,,3941.0,1720806.42881913
+9298,BiKing,biking,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9298.png,2017-12-31T00:00:00.000Z,,164.0,1180960605.9673302
+1110,PrimeXBT,primexbt,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1110.png,2018-01-01T00:00:00.000Z,,102661.0,
+1116,SunSwap v2,justswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1116.png,2020-08-18T00:00:00.000Z,,178065.0,19919475.7029684
+1117,Azbit,azbit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1117.png,2019-12-28T00:00:00.000Z,,1015718.0,476734665.2805453
+1124,Bitazza,bitazza,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1124.png,,,5928.0,23460542.08690928
+1128,Changelly PRO,changelly-pro,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1128.png,2020-07-06T00:00:00.000Z,,1137.0,71875257.9312995
+7273,YokaiSwap,yokaiswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7273.png,,,53.0,48867.94135233
+1131,Bitcoiva,bitcoiva,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1131.png,2020-06-10T00:00:00.000Z,,51447.0,195183492.86100528
+1133,TruBit Pro Exchange,trubit-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1133.png,2020-07-01T00:00:00.000Z,Mexo Exchange has been rebranded to TruBit Pro Exchange. See [announcement](https://academy.trubit.com/a-partir-del-3-de-octubre-mexo-sera-trubit-pro).,82738.0,137221208.49344054
+9329,DeGate,degate,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9329.png,2023-08-31T00:00:00.000Z,,218.0,1771921.89417119
+1138,Bitexen,bitexen,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1138.png,2018-05-04T00:00:00.000Z,,19686.0,49568721.62540665
+9332,SynFutures v3,synfutures-v3,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9332.png,2021-06-17T00:00:00.000Z,,1072.0,
+1141,SushiSwap (Ethereum),sushiswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1141.png,2020-09-12T00:00:00.000Z,Sushiswap's RouteProcessor2 contract has an approval bug. Please revoke all approvals. Find more details [here](https://twitter.com/jaredgrey/status/1644914375151550464?s=20).,255666.0,1569312.04407229
+1145,KoinBX,koinbx,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1145.png,2020-09-16T00:00:00.000Z,Koinbazar has rebranded to KoinBX. Please check their announcement [here](https://t.me/KoinBazar/1637),25273.0,16522941.52392453
+1149,Crypto.com Exchange,crypto-com-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1149.png,2019-11-19T00:00:00.000Z,,518484.0,2681298159.8694005
+7302,Bitunix,bitunix,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7302.png,2021-10-31T00:00:00.000Z,,1064624.0,317322875.4822323
+1161,BIT,bit-com,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1161.png,2020-08-03T00:00:00.000Z,,6462.0,96536483.088652
+1165,PancakeSwap,pancakeswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1165.png,2020-09-27T00:00:00.000Z,,261581.0,164610.55485777
+7313,zkSwap Finance,zkswap-finance,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7313.png,,,2886.0,1492754.49705964
+9365,AlphaX,alphax,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9365.png,2024-01-24T00:00:00.000Z,,2569.0,42428154.05387913
+1173,LMAX Digital,lmax-digital,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1173.png,2018-05-27T00:00:00.000Z,,5348.0,118407912.3484711
+1179,ACDX,acdx,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1179.png,2020-09-29T00:00:00.000Z,,58.0,
+1182,Deepcoin,deepcoin,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1182.png,2018-11-11T00:00:00.000Z,,846210.0,179097262.47840413
+1187,DODO (Ethereum),dodo,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1187.png,2020-09-29T00:00:00.000Z,,1591.0,15071.76616475
+1188,BYDFi,bydfi,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1188.png,2020-04-01T00:00:00.000Z,,276439.0,101497489.38769744
+1190,Honeyswap,honeyswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1190.png,2020-07-02T00:00:00.000Z,,57.0,2023.07708301
+9384,BitDelta,bitdelta,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9384.png,2023-08-09T00:00:00.000Z,,94318.0,43031054.80345366
+7336,VyFinance,vyfinance,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7336.png,,,82.0,47183.91185316
+7342,PulseX v2,pulsex-v2,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7342.png,,,147.0,159786.19219751
+1199,PointPay,pointpay,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1199.png,2020-09-24T00:00:00.000Z,,413376.0,67943191.9287005
+9391,Uniswap v2 (Base),uniswap-v2-base,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9391.png,,,173657.0,2822409.60109189
+9392,Uniswap v2 (polygon),uniswap-v2-polygon,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9392.png,,,626539.0,130637.34184118
+1215,Foxbit,foxbit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1215.png,2014-12-09T00:00:00.000Z,,19457.0,1085318.63431792
+1222,Gleec BTC,gleec-btc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1222.png,2019-01-01T00:00:00.000Z,,403.0,59577547.91330064
+5319,SuperEx,superex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5319.png,2021-12-31T00:00:00.000Z,,5965.0,1289671204.9752734
+7373,Koinpark,koinpark,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7373.png,2023-01-20T00:00:00.000Z,,3497.0,13379341.04635742
+1232,KLAYswap,klayswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1232.png,2019-10-30T00:00:00.000Z,,11560.0,213757.04677012
+5329,KibbleSwap,kibbleswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5329.png,,,120.0,227.06926295
+1234,Venus,venus,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1234.png,2020-11-16T00:00:00.000Z,,19826.0,2089186904.398608
+1235,DeFiChain DEX,defichain-dex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1235.png,2020-11-29T00:00:00.000Z,,1916.0,180584.9490577
+1247,FameEX,fameex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1247.png,2019-12-31T00:00:00.000Z,,1314085.0,546001016.6384752
+5344,Coins.ph,coins-pro,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5344.png,2014-06-26T00:00:00.000Z,,69368.0,9169782.14460696
+7392,GMX (Arbitrum),gmx-arbitrum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7392.png,2021-09-05T00:00:00.000Z,,53932.0,235818.18233998
+1250,Tokpie,tokpie,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1250.png,2018-07-05T00:00:00.000Z,,760.0,2853968.55696307
+7393,GMX (Avalanche),gmx-avalanche,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7393.png,2021-09-05T00:00:00.000Z,,53932.0,392187.70412358
+1254,Blockchain.com,blockchain-com-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1254.png,2019-08-01T00:00:00.000Z,,487132.0,39004.36287158
+9449,Bitoy,bitoy,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9449.png,2023-10-23T00:00:00.000Z,,55.0,
+9450,Zedxion Exchange,zedxion-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9450.png,2021-05-24T00:00:00.000Z,,2265.0,1281317972.9401193
+9452,Backpack Exchange,backpack-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9452.png,2023-10-30T00:00:00.000Z,,25884.0,2565096.91869874
+1261,OpenOcean,openocean,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1261.png,2020-12-06T00:00:00.000Z,,1037.0,23590056.55708761
+7421,Fastex,fastex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7421.png,2022-08-11T00:00:00.000Z,,578740.0,45766015.81894546
+1279,MDEX,mdex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1279.png,2021-01-05T00:00:00.000Z,,1187.0,18298.58560957
+1281,ApeSwap (BSC),apeswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1281.png,2021-02-12T00:00:00.000Z,,192.0,68813.20838944
+1289,WOO X,woox,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1289.png,2019-11-16T00:00:00.000Z,,5219.0,8209267.83360728
+1293,QuickSwap,quickswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1293.png,2020-10-07T00:00:00.000Z,,35390.0,783076.88751201
+1295,LCX Exchange,lcx-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1295.png,2018-03-31T00:00:00.000Z,,2813.0,37119511.58806362
+7440,Klayswap v3,klayswap-v3,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7440.png,,,11560.0,232.76424929
+1301,Perpetual Protocol,perpetual-protocol,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1301.png,2020-12-13T00:00:00.000Z,,182.0,
+1302,BakerySwap,bakeryswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1302.png,,,5956.0,23163.92027941
+1304,Dfyn Network,dfyn-network,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1304.png,2020-10-05T00:00:00.000Z,,411.0,28390.35630338
+7449,DackieSwap,dackieswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7449.png,2023-07-30T00:00:00.000Z,,1625.0,39842.49837951
+7451,CoinCatch,coincatch,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7451.png,2022-09-30T00:00:00.000Z,,5447.0,117606041.74478224
+3355,Arbswap (Arbitrum One),arbswap-arbitrum-one,https://s2.coinmarketcap.com/static/img/exchanges/64x64/3355.png,,,15.0,1135.16251543
+9513,Thruster v2 (0.3%),thruster-v2-0-3-fee,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9513.png,,,11012.0,129596.98736266
+1327,THORChain,thorchain-erc20,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1327.png,2021-04-12T00:00:00.000Z,,9808.0,35093539.18082522
+1329,MDEX (BSC),mdex-bsc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1329.png,2021-04-15T00:00:00.000Z,,1187.0,185894.49086409
+7474,Phux (PulseChain),phux-pulsechain,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7474.png,,,397.0,523326.55276019
+7475,Camelot v3,camelot-v3,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7475.png,,,1913.0,39162742.90377378
+9525,Blasterswap,blasterswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9525.png,,,5183.0,65378.19880183
+5430,Kyotoswap,kyotoswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5430.png,,,119.0,36.75131099
+1336,Quidax,quidax,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1336.png,2018-07-31T00:00:00.000Z,,10938.0,39664733.79087071
+1340,Pangolin,pangolin,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1340.png,,,981.0,158187.16914254
+5437,Apex Protocol,apex-protocol,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5437.png,2022-01-06T00:00:00.000Z,,13428.0,
+1342,Raydium,raydium,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1342.png,2021-02-20T00:00:00.000Z,,225952.0,68793620.8302212
+1344,PancakeSwap v2 (BSC),pancakeswap-v2,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1344.png,,,261581.0,20833968.26315736
+7490,Velodrome Finance v2,velodrome-finance-v2,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7490.png,,,28.0,493260.52025231
+1348,Uniswap v3 (Ethereum),uniswap-v3,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1348.png,2021-05-05T00:00:00.000Z,,626539.0,147290076.65571073
+7500,XeggeX,xeggex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7500.png,2021-09-30T00:00:00.000Z,,280757.0,1434374.9122311
+1356,ViperSwap,viperswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1356.png,2021-03-07T00:00:00.000Z,,5.0,4.75733026
+5455,Orderly Network,orderly-network,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5455.png,2022-10-10T00:00:00.000Z,,11267.0,32532.01188644
+7504,Uniswap v3 (Avalanche),uniswap-v3-avalanche,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7504.png,,,626539.0,3697913.31232233
+1359,SpiritSwap,spiritswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1359.png,2021-04-23T00:00:00.000Z,,109.0,7403.00649487
+1368,Minter (Ethereum),minter-ethereum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1368.png,2019-05-14T00:00:00.000Z,,3824.0,323.10883364
+1370,WardenSwap,wardenswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1370.png,2021-04-16T00:00:00.000Z,,15.0,1296.59175116
+1371,Globe Derivative Exchange,globe-derivative-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1371.png,2021-05-20T00:00:00.000Z,,257.0,9718019.10351167
+7516,Retro,retro,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7516.png,,,6.0,771971.63038916
+1375,Binance TR,binance-tr,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1375.png,2020-09-08T00:00:00.000Z,,133724.0,212548115.800722
+1379,Batonex,wisebitcoin,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1379.png,2018-06-25T00:00:00.000Z,,4759.0,1874241269.580855
+9584,B2Z Exchange,b2z-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9584.png,2022-11-14T00:00:00.000Z,,44.0,209007413.11968547
+9586,Bitop,bitop,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9586.png,2018-06-09T00:00:00.000Z,,545.0,5616348.88277702
+1395,BabySwap,babyswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1395.png,2021-05-31T00:00:00.000Z,,156.0,3006.53861251
+9588,Welcoin,welcoin,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9588.png,2023-10-14T00:00:00.000Z,,84.0,12078759.28273564
+1404,Balancer v2 (Ethereum),balancer-v2,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1404.png,,,13668.0,7591027.86064944
+1407,Sovryn,sovryn,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1407.png,2021-03-31T00:00:00.000Z,,25.0,91205.64672388
+1408,ShibaSwap,shibaswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1408.png,2021-07-05T00:00:00.000Z,,20163.0,192311.37756155
+1411,Coinstore,coinstore,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1411.png,2021-04-01T00:00:00.000Z,,369831.0,291686750.42957
+7557,EXMO.ME,exmo-me,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7557.png,2015-04-05T00:00:00.000Z,,72301.0,20526578.57880176
+1414,Kine Protocol,kine-protocol,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1414.png,2021-03-20T00:00:00.000Z,,1350.0,406536082.5765091
+9606,BiFinance,bifinance-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9606.png,2022-06-30T00:00:00.000Z,,225417.0,1176414644.1902976
+1413,SushiSwap (BSC),sushiswap-bsc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1413.png,,Sushiswap's RouteProcessor2 contract has an approval bug. Please revoke all approvals. Find more details [here](https://twitter.com/jaredgrey/status/1644914375151550464?s=20).,255666.0,1579.30779434
+1417,SushiSwap (Polygon),sushiswap-polygon,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1417.png,,Sushiswap's RouteProcessor2 contract has an approval bug. Please revoke all approvals. Find more details [here](https://twitter.com/jaredgrey/status/1644914375151550464?s=20).,255666.0,115831.2689205
+1418,SushiSwap (Gnosis),sushiswap-xdai,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1418.png,,Sushiswap's RouteProcessor2 contract has an approval bug. Please revoke all approvals. Find more details [here](https://twitter.com/jaredgrey/status/1644914375151550464?s=20).,255666.0,8897.98163125
+1419,Uniswap v3 (Optimism),uniswap-v3-optimism,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1419.png,2021-07-14T00:00:00.000Z,,626539.0,5890273.53067923
+9613,Slex Exchange,slex-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9613.png,2023-08-30T00:00:00.000Z,,594519.0,63688071.26044428
+9615,MethLab,methlab,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9615.png,,,1376.0,162426.45547469
+1426,Orca,orca,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1426.png,2021-02-23T00:00:00.000Z,,36769.0,131791176.6576753
+1428,Balanced,balanced,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1428.png,2021-04-25T00:00:00.000Z,,183.0,59298.39110137
+1430,Alcor,alcor,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1430.png,2020-05-29T00:00:00.000Z,,9374.0,15105.99676017
+1433,CherrySwap,cherryswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1433.png,,,139.0,929.5451212
+1441,OpenLeverage,openleverage,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1441.png,2021-08-30T00:00:00.000Z,,30.0,0.0
+1445,Biswap v2,biswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1445.png,2021-05-23T00:00:00.000Z,,122.0,188725.37192345
+1447,Osmosis,osmosis,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1447.png,2021-06-18T00:00:00.000Z,,46897.0,6919832.16470784
+1452,APX,apollox,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1452.png,2021-08-31T00:00:00.000Z,,625.0,
+1455,SpookySwap,spookyswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1455.png,2021-04-16T00:00:00.000Z,,38.0,112130.75243392
+1456,Trader Joe (Avalanche),trader-joe-avalanche,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1456.png,2021-07-02T00:00:00.000Z,,80713.0,728315.5971807
+9649,Coinavenir,coinavenir,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9649.png,2023-09-03T00:00:00.000Z,,63.0,
+1458,DogeSwap,dogeswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1458.png,2021-03-02T00:00:00.000Z,,1263.0,11798.49317902
+5558,OreoSwap,oreoswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5558.png,,,31.0,26.24897106
+1464,SushiSwap (Arbitrum),sushiswap-arbitrum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1464.png,,Sushiswap's RouteProcessor2 contract has an approval bug. Please revoke all approvals. Find more details [here](https://twitter.com/jaredgrey/status/1644914375151550464?s=20).,255666.0,183612.98949721
+1466,ApeSwap (Polygon),apeswap-finance-polygon,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1466.png,2021-06-20T00:00:00.000Z,,192.0,20365.12512449
+1469,DODO (Polygon),dodo-polygon,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1469.png,2020-09-14T00:00:00.000Z,,4523.0,2007.35352023
+9662,Binance TH,binance-th,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9662.png,2023-11-13T00:00:00.000Z,,17089.0,5911121.95292546
+9665,ZKE,zke,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9665.png,2022-09-30T00:00:00.000Z,,2726.0,257101762.7970116
+7618,BVOX,bvox,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7618.png,2018-05-31T00:00:00.000Z,,1297724.0,1384624995.419561
+1477,SushiSwap (Harmony),sushiswap-harmony,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1477.png,,Sushiswap's RouteProcessor2 contract has an approval bug. Please revoke all approvals. Find more details [here](https://twitter.com/jaredgrey/status/1644914375151550464?s=20).,255666.0,114.78484785
+1478,Uniswap v3 (Arbitrum),uniswap-v3-arbitrum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1478.png,,,626539.0,39304416.91500498
+1480,KyberSwap Classic (BSC),kyberswap-classic-bsc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1480.png,,,32881.0,2.76090057
+1481,KyberSwap Classic (Avalanche),kyberswap-classic-avalanche,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1481.png,,,32881.0,3628.77909206
+1487,Orion (BSC),orion-bsc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1487.png,2021-03-30T00:00:00.000Z,,1428.0,45602.54408547
+1493,ZilSwap,zilswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1493.png,2020-10-04T00:00:00.000Z,,213.0,15000.64482559
+1496,Dinosaur Eggs,dinosaur-eggs,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1496.png,2021-09-30T00:00:00.000Z,,51.0,876.25128419
+7645,Sushiswap v3 (Core),sushiswap-v3-core,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7645.png,,,255666.0,66944.85515038
+1504,SynFutures v2,synfutures,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1504.png,2021-06-17T00:00:00.000Z,,1072.0,
+1505,DeFi Kingdoms,defi-kingdoms,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1505.png,2021-08-21T00:00:00.000Z,,1118.0,314.79606955
+1510,Ref Finance,ref-finance,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1510.png,2021-03-09T00:00:00.000Z,,9394.0,79515.31911124
+1515,Wagyuswap,wagyuswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1515.png,2021-10-31T00:00:00.000Z,,13.0,400.60513679
+1524,Bitcoin.me,klever-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1524.png,2021-06-30T00:00:00.000Z,Klever Exchange has rebranded as Bitcoin.me.,44758.0,25084.94233193
+9717,Koinbay,koinbay,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9717.png,2023-12-21T00:00:00.000Z,,5624.0,14253205.92206713
+1528,MakiSwap,makiswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1528.png,2021-05-19T00:00:00.000Z,,15.0,207.81713769
+1530,VVS Finance,vvs-finance,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1530.png,2021-11-09T00:00:00.000Z,,4342.0,1294918.2833505
+1531,NexDAX,nexdax,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1531.png,2019-09-10T00:00:00.000Z,,74.0,48277229.94442451
+7677,FusionX v2,fusionx-v2,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7677.png,,,569.0,2.59759774
+7678,FusionX v3,fusionx-v3,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7678.png,,,569.0,125560.30922106
+5631,DeDust,dedust,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5631.png,2022-11-17T00:00:00.000Z,,125418.0,3375161.30808467
+7680,DOEX,doex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7680.png,2020-07-22T00:00:00.000Z,,461.0,687130283.3028091
+1536,xExchange,xexchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1536.png,2021-04-08T00:00:00.000Z,,7095.0,453525.97633798
+1539,PowerTrade,powertrade,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1539.png,2021-04-14T00:00:00.000Z,,282.0,6.04794
+1543,Katana,katana,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1543.png,,,954.0,1939486.1282679
+3596,Baby Doge Swap,baby-doge-swap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/3596.png,,,4963.0,13240.69780009
+1551,Helix,injective-protocol,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1551.png,2021-11-07T00:00:00.000Z,,20359.0,4727264.54604314
+7699,BIKA,bika,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7699.png,2021-03-31T00:00:00.000Z,,257.0,2398491287.991776
+3605,VaporDex,vapordex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/3605.png,,,89.0,449.97787193
+1560,Kine Protocol (Polygon),kine-protocol-polygon,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1560.png,2021-03-20T00:00:00.000Z,,1350.0,
+1561,Bit2Me,bit2me,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1561.png,2014-07-22T00:00:00.000Z,,39109.0,122488771.27813976
+1565,Balancer v2 (Polygon),balancer-v2-polygon,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1565.png,,,13668.0,403343.13111613
+1566,Balancer v2 (Arbitrum),balancer-v2-arbitrum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1566.png,,,13668.0,1292316.18765866
+1567,Uniswap v3 (Polygon),uniswap-v3-polygon,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1567.png,2021-12-23T00:00:00.000Z,,626539.0,26523885.04139932
+1577,Spartan Protocol,spartan-protocol,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1577.png,2020-09-26T00:00:00.000Z,,104.0,55.91182126
+1580,Saber DEX,saber-dex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1580.png,2022-01-17T00:00:00.000Z,,8.0,3006463.02030164
+3631,DIFX,difx,https://s2.coinmarketcap.com/static/img/exchanges/64x64/3631.png,2021-09-05T00:00:00.000Z,,3816.0,1763443.13735602
+1584,KnightSwap,knightswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1584.png,2021-11-02T00:00:00.000Z,,17.0,5608.80585546
+1586,Drift Protocol,drift-protocol,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1586.png,2021-12-02T00:00:00.000Z,,48770.0,
+7731,Agni Finance (Mantle),agni-finance-mantle,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7731.png,,,97.0,378754.34107854
+9782,Merchant Moe v2.2 (Mantle),merchant-moe-mantle,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9782.png,,,975.0,2506986.98167943
+9786,CoinLion,coinlion,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9786.png,2020-07-31T00:00:00.000Z,,17540.0,1615268.86541886
+1598,Dexalot,dexalot,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1598.png,2021-12-05T00:00:00.000Z,,23.0,13008855.85224987
+1599,ClaimSwap,claimswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1599.png,2021-12-09T00:00:00.000Z,,44.0,963.72528576
+1600,OKCoin Japan,okcoin-japan,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1600.png,2020-08-19T00:00:00.000Z,,22757.0,3112270.29497112
+1601,Bullish,bullish,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1601.png,2021-11-29T00:00:00.000Z,,4192.0,493058170.2246156
+7748,Topcredit Int,topcredit-int,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7748.png,2020-05-31T00:00:00.000Z,,84.0,9872880.75864494
+9798,HashKey Global,hashkey-global,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9798.png,2024-04-01T00:00:00.000Z,,427497.0,33054614.97477155
+7755,PancakeSwap v3 (zkSync Era),pancakeswap-v3-zksyncera,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7755.png,,,261581.0,1129545.86917742
+1612,Jupiter,jupiter,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1612.png,2021-10-12T00:00:00.000Z,,361600.0,185246283.15600464
+1614,Astroport (Cosmos),astroport-cosmos,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1614.png,2021-12-20T00:00:00.000Z,,6610.0,35515.54639351
+7761,PancakeSwap v2 (zkSync Era),pancakeswap-v2-zksync-era,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7761.png,,,261581.0,17768.4529885
+5715,ICPSwap,icpswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5715.png,2021-07-29T00:00:00.000Z,,7616.0,164463.05455682
+1633,SushiSwap (Fuse),sushiswap-fuse,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1633.png,2020-09-12T00:00:00.000Z,Sushiswap's RouteProcessor2 contract has an approval bug. Please revoke all approvals. Find more details [here](https://twitter.com/jaredgrey/status/1644914375151550464?s=20).,255666.0,
+7779,RocketSwap,rocketswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7779.png,,,1657.0,4027.7221739
+1639,SundaeSwap,sundaeswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1639.png,2022-01-19T00:00:00.000Z,,270.0,30628.55929055
+1645,Tapbit,tapbit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1645.png,2021-10-31T00:00:00.000Z,,1272357.0,552712630.6799183
+1646,Swappi,swappi,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1646.png,2022-04-06T00:00:00.000Z,,67.0,101210.61992139
+7791,Uniswap v3 (Base),uniswap-v3-base,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7791.png,,,626539.0,21227634.42868974
+7789,SwapBased,swapbased,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7789.png,,,201.0,11990.95992576
+5745,STON.fi,ston-fi,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5745.png,2022-11-19T00:00:00.000Z,,300046.0,3842680.58963267
+1650,RadioShack (BSC),radioshack-bsc,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1650.png,2022-02-14T00:00:00.000Z,,44.0,1405.59363814
+1653,ZOOMEX,zoomex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1653.png,2021-11-29T00:00:00.000Z,,21103.0,
+5750,HKD.com,hkd,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5750.png,2019-12-31T00:00:00.000Z,,144.0,566452730.9664382
+5751,WEEX,weex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5751.png,2018-04-30T00:00:00.000Z,,1239043.0,560343048.932702
+1657,Nomiswap,nomiswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1657.png,2021-12-30T00:00:00.000Z,,186.0,3849.69868523
+7806,SushiSwap v3 (Base),sushiswap-v3-base,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7806.png,,,255666.0,700539.33763934
+7808,BaseSwap,baseswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7808.png,,,5747.0,45690.7236015
+7812,Balancer v2 (Base),balancer-v2-base,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7812.png,,,13668.0,23780.21602222
+1671,FlatQube Exchange,flatqube,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1671.png,,,1103.0,10720.13669169
+1672,ArthSwap (Astar),arthswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1672.png,,,30.0,42639.31710429
+9867,KCEX,kcex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9867.png,2021-08-15T00:00:00.000Z,,1333103.0,1278480653.3227131
+1675,WOOFi,woofi,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1675.png,2021-10-25T00:00:00.000Z,,6256.0,17019980.3185601
+7819,MoraSwap,moraswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7819.png,,,101.0,3350.04262552
+1677,Minswap,minswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1677.png,2022-03-07T00:00:00.000Z,,27.0,77310.24751274
+1679,BIT.TEAM,bit-team,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1679.png,2018-11-13T00:00:00.000Z,,5625.0,251998.81654304
+1685,Fstswap,fstswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1685.png,,,59.0,129.37246413
+3735,ICRYPEX,icrypex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/3735.png,2020-12-31T00:00:00.000Z,,25752.0,49397054.13038612
+1688,DeFi Swap,defi-swap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1688.png,,,518484.0,57758.91397707
+9882,Meteora VD,meteora-vd,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9882.png,,,64099.0,33815387.27327749
+9883,Meteora VP,meteora-vp,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9883.png,,,64099.0,8469491.19881005
+1692,Swapsicle (Avalanche),swapsicle-avalanche,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1692.png,2022-05-30T00:00:00.000Z,,76.0,140.89244503
+5788,Trader Joe v2 (Arbitrum),trader-joe-v2-arbitrum-,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5788.png,,,80713.0,10509.6920933
+1699,KyberSwap Elastic (Optimism),kyberswap-elastic-optimism,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1699.png,2022-05-31T00:00:00.000Z,Kyberswap has been exploited. All users are advised to promptly withdraw their funds. Find the announcement [here](https://x.com/KyberNetwork/status/1727475235342217682?s=20).,32881.0,103.50493838
+7845,Coincall,coincall,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7845.png,2023-07-02T00:00:00.000Z,,2018.0,
+7850,Bitcastle,bitcastle,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7850.png,2019-07-10T00:00:00.000Z,,2950.0,47514973.41390653
+1707,Kujira Fin,kujira-fin,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1707.png,,,241.0,102124.84795365
+1708,Velodrome Finance,velodrome-finance,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1708.png,,,28.0,10586.03520786
+5803,THENA,thena,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5803.png,2023-01-04T00:00:00.000Z,,11804.0,246730.3894597
+1715,QuickSwap v3 (DogeChain),quickswap-dogechain,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1715.png,2020-10-07T00:00:00.000Z,,29.0,6169.30973746
+9920,FutureX Pro,futurex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9920.png,2024-03-20T00:00:00.000Z,,209.0,
+1729,Fraxswap v2 (Ethereum),fraxswap-v2-ethereum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1729.png,,,3702.0,139670.63435783
+1739,W3Swap,w3swap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1739.png,,,7.0,2.10576809
+9933,Crypton Exchange,crypton-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9933.png,2021-01-25T00:00:00.000Z,,801.0,573890.15054971
+9937,SaucerSwap v2,saucerswap-v2,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9937.png,,,13289.0,468850.93204301
+7893,Coinbase International Exchange,coinbase-international-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7893.png,2023-05-01T00:00:00.000Z,,1143.0,3956796.17081587
+9952,1INTRO,1intro,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9952.png,,,49.0,434408.76959241
+9957,Cube Exchange,cube-exchange,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9957.png,2023-12-05T00:00:00.000Z,,43843.0,3708390.151444
+5869,Trader Joe v2 (Avalanche),trader-joe-v2-avalanche,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5869.png,,,80713.0,1175.50591203
+5876,SolidLizard,solidlizard,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5876.png,,,25.0,812.71804301
+5879,Balancer v2 (Gnosis Chain),balancer-v2-gnosis-chain,https://s2.coinmarketcap.com/static/img/exchanges/64x64/5879.png,,,13668.0,641375.40344733
+7930,PancakeSwap v3 (Arbitrum),pancake-v3-arbitrum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/7930.png,,,261581.0,18625225.29273688
+1790,Uniswap v3 (Celo),uniswap-celo,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1790.png,,,626539.0,3002339.62723202
+9997,AbstraDex(X layer),abstradex-xlayer,https://s2.coinmarketcap.com/static/img/exchanges/64x64/9997.png,,,46.0,1.71756422
+10003,StationDex v3,stationdex-v3,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10003.png,,,227.0,12.68479621
+10008,iZiSwap(X layer),iziswap-xlayer,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10008.png,,,38366.0,3179.72811031
+3874,PancakeSwap v2 (Ethereum),pancakeswap-ethereum,https://s2.coinmarketcap.com/static/img/exchanges/64x64/3874.png,,,261581.0,25656.87649373
+10023,Aerodrome SlipStream,aerodrome-slipstream,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10023.png,,,150299.0,11451916.66043958
+8001,Jedi Swap,jediswap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8001.png,,,8.0,3919.93538816
+8002,10K Swap,10k-swap,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8002.png,,,60.0,4115.49381469
+6007,Defi Kingdoms (Klaytn),defi-kingdoms-klaytn,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6007.png,,,1335.0,2864.18991825
+10109,Niza Global,niza-global,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10109.png,2022-03-23T00:00:00.000Z,,164.0,295500459.1444414
+1922,Gravity Finance,gravity-finance-io,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1922.png,,,61.0,572.74423252
+1931,Alita Finance,alita-finance,https://s2.coinmarketcap.com/static/img/exchanges/64x64/1931.png,,,46.0,1909.00092846
+10152,FIXT,fixt,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10152.png,2023-07-25T00:00:00.000Z,,694.0,
+10153,Ourbit,ourbit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/10153.png,2020-04-01T00:00:00.000Z,,979440.0,752124414.5665795
+8112,Hyperliquid,hyperliquid,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8112.png,,,170154.0,39184.35998104
+8125,OrangeX,orangex,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8125.png,2021-06-01T00:00:00.000Z,,1238813.0,362381013.1638079
+6108,Zyberswap v3,zyberswap-v3,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6108.png,,,22.0,187264.61129786
+8181,Pancakeswap v3 (Base),pancakeswapv3-base,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8181.png,,,261581.0,6854054.4399228
+6137,Toobit,toobit,https://s2.coinmarketcap.com/static/img/exchanges/64x64/6137.png,2022-10-15T00:00:00.000Z,,1081466.0,912625487.6358484
+8189,Uniswap v3 (ZKsync),uniswap-v3-zksync,https://s2.coinmarketcap.com/static/img/exchanges/64x64/8189.png,,,626539.0,716013.54807123
