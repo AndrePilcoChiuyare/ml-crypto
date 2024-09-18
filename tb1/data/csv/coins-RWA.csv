@@ -1,101 +1,101 @@
-id,name,symbol,slug
-5805,Avalanche,AVAX,avalanche
-1975,Chainlink,LINK,chainlink
-3077,VeChain,VET,vechain
-1518,Maker,MKR,maker
-6536,MANTRA,OM,mantra
-3155,Quant,QNT,quant
-21159,Ondo,ONDO,ondo-finance
-2586,Synthetix,SNX,synthetix
-1720,IOTA,IOTA,iota
-2634,XDC Network,XDC,xdc-network
-17799,Axelar,AXL,axelar
-3964,Reserve Rights,RSR,reserve-rights
-2467,OriginTrail,TRAC,origintrail
-20362,Polymesh,POLYX,polymesh
-6748,Centrifuge,CFG,centrifuge
-3978,Chromia,CHR,chromia
-9258,Chia,XCH,chia-network
-28076,Ozone Chain,OZO,ozone-chain
-8534,Chintai,CHEX,chex-token
-1214,Lisk,LSK,lisk
-7725,TrueFi,TRU,truefi-token
-7288,Venus,XVS,venus
-1974,Propy,PRO,propy
-4092,Dusk,DUSK,dusk
-9417,Maple,MPL,maple
-29779,Polyhedra Network,ZKJ,polyhedra-network
-12573,Clearpool,CPOOL,clearpool
-7533,Oraichain,ORAI,oraichain-token
-13967,Goldfinch,GFI,goldfinch-protocol
-23037,Hifi Finance,HIFI,hifi-finance
-3714,LTO Network,LTO,lto-network
-28299,TokenFi,TOKEN,tokenfi
-11036,Alkimi,ADS,alkimi
-17960,ORIGYN,OGY,origyn-foundation
-12387,Ribbon Finance,RBN,ribbon-finance
-2496,Polymath,POLY,polymath-network
-19131,Artrade,ATR,artrade
-8827,Boson Protocol,BOSON,boson-protocol
-28385,Propbase,PROPS,propbase
-9220,StrikeX,STRX,strikecoin
-30661,Parcl,PRCL,parcl
-11821,Swarm Markets,SMT,swarm-markets
-24220,Propchain,PROPC,propchain
-23825,Nexera,NXRA,allianceblock-nexera
-10465,Polytrade,TRADE,polytrade
-5382,ELYSIA,EL,elysia
-10409,Opulous,OPUL,opulous
-8216,Electra Protocol,XEP,electra-protocol
-21822,Brickken,BKN,brickken
-20245,Comtech Gold,CGO,comtech-gold
-19118,Lumerin,LMR,lumerin
-13272,Credefi,CREDI,credefi
-5552,Hathor,HTR,hathor
-28220,Soil,SOIL,soil
-3035,Blocksquare Token,BST,blocksquare-token
-12873,KlimaDAO,KLIMA,klimadao
-31008,Three Protocol Token,THREE,three-protocol-token
-1866,BytomDAO,BTM,bytom
-14336,TRVL,TRVL,trvl
-7245,Stobox Token,STBU,stobox-token
-17242,UBXS Token,UBXS,ubxs
-11245,Landshare,LAND,landshare
-4566,XDB CHAIN,XDB,xdbchain
-26585,PLANET,PLANET,planettoken
-8495,Everest,ID,everest
-26016,Cogito Finance,CGV,cogito-protocol
-29386,LandX Finance,LNDX,landx-finance
-21704,Carnomaly,CARR,carnomaly-new
-20188,MBD Financials,MBD,mbd-financials
-9237,Horizon Protocol,HZN,horizon-protocol
-27862,Veloce,VEXT,veloce-vext
-28794,3DPass,P3D,3dpass
-29693,Alvara Protocol,ALVA,alvara-protocol
-29157,ApeBond,ABOND,apebond
-8875,Uno Re,UNO,unore
-8813,LABS Group,LABS,labs-group
-20154,Acquire.Fi,ACQ,acquire-fi
-11516,Ekta,EKTA,ekta
-28557,Wagon Network,WAG,wagon-network
-20667,Lucidao,LCD,lucidao
-28702,Viridis Network,VRD,viridis-network
-9504,NAOS Finance,NAOS,naos-finance
-28756,VaporFund,VPR,vaporwallet
-8131,Curio Gas Token,CGT,curio-governance
-21516,CANTO,CANTO,canto
-28888,Decentralized ETF,DETF,decentralized-etf
-8691,Domani Protocol,DEXTF,dextf-protocol
-29768,TMN Global,TMNG,tmn-global
-11620,IX Swap,IXS,ix-swap
-21926,LEOX,LEOX,galileo-protocol
-29906,Grand Base,GB,grand-base
-22515,Bluejay Finance,BLU,bluejay-finance
-18411,Tiamonds,TIA,tia
-12761,Angle,ANGLE,angle
-31424,Evrmore,EVR,evrmore
-31708,HOME3,HTS,home3
-23125,Poison Finance,POI$ON,poison
-13255,Defactor,FACTR,defactor
-23463,OUSG,OUSG,ondo-short-term-us-government-bond-fund
-9531,BilliCat,BCAT,polymoon
+name,symbol,slug
+Avalanche,AVAX,avalanche
+Chainlink,LINK,chainlink
+VeChain,VET,vechain
+Maker,MKR,maker
+MANTRA,OM,mantra
+Quant,QNT,quant
+Ondo,ONDO,ondo-finance
+Synthetix,SNX,synthetix
+IOTA,IOTA,iota
+XDC Network,XDC,xdc-network
+Axelar,AXL,axelar
+Reserve Rights,RSR,reserve-rights
+OriginTrail,TRAC,origintrail
+Polymesh,POLYX,polymesh
+Centrifuge,CFG,centrifuge
+Chromia,CHR,chromia
+Chia,XCH,chia-network
+Ozone Chain,OZO,ozone-chain
+Chintai,CHEX,chex-token
+Lisk,LSK,lisk
+TrueFi,TRU,truefi-token
+Venus,XVS,venus
+Propy,PRO,propy
+Dusk,DUSK,dusk
+Maple,MPL,maple
+Polyhedra Network,ZKJ,polyhedra-network
+Clearpool,CPOOL,clearpool
+Oraichain,ORAI,oraichain-token
+Goldfinch,GFI,goldfinch-protocol
+Hifi Finance,HIFI,hifi-finance
+LTO Network,LTO,lto-network
+TokenFi,TOKEN,tokenfi
+Alkimi,ADS,alkimi
+ORIGYN,OGY,origyn-foundation
+Ribbon Finance,RBN,ribbon-finance
+Polymath,POLY,polymath-network
+Artrade,ATR,artrade
+Boson Protocol,BOSON,boson-protocol
+Propbase,PROPS,propbase
+StrikeX,STRX,strikecoin
+Parcl,PRCL,parcl
+Swarm Markets,SMT,swarm-markets
+Propchain,PROPC,propchain
+Nexera,NXRA,allianceblock-nexera
+Polytrade,TRADE,polytrade
+ELYSIA,EL,elysia
+Opulous,OPUL,opulous
+Electra Protocol,XEP,electra-protocol
+Brickken,BKN,brickken
+Comtech Gold,CGO,comtech-gold
+Lumerin,LMR,lumerin
+Credefi,CREDI,credefi
+Hathor,HTR,hathor
+Soil,SOIL,soil
+Blocksquare Token,BST,blocksquare-token
+KlimaDAO,KLIMA,klimadao
+Three Protocol Token,THREE,three-protocol-token
+BytomDAO,BTM,bytom
+TRVL,TRVL,trvl
+Stobox Token,STBU,stobox-token
+UBXS Token,UBXS,ubxs
+Landshare,LAND,landshare
+XDB CHAIN,XDB,xdbchain
+PLANET,PLANET,planettoken
+Everest,ID,everest
+Cogito Finance,CGV,cogito-protocol
+LandX Finance,LNDX,landx-finance
+Carnomaly,CARR,carnomaly-new
+MBD Financials,MBD,mbd-financials
+Horizon Protocol,HZN,horizon-protocol
+Veloce,VEXT,veloce-vext
+3DPass,P3D,3dpass
+Alvara Protocol,ALVA,alvara-protocol
+ApeBond,ABOND,apebond
+Uno Re,UNO,unore
+LABS Group,LABS,labs-group
+Acquire.Fi,ACQ,acquire-fi
+Ekta,EKTA,ekta
+Wagon Network,WAG,wagon-network
+Lucidao,LCD,lucidao
+Viridis Network,VRD,viridis-network
+NAOS Finance,NAOS,naos-finance
+VaporFund,VPR,vaporwallet
+Curio Gas Token,CGT,curio-governance
+CANTO,CANTO,canto
+Decentralized ETF,DETF,decentralized-etf
+Domani Protocol,DEXTF,dextf-protocol
+TMN Global,TMNG,tmn-global
+IX Swap,IXS,ix-swap
+LEOX,LEOX,galileo-protocol
+Grand Base,GB,grand-base
+Bluejay Finance,BLU,bluejay-finance
+Tiamonds,TIA,tia
+Angle,ANGLE,angle
+Evrmore,EVR,evrmore
+HOME3,HTS,home3
+Poison Finance,POI$ON,poison
+Defactor,FACTR,defactor
+OUSG,OUSG,ondo-short-term-us-government-bond-fund
+BilliCat,BCAT,polymoon
