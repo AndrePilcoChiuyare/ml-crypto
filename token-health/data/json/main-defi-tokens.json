@@ -40,14 +40,6 @@
         "chainId":null
     },
     {
-        "gecko_id":"binancecoin",
-        "tvl":4596636253.4657859802,
-        "tokenSymbol":"BNB",
-        "cmcId":"1839",
-        "name":"BSC",
-        "chainId":56
-    },
-    {
         "gecko_id":"gnosis",
         "tvl":251643065.2604521811,
         "tokenSymbol":"GNO",
@@ -264,14 +256,6 @@
         "chainId":324
     },
     {
-        "gecko_id":"binancecoin",
-        "tvl":0.0,
-        "tokenSymbol":"BNB",
-        "cmcId":"1839",
-        "name":"Binance",
-        "chainId":56
-    },
-    {
         "gecko_id":"solana",
         "tvl":5152266933.3160800934,
         "tokenSymbol":"SOL",
@@ -363,7 +347,7 @@
         "gecko_id":null,
         "tvl":134650942.0322968662,
         "tokenSymbol":"RON",
-        "cmcId":14101,
+        "cmcId":"14101",
         "name":"Ronin",
         "chainId":2020
     },
@@ -371,7 +355,7 @@
         "gecko_id":"evmos",
         "tvl":756791.2760159627,
         "tokenSymbol":"EVMOS",
-        "cmcId":19899,
+        "cmcId":"19899",
         "name":"Evmos",
         "chainId":"9001"
     },
@@ -411,7 +395,7 @@
         "gecko_id":"flare-networks",
         "tvl":16700178.8240191266,
         "tokenSymbol":"FLR",
-        "cmcId":"4172",
+        "cmcId":"7950",
         "name":"Flare",
         "chainId":null
     },
@@ -451,7 +435,7 @@
         "gecko_id":"zencash",
         "tvl":2453931.9090992757,
         "tokenSymbol":"ZEN",
-        "cmcId":1698,
+        "cmcId":"1698",
         "name":"Horizen EON",
         "chainId":7332
     },
@@ -571,7 +555,7 @@
         "gecko_id":null,
         "tvl":595153.0404151933,
         "tokenSymbol":"QGOV",
-        "cmcId":29443,
+        "cmcId":"29443",
         "name":"Q Protocol",
         "chainId":35441
     },
@@ -603,7 +587,7 @@
         "gecko_id":"injective-protocol",
         "tvl":42372261.0311353058,
         "tokenSymbol":"INJ",
-        "cmcId":7226,
+        "cmcId":"7226",
         "name":"Injective",
         "chainId":null
     },
@@ -795,7 +779,7 @@
         "gecko_id":"dogechain",
         "tvl":2533324.9531756071,
         "tokenSymbol":"DC",
-        "cmcId":21414,
+        "cmcId":"21414",
         "name":"Dogechain",
         "chainId":null
     },
@@ -808,18 +792,10 @@
         "chainId":null
     },
     {
-        "gecko_id":"bitcoin-cash",
-        "tvl":4555531.6087067723,
-        "tokenSymbol":"BCH",
-        "cmcId":"1831",
-        "name":"smartBCH",
-        "chainId":10000
-    },
-    {
         "gecko_id":null,
         "tvl":0.0,
         "tokenSymbol":"EMPIRE",
-        "cmcId":10613,
+        "cmcId":"10613",
         "name":"Empire",
         "chainId":null
     },
@@ -1059,7 +1035,7 @@
         "gecko_id":"mode",
         "tvl":429616573.1382160783,
         "tokenSymbol":"MODE",
-        "cmcId":31016,
+        "cmcId":"31016",
         "name":"Mode",
         "chainId":34443
     },
@@ -1147,7 +1123,7 @@
         "gecko_id":"g-token",
         "tvl":1118389.4358933058,
         "tokenSymbol":"G",
-        "cmcId":32120,
+        "cmcId":"32120",
         "name":"Gravity",
         "chainId":1625
     },
@@ -1163,7 +1139,7 @@
         "gecko_id":"kroma",
         "tvl":1911850.273654893,
         "tokenSymbol":"KRO",
-        "cmcId":27190,
+        "cmcId":"27190",
         "name":"Kroma",
         "chainId":255
     },
@@ -1203,7 +1179,7 @@
         "gecko_id":"dexit-finance",
         "tvl":0.0,
         "tokenSymbol":"DXT",
-        "cmcId":11661,
+        "cmcId":"11661",
         "name":"Dexit",
         "chainId":null
     },
@@ -1211,7 +1187,7 @@
         "gecko_id":"pulsechain",
         "tvl":347500489.6621264219,
         "tokenSymbol":"PLS",
-        "cmcId":11145,
+        "cmcId":"11145",
         "name":"PulseChain",
         "chainId":null
     },
@@ -1243,7 +1219,7 @@
         "gecko_id":null,
         "tvl":341793.6849875851,
         "tokenSymbol":"HKO",
-        "cmcId":10907,
+        "cmcId":"10907",
         "name":"Heiko",
         "chainId":null
     },
@@ -1251,7 +1227,7 @@
         "gecko_id":null,
         "tvl":3579661.7786625442,
         "tokenSymbol":"PARA",
-        "cmcId":12887,
+        "cmcId":"12887",
         "name":"Parallel",
         "chainId":null
     },
@@ -1395,7 +1371,7 @@
         "gecko_id":"starknet",
         "tvl":255843390.233730495,
         "tokenSymbol":"STRK",
-        "cmcId":22691,
+        "cmcId":"22691",
         "name":"Starknet",
         "chainId":null
     },
@@ -1411,7 +1387,7 @@
         "gecko_id":"alvey-chain",
         "tvl":326694.4686271913,
         "tokenSymbol":"ALV",
-        "cmcId":26867,
+        "cmcId":"26867",
         "name":"ALV",
         "chainId":null
     },
@@ -1427,7 +1403,7 @@
         "gecko_id":"tlchain",
         "tvl":0.0,
         "tokenSymbol":"TLC",
-        "cmcId":22593,
+        "cmcId":"22593",
         "name":"Tlchain",
         "chainId":null
     },
@@ -1435,7 +1411,7 @@
         "gecko_id":null,
         "tvl":242578.309843684,
         "tokenSymbol":"ZENIQ",
-        "cmcId":23027,
+        "cmcId":"23027",
         "name":"Zeniq",
         "chainId":null
     },
@@ -1459,7 +1435,7 @@
         "gecko_id":"libre",
         "tvl":114377.846351,
         "tokenSymbol":"LIBRE",
-        "cmcId":12663,
+        "cmcId":"12663",
         "name":"Libre",
         "chainId":null
     },
@@ -1515,7 +1491,7 @@
         "gecko_id":null,
         "tvl":0.0,
         "tokenSymbol":"BONE",
-        "cmcId":11865,
+        "cmcId":"11865",
         "name":"Bone",
         "chainId":null
     },
@@ -1571,7 +1547,7 @@
         "gecko_id":"white-whale",
         "tvl":391334.0159750276,
         "tokenSymbol":"WHALE",
-        "cmcId":16121,
+        "cmcId":"16121",
         "name":"Migaloo",
         "chainId":null
     },
@@ -1627,7 +1603,7 @@
         "gecko_id":null,
         "tvl":3156899.6577571444,
         "tokenSymbol":"BEAM",
-        "cmcId":28298,
+        "cmcId":"28298",
         "name":"Beam",
         "chainId":4337
     },
@@ -1643,7 +1619,7 @@
         "gecko_id":"nolus",
         "tvl":1035478.3792546603,
         "tokenSymbol":"NLS",
-        "cmcId":28485,
+        "cmcId":"28485",
         "name":"Nolus",
         "chainId":null
     },
@@ -1675,7 +1651,7 @@
         "gecko_id":"degen-base",
         "tvl":455756.5468445154,
         "tokenSymbol":"DEGEN",
-        "cmcId":30096,
+        "cmcId":"30096",
         "name":"Degen",
         "chainId":666666666
     },
@@ -1763,7 +1739,7 @@
         "gecko_id":"rss3",
         "tvl":508434.3404276788,
         "tokenSymbol":"RSS3",
-        "cmcId":17917,
+        "cmcId":"17917",
         "name":"RSS3",
         "chainId":null
     },
@@ -1859,7 +1835,7 @@
         "gecko_id":"aurora-dao",
         "tvl":526880.9542790001,
         "tokenSymbol":"IDEX",
-        "cmcId":3928,
+        "cmcId":"3928",
         "name":"IDEX",
         "chainId":null
     },
