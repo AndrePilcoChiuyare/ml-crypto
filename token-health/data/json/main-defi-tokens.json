@@ -432,14 +432,6 @@
         "chainId":null
     },
     {
-        "gecko_id":"zencash",
-        "tvl":2453931.9090992757,
-        "tokenSymbol":"ZEN",
-        "cmcId":"1698",
-        "name":"Horizen EON",
-        "chainId":7332
-    },
-    {
         "gecko_id":"zilliqa",
         "tvl":1472049.2824488336,
         "tokenSymbol":"ZIL",
@@ -789,14 +781,6 @@
         "tokenSymbol":"ADA",
         "cmcId":"2010",
         "name":"Cardano",
-        "chainId":null
-    },
-    {
-        "gecko_id":null,
-        "tvl":0.0,
-        "tokenSymbol":"EMPIRE",
-        "cmcId":"10613",
-        "name":"Empire",
         "chainId":null
     },
     {
@@ -1176,14 +1160,6 @@
         "chainId":88888
     },
     {
-        "gecko_id":"dexit-finance",
-        "tvl":0.0,
-        "tokenSymbol":"DXT",
-        "cmcId":"11661",
-        "name":"Dexit",
-        "chainId":null
-    },
-    {
         "gecko_id":"pulsechain",
         "tvl":347500489.6621264219,
         "tokenSymbol":"PLS",
@@ -1214,22 +1190,6 @@
         "cmcId":"16093",
         "name":"Bitkub Chain",
         "chainId":96
-    },
-    {
-        "gecko_id":null,
-        "tvl":341793.6849875851,
-        "tokenSymbol":"HKO",
-        "cmcId":"10907",
-        "name":"Heiko",
-        "chainId":null
-    },
-    {
-        "gecko_id":null,
-        "tvl":3579661.7786625442,
-        "tokenSymbol":"PARA",
-        "cmcId":"12887",
-        "name":"Parallel",
-        "chainId":null
     },
     {
         "gecko_id":"shimmer",
@@ -1400,14 +1360,6 @@
         "chainId":null
     },
     {
-        "gecko_id":"tlchain",
-        "tvl":0.0,
-        "tokenSymbol":"TLC",
-        "cmcId":"22593",
-        "name":"Tlchain",
-        "chainId":null
-    },
-    {
         "gecko_id":null,
         "tvl":242578.309843684,
         "tokenSymbol":"ZENIQ",
@@ -1435,7 +1387,7 @@
         "gecko_id":"libre",
         "tvl":114377.846351,
         "tokenSymbol":"LIBRE",
-        "cmcId":"12663",
+        "cmcId":"27114",
         "name":"Libre",
         "chainId":null
     },
@@ -1485,14 +1437,6 @@
         "tokenSymbol":"RPG",
         "cmcId":"12221",
         "name":"Rangers",
-        "chainId":null
-    },
-    {
-        "gecko_id":null,
-        "tvl":0.0,
-        "tokenSymbol":"BONE",
-        "cmcId":"11865",
-        "name":"Bone",
         "chainId":null
     },
     {
