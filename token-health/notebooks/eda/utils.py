@@ -17,8 +17,8 @@ def plot_token_data(df, token_name, cutoff_date):
     
     # Set labels and tick parameters for TVL axis
     ax1.set_xlabel('Date')
-    ax1.set_ylabel('TVL', color='blue')
-    ax1.tick_params(axis='y', labelcolor='blue')
+    ax1.set_ylabel('TVL', color='black')
+    ax1.tick_params(axis='y', labelcolor='black')
     
     # Create a second axis for Market Cap
     ax2 = ax1.twinx()
