@@ -16,7 +16,7 @@ def plot_token_data(df, token_name, cutoff_date):
     fig, ax1 = plt.subplots(figsize=(14, 7))
     
     # Set labels and tick parameters for TVL axis
-    ax1.set_xlabel('Fecha')
+    ax1.set_xlabel('Date')
     ax1.set_ylabel('TVL', color='blue')
     ax1.tick_params(axis='y', labelcolor='blue')
     
