@@ -1,0 +1,4190 @@
+[
+    {
+        "id": "0d0d9689-bf75-41ee-9555-aa2f2ca0186b",
+        "serialId": 6290,
+        "symbol": "RBN",
+        "name": "Ribbon Finance",
+        "slug": "ribbon-finance",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6123b0049f904d730db3c36a31167d9d4121fa6b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "0f2d0434-2ff5-4166-8d59-5cb1e5b102e1",
+        "serialId": 16077,
+        "symbol": "CREDI",
+        "name": "Credefi",
+        "slug": "credefi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xae6e307c3fe9e922e5674dbd7f830ed49c014c6b"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x2235e79086dd23135119366da45851c741874e5b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "13af58e4-0242-4aa0-8d09-e0aaa262f761",
+        "serialId": 11101,
+        "symbol": "CARR",
+        "name": "Carnomaly",
+        "slug": "carnomaly",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x884ddbb5dc6c2cef77d3e74c6ccca315797d655b"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x9b765735c82bb00085e9dbf194f20e3fa754258e"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "19850b5a-a264-4954-a312-67d15c77f347",
+        "serialId": 17162,
+        "symbol": "EKTA",
+        "name": "Ekta",
+        "slug": "ekta-2",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2f75113b13d136f861d212fa9b572f2c79ac81c4"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x45808ce43eb2d7685ff0242631f0feb6f3d8701a"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "1bc28038-aa5b-4e3d-9ad9-eaf8cbfed677",
+        "serialId": 401300,
+        "symbol": "TOKEN",
+        "name": "TokenFi",
+        "slug": "tokenfi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "1c1cd416-b027-4d73-9d4d-0a9edc63524d",
+        "serialId": 222,
+        "symbol": "CHR",
+        "name": "Chromia",
+        "slug": "chromia",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x8a2279d4a90b6fe1c4b30fa660cc9f926797baa2"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xf9cec8d50f6c8ad3fb6dccec577e05aa32b224fe"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "20a20296-c751-4011-88fa-fc2b8b0a8564",
+        "serialId": 9795,
+        "symbol": "EL",
+        "name": "ELYSIA",
+        "slug": "elysia",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2781246fe707bb15cee3e5ea354e2154a2877b16"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "2db6b38a-681a-4514-9d67-691e319597ee",
+        "serialId": 1265,
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "slug": "avalanche",
+        "contractAddresses": [
+            {
+                "platform": "avalanche",
+                "contractAddress": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z"
+            },
+            {
+                "platform": "moonbeam",
+                "contractAddress": "0x4792c1ecb969b036eb51330c63bd27899a13d84e"
+            },
+            {
+                "platform": "moonriver",
+                "contractAddress": "0x14a0243c333a5b238143068dc3a7323ba4c30ecb"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "317d6ffb-c0b3-43c1-a88a-e19ab22d6171",
+        "serialId": 6706,
+        "symbol": "SMT",
+        "name": "Swarm Markets",
+        "slug": "swarm-markets",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb17548c7b510427baac4e267bea62e800b247173"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe631dabef60c37a37d70d3b4f812871df663226f"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x2680e82fb8beb5a153a67fe687ffa67abb6b9013"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x2974dc646e375e83bd1c0342625b49f288987fa4"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "39a5cc70-09c6-4e20-899e-131507186776",
+        "serialId": 17291,
+        "symbol": "UBXS",
+        "name": "UBXS Token",
+        "slug": "ubxs-token",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4f1960e29b2ca581a38c5c474e123f420f8092db"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "39b71592-9e16-4198-8ca5-3b19a3f41dd3",
+        "serialId": 3993,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "slug": "xinfin-network",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "39f97a1d-e784-497c-926f-d065511bbd69",
+        "serialId": 549169,
+        "symbol": "PRCL",
+        "name": "Parcl",
+        "slug": "parcl",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "4LLbsb5ReP3yEtYzmXewyGjcir5uXtKFURtaEUVC2AHs"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "3b3bb244-c3df-47c4-b5d4-cc8af1c121b1",
+        "serialId": 7147,
+        "symbol": "BOSON",
+        "name": "Boson Protocol",
+        "slug": "boson-protocol",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xc477d038d5420c6a9e0b031712f61c5120090de9"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x9b3b0703d392321ad24338ff1f846650437a43c9"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "40f2f803-cf08-4970-a178-cbe19a916ff7",
+        "serialId": 701,
+        "symbol": "CFG",
+        "name": "Centrifuge",
+        "slug": "centrifuge",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "4758c080-821e-4a19-bbae-4df59682d229",
+        "serialId": 86,
+        "symbol": "MKR",
+        "name": "Maker",
+        "slug": "maker",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+            },
+            {
+                "platform": "sora",
+                "contractAddress": "0x00ec184ef0b4bd955db05eea5a8489ae72888ab6e63682a15beca1cd39344c8f"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x6f7c932e7684666c9fd1d44527765433e01ff61d"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0x88128fd4b259552a9a1d457f435a6527aab72d42"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "54038f3f-95f5-46a3-a9ba-c972b7c1d115",
+        "serialId": 15527,
+        "symbol": "UNO",
+        "name": "Uno Re",
+        "slug": "uno-re",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x474021845c4643113458ea4414bdb7fb74a01a77"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x474021845c4643113458ea4414bdb7fb74a01a77"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "54d246b7-f554-4386-97da-907a03c1a812",
+        "serialId": 343,
+        "symbol": "SNX",
+        "name": "Synthetix",
+        "slug": "synthetix",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x50b728d8d964fd00c2d0aad81718b71311fef68a"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x7b9c523d59aefd362247bd5601a89722e3774dd2"
+            },
+            {
+                "platform": "huobi-token",
+                "contractAddress": "0x777850281719d5a96c29812ab72f822e0e09f3da"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0xbec243c995409e6520d7c41e404da5deba4b209b"
+            },
+            {
+                "platform": "fantom",
+                "contractAddress": "0x56ee926bd8c72b2d5fa1af4d9e4cbb515a1e3adc"
+            },
+            {
+                "platform": "optimistic-ethereum",
+                "contractAddress": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "6f14c9a5-bbfc-4d63-aef2-e649e6a800db",
+        "serialId": 14188,
+        "symbol": "STRX",
+        "name": "StrikeX",
+        "slug": "strikecoin",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xd6fdde76b8c1c45b33790cc8751d5b88984c44ec"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "72ff9ca6-8231-40bd-ba05-e9758a2cbb4c",
+        "serialId": 11558,
+        "symbol": "STBU",
+        "name": "Stobox Token",
+        "slug": "stobox-token",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xa6422e3e219ee6d4c1b18895275fe43556fd50ed"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xcf403036bc139d30080d2cf0f5b48066f98191bb"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xb0c4080a8fa7afa11a09473f3be14d44af3f8743"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "752ea4d3-b21a-4d7c-8297-4817e9d0102c",
+        "serialId": 11105,
+        "symbol": "OPUL",
+        "name": "Opulous",
+        "slug": "opulous",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x80d55c03180349fff4a229102f62328220a96444"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x0c5fa0e07949f941a6c2c29a008252db1527d6ee"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x686318000d982bc8dcc1cdcf8ffd22322f0960ed"
+            },
+            {
+                "platform": "algorand",
+                "contractAddress": "287867876"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "7664656b-a3b9-4e40-9a82-a10c2e75b0ec",
+        "serialId": 18145,
+        "symbol": "POLYX",
+        "name": "Polymesh",
+        "slug": "polymesh",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "7ab662b2-2574-4e48-96ea-dc8eb4545a0b",
+        "serialId": 2792,
+        "symbol": "LSK",
+        "name": "Lisk",
+        "slug": "lisk",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f"
+            }
+        ],
+        "category": "rwa",
+        "market_data": [
+            {
+                "timestamp": 1478908800,
+                "open": 0.18157662734337082,
+                "high": 0.18946446515002266,
+                "low": 0.1793529918380955,
+                "close": 0.17996187748956516,
+                "volume": 9357.232293655241
+            },
+            {
+                "timestamp": 1478995200,
+                "open": 0.18064178619153606,
+                "high": 0.19095257703262192,
+                "low": 0.17805355269437298,
+                "close": 0.18245149348841821,
+                "volume": 48725.5128702575
+            },
+            {
+                "timestamp": 1479081600,
+                "open": 0.1797127942701825,
+                "high": 0.18756617295014275,
+                "low": 0.17612445829527412,
+                "close": 0.1778585708106676,
+                "volume": 30774.54674363196
+            },
+            {
+                "timestamp": 1479168000,
+                "open": 0.18033481965641485,
+                "high": 0.18716948585951468,
+                "low": 0.17138009110270214,
+                "close": 0.1804254791949389,
+                "volume": 21207.275362169326
+            },
+            {
+                "timestamp": 1479254400,
+                "open": 0.17368936843111019,
+                "high": 0.18599540211976737,
+                "low": 0.15715536174086164,
+                "close": 0.168718227240328,
+                "volume": 134727.5732688483
+            },
+            {
+                "timestamp": 1479340800,
+                "open": 0.16769834225975563,
+                "high": 0.17035219704646795,
+                "low": 0.15821562032979447,
+                "close": 0.16093329170577725,
+                "volume": 28602.298154297765
+            },
+            {
+                "timestamp": 1479427200,
+                "open": 0.1611066080693034,
+                "high": 0.1697438109389468,
+                "low": 0.15930990860493452,
+                "close": 0.16463590233342398,
+                "volume": 14153.979291893105
+            },
+            {
+                "timestamp": 1479513600,
+                "open": 0.1665443573761969,
+                "high": 0.17052470257888902,
+                "low": 0.1585304409886322,
+                "close": 0.1585304409886322,
+                "volume": 16527.51327225029
+            },
+            {
+                "timestamp": 1479600000,
+                "open": 0.15788979927246688,
+                "high": 0.1725589559385336,
+                "low": 0.15788979927246688,
+                "close": 0.1667898163163477,
+                "volume": 37285.624236084965
+            },
+            {
+                "timestamp": 1479686400,
+                "open": 0.16578756256138819,
+                "high": 0.19262432931602416,
+                "low": 0.16516612701898345,
+                "close": 0.16655672072415112,
+                "volume": 5052.5048470311995
+            },
+            {
+                "timestamp": 1479772800,
+                "open": 0.1701761585711798,
+                "high": 0.18482892652427935,
+                "low": 0.15849518843911906,
+                "close": 0.17182037159926083,
+                "volume": 13657.537487300424
+            },
+            {
+                "timestamp": 1479859200,
+                "open": 0.1627275737890865,
+                "high": 0.1628619988776931,
+                "low": 0.1587896936114624,
+                "close": 0.16138642963126903,
+                "volume": 928.054130711628
+            },
+            {
+                "timestamp": 1479945600,
+                "open": 0.15909302047749727,
+                "high": 0.1620332705904015,
+                "low": 0.15473873807020225,
+                "close": 0.16196500017828158,
+                "volume": 10141.169447364864
+            },
+            {
+                "timestamp": 1480032000,
+                "open": 0.16103856671363276,
+                "high": 0.16914430642804232,
+                "low": 0.15968537661756385,
+                "close": 0.15968537661756385,
+                "volume": 14335.826115338796
+            },
+            {
+                "timestamp": 1480118400,
+                "open": 0.1602978667309328,
+                "high": 0.16835473429039657,
+                "low": 0.1573376341550596,
+                "close": 0.16835473429039657,
+                "volume": 10383.660772424026
+            },
+            {
+                "timestamp": 1480204800,
+                "open": 0.1591762497390265,
+                "high": 0.1652473590565367,
+                "low": 0.1584061285008175,
+                "close": 0.15846683251905755,
+                "volume": 5582.460995099678
+            },
+            {
+                "timestamp": 1480291200,
+                "open": 0.17499907160274508,
+                "high": 0.17501118318023381,
+                "low": 0.15514267482993327,
+                "close": 0.1662900739848272,
+                "volume": 30057.215100864112
+            },
+            {
+                "timestamp": 1480377600,
+                "open": 0.16990866289938114,
+                "high": 0.18623848036570553,
+                "low": 0.16335525747399168,
+                "close": 0.17834873172560345,
+                "volume": 40127.36198161786
+            },
+            {
+                "timestamp": 1480464000,
+                "open": 0.17614554406544786,
+                "high": 0.18916838090965676,
+                "low": 0.1672728760155402,
+                "close": 0.17136540679835516,
+                "volume": 31904.79692455125
+            },
+            {
+                "timestamp": 1480550400,
+                "open": 0.1679497126139682,
+                "high": 0.1700120963778789,
+                "low": 0.15481453031481923,
+                "close": 0.15955695087976846,
+                "volume": 30741.89285479119
+            },
+            {
+                "timestamp": 1480636800,
+                "open": 0.15744638475721454,
+                "high": 0.16118331468955546,
+                "low": 0.14422717724672127,
+                "close": 0.15038316798901044,
+                "volume": 80423.08440170309
+            },
+            {
+                "timestamp": 1480723200,
+                "open": 0.15060301768806103,
+                "high": 0.15536900172207221,
+                "low": 0.14393021517000304,
+                "close": 0.15396946262559363,
+                "volume": 9908.6720060585
+            },
+            {
+                "timestamp": 1480809600,
+                "open": 0.15012840308836028,
+                "high": 0.15876694629453106,
+                "low": 0.1442812048067352,
+                "close": 0.14500373857219773,
+                "volume": 9813.386542827548
+            },
+            {
+                "timestamp": 1480896000,
+                "open": 0.1464066875801387,
+                "high": 0.1541849746455202,
+                "low": 0.13991285680784937,
+                "close": 0.14189561633680003,
+                "volume": 20834.591330379524
+            },
+            {
+                "timestamp": 1480982400,
+                "open": 0.14361629638097695,
+                "high": 0.14368448937716694,
+                "low": 0.12148211489925141,
+                "close": 0.1426786664511664,
+                "volume": 80259.98616674937
+            },
+            {
+                "timestamp": 1481068800,
+                "open": 0.1439956242734324,
+                "high": 0.15120977592232168,
+                "low": 0.13202473363405293,
+                "close": 0.14747186273402138,
+                "volume": 18603.37546813469
+            },
+            {
+                "timestamp": 1481155200,
+                "open": 0.14814620789824923,
+                "high": 0.15528988663415322,
+                "low": 0.13880110173799215,
+                "close": 0.1410737255639628,
+                "volume": 24877.324413112103
+            },
+            {
+                "timestamp": 1481241600,
+                "open": 0.14107475418175291,
+                "high": 0.14749954012995534,
+                "low": 0.1404818449469185,
+                "close": 0.1411993761503077,
+                "volume": 16497.52818391458
+            },
+            {
+                "timestamp": 1481328000,
+                "open": 0.1404939622169327,
+                "high": 0.14577370947193988,
+                "low": 0.1342196411772453,
+                "close": 0.1342196411772453,
+                "volume": 11975.738133438037
+            },
+            {
+                "timestamp": 1481414400,
+                "open": 0.13103008417324677,
+                "high": 0.13922019827615645,
+                "low": 0.12970266609630166,
+                "close": 0.13473459962116394,
+                "volume": 10938.386557257225
+            },
+            {
+                "timestamp": 1481500800,
+                "open": 0.138729953278381,
+                "high": 0.14275224217628685,
+                "low": 0.13386419609570568,
+                "close": 0.136176130255413,
+                "volume": 25835.754780554445
+            },
+            {
+                "timestamp": 1481587200,
+                "open": 0.13594015225055173,
+                "high": 0.13961788226354738,
+                "low": 0.1338092405970537,
+                "close": 0.13747923564390985,
+                "volume": 20142.889543879675
+            },
+            {
+                "timestamp": 1481673600,
+                "open": 0.1372155455855109,
+                "high": 0.14719050847014914,
+                "low": 0.13211798203318817,
+                "close": 0.1332293899093343,
+                "volume": 37015.380617010494
+            },
+            {
+                "timestamp": 1481760000,
+                "open": 0.13639952110900805,
+                "high": 0.15094397759409756,
+                "low": 0.13539813904410067,
+                "close": 0.14000490227687878,
+                "volume": 48236.78307882036
+            },
+            {
+                "timestamp": 1481846400,
+                "open": 0.13970048148349193,
+                "high": 0.14596572500271635,
+                "low": 0.13601557445887905,
+                "close": 0.14290881308300307,
+                "volume": 14184.395618951288
+            },
+            {
+                "timestamp": 1481932800,
+                "open": 0.13886867034201913,
+                "high": 0.13894465829700106,
+                "low": 0.131516119903305,
+                "close": 0.13305903186064638,
+                "volume": 5938.309989987662
+            },
+            {
+                "timestamp": 1482019200,
+                "open": 0.13698557844654788,
+                "high": 0.16934103763858532,
+                "low": 0.13698557844654788,
+                "close": 0.14788124996149368,
+                "volume": 77122.50389487587
+            },
+            {
+                "timestamp": 1482105600,
+                "open": 0.14558168548328212,
+                "high": 0.16428437197672596,
+                "low": 0.14189183983112874,
+                "close": 0.15521744327536457,
+                "volume": 43710.85001516395
+            },
+            {
+                "timestamp": 1482192000,
+                "open": 0.15211672654678626,
+                "high": 0.15964788274651132,
+                "low": 0.14367329109796878,
+                "close": 0.14380021315452668,
+                "volume": 30780.48858383535
+            },
+            {
+                "timestamp": 1482278400,
+                "open": 0.14440198901387044,
+                "high": 0.16183429112190495,
+                "low": 0.14000107681269663,
+                "close": 0.1509559309240846,
+                "volume": 88337.59927246306
+            },
+            {
+                "timestamp": 1482364800,
+                "open": 0.15102392150810146,
+                "high": 0.16120004904923363,
+                "low": 0.13786681424675246,
+                "close": 0.14630955186856162,
+                "volume": 84939.18058243857
+            },
+            {
+                "timestamp": 1482451200,
+                "open": 0.14514916104985442,
+                "high": 0.15079838989530242,
+                "low": 0.128565853988209,
+                "close": 0.13115930786798985,
+                "volume": 56433.87039191055
+            },
+            {
+                "timestamp": 1482537600,
+                "open": 0.13130768566405732,
+                "high": 0.1564891729780092,
+                "low": 0.1304367764492078,
+                "close": 0.13563593350261324,
+                "volume": 54842.5612543618
+            },
+            {
+                "timestamp": 1482624000,
+                "open": 0.13324836977526547,
+                "high": 0.14528713959930764,
+                "low": 0.13189870533636436,
+                "close": 0.13826296525023885,
+                "volume": 25388.45181492741
+            },
+            {
+                "timestamp": 1482710400,
+                "open": 0.1385325735272602,
+                "high": 0.14426788030297005,
+                "low": 0.13358356579239497,
+                "close": 0.13430282127397997,
+                "volume": 26580.7404122297
+            },
+            {
+                "timestamp": 1482796800,
+                "open": 0.1372914289609126,
+                "high": 0.13945091437095422,
+                "low": 0.1306863691083172,
+                "close": 0.1319471985397136,
+                "volume": 25557.37254790184
+            },
+            {
+                "timestamp": 1482883200,
+                "open": 0.13271565147392347,
+                "high": 0.13561323397187547,
+                "low": 0.122444290655905,
+                "close": 0.12951364150802014,
+                "volume": 72811.45309566407
+            },
+            {
+                "timestamp": 1482969600,
+                "open": 0.12942137103242968,
+                "high": 0.15305622170510916,
+                "low": 0.12879462699302352,
+                "close": 0.14122391485695693,
+                "volume": 41340.52414887861
+            },
+            {
+                "timestamp": 1483056000,
+                "open": 0.14056060115659655,
+                "high": 0.14976020263520173,
+                "low": 0.1386673043933071,
+                "close": 0.1454587449674447,
+                "volume": 23651.314526415503
+            },
+            {
+                "timestamp": 1483142400,
+                "open": 0.14489704230011105,
+                "high": 0.1462721275465266,
+                "low": 0.14031815615251358,
+                "close": 0.14427800359044474,
+                "volume": 2216.0384838598475
+            },
+            {
+                "timestamp": 1483228800,
+                "open": 0.14563252387909403,
+                "high": 0.1609413671624863,
+                "low": 0.14375131282823259,
+                "close": 0.1486140671503201,
+                "volume": 101669.20239392601
+            },
+            {
+                "timestamp": 1483315200,
+                "open": 0.1499415540706726,
+                "high": 0.16420207304636322,
+                "low": 0.14577635637768743,
+                "close": 0.15491362480382945,
+                "volume": 52986.17596354856
+            },
+            {
+                "timestamp": 1483401600,
+                "open": 0.15278631000078252,
+                "high": 0.1607510621340335,
+                "low": 0.1525844336817305,
+                "close": 0.1607510621340335,
+                "volume": 36581.47026981185
+            },
+            {
+                "timestamp": 1483488000,
+                "open": 0.1595968197593843,
+                "high": 0.17825945589097822,
+                "low": 0.15623246728137144,
+                "close": 0.17020040791091193,
+                "volume": 112691.83513006117
+            },
+            {
+                "timestamp": 1483574400,
+                "open": 0.17032196156244803,
+                "high": 0.18247921309140772,
+                "low": 0.14107335193122322,
+                "close": 0.15533938924004637,
+                "volume": 85507.51227494469
+            },
+            {
+                "timestamp": 1483660800,
+                "open": 0.15538489890347845,
+                "high": 0.16263038748976208,
+                "low": 0.1350678620789357,
+                "close": 0.13834811246582532,
+                "volume": 118827.22842291411
+            },
+            {
+                "timestamp": 1483747200,
+                "open": 0.1361744567724415,
+                "high": 0.14666837087322993,
+                "low": 0.1290113330460837,
+                "close": 0.14439504512858467,
+                "volume": 55544.30776343906
+            },
+            {
+                "timestamp": 1483833600,
+                "open": 0.14529579941680912,
+                "high": 0.16308906000236734,
+                "low": 0.14215786408458497,
+                "close": 0.15861567696097606,
+                "volume": 63086.58527669957
+            },
+            {
+                "timestamp": 1483920000,
+                "open": 0.15930697929213927,
+                "high": 0.15930697929213927,
+                "low": 0.14634136759652638,
+                "close": 0.14735575018732863,
+                "volume": 23881.205991770126
+            },
+            {
+                "timestamp": 1484006400,
+                "open": 0.14895242445547252,
+                "high": 0.15810188225079708,
+                "low": 0.1457182437914182,
+                "close": 0.14928842223924105,
+                "volume": 36897.4238209295
+            },
+            {
+                "timestamp": 1484092800,
+                "open": 0.15062605194608342,
+                "high": 0.15884807487391706,
+                "low": 0.1351397854947872,
+                "close": 0.1403179438547064,
+                "volume": 110983.60201651519
+            },
+            {
+                "timestamp": 1484179200,
+                "open": 0.14016443379850033,
+                "high": 0.1448406834518323,
+                "low": 0.12654883936506353,
+                "close": 0.13973465184779907,
+                "volume": 53595.91177594768
+            },
+            {
+                "timestamp": 1484265600,
+                "open": 0.13849824328415658,
+                "high": 0.14367298992659824,
+                "low": 0.12813847011386068,
+                "close": 0.14078419528814454,
+                "volume": 29289.972993148633
+            },
+            {
+                "timestamp": 1484352000,
+                "open": 0.14251454562127366,
+                "high": 0.14881140630468553,
+                "low": 0.14251454562127366,
+                "close": 0.14459971442531466,
+                "volume": 23952.153722098767
+            },
+            {
+                "timestamp": 1484438400,
+                "open": 0.14816977494599215,
+                "high": 0.1767433130717246,
+                "low": 0.14652286797328326,
+                "close": 0.16060871075487176,
+                "volume": 139967.4330743244
+            },
+            {
+                "timestamp": 1484524800,
+                "open": 0.16102682319616798,
+                "high": 0.1611012463904424,
+                "low": 0.15028492071381983,
+                "close": 0.15466135109203524,
+                "volume": 47347.83396926249
+            },
+            {
+                "timestamp": 1484611200,
+                "open": 0.15558535810787763,
+                "high": 0.16123940855376295,
+                "low": 0.150897521741881,
+                "close": 0.15806416682267269,
+                "volume": 54656.117824598834
+            },
+            {
+                "timestamp": 1484697600,
+                "open": 0.1577134466280022,
+                "high": 0.17097952274426273,
+                "low": 0.15231227352558951,
+                "close": 0.15944611193025357,
+                "volume": 29767.274192167923
+            },
+            {
+                "timestamp": 1484784000,
+                "open": 0.16226936101008999,
+                "high": 0.1644337882727962,
+                "low": 0.15449983087108105,
+                "close": 0.1573718988810571,
+                "volume": 22348.22241554479
+            },
+            {
+                "timestamp": 1484870400,
+                "open": 0.15737842138841596,
+                "high": 0.15846128783905855,
+                "low": 0.1539214465433354,
+                "close": 0.15464954596319663,
+                "volume": 7750.300392850555
+            },
+            {
+                "timestamp": 1484956800,
+                "open": 0.15553856145589964,
+                "high": 0.16202929364615382,
+                "low": 0.1530307345919884,
+                "close": 0.1592620047511228,
+                "volume": 23283.53088755003
+            },
+            {
+                "timestamp": 1485043200,
+                "open": 0.15954434691498023,
+                "high": 0.16362693343856982,
+                "low": 0.15147468140883882,
+                "close": 0.15511593417121228,
+                "volume": 14554.281132060976
+            },
+            {
+                "timestamp": 1485129600,
+                "open": 0.15455334847095392,
+                "high": 0.15688622068549318,
+                "low": 0.14976358999324435,
+                "close": 0.15688622068549318,
+                "volume": 9225.577551989518
+            },
+            {
+                "timestamp": 1485216000,
+                "open": 0.15239809205578855,
+                "high": 0.15348312469405379,
+                "low": 0.1445411210576184,
+                "close": 0.1492379705699296,
+                "volume": 13653.45548042951
+            },
+            {
+                "timestamp": 1485302400,
+                "open": 0.149533677326487,
+                "high": 0.14967731359194208,
+                "low": 0.14301808775846722,
+                "close": 0.14444462353969872,
+                "volume": 29379.118359431664
+            },
+            {
+                "timestamp": 1485388800,
+                "open": 0.1442928121063815,
+                "high": 0.14888404766547184,
+                "low": 0.14395495128459512,
+                "close": 0.1458088278170288,
+                "volume": 102062.54012671043
+            },
+            {
+                "timestamp": 1485475200,
+                "open": 0.1456751433813004,
+                "high": 0.16225503412966108,
+                "low": 0.14289466964025344,
+                "close": 0.14753854985856765,
+                "volume": 206034.54753333266
+            },
+            {
+                "timestamp": 1485561600,
+                "open": 0.14719876869734982,
+                "high": 0.1606164799765328,
+                "low": 0.14473135946800517,
+                "close": 0.15651554818822552,
+                "volume": 135800.81613490384
+            },
+            {
+                "timestamp": 1485648000,
+                "open": 0.15596876509334046,
+                "high": 0.1620572454741397,
+                "low": 0.1513566422920205,
+                "close": 0.15694456917475483,
+                "volume": 79686.4460771158
+            },
+            {
+                "timestamp": 1485734400,
+                "open": 0.15621308162928788,
+                "high": 0.16939976237527984,
+                "low": 0.15578061640618515,
+                "close": 0.16132683743710857,
+                "volume": 112539.4291776204
+            },
+            {
+                "timestamp": 1485820800,
+                "open": 0.161265752481661,
+                "high": 0.16396943195437627,
+                "low": 0.1564685599681399,
+                "close": 0.15957536219548696,
+                "volume": 97333.396767047
+            },
+            {
+                "timestamp": 1485907200,
+                "open": 0.15957643254563272,
+                "high": 0.16305495524277455,
+                "low": 0.15228147946825824,
+                "close": 0.15867565410258594,
+                "volume": 131578.28631378408
+            },
+            {
+                "timestamp": 1485993600,
+                "open": 0.15922176648728548,
+                "high": 0.16155029977246585,
+                "low": 0.15302883133420814,
+                "close": 0.15804048925417197,
+                "volume": 74565.14602982429
+            },
+            {
+                "timestamp": 1486080000,
+                "open": 0.15707096793358244,
+                "high": 0.16030570973523747,
+                "low": 0.15116406999976828,
+                "close": 0.15771507028187084,
+                "volume": 62268.28294589635
+            },
+            {
+                "timestamp": 1486166400,
+                "open": 0.15829227165471807,
+                "high": 0.16297927790738895,
+                "low": 0.15259467248675238,
+                "close": 0.15779253797362186,
+                "volume": 77107.56664940724
+            },
+            {
+                "timestamp": 1486252800,
+                "open": 0.15707806531606855,
+                "high": 0.16513423186901063,
+                "low": 0.1556150513801417,
+                "close": 0.1629974257532292,
+                "volume": 67846.22777864718
+            },
+            {
+                "timestamp": 1486339200,
+                "open": 0.1615280278170809,
+                "high": 0.16295267303637104,
+                "low": 0.15296586521679906,
+                "close": 0.15736680828428035,
+                "volume": 94725.13826124163
+            },
+            {
+                "timestamp": 1486425600,
+                "open": 0.1579757714484575,
+                "high": 0.16554286120728628,
+                "low": 0.1579757714484575,
+                "close": 0.16398233958278577,
+                "volume": 42437.72409467177
+            },
+            {
+                "timestamp": 1486512000,
+                "open": 0.16496829519645317,
+                "high": 0.1655290813008235,
+                "low": 0.15711528902895092,
+                "close": 0.1606644573614294,
+                "volume": 66952.25655924946
+            },
+            {
+                "timestamp": 1486598400,
+                "open": 0.16101584654008194,
+                "high": 0.16245530951873396,
+                "low": 0.1436075503571651,
+                "close": 0.15350123942477562,
+                "volume": 151140.86471992763
+            },
+            {
+                "timestamp": 1486684800,
+                "open": 0.15268405694183104,
+                "high": 0.15480288988368276,
+                "low": 0.1448094578102752,
+                "close": 0.14879189821992836,
+                "volume": 34143.061152207345
+            },
+            {
+                "timestamp": 1486771200,
+                "open": 0.14755987815196103,
+                "high": 0.15373549472082024,
+                "low": 0.14680033563344563,
+                "close": 0.15044427113632056,
+                "volume": 28736.958513332997
+            },
+            {
+                "timestamp": 1486857600,
+                "open": 0.15032282925238089,
+                "high": 0.15400963958435734,
+                "low": 0.14734141079318552,
+                "close": 0.1474507743454222,
+                "volume": 27830.91441658419
+            },
+            {
+                "timestamp": 1486944000,
+                "open": 0.14973559429643857,
+                "high": 0.15451276549533202,
+                "low": 0.14321572180952521,
+                "close": 0.14465684431159254,
+                "volume": 42614.21531240026
+            },
+            {
+                "timestamp": 1487030400,
+                "open": 0.14557577967455265,
+                "high": 0.15178975312869297,
+                "low": 0.14447594260780558,
+                "close": 0.1484948527534699,
+                "volume": 56996.24250198649
+            },
+            {
+                "timestamp": 1487116800,
+                "open": 0.14859703548678882,
+                "high": 0.1501736798527579,
+                "low": 0.13950452945577674,
+                "close": 0.14243021179238924,
+                "volume": 50956.946644689866
+            },
+            {
+                "timestamp": 1487203200,
+                "open": 0.14275884021941515,
+                "high": 0.14978932712308193,
+                "low": 0.14047520220548226,
+                "close": 0.14565017602059552,
+                "volume": 61812.88720244066
+            },
+            {
+                "timestamp": 1487289600,
+                "open": 0.1458095791505404,
+                "high": 0.14864994509391452,
+                "low": 0.14216206878798965,
+                "close": 0.14771065459914068,
+                "volume": 36250.326774403366
+            },
+            {
+                "timestamp": 1487376000,
+                "open": 0.14794470249692726,
+                "high": 0.1486841143815591,
+                "low": 0.13470618683435603,
+                "close": 0.1398728294011477,
+                "volume": 71965.23975967895
+            },
+            {
+                "timestamp": 1487462400,
+                "open": 0.13932282912084173,
+                "high": 0.14693498501716581,
+                "low": 0.13352583685028396,
+                "close": 0.13623065067708837,
+                "volume": 38429.494707480175
+            },
+            {
+                "timestamp": 1487548800,
+                "open": 0.13650610772633498,
+                "high": 0.1393601804247628,
+                "low": 0.12358331911994669,
+                "close": 0.12515489706974076,
+                "volume": 87512.72050566794
+            },
+            {
+                "timestamp": 1487635200,
+                "open": 0.12541028739843463,
+                "high": 0.13459490950065892,
+                "low": 0.11877753410849652,
+                "close": 0.13209017478678914,
+                "volume": 140929.25124316046
+            },
+            {
+                "timestamp": 1487721600,
+                "open": 0.1314524836120105,
+                "high": 0.13562085821830352,
+                "low": 0.12761779626522934,
+                "close": 0.13112355973925832,
+                "volume": 49583.61273157638
+            },
+            {
+                "timestamp": 1487808000,
+                "open": 0.13109760842805693,
+                "high": 0.14253248016566208,
+                "low": 0.12854464559203319,
+                "close": 0.13584646098593486,
+                "volume": 64884.81066599657
+            },
+            {
+                "timestamp": 1487894400,
+                "open": 0.13563122116894435,
+                "high": 0.14530247764849957,
+                "low": 0.12375594945390764,
+                "close": 0.13230853044052523,
+                "volume": 80732.33176384625
+            },
+            {
+                "timestamp": 1487980800,
+                "open": 0.13482237792766935,
+                "high": 0.13947711858447273,
+                "low": 0.12698918609670723,
+                "close": 0.13132767442883542,
+                "volume": 66096.26218353944
+            },
+            {
+                "timestamp": 1488067200,
+                "open": 0.13209679900822535,
+                "high": 0.13605610392585915,
+                "low": 0.12739676895024182,
+                "close": 0.13088733647474599,
+                "volume": 61335.37419555989
+            },
+            {
+                "timestamp": 1488153600,
+                "open": 0.13013286268598726,
+                "high": 0.13022171259823478,
+                "low": 0.1207952132077087,
+                "close": 0.12543031579720018,
+                "volume": 91284.5337347289
+            },
+            {
+                "timestamp": 1488240000,
+                "open": 0.1249984806977007,
+                "high": 0.12679012070629278,
+                "low": 0.11097801498340812,
+                "close": 0.11333265753200321,
+                "volume": 182904.29457178476
+            },
+            {
+                "timestamp": 1488326400,
+                "open": 0.11386157203083101,
+                "high": 0.12078840527687877,
+                "low": 0.09936410911951893,
+                "close": 0.1053241512312072,
+                "volume": 190030.71366259854
+            },
+            {
+                "timestamp": 1488412800,
+                "open": 0.1054019021098338,
+                "high": 0.11341146972753266,
+                "low": 0.09520313538846985,
+                "close": 0.11084085148607173,
+                "volume": 179282.02936913376
+            },
+            {
+                "timestamp": 1488499200,
+                "open": 0.10917353466353111,
+                "high": 0.12612972458814037,
+                "low": 0.09989859139134022,
+                "close": 0.10970865490727932,
+                "volume": 121638.25086263381
+            },
+            {
+                "timestamp": 1488585600,
+                "open": 0.10968247238574257,
+                "high": 0.1211495820798337,
+                "low": 0.10707290419139079,
+                "close": 0.11734498439006473,
+                "volume": 66910.58087017655
+            },
+            {
+                "timestamp": 1488672000,
+                "open": 0.1175097638613854,
+                "high": 0.12907021156578058,
+                "low": 0.11594663597180624,
+                "close": 0.12054677141513112,
+                "volume": 167783.8694032292
+            },
+            {
+                "timestamp": 1488758400,
+                "open": 0.12013897945640878,
+                "high": 0.13230152842815188,
+                "low": 0.11825558458837569,
+                "close": 0.1261640523661311,
+                "volume": 56628.377202260745
+            },
+            {
+                "timestamp": 1488844800,
+                "open": 0.12616996111606182,
+                "high": 0.12839050205869706,
+                "low": 0.11398973772713802,
+                "close": 0.12097841705937204,
+                "volume": 88890.66529434989
+            },
+            {
+                "timestamp": 1488931200,
+                "open": 0.12143814199739009,
+                "high": 0.12171111826603108,
+                "low": 0.10585356809211001,
+                "close": 0.11120289463185633,
+                "volume": 101244.17171178164
+            },
+            {
+                "timestamp": 1489017600,
+                "open": 0.11093815690368533,
+                "high": 0.12312990274634594,
+                "low": 0.10732881311575203,
+                "close": 0.11842276760285317,
+                "volume": 115833.6349306716
+            },
+            {
+                "timestamp": 1489104000,
+                "open": 0.11870247143478713,
+                "high": 0.12427671019515907,
+                "low": 0.08997384244903764,
+                "close": 0.11129048742721213,
+                "volume": 155642.6653768795
+            },
+            {
+                "timestamp": 1489190400,
+                "open": 0.11088234503504973,
+                "high": 0.11769373301089697,
+                "low": 0.10276631284357915,
+                "close": 0.11253499780698464,
+                "volume": 56320.69440487144
+            },
+            {
+                "timestamp": 1489276800,
+                "open": 0.1111683548197684,
+                "high": 0.11938399009647818,
+                "low": 0.10701403522123713,
+                "close": 0.11392901618496785,
+                "volume": 95476.54479581317
+            },
+            {
+                "timestamp": 1489363200,
+                "open": 0.11354494065411234,
+                "high": 0.13690521801132868,
+                "low": 0.11320512372146274,
+                "close": 0.12947767755381287,
+                "volume": 241556.37259331506
+            },
+            {
+                "timestamp": 1489449600,
+                "open": 0.13011490105489174,
+                "high": 0.18312663461602188,
+                "low": 0.1266996317341219,
+                "close": 0.14744037487091505,
+                "volume": 908445.3098856772
+            },
+            {
+                "timestamp": 1489536000,
+                "open": 0.14743071190387003,
+                "high": 0.1707781103564717,
+                "low": 0.14294268281331612,
+                "close": 0.16953611703341898,
+                "volume": 389291.0168985803
+            },
+            {
+                "timestamp": 1489622400,
+                "open": 0.17072401716531968,
+                "high": 0.21238424583781929,
+                "low": 0.15615267182744977,
+                "close": 0.20013061950677938,
+                "volume": 637574.5153244431
+            },
+            {
+                "timestamp": 1489708800,
+                "open": 0.19291849724455118,
+                "high": 0.20101215238084358,
+                "low": 0.15612608395697555,
+                "close": 0.1584484477924433,
+                "volume": 351759.01831958967
+            },
+            {
+                "timestamp": 1489795200,
+                "open": 0.15860653044687395,
+                "high": 0.1934976197419612,
+                "low": 0.15426503933972702,
+                "close": 0.17705174315715871,
+                "volume": 423417.84984687716
+            },
+            {
+                "timestamp": 1489881600,
+                "open": 0.17765135431918344,
+                "high": 0.18799593966064768,
+                "low": 0.16171609795637304,
+                "close": 0.18261719317035888,
+                "volume": 194024.33280894556
+            },
+            {
+                "timestamp": 1489968000,
+                "open": 0.18230186345927812,
+                "high": 0.25974228169948366,
+                "low": 0.18068329683503095,
+                "close": 0.2380247613955206,
+                "volume": 941288.8496251161
+            },
+            {
+                "timestamp": 1490054400,
+                "open": 0.23900809756419844,
+                "high": 0.4038680096380628,
+                "low": 0.2304602383528923,
+                "close": 0.30141081875005316,
+                "volume": 5536311.010016619
+            },
+            {
+                "timestamp": 1490140800,
+                "open": 0.3015945642714836,
+                "high": 0.30697788852394675,
+                "low": 0.24009065246405695,
+                "close": 0.28238931650643456,
+                "volume": 1543498.0473043446
+            },
+            {
+                "timestamp": 1490227200,
+                "open": 0.2821920724873992,
+                "high": 0.30632985235277893,
+                "low": 0.2606442273313409,
+                "close": 0.26141621741806254,
+                "volume": 809043.8750150283
+            },
+            {
+                "timestamp": 1490313600,
+                "open": 0.2594416942128917,
+                "high": 0.290841403501051,
+                "low": 0.25415847507229733,
+                "close": 0.25692289613120733,
+                "volume": 849476.1273778017
+            },
+            {
+                "timestamp": 1490400000,
+                "open": 0.25787419042210746,
+                "high": 0.2998303937126131,
+                "low": 0.2413271596809246,
+                "close": 0.27214922066129976,
+                "volume": 772552.8036266468
+            },
+            {
+                "timestamp": 1490486400,
+                "open": 0.27049689893476203,
+                "high": 0.2914081473706548,
+                "low": 0.2467783373603244,
+                "close": 0.2690096830343019,
+                "volume": 566052.6876521358
+            },
+            {
+                "timestamp": 1490572800,
+                "open": 0.27589309901436154,
+                "high": 0.3520484690442035,
+                "low": 0.26624180302396633,
+                "close": 0.30826375689094954,
+                "volume": 1727238.2397246677
+            },
+            {
+                "timestamp": 1490659200,
+                "open": 0.2952282487933035,
+                "high": 0.3480088501779146,
+                "low": 0.2782628466726782,
+                "close": 0.30107417530122227,
+                "volume": 674015.6211188637
+            },
+            {
+                "timestamp": 1490745600,
+                "open": 0.2991661230740183,
+                "high": 0.3475092421863783,
+                "low": 0.2852808594828948,
+                "close": 0.3368024074341342,
+                "volume": 672090.7585723931
+            },
+            {
+                "timestamp": 1490832000,
+                "open": 0.3361236908238593,
+                "high": 0.35359799426234645,
+                "low": 0.30874638015592865,
+                "close": 0.33536402183726965,
+                "volume": 529030.7893636106
+            },
+            {
+                "timestamp": 1490918400,
+                "open": 0.3355997619261026,
+                "high": 0.3568352017457673,
+                "low": 0.2779860254903014,
+                "close": 0.3135098607078835,
+                "volume": 746255.492696389
+            },
+            {
+                "timestamp": 1491004800,
+                "open": 0.3126781822147834,
+                "high": 0.34682582261434347,
+                "low": 0.2901140749458052,
+                "close": 0.31677768998678596,
+                "volume": 221068.0846399153
+            },
+            {
+                "timestamp": 1491091200,
+                "open": 0.31556980753928887,
+                "high": 0.37946876895000087,
+                "low": 0.24413932732384347,
+                "close": 0.2722286245073643,
+                "volume": 727319.6984833332
+            },
+            {
+                "timestamp": 1491177600,
+                "open": 0.27347787885291813,
+                "high": 0.3398083240747394,
+                "low": 0.24046782886579643,
+                "close": 0.27367715406446763,
+                "volume": 581285.9708746091
+            },
+            {
+                "timestamp": 1491264000,
+                "open": 0.27061892410553934,
+                "high": 0.29231104849017603,
+                "low": 0.2505691779939487,
+                "close": 0.26470643806764804,
+                "volume": 201694.4736866295
+            },
+            {
+                "timestamp": 1491350400,
+                "open": 0.26453166176949616,
+                "high": 0.33038445216017737,
+                "low": 0.25185579780157624,
+                "close": 0.2833395523768331,
+                "volume": 216266.95000386337
+            },
+            {
+                "timestamp": 1491436800,
+                "open": 0.2840967203517678,
+                "high": 0.28451752581775974,
+                "low": 0.23446408191331197,
+                "close": 0.26466409571935856,
+                "volume": 332490.11548766476
+            },
+            {
+                "timestamp": 1491523200,
+                "open": 0.2562723768782078,
+                "high": 0.2685593621570118,
+                "low": 0.24520126858302482,
+                "close": 0.2482106734675388,
+                "volume": 166638.2287419339
+            },
+            {
+                "timestamp": 1491609600,
+                "open": 0.2492832032773761,
+                "high": 0.2882000258214971,
+                "low": 0.24428497378842484,
+                "close": 0.2762961877442685,
+                "volume": 277144.14183352375
+            },
+            {
+                "timestamp": 1491696000,
+                "open": 0.2811128969323701,
+                "high": 0.30371277927134877,
+                "low": 0.2547613274837378,
+                "close": 0.26133241653560924,
+                "volume": 318450.6005114061
+            },
+            {
+                "timestamp": 1491782400,
+                "open": 0.26494065786369936,
+                "high": 0.2985851091621725,
+                "low": 0.26494065786369936,
+                "close": 0.27384122158694374,
+                "volume": 103693.62689838275
+            },
+            {
+                "timestamp": 1491868800,
+                "open": 0.27288261625547294,
+                "high": 0.27785660843509413,
+                "low": 0.25965966310670946,
+                "close": 0.2668589096292159,
+                "volume": 127430.8872122205
+            },
+            {
+                "timestamp": 1491955200,
+                "open": 0.26718651300549684,
+                "high": 0.27979472435084946,
+                "low": 0.26153877163392675,
+                "close": 0.27190001768900407,
+                "volume": 150463.37474277173
+            },
+            {
+                "timestamp": 1492041600,
+                "open": 0.2747828396041989,
+                "high": 0.29816247323254524,
+                "low": 0.2612578263644592,
+                "close": 0.2902007939503274,
+                "volume": 273334.6343730664
+            },
+            {
+                "timestamp": 1492128000,
+                "open": 0.2883032085594157,
+                "high": 0.3051784443402379,
+                "low": 0.2787992691518531,
+                "close": 0.2820572988789053,
+                "volume": 206588.54795469373
+            },
+            {
+                "timestamp": 1492214400,
+                "open": 0.28798728091243375,
+                "high": 0.3209115189545695,
+                "low": 0.28111525231022055,
+                "close": 0.30862908021152524,
+                "volume": 170809.40267680702
+            },
+            {
+                "timestamp": 1492300800,
+                "open": 0.30892700737060147,
+                "high": 0.3609264972504379,
+                "low": 0.2881463849939451,
+                "close": 0.32384309504141956,
+                "volume": 591946.3574633492
+            },
+            {
+                "timestamp": 1492387200,
+                "open": 0.3177922509204914,
+                "high": 0.3284337691461171,
+                "low": 0.3038759332578232,
+                "close": 0.3214586733685185,
+                "volume": 183501.4614188313
+            },
+            {
+                "timestamp": 1492473600,
+                "open": 0.32120101338108115,
+                "high": 0.3536382769142624,
+                "low": 0.31464087402288954,
+                "close": 0.34278985230409875,
+                "volume": 249802.95650583899
+            },
+            {
+                "timestamp": 1492560000,
+                "open": 0.3439197114057899,
+                "high": 0.41517635971925915,
+                "low": 0.3132327085659735,
+                "close": 0.3895840269404062,
+                "volume": 1047582.8876914242
+            },
+            {
+                "timestamp": 1492646400,
+                "open": 0.3880927869992962,
+                "high": 0.4205874105826127,
+                "low": 0.3428638471639441,
+                "close": 0.3670417279529067,
+                "volume": 893669.2687879724
+            },
+            {
+                "timestamp": 1492732800,
+                "open": 0.36440036452541347,
+                "high": 0.4201321659137358,
+                "low": 0.36440036452541347,
+                "close": 0.4019169700049413,
+                "volume": 572216.6829325487
+            },
+            {
+                "timestamp": 1492819200,
+                "open": 0.4001084568595989,
+                "high": 0.4116551616797451,
+                "low": 0.3668311612480512,
+                "close": 0.37694360147927997,
+                "volume": 184238.8674844845
+            },
+            {
+                "timestamp": 1492905600,
+                "open": 0.3710279853939399,
+                "high": 0.40809346467826174,
+                "low": 0.35867063560247764,
+                "close": 0.38344763468705106,
+                "volume": 327119.49772400764
+            },
+            {
+                "timestamp": 1492992000,
+                "open": 0.39292111938574226,
+                "high": 0.415959184478406,
+                "low": 0.3630947133487187,
+                "close": 0.39612830448850656,
+                "volume": 397629.4290935218
+            },
+            {
+                "timestamp": 1493078400,
+                "open": 0.4011149482289338,
+                "high": 0.4282167392474411,
+                "low": 0.37768185446456115,
+                "close": 0.4043109848953879,
+                "volume": 401759.7621700706
+            },
+            {
+                "timestamp": 1493164800,
+                "open": 0.40146241632568797,
+                "high": 0.5276746245212979,
+                "low": 0.40146241632568797,
+                "close": 0.4803305567527441,
+                "volume": 1644435.4609079384
+            },
+            {
+                "timestamp": 1493251200,
+                "open": 0.47557439409721475,
+                "high": 0.6034869052984344,
+                "low": 0.47279750377274377,
+                "close": 0.5307258103238064,
+                "volume": 1991756.2906624982
+            },
+            {
+                "timestamp": 1493337600,
+                "open": 0.5344045012743892,
+                "high": 0.5746846016129692,
+                "low": 0.4910622889752301,
+                "close": 0.5400153968217078,
+                "volume": 1054493.281131023
+            },
+            {
+                "timestamp": 1493424000,
+                "open": 0.5345802371067556,
+                "high": 0.5678882526078074,
+                "low": 0.5121104530132509,
+                "close": 0.564598499632691,
+                "volume": 573262.49260106
+            },
+            {
+                "timestamp": 1493510400,
+                "open": 0.5651660862262745,
+                "high": 0.6331908660430224,
+                "low": 0.5238840665609944,
+                "close": 0.6162864587849279,
+                "volume": 1309415.2511767277
+            },
+            {
+                "timestamp": 1493596800,
+                "open": 0.6126939595795623,
+                "high": 0.6879355657707047,
+                "low": 0.5038583656932719,
+                "close": 0.5774608475727986,
+                "volume": 2362438.6203254326
+            },
+            {
+                "timestamp": 1493683200,
+                "open": 0.5906940575226829,
+                "high": 0.6259300687199975,
+                "low": 0.5120567988725235,
+                "close": 0.5481214437290552,
+                "volume": 1138548.906541718
+            },
+            {
+                "timestamp": 1493769600,
+                "open": 0.5472330695022094,
+                "high": 0.6018410453496896,
+                "low": 0.48264030105381167,
+                "close": 0.5561265967250067,
+                "volume": 493314.49970105983
+            },
+            {
+                "timestamp": 1493856000,
+                "open": 0.5527311832085025,
+                "high": 0.6242049746233679,
+                "low": 0.5460149537531858,
+                "close": 0.598028146400333,
+                "volume": 1446315.0326884496
+            },
+            {
+                "timestamp": 1493942400,
+                "open": 0.5914465301408106,
+                "high": 0.6838842350380052,
+                "low": 0.5793958179717983,
+                "close": 0.5931824173526187,
+                "volume": 1956468.7869959772
+            },
+            {
+                "timestamp": 1494028800,
+                "open": 0.5908792715734793,
+                "high": 0.6833246134557714,
+                "low": 0.5586802367492212,
+                "close": 0.6458629223631853,
+                "volume": 1570915.4206674201
+            },
+            {
+                "timestamp": 1494115200,
+                "open": 0.6460418121742749,
+                "high": 0.7113532905211206,
+                "low": 0.5916180874645006,
+                "close": 0.610205381385804,
+                "volume": 1885972.0784146448
+            },
+            {
+                "timestamp": 1494201600,
+                "open": 0.6181851510046149,
+                "high": 0.6412950815977028,
+                "low": 0.5758927535087168,
+                "close": 0.6075760599883224,
+                "volume": 1880807.2290669936
+            },
+            {
+                "timestamp": 1494288000,
+                "open": 0.6103617105227577,
+                "high": 0.6234307457407179,
+                "low": 0.46419313737534423,
+                "close": 0.5432577540298094,
+                "volume": 1671736.217426225
+            },
+            {
+                "timestamp": 1494374400,
+                "open": 0.5441882652408517,
+                "high": 0.5768810677728351,
+                "low": 0.5022857874938988,
+                "close": 0.5636539090452464,
+                "volume": 728391.281856695
+            },
+            {
+                "timestamp": 1494460800,
+                "open": 0.5659782545037253,
+                "high": 0.5843578753083187,
+                "low": 0.5206343682330004,
+                "close": 0.5474609399883463,
+                "volume": 508115.2513913362
+            },
+            {
+                "timestamp": 1494547200,
+                "open": 0.5472349871871842,
+                "high": 0.6330670926472654,
+                "low": 0.5395558413609739,
+                "close": 0.5832487724940956,
+                "volume": 860543.855264583
+            },
+            {
+                "timestamp": 1494633600,
+                "open": 0.5798136035595423,
+                "high": 0.6055228050396169,
+                "low": 0.5486046423990361,
+                "close": 0.5650743097426427,
+                "volume": 524094.3058509136
+            },
+            {
+                "timestamp": 1494720000,
+                "open": 0.5748550041288737,
+                "high": 0.6293945558387805,
+                "low": 0.5667567989918819,
+                "close": 0.5985548331807656,
+                "volume": 355917.07146912377
+            },
+            {
+                "timestamp": 1494806400,
+                "open": 0.5976970931756487,
+                "high": 0.6227849746010519,
+                "low": 0.5479889119156509,
+                "close": 0.5561937374251478,
+                "volume": 655787.4427807321
+            },
+            {
+                "timestamp": 1494892800,
+                "open": 0.5622675860935825,
+                "high": 0.5885516144338834,
+                "low": 0.5072858411685719,
+                "close": 0.5072858411685719,
+                "volume": 749384.9308235318
+            },
+            {
+                "timestamp": 1494979200,
+                "open": 0.5098745916868073,
+                "high": 0.5963114732766301,
+                "low": 0.48341277507927627,
+                "close": 0.5669971319144367,
+                "volume": 971598.8924562851
+            },
+            {
+                "timestamp": 1495065600,
+                "open": 0.5702654406844636,
+                "high": 0.645723818550324,
+                "low": 0.5411435725789965,
+                "close": 0.6212161745452828,
+                "volume": 933039.4003357034
+            },
+            {
+                "timestamp": 1495152000,
+                "open": 0.6222023553738198,
+                "high": 0.7660964702997983,
+                "low": 0.5986423889641056,
+                "close": 0.6961110153794823,
+                "volume": 2530138.549710177
+            },
+            {
+                "timestamp": 1495238400,
+                "open": 0.6927326438648375,
+                "high": 0.7778571582221586,
+                "low": 0.6754419636499059,
+                "close": 0.7778062690677547,
+                "volume": 1247944.4541773566
+            },
+            {
+                "timestamp": 1495324800,
+                "open": 0.7672194292946023,
+                "high": 0.8839666156557281,
+                "low": 0.7639524912326284,
+                "close": 0.800926342801288,
+                "volume": 1965879.996597834
+            },
+            {
+                "timestamp": 1495411200,
+                "open": 0.8029588723779695,
+                "high": 0.8775510134447756,
+                "low": 0.739801476030612,
+                "close": 0.8400592715719702,
+                "volume": 1648696.3249379722
+            },
+            {
+                "timestamp": 1495497600,
+                "open": 0.8224524141996592,
+                "high": 1.0305338310003986,
+                "low": 0.795163333116343,
+                "close": 0.9791350410719774,
+                "volume": 1908506.9685279839
+            },
+            {
+                "timestamp": 1495584000,
+                "open": 0.9877766464895664,
+                "high": 1.7344285993294966,
+                "low": 0.9854562368539229,
+                "close": 1.5735897397780025,
+                "volume": 22179000.24349553
+            },
+            {
+                "timestamp": 1495670400,
+                "open": 1.5646292746123203,
+                "high": 1.6435253271524293,
+                "low": 1.0100550924067921,
+                "close": 1.1239578030464819,
+                "volume": 3766094.577448802
+            },
+            {
+                "timestamp": 1495756800,
+                "open": 1.120539253434803,
+                "high": 1.4936386837189337,
+                "low": 0.9017946382632989,
+                "close": 1.0289225323156608,
+                "volume": 3512035.92478015
+            },
+            {
+                "timestamp": 1495843200,
+                "open": 1.077991943236998,
+                "high": 1.2047227301701648,
+                "low": 0.7270179462936891,
+                "close": 0.9774371369003281,
+                "volume": 2739149.3128517745
+            },
+            {
+                "timestamp": 1495929600,
+                "open": 1.0096847140407168,
+                "high": 1.1911122407812187,
+                "low": 0.8454463479123486,
+                "close": 1.016763227312097,
+                "volume": 1073666.0550778233
+            },
+            {
+                "timestamp": 1496016000,
+                "open": 1.0647410812587859,
+                "high": 1.0922559074952105,
+                "low": 0.9371791143957238,
+                "close": 1.033320500987287,
+                "volume": 896082.6021471448
+            },
+            {
+                "timestamp": 1496102400,
+                "open": 1.034727048888511,
+                "high": 1.3453253415706599,
+                "low": 0.9861492753332178,
+                "close": 1.0901084273169952,
+                "volume": 3849873.1023726705
+            },
+            {
+                "timestamp": 1496188800,
+                "open": 1.0863324015519873,
+                "high": 1.2217843347663322,
+                "low": 1.0572835315462936,
+                "close": 1.2048347517732105,
+                "volume": 1600935.113159665
+            },
+            {
+                "timestamp": 1496275200,
+                "open": 1.206329259529582,
+                "high": 1.3679134866293223,
+                "low": 1.1771037862433396,
+                "close": 1.3495826131125295,
+                "volume": 1575812.7549823564
+            },
+            {
+                "timestamp": 1496361600,
+                "open": 1.340874320891204,
+                "high": 1.4354914069156806,
+                "low": 1.2218977405064506,
+                "close": 1.3527483259916087,
+                "volume": 1828430.3633435303
+            },
+            {
+                "timestamp": 1496448000,
+                "open": 1.354561958511588,
+                "high": 1.4692077950381242,
+                "low": 1.2634633948775855,
+                "close": 1.335483792095642,
+                "volume": 2308774.9970688364
+            },
+            {
+                "timestamp": 1496534400,
+                "open": 1.3363919654015535,
+                "high": 1.436978748995478,
+                "low": 1.2598621651161497,
+                "close": 1.3963581803788156,
+                "volume": 1769453.4339516975
+            },
+            {
+                "timestamp": 1496620800,
+                "open": 1.4225942783747594,
+                "high": 1.8545025570038625,
+                "low": 1.4134814641332234,
+                "close": 1.8422056301381988,
+                "volume": 5699440.4156823065
+            },
+            {
+                "timestamp": 1496707200,
+                "open": 1.8542900046684399,
+                "high": 2.28023893449622,
+                "low": 1.6246415292625849,
+                "close": 2.0874237504181865,
+                "volume": 17563129.219667096
+            },
+            {
+                "timestamp": 1496793600,
+                "open": 2.085740282033478,
+                "high": 3.449895544932104,
+                "low": 2.0647377719769606,
+                "close": 2.2668607453258116,
+                "volume": 56315064.97538793
+            },
+            {
+                "timestamp": 1496880000,
+                "open": 2.2794687586336204,
+                "high": 3.2453780514051855,
+                "low": 2.1676323537479707,
+                "close": 3.138554507525851,
+                "volume": 21308517.33076281
+            },
+            {
+                "timestamp": 1496966400,
+                "open": 3.1438041865109394,
+                "high": 3.8853987923236875,
+                "low": 2.9237206016106634,
+                "close": 3.7938209634803237,
+                "volume": 28240466.969843797
+            },
+            {
+                "timestamp": 1497052800,
+                "open": 3.7956809910126297,
+                "high": 4.49155638538987,
+                "low": 3.4711425650464074,
+                "close": 3.6600636087797707,
+                "volume": 41904264.82715772
+            },
+            {
+                "timestamp": 1497139200,
+                "open": 3.6446982754570243,
+                "high": 4.058606597283204,
+                "low": 2.9968313863007885,
+                "close": 3.8895283723771867,
+                "volume": 19103195.972098254
+            },
+            {
+                "timestamp": 1497225600,
+                "open": 3.9000838138268064,
+                "high": 3.9150733279196204,
+                "low": 2.756654385681328,
+                "close": 3.2530030375273795,
+                "volume": 12269364.458029764
+            },
+            {
+                "timestamp": 1497312000,
+                "open": 3.2224755645360723,
+                "high": 3.8397115416735272,
+                "low": 3.019631936153059,
+                "close": 3.6433485013886555,
+                "volume": 10750442.713140327
+            },
+            {
+                "timestamp": 1497398400,
+                "open": 3.6435656589488987,
+                "high": 3.769516166291917,
+                "low": 2.8481478953421164,
+                "close": 3.288223149674179,
+                "volume": 7726592.853649207
+            },
+            {
+                "timestamp": 1497484800,
+                "open": 3.295686397583033,
+                "high": 3.298208660409669,
+                "low": 2.3309061252538217,
+                "close": 3.0359061478697282,
+                "volume": 6807516.081119391
+            },
+            {
+                "timestamp": 1497571200,
+                "open": 3.046337254951778,
+                "high": 3.243276230251206,
+                "low": 2.9048574776189895,
+                "close": 3.0080647207987807,
+                "volume": 2577794.99292449
+            },
+            {
+                "timestamp": 1497657600,
+                "open": 3.0148336129431152,
+                "high": 3.2969480090901437,
+                "low": 2.814020250666511,
+                "close": 3.111761995574578,
+                "volume": 4414220.619235804
+            },
+            {
+                "timestamp": 1497744000,
+                "open": 3.128162555288558,
+                "high": 3.3362081525966323,
+                "low": 2.954332348074599,
+                "close": 3.128563697893497,
+                "volume": 5165246.482410985
+            },
+            {
+                "timestamp": 1497830400,
+                "open": 3.1267846654990668,
+                "high": 3.3897874681094753,
+                "low": 3.051001601189081,
+                "close": 3.22596448477919,
+                "volume": 5660725.734860117
+            },
+            {
+                "timestamp": 1497916800,
+                "open": 3.2425678135031704,
+                "high": 3.6853236069094812,
+                "low": 3.1795186117698875,
+                "close": 3.3884145198945372,
+                "volume": 9717653.063573858
+            },
+            {
+                "timestamp": 1498003200,
+                "open": 3.388188481696899,
+                "high": 3.5295374989356936,
+                "low": 3.0063314129243426,
+                "close": 3.173753422956721,
+                "volume": 4196478.998217278
+            },
+            {
+                "timestamp": 1498089600,
+                "open": 3.174114701798845,
+                "high": 3.474836520035482,
+                "low": 3.0592061814293916,
+                "close": 3.3073635491726034,
+                "volume": 2467119.341061813
+            },
+            {
+                "timestamp": 1498176000,
+                "open": 3.3272016062700507,
+                "high": 3.419273808267655,
+                "low": 3.1613416600113076,
+                "close": 3.268096627450478,
+                "volume": 2343555.9946455937
+            },
+            {
+                "timestamp": 1498262400,
+                "open": 3.2903045384720295,
+                "high": 3.623683090954434,
+                "low": 3.0858773836370914,
+                "close": 3.1598268712789306,
+                "volume": 2363266.2815115172
+            },
+            {
+                "timestamp": 1498348800,
+                "open": 3.2120044796560046,
+                "high": 3.3147940682319668,
+                "low": 2.6531132226916543,
+                "close": 2.95524608552974,
+                "volume": 3201047.5366844796
+            },
+            {
+                "timestamp": 1498435200,
+                "open": 2.962094500973925,
+                "high": 3.049654059247212,
+                "low": 2.1964389796071173,
+                "close": 2.7359488785874952,
+                "volume": 4538455.592083815
+            },
+            {
+                "timestamp": 1498521600,
+                "open": 2.7270497181019056,
+                "high": 2.7460096436305967,
+                "low": 2.047124103832451,
+                "close": 2.743897157510009,
+                "volume": 3835306.6233220752
+            },
+            {
+                "timestamp": 1498608000,
+                "open": 2.7449351940827653,
+                "high": 3.0097106550785275,
+                "low": 2.434108449536935,
+                "close": 2.8858535897111954,
+                "volume": 4359359.590786999
+            },
+            {
+                "timestamp": 1498694400,
+                "open": 2.8933470806223043,
+                "high": 2.9553076436899834,
+                "low": 2.4846533163885405,
+                "close": 2.6543130950330283,
+                "volume": 2542311.2090027826
+            },
+            {
+                "timestamp": 1498780800,
+                "open": 2.6512395292070634,
+                "high": 2.9087912584469287,
+                "low": 2.4209821422034845,
+                "close": 2.5116697216765536,
+                "volume": 3699991.1034107557
+            },
+            {
+                "timestamp": 1498867200,
+                "open": 2.5109552251020126,
+                "high": 2.5363028847699027,
+                "low": 2.196143001639212,
+                "close": 2.2784544333591685,
+                "volume": 1522428.3702429798
+            },
+            {
+                "timestamp": 1498953600,
+                "open": 2.277800671947855,
+                "high": 2.6524603129454354,
+                "low": 2.118376010209826,
+                "close": 2.549436109054374,
+                "volume": 3316082.615660958
+            },
+            {
+                "timestamp": 1499040000,
+                "open": 2.5816955723690254,
+                "high": 2.6034334149852727,
+                "low": 2.3637232081649415,
+                "close": 2.4491403899443736,
+                "volume": 1455508.2791427064
+            },
+            {
+                "timestamp": 1499126400,
+                "open": 2.4787427490694305,
+                "high": 2.6902804185738405,
+                "low": 2.4577007178015062,
+                "close": 2.536331293508128,
+                "volume": 1605173.1271235321
+            },
+            {
+                "timestamp": 1499212800,
+                "open": 2.5169973975644915,
+                "high": 2.528173762357054,
+                "low": 2.3992587506765166,
+                "close": 2.482474999793586,
+                "volume": 1206959.5039139849
+            },
+            {
+                "timestamp": 1499299200,
+                "open": 2.493770073335228,
+                "high": 2.8777720718323656,
+                "low": 2.4308708375916286,
+                "close": 2.5132298018811734,
+                "volume": 3194985.0409866055
+            },
+            {
+                "timestamp": 1499385600,
+                "open": 2.496615957426538,
+                "high": 2.5151517590398162,
+                "low": 2.2139020290928477,
+                "close": 2.2573159804718705,
+                "volume": 2620095.449683617
+            },
+            {
+                "timestamp": 1499472000,
+                "open": 2.2539472598677026,
+                "high": 2.256659052665155,
+                "low": 2.012136424690882,
+                "close": 2.239331050791402,
+                "volume": 2266036.0430045445
+            },
+            {
+                "timestamp": 1499558400,
+                "open": 2.2232052937351736,
+                "high": 2.3504901272943717,
+                "low": 2.0243206174442014,
+                "close": 2.0574651390528484,
+                "volume": 856955.7302828518
+            },
+            {
+                "timestamp": 1499644800,
+                "open": 2.0472752094550843,
+                "high": 2.075765723780387,
+                "low": 1.282269249515746,
+                "close": 1.6020972553482853,
+                "volume": 3193245.839591899
+            },
+            {
+                "timestamp": 1499731200,
+                "open": 1.5990690580671607,
+                "high": 1.6401593962782506,
+                "low": 1.306732699176862,
+                "close": 1.4348748498573407,
+                "volume": 2370965.9122248096
+            },
+            {
+                "timestamp": 1499817600,
+                "open": 1.4355433198373744,
+                "high": 1.8111275978588237,
+                "low": 1.314598473535352,
+                "close": 1.7498997764145678,
+                "volume": 2150712.6266541323
+            },
+            {
+                "timestamp": 1499904000,
+                "open": 1.7476586840403963,
+                "high": 1.993441051344134,
+                "low": 1.65313262968766,
+                "close": 1.748498795782764,
+                "volume": 1890336.108659504
+            },
+            {
+                "timestamp": 1499990400,
+                "open": 1.7516957576803593,
+                "high": 1.7597157053939982,
+                "low": 1.4390520515277223,
+                "close": 1.554973760246906,
+                "volume": 1288890.2521957764
+            },
+            {
+                "timestamp": 1500076800,
+                "open": 1.564237333347577,
+                "high": 1.5818910640030868,
+                "low": 1.374131675376464,
+                "close": 1.3777631766208152,
+                "volume": 1174107.2237611937
+            },
+            {
+                "timestamp": 1500163200,
+                "open": 1.3824424785972993,
+                "high": 1.4397329215695327,
+                "low": 1.1442763850795161,
+                "close": 1.398251959843101,
+                "volume": 1266301.4516583332
+            },
+            {
+                "timestamp": 1500249600,
+                "open": 1.398592593556106,
+                "high": 1.833255284739015,
+                "low": 1.361031197771494,
+                "close": 1.7799275186743782,
+                "volume": 1388933.661557067
+            },
+            {
+                "timestamp": 1500336000,
+                "open": 1.7783172304758166,
+                "high": 1.8024717395656602,
+                "low": 1.5026808199498554,
+                "close": 1.7678171432316299,
+                "volume": 1847965.1651265805
+            },
+            {
+                "timestamp": 1500422400,
+                "open": 1.7700109269905868,
+                "high": 1.8855856670542164,
+                "low": 1.5928124378425876,
+                "close": 1.6213225350242715,
+                "volume": 1094497.4146084168
+            },
+            {
+                "timestamp": 1500508800,
+                "open": 1.6189805299323263,
+                "high": 2.0477496460300957,
+                "low": 1.6158505716235192,
+                "close": 1.9809739512380473,
+                "volume": 1810470.5070587492
+            },
+            {
+                "timestamp": 1500595200,
+                "open": 1.9791908210425202,
+                "high": 2.073272112082111,
+                "low": 1.7663627755729778,
+                "close": 1.8757796058759466,
+                "volume": 1167306.6424578892
+            },
+            {
+                "timestamp": 1500681600,
+                "open": 1.8638350052347747,
+                "high": 2.367573581609142,
+                "low": 1.8424945689570986,
+                "close": 2.3619329510227898,
+                "volume": 1119618.702469371
+            },
+            {
+                "timestamp": 1500768000,
+                "open": 2.3580705161556206,
+                "high": 2.3748000640097358,
+                "low": 1.9187887335998297,
+                "close": 2.1229582213918636,
+                "volume": 1205255.494502748
+            },
+            {
+                "timestamp": 1500854400,
+                "open": 2.1267378857517265,
+                "high": 2.3232675356125005,
+                "low": 2.0366934093648275,
+                "close": 2.237830058984819,
+                "volume": 1485935.679545874
+            },
+            {
+                "timestamp": 1500940800,
+                "open": 2.2348887318684647,
+                "high": 2.535855781385171,
+                "low": 1.8540123734504157,
+                "close": 2.031736524261294,
+                "volume": 5033768.131119556
+            },
+            {
+                "timestamp": 1501027200,
+                "open": 2.039436547054749,
+                "high": 2.12694434734532,
+                "low": 1.8129196375022998,
+                "close": 1.9643584972033588,
+                "volume": 1601751.184437905
+            },
+            {
+                "timestamp": 1501113600,
+                "open": 1.952597717955718,
+                "high": 2.042593860684603,
+                "low": 1.8872150076209557,
+                "close": 1.9585421185691902,
+                "volume": 975818.5774090283
+            },
+            {
+                "timestamp": 1501200000,
+                "open": 1.9571802498440134,
+                "high": 2.0456155998081975,
+                "low": 1.7010353851566649,
+                "close": 1.8222281255667274,
+                "volume": 1502403.6335953686
+            },
+            {
+                "timestamp": 1501286400,
+                "open": 1.7972581716707425,
+                "high": 1.900320366354635,
+                "low": 1.7221850445441618,
+                "close": 1.8865842356516644,
+                "volume": 703061.5298642564
+            },
+            {
+                "timestamp": 1501372800,
+                "open": 1.8702432772668334,
+                "high": 1.933735644337046,
+                "low": 1.7502377725601732,
+                "close": 1.812033190378585,
+                "volume": 542091.9810593163
+            },
+            {
+                "timestamp": 1501459200,
+                "open": 1.7978647118486402,
+                "high": 1.990751190806939,
+                "low": 1.7303691394855734,
+                "close": 1.98330929679026,
+                "volume": 694094.1856670147
+            },
+            {
+                "timestamp": 1501545600,
+                "open": 1.9830556365965877,
+                "high": 2.1107369534833946,
+                "low": 1.6365727015647116,
+                "close": 2.085621721604187,
+                "volume": 960190.3526147654
+            },
+            {
+                "timestamp": 1501632000,
+                "open": 2.0505527723841266,
+                "high": 2.2590719805731907,
+                "low": 1.955867658114998,
+                "close": 2.004029230771336,
+                "volume": 1416232.9415260265
+            },
+            {
+                "timestamp": 1501718400,
+                "open": 2.0026742389942678,
+                "high": 2.1831694390453293,
+                "low": 1.919646469781054,
+                "close": 2.0751536846052683,
+                "volume": 961068.4427414881
+            },
+            {
+                "timestamp": 1501804800,
+                "open": 2.07663281595451,
+                "high": 2.1476976002341766,
+                "low": 2.008186961499751,
+                "close": 2.054874529973867,
+                "volume": 908158.8302910778
+            },
+            {
+                "timestamp": 1501891200,
+                "open": 2.083358481981239,
+                "high": 2.2464364728080137,
+                "low": 2.0323383095437544,
+                "close": 2.1802202307401433,
+                "volume": 1708050.4402137585
+            },
+            {
+                "timestamp": 1501977600,
+                "open": 2.1889913849344502,
+                "high": 2.2465312432221816,
+                "low": 2.1067843346008455,
+                "close": 2.166921080358884,
+                "volume": 1305967.99507904
+            },
+            {
+                "timestamp": 1502064000,
+                "open": 2.1659643045807133,
+                "high": 2.2429057368913266,
+                "low": 2.108833474008412,
+                "close": 2.147825971913999,
+                "volume": 1306425.9677803922
+            },
+            {
+                "timestamp": 1502150400,
+                "open": 2.148378775539227,
+                "high": 2.4130148045604125,
+                "low": 2.0352705471748784,
+                "close": 2.3832065422696065,
+                "volume": 2814195.0092358952
+            },
+            {
+                "timestamp": 1502236800,
+                "open": 2.3874420188955496,
+                "high": 2.508895323400748,
+                "low": 1.7601742925000063,
+                "close": 2.2682017875720377,
+                "volume": 1823137.8045065925
+            },
+            {
+                "timestamp": 1502323200,
+                "open": 2.2755809302233168,
+                "high": 2.3256339051596027,
+                "low": 2.134468975964421,
+                "close": 2.1842982322949487,
+                "volume": 1754124.7934733396
+            },
+            {
+                "timestamp": 1502409600,
+                "open": 2.1889504840617517,
+                "high": 2.3304487685267103,
+                "low": 2.086819191129461,
+                "close": 2.1989371334738643,
+                "volume": 1829059.5780728168
+            },
+            {
+                "timestamp": 1502496000,
+                "open": 2.2094586238551357,
+                "high": 2.352863162850395,
+                "low": 2.091390542195553,
+                "close": 2.288771654660707,
+                "volume": 1962539.0507071808
+            },
+            {
+                "timestamp": 1502582400,
+                "open": 2.3850805447379266,
+                "high": 2.4608386858813063,
+                "low": 2.006642144415554,
+                "close": 2.223708274333009,
+                "volume": 3070722.466124688
+            },
+            {
+                "timestamp": 1502668800,
+                "open": 2.2330157779918145,
+                "high": 2.5379760600802417,
+                "low": 2.0526481904840987,
+                "close": 2.242471147259557,
+                "volume": 2797916.498907719
+            },
+            {
+                "timestamp": 1502755200,
+                "open": 2.265077390718854,
+                "high": 2.2982922218999104,
+                "low": 2.000872239516897,
+                "close": 2.1902289167508164,
+                "volume": 2671945.419534762
+            },
+            {
+                "timestamp": 1502841600,
+                "open": 2.1832138980772915,
+                "high": 2.2822336400347076,
+                "low": 2.0660842435748257,
+                "close": 2.228697031164447,
+                "volume": 1771712.513569637
+            },
+            {
+                "timestamp": 1502928000,
+                "open": 2.217025515158387,
+                "high": 2.2532688135942722,
+                "low": 2.0199688525546486,
+                "close": 2.0845029570564235,
+                "volume": 1690408.0795608996
+            },
+            {
+                "timestamp": 1503014400,
+                "open": 2.056647213012086,
+                "high": 2.1389318195805362,
+                "low": 1.9160027621045588,
+                "close": 2.0446929164441956,
+                "volume": 1760114.644046225
+            },
+            {
+                "timestamp": 1503100800,
+                "open": 1.9807187785000975,
+                "high": 3.55041649992964,
+                "low": 1.8599550631876212,
+                "close": 3.113715539559665,
+                "volume": 3087086.567223818
+            },
+            {
+                "timestamp": 1503187200,
+                "open": 3.1096821346785677,
+                "high": 4.443417327968022,
+                "low": 2.1401932028529247,
+                "close": 3.621542601651656,
+                "volume": 13880007.660749909
+            },
+            {
+                "timestamp": 1503273600,
+                "open": 3.593633026649331,
+                "high": 4.023222912750661,
+                "low": 2.533522618417663,
+                "close": 2.711463447591347,
+                "volume": 13577583.00058126
+            },
+            {
+                "timestamp": 1503360000,
+                "open": 2.7161874200339486,
+                "high": 3.106352358909199,
+                "low": 2.508932472955558,
+                "close": 2.8977669803608768,
+                "volume": 6682670.60648113
+            },
+            {
+                "timestamp": 1503446400,
+                "open": 2.9223482526507176,
+                "high": 3.3449032339384854,
+                "low": 2.7693567520898195,
+                "close": 3.0597287610008754,
+                "volume": 6038613.208816468
+            },
+            {
+                "timestamp": 1503532800,
+                "open": 3.056757279563721,
+                "high": 4.130354228528928,
+                "low": 2.9947019200725626,
+                "close": 3.701125282667208,
+                "volume": 23915483.006006006
+            },
+            {
+                "timestamp": 1503619200,
+                "open": 3.705513279174635,
+                "high": 4.626674383489575,
+                "low": 3.6067161162144257,
+                "close": 4.336551497474916,
+                "volume": 20767391.620780848
+            },
+            {
+                "timestamp": 1503705600,
+                "open": 4.329474261423852,
+                "high": 5.942963986166664,
+                "low": 4.29052563255924,
+                "close": 5.718093849391921,
+                "volume": 51459113.85157508
+            },
+            {
+                "timestamp": 1503792000,
+                "open": 5.720815888295802,
+                "high": 7.818508526861333,
+                "low": 5.714260986213411,
+                "close": 6.867352714467363,
+                "volume": 81544132.20961338
+            },
+            {
+                "timestamp": 1503878400,
+                "open": 6.868091002922592,
+                "high": 7.071849824609431,
+                "low": 5.863205141233071,
+                "close": 6.333381412212971,
+                "volume": 29926043.917003423
+            },
+            {
+                "timestamp": 1503964800,
+                "open": 6.339561075288535,
+                "high": 6.659103354919739,
+                "low": 5.616606281977964,
+                "close": 6.065432485553887,
+                "volume": 24120478.312904008
+            },
+            {
+                "timestamp": 1504051200,
+                "open": 6.071343217869559,
+                "high": 6.8043941613912695,
+                "low": 5.35418579368379,
+                "close": 6.061282066522756,
+                "volume": 27377078.70528789
+            },
+            {
+                "timestamp": 1504137600,
+                "open": 6.019115098903037,
+                "high": 7.318707893998821,
+                "low": 5.913974838248023,
+                "close": 7.185549929951855,
+                "volume": 24048424.28545858
+            },
+            {
+                "timestamp": 1504224000,
+                "open": 7.207499364985305,
+                "high": 8.346728150142871,
+                "low": 7.207499364985305,
+                "close": 7.44628043589825,
+                "volume": 36044983.2160692
+            },
+            {
+                "timestamp": 1504310400,
+                "open": 7.4608519649791765,
+                "high": 7.5962049416320845,
+                "low": 6.293627401998199,
+                "close": 6.651999670737943,
+                "volume": 15676398.661330031
+            },
+            {
+                "timestamp": 1504396800,
+                "open": 6.731920748548555,
+                "high": 7.364535716268127,
+                "low": 6.219436881420097,
+                "close": 7.131429636936354,
+                "volume": 9678481.4334903
+            },
+            {
+                "timestamp": 1504483200,
+                "open": 7.170727151846063,
+                "high": 7.211351522249266,
+                "low": 4.83616244187684,
+                "close": 5.947642692596861,
+                "volume": 15953399.44183732
+            },
+            {
+                "timestamp": 1504569600,
+                "open": 5.981419501610595,
+                "high": 6.402126301264458,
+                "low": 5.029739905915128,
+                "close": 6.1962642722354975,
+                "volume": 16139648.712291382
+            },
+            {
+                "timestamp": 1504656000,
+                "open": 6.182493526792237,
+                "high": 7.27600212551439,
+                "low": 6.145971973593937,
+                "close": 7.100142196620289,
+                "volume": 14472135.330801927
+            },
+            {
+                "timestamp": 1504742400,
+                "open": 7.093590824137057,
+                "high": 7.640544077077794,
+                "low": 6.736303505794954,
+                "close": 7.492300382154615,
+                "volume": 13661158.606752496
+            },
+            {
+                "timestamp": 1504828800,
+                "open": 7.487929851436627,
+                "high": 8.191666049242148,
+                "low": 6.346788813602162,
+                "close": 7.113238695171715,
+                "volume": 22951480.703462582
+            },
+            {
+                "timestamp": 1504915200,
+                "open": 7.157240781354357,
+                "high": 7.322025767609877,
+                "low": 6.597801601808411,
+                "close": 7.163543329749234,
+                "volume": 6692019.70157928
+            },
+            {
+                "timestamp": 1505001600,
+                "open": 7.116168860241385,
+                "high": 7.162914541617184,
+                "low": 6.286651449412641,
+                "close": 6.820747770137796,
+                "volume": 7457818.931985348
+            },
+            {
+                "timestamp": 1505088000,
+                "open": 6.7837337113838885,
+                "high": 7.18983312096392,
+                "low": 6.6231237724080705,
+                "close": 6.848714342426002,
+                "volume": 5557895.181885203
+            },
+            {
+                "timestamp": 1505174400,
+                "open": 6.817127298273906,
+                "high": 7.384467467102893,
+                "low": 6.6926315633094,
+                "close": 7.086724758582054,
+                "volume": 12202383.805783954
+            },
+            {
+                "timestamp": 1505260800,
+                "open": 7.057420811818783,
+                "high": 7.156071283206487,
+                "low": 6.146243972461009,
+                "close": 6.468639370747855,
+                "volume": 8410788.223630248
+            },
+            {
+                "timestamp": 1505347200,
+                "open": 6.459601092038411,
+                "high": 6.653537724829897,
+                "low": 4.128711627440181,
+                "close": 4.354738296393148,
+                "volume": 15859765.069426011
+            },
+            {
+                "timestamp": 1505433600,
+                "open": 4.379485115735674,
+                "high": 5.925281773791431,
+                "low": 3.975328301501076,
+                "close": 5.746094830067539,
+                "volume": 16037919.387747398
+            },
+            {
+                "timestamp": 1505520000,
+                "open": 5.734798402114035,
+                "high": 5.9831315043765985,
+                "low": 5.105708709474349,
+                "close": 5.568177920693985,
+                "volume": 6400109.422759079
+            },
+            {
+                "timestamp": 1505606400,
+                "open": 5.570686282813721,
+                "high": 5.735098367061671,
+                "low": 5.044041493539527,
+                "close": 5.502193401111206,
+                "volume": 3295700.5045503615
+            },
+            {
+                "timestamp": 1505692800,
+                "open": 5.512097019267064,
+                "high": 6.740644891539964,
+                "low": 5.496440455534771,
+                "close": 6.7164940533739275,
+                "volume": 6973061.3980179755
+            },
+            {
+                "timestamp": 1505779200,
+                "open": 6.671535413428524,
+                "high": 6.794440030492702,
+                "low": 5.876467279747961,
+                "close": 6.158501981866493,
+                "volume": 5162654.054147061
+            },
+            {
+                "timestamp": 1505865600,
+                "open": 6.150488632220031,
+                "high": 6.380491339059829,
+                "low": 5.974345692098288,
+                "close": 6.005888938624521,
+                "volume": 3653871.6025256515
+            },
+            {
+                "timestamp": 1505952000,
+                "open": 5.9944967837999545,
+                "high": 6.102277047311332,
+                "low": 5.182913522746317,
+                "close": 5.340379119694389,
+                "volume": 7770880.148749694
+            },
+            {
+                "timestamp": 1506038400,
+                "open": 5.350329491749003,
+                "high": 6.1260160957480805,
+                "low": 5.219272371316902,
+                "close": 5.826820650467706,
+                "volume": 7055927.8560006395
+            },
+            {
+                "timestamp": 1506124800,
+                "open": 5.789284307971035,
+                "high": 6.207964587222386,
+                "low": 5.685726526614879,
+                "close": 5.957709284347181,
+                "volume": 2697014.879960627
+            },
+            {
+                "timestamp": 1506211200,
+                "open": 5.955539382986089,
+                "high": 6.014867207945501,
+                "low": 5.5478015491284145,
+                "close": 5.6722228752659225,
+                "volume": 2059118.2006687943
+            },
+            {
+                "timestamp": 1506297600,
+                "open": 5.712385755069065,
+                "high": 6.239347398627926,
+                "low": 5.653911674746124,
+                "close": 6.109298953904771,
+                "volume": 3821903.5764315245
+            },
+            {
+                "timestamp": 1506384000,
+                "open": 6.064060889205636,
+                "high": 6.40354298149037,
+                "low": 5.98469762073654,
+                "close": 6.083462418074005,
+                "volume": 4027279.875433241
+            },
+            {
+                "timestamp": 1506470400,
+                "open": 6.089389907506349,
+                "high": 6.453681975486214,
+                "low": 5.940741344205611,
+                "close": 6.310133575198512,
+                "volume": 5906494.538610822
+            },
+            {
+                "timestamp": 1506556800,
+                "open": 6.320794755980275,
+                "high": 6.424068155362823,
+                "low": 5.946663091522179,
+                "close": 6.032688798248957,
+                "volume": 5033337.132521035
+            },
+            {
+                "timestamp": 1506643200,
+                "open": 6.004411952237863,
+                "high": 6.0425969987020345,
+                "low": 5.383727879085703,
+                "close": 5.691554192652892,
+                "volume": 4890889.450601414
+            },
+            {
+                "timestamp": 1506729600,
+                "open": 5.68674177765782,
+                "high": 6.267933808853625,
+                "low": 5.572237901298541,
+                "close": 5.846641402403863,
+                "volume": 5235707.207701305
+            },
+            {
+                "timestamp": 1506816000,
+                "open": 5.878789039196527,
+                "high": 6.018225493826749,
+                "low": 5.423462753749937,
+                "close": 5.491021006527997,
+                "volume": 5082264.059144213
+            },
+            {
+                "timestamp": 1506902400,
+                "open": 5.489085758969741,
+                "high": 5.838344526547122,
+                "low": 5.2847135524481015,
+                "close": 5.414843218113467,
+                "volume": 4192908.1527092643
+            },
+            {
+                "timestamp": 1506988800,
+                "open": 5.4055310861664765,
+                "high": 5.804749925135958,
+                "low": 5.172295540011228,
+                "close": 5.706881501807262,
+                "volume": 4848258.38572094
+            },
+            {
+                "timestamp": 1507075200,
+                "open": 5.7274911578023335,
+                "high": 5.927113840178237,
+                "low": 5.3589735685130595,
+                "close": 5.52263087077272,
+                "volume": 3456435.953553372
+            },
+            {
+                "timestamp": 1507161600,
+                "open": 5.515785122346087,
+                "high": 5.5944168158779535,
+                "low": 5.213499390807662,
+                "close": 5.403960428551364,
+                "volume": 2896530.6029056767
+            },
+            {
+                "timestamp": 1507248000,
+                "open": 5.460411610151887,
+                "high": 5.575466566240164,
+                "low": 5.222084520337767,
+                "close": 5.333437666864309,
+                "volume": 2581419.228142596
+            },
+            {
+                "timestamp": 1507334400,
+                "open": 5.323782043659002,
+                "high": 5.377226141746247,
+                "low": 5.001063509187387,
+                "close": 5.156847209512734,
+                "volume": 2782539.606936474
+            },
+            {
+                "timestamp": 1507420800,
+                "open": 5.152797601061524,
+                "high": 5.233296748850955,
+                "low": 4.603028467340464,
+                "close": 4.690432036748287,
+                "volume": 5094023.418440456
+            },
+            {
+                "timestamp": 1507507200,
+                "open": 4.679395939894289,
+                "high": 4.982233131846835,
+                "low": 4.323525700207843,
+                "close": 4.721458795324398,
+                "volume": 6141930.799986912
+            },
+            {
+                "timestamp": 1507593600,
+                "open": 4.719078499222823,
+                "high": 5.036561949521511,
+                "low": 4.488780207834062,
+                "close": 4.9237124195762,
+                "volume": 3288170.844215918
+            },
+            {
+                "timestamp": 1507680000,
+                "open": 4.909659467248701,
+                "high": 5.468901676615749,
+                "low": 4.909659467248701,
+                "close": 5.365825404642375,
+                "volume": 5376520.7187177865
+            },
+            {
+                "timestamp": 1507766400,
+                "open": 5.368264348237302,
+                "high": 5.470554058089213,
+                "low": 4.868765318089902,
+                "close": 4.956463773663234,
+                "volume": 5369212.88123095
+            },
+            {
+                "timestamp": 1507852800,
+                "open": 4.953479802870333,
+                "high": 5.115465874744888,
+                "low": 4.626573152783403,
+                "close": 4.872577033856343,
+                "volume": 5258870.90957788
+            },
+            {
+                "timestamp": 1507939200,
+                "open": 4.855570408914432,
+                "high": 5.137838267158379,
+                "low": 4.580896941219042,
+                "close": 4.749353097158876,
+                "volume": 3506941.4059992633
+            },
+            {
+                "timestamp": 1508025600,
+                "open": 4.750607306316281,
+                "high": 5.011282327567422,
+                "low": 4.460653527697857,
+                "close": 4.963381931094697,
+                "volume": 3532229.1205404997
+            },
+            {
+                "timestamp": 1508112000,
+                "open": 4.966798899568035,
+                "high": 5.181303479223898,
+                "low": 4.642549516028835,
+                "close": 4.929489239044013,
+                "volume": 3165238.0111432965
+            },
+            {
+                "timestamp": 1508198400,
+                "open": 4.985820288700276,
+                "high": 5.188147703177229,
+                "low": 4.766286945180313,
+                "close": 5.09662844497665,
+                "volume": 3552787.0094483774
+            },
+            {
+                "timestamp": 1508284800,
+                "open": 5.0766325129611465,
+                "high": 5.195552949652941,
+                "low": 4.766762423555563,
+                "close": 5.129539329414495,
+                "volume": 3610834.686027357
+            },
+            {
+                "timestamp": 1508371200,
+                "open": 5.120852833235727,
+                "high": 5.291637544869679,
+                "low": 4.817308610206583,
+                "close": 4.984832190753245,
+                "volume": 2981768.4486185787
+            },
+            {
+                "timestamp": 1508457600,
+                "open": 5.145628609065725,
+                "high": 5.145628609065725,
+                "low": 4.787673438840173,
+                "close": 4.900186640328141,
+                "volume": 3328770.3478565197
+            },
+            {
+                "timestamp": 1508544000,
+                "open": 4.86919724405414,
+                "high": 4.93131532846213,
+                "low": 4.422121011628609,
+                "close": 4.7126363512286,
+                "volume": 3477300.4034282737
+            },
+            {
+                "timestamp": 1508630400,
+                "open": 4.698654865899635,
+                "high": 4.928027127394762,
+                "low": 4.5693975586285545,
+                "close": 4.710597651095971,
+                "volume": 2666938.0624544946
+            },
+            {
+                "timestamp": 1508716800,
+                "open": 4.748008282239437,
+                "high": 5.1513879856319065,
+                "low": 4.372147230012782,
+                "close": 4.5137101628379,
+                "volume": 2868423.741148971
+            },
+            {
+                "timestamp": 1508803200,
+                "open": 4.417093614042362,
+                "high": 6.018611162952667,
+                "low": 4.417093614042362,
+                "close": 5.540378702468053,
+                "volume": 10338209.190141737
+            },
+            {
+                "timestamp": 1508889600,
+                "open": 5.528648351703515,
+                "high": 5.5895595018792985,
+                "low": 4.9362756790126205,
+                "close": 5.140092507996504,
+                "volume": 5158022.892302614
+            },
+            {
+                "timestamp": 1508976000,
+                "open": 5.15089354036546,
+                "high": 5.435198159609719,
+                "low": 4.898338692768872,
+                "close": 5.177451102491522,
+                "volume": 3916860.125018865
+            },
+            {
+                "timestamp": 1509062400,
+                "open": 5.14907272699362,
+                "high": 5.3485170871130805,
+                "low": 4.41997874916153,
+                "close": 4.9640760038857845,
+                "volume": 2396187.9264806025
+            },
+            {
+                "timestamp": 1509148800,
+                "open": 4.961481702972801,
+                "high": 5.090591526689836,
+                "low": 4.6028957213388875,
+                "close": 4.6888903247949925,
+                "volume": 1903880.1152916693
+            },
+            {
+                "timestamp": 1509235200,
+                "open": 4.684816833593067,
+                "high": 4.974509406799589,
+                "low": 4.631051675109108,
+                "close": 4.849821563374825,
+                "volume": 2921796.2903136765
+            },
+            {
+                "timestamp": 1509321600,
+                "open": 4.8508982768943145,
+                "high": 5.007544648977356,
+                "low": 4.669327541621872,
+                "close": 4.929086911902898,
+                "volume": 2960564.5970567083
+            },
+            {
+                "timestamp": 1509408000,
+                "open": 4.901343542869649,
+                "high": 5.00049003077563,
+                "low": 4.617291007953164,
+                "close": 4.6981963203699895,
+                "volume": 2444168.9280056483
+            },
+            {
+                "timestamp": 1509494400,
+                "open": 4.679658932514471,
+                "high": 4.960306943798367,
+                "low": 4.398588539951077,
+                "close": 4.4303464565163555,
+                "volume": 4965265.636175915
+            },
+            {
+                "timestamp": 1509580800,
+                "open": 4.441142144345018,
+                "high": 4.696051190260291,
+                "low": 3.8538595233510833,
+                "close": 4.314965059255498,
+                "volume": 7482276.494418828
+            },
+            {
+                "timestamp": 1509667200,
+                "open": 4.28659851958692,
+                "high": 4.61127473172572,
+                "low": 4.169422784599359,
+                "close": 4.50772047588355,
+                "volume": 2771731.955889314
+            },
+            {
+                "timestamp": 1509753600,
+                "open": 4.510048291206553,
+                "high": 4.796833794775464,
+                "low": 4.318337134649953,
+                "close": 4.648197406305762,
+                "volume": 2930710.4334036037
+            },
+            {
+                "timestamp": 1509840000,
+                "open": 4.65083663301954,
+                "high": 4.679182584354581,
+                "low": 4.356403861817028,
+                "close": 4.4707214105555435,
+                "volume": 1997955.5727892234
+            },
+            {
+                "timestamp": 1509926400,
+                "open": 4.483904924903568,
+                "high": 4.678471855398949,
+                "low": 4.325271437571874,
+                "close": 4.57572280292946,
+                "volume": 2825671.368631192
+            }
+        ]
+    },
+    {
+        "id": "a9c04b71-33e4-4fed-8126-cf1612c7e198",
+        "serialId": 6135,
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "slug": "chainlink",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x514910771af9ca656af840dff83e8264ecf986ca"
+            },
+            {
+                "platform": "sora",
+                "contractAddress": "0x008484148dcf23d1b48908393e7a00d5fdc3bf81029a73eeca62a15ebfb1205a"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x218532a12a389a4a92fc0c5fb22901d1c19198aa"
+            },
+            {
+                "platform": "huobi-token",
+                "contractAddress": "0x9e004545c59d359f6b7bfb06a26390b087717b42"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0x5947bb275c521040051d82396192181b413227a3"
+            },
+            {
+                "platform": "xdai",
+                "contractAddress": "0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2"
+            },
+            {
+                "platform": "fantom",
+                "contractAddress": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8"
+            },
+            {
+                "platform": "optimistic-ethereum",
+                "contractAddress": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd"
+            },
+            {
+                "platform": "osmosis",
+                "contractAddress": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049"
+            }
+        ],
+        "category": "rwa",
+        "market_data": [
+            {
+                "timestamp": 1506556800,
+                "open": 0.37919963146707897,
+                "high": 0.37919963146707897,
+                "low": 0.19676711584890658,
+                "close": 0.2448375809852842,
+                "volume": 5942060.999641856
+            },
+            {
+                "timestamp": 1506643200,
+                "open": 0.24376241507728225,
+                "high": 0.3436213062288079,
+                "low": 0.21234384072823678,
+                "close": 0.32080124595605497,
+                "volume": 6001342.2474018615
+            },
+            {
+                "timestamp": 1506729600,
+                "open": 0.316663169365133,
+                "high": 0.4791591883563081,
+                "low": 0.2973688850618249,
+                "close": 0.4524608628245236,
+                "volume": 15676817.866717752
+            },
+            {
+                "timestamp": 1506816000,
+                "open": 0.4524568897182495,
+                "high": 0.4558532866646467,
+                "low": 0.3743689012348071,
+                "close": 0.44116355883457664,
+                "volume": 7153007.475858722
+            },
+            {
+                "timestamp": 1506902400,
+                "open": 0.4439699466535081,
+                "high": 0.44521432200560296,
+                "low": 0.3555550405086691,
+                "close": 0.3632891536649709,
+                "volume": 6011239.916585041
+            },
+            {
+                "timestamp": 1506988800,
+                "open": 0.35705663206841626,
+                "high": 0.36950040298598463,
+                "low": 0.29007761287768136,
+                "close": 0.34548546160763005,
+                "volume": 6131528.143149133
+            },
+            {
+                "timestamp": 1507075200,
+                "open": 0.3436173186450635,
+                "high": 0.39723986537401657,
+                "low": 0.3338173673639552,
+                "close": 0.3935726418783214,
+                "volume": 5782582.836499603
+            },
+            {
+                "timestamp": 1507161600,
+                "open": 0.39336954773676186,
+                "high": 0.4201458505094688,
+                "low": 0.3752799114145525,
+                "close": 0.4050877271583896,
+                "volume": 4943798.62215607
+            },
+            {
+                "timestamp": 1507248000,
+                "open": 0.4053632749264998,
+                "high": 0.4861115726251608,
+                "low": 0.4034519142992821,
+                "close": 0.4753552503286967,
+                "volume": 9986110.21799992
+            },
+            {
+                "timestamp": 1507334400,
+                "open": 0.47758890839866536,
+                "high": 0.47771177807383064,
+                "low": 0.41038210408770726,
+                "close": 0.46526921836201046,
+                "volume": 4963748.220714463
+            },
+            {
+                "timestamp": 1507420800,
+                "open": 0.46478041178867047,
+                "high": 0.4739832769051045,
+                "low": 0.34662574205629165,
+                "close": 0.3973710238911802,
+                "volume": 6617403.980156855
+            },
+            {
+                "timestamp": 1507507200,
+                "open": 0.3968812483910574,
+                "high": 0.4412407233455004,
+                "low": 0.35411447776582233,
+                "close": 0.3788451891386197,
+                "volume": 6088545.462018495
+            },
+            {
+                "timestamp": 1507593600,
+                "open": 0.3788958098811449,
+                "high": 0.44028972148747114,
+                "low": 0.354911609804812,
+                "close": 0.41266984107362503,
+                "volume": 6273280.7220575
+            },
+            {
+                "timestamp": 1507680000,
+                "open": 0.41428762072638414,
+                "high": 0.4523344089732435,
+                "low": 0.40483298671933987,
+                "close": 0.4496556192633621,
+                "volume": 4194108.0329374797
+            },
+            {
+                "timestamp": 1507766400,
+                "open": 0.45215361867177684,
+                "high": 0.47691256879542865,
+                "low": 0.4193176322710538,
+                "close": 0.44588963363103,
+                "volume": 7926823.321087306
+            },
+            {
+                "timestamp": 1507852800,
+                "open": 0.44202388072790333,
+                "high": 0.46108679792347346,
+                "low": 0.41198542170669644,
+                "close": 0.43678846658053033,
+                "volume": 6986474.447334142
+            },
+            {
+                "timestamp": 1507939200,
+                "open": 0.43714883307171404,
+                "high": 0.4598738978782225,
+                "low": 0.38372642077504754,
+                "close": 0.38941933587325284,
+                "volume": 4020526.5876716655
+            },
+            {
+                "timestamp": 1508025600,
+                "open": 0.39055221781668814,
+                "high": 0.4294224213523478,
+                "low": 0.3682507209461323,
+                "close": 0.4164483830092367,
+                "volume": 4352865.513538594
+            },
+            {
+                "timestamp": 1508112000,
+                "open": 0.4161271109663297,
+                "high": 0.5309058085048265,
+                "low": 0.38241409789579284,
+                "close": 0.4193642630058639,
+                "volume": 12107784.168888077
+            },
+            {
+                "timestamp": 1508198400,
+                "open": 0.4215360640495366,
+                "high": 0.42472545150550983,
+                "low": 0.35870015145339357,
+                "close": 0.39918056495062376,
+                "volume": 5469989.030518413
+            },
+            {
+                "timestamp": 1508284800,
+                "open": 0.39946745358951496,
+                "high": 0.4062699226064202,
+                "low": 0.3190441807502656,
+                "close": 0.36670722009304135,
+                "volume": 4452417.016193943
+            },
+            {
+                "timestamp": 1508371200,
+                "open": 0.36765595094541176,
+                "high": 0.3782871703053428,
+                "low": 0.2913461048382438,
+                "close": 0.29949028438240644,
+                "volume": 5594004.696496428
+            },
+            {
+                "timestamp": 1508457600,
+                "open": 0.29843808226221435,
+                "high": 0.323563528649556,
+                "low": 0.21482260656768548,
+                "close": 0.2233787210819325,
+                "volume": 7966702.687663974
+            },
+            {
+                "timestamp": 1508544000,
+                "open": 0.22301910458147547,
+                "high": 0.27005534170209367,
+                "low": 0.1944993590586439,
+                "close": 0.254144836652558,
+                "volume": 4254153.63269462
+            },
+            {
+                "timestamp": 1508630400,
+                "open": 0.25267868847755337,
+                "high": 0.28931731872942457,
+                "low": 0.24741630310838156,
+                "close": 0.26398769608063355,
+                "volume": 3589167.942634299
+            },
+            {
+                "timestamp": 1508716800,
+                "open": 0.2639707306262973,
+                "high": 0.28203657745432525,
+                "low": 0.22676741210698606,
+                "close": 0.24131569078475384,
+                "volume": 2552890.9078944963
+            },
+            {
+                "timestamp": 1508803200,
+                "open": 0.24786503776239888,
+                "high": 0.29883166618032075,
+                "low": 0.23224868526218534,
+                "close": 0.25370014849165334,
+                "volume": 3458495.7107888767
+            },
+            {
+                "timestamp": 1508889600,
+                "open": 0.2532695582890788,
+                "high": 0.2605067950582165,
+                "low": 0.233242362383742,
+                "close": 0.2526888722368377,
+                "volume": 1730194.5427381294
+            },
+            {
+                "timestamp": 1508976000,
+                "open": 0.2524221125797638,
+                "high": 0.253178654069531,
+                "low": 0.2226689592080768,
+                "close": 0.2257421573392066,
+                "volume": 1459690.9255382437
+            },
+            {
+                "timestamp": 1509062400,
+                "open": 0.22728463717099384,
+                "high": 0.2356435486844186,
+                "low": 0.21860275138069385,
+                "close": 0.22306882534473055,
+                "volume": 1063300.4591677724
+            },
+            {
+                "timestamp": 1509148800,
+                "open": 0.22409700168063326,
+                "high": 0.22676566753566893,
+                "low": 0.1954544936683429,
+                "close": 0.20500049904959533,
+                "volume": 1187695.2569791332
+            },
+            {
+                "timestamp": 1509235200,
+                "open": 0.20580110163612378,
+                "high": 0.22463010597128688,
+                "low": 0.1811339777313348,
+                "close": 0.19846557340910226,
+                "volume": 1846487.3255192442
+            },
+            {
+                "timestamp": 1509321600,
+                "open": 0.1975552230093454,
+                "high": 0.21285142322733366,
+                "low": 0.18867575493025615,
+                "close": 0.2088976010844739,
+                "volume": 1154851.5860687036
+            },
+            {
+                "timestamp": 1509408000,
+                "open": 0.20971738301910536,
+                "high": 0.22441536865993833,
+                "low": 0.18271401635261317,
+                "close": 0.19023523248212576,
+                "volume": 2008431.1988763376
+            },
+            {
+                "timestamp": 1509494400,
+                "open": 0.19028914947701037,
+                "high": 0.19108269698557487,
+                "low": 0.15349208227872532,
+                "close": 0.1559756154662072,
+                "volume": 2990360.8727639494
+            },
+            {
+                "timestamp": 1509580800,
+                "open": 0.15600727637228484,
+                "high": 0.19569959076531726,
+                "low": 0.13241829804146033,
+                "close": 0.1621325289665019,
+                "volume": 3052953.7779655317
+            },
+            {
+                "timestamp": 1509667200,
+                "open": 0.16333440866196752,
+                "high": 0.18862859872464072,
+                "low": 0.1579356787144519,
+                "close": 0.1682422854755069,
+                "volume": 2059906.2222023006
+            },
+            {
+                "timestamp": 1509753600,
+                "open": 0.16630206724017743,
+                "high": 0.18661694241832613,
+                "low": 0.16061613393118218,
+                "close": 0.176467943854163,
+                "volume": 1362346.0890638921
+            },
+            {
+                "timestamp": 1509840000,
+                "open": 0.17747105685859613,
+                "high": 0.18266158627312884,
+                "low": 0.16902970367896436,
+                "close": 0.17316281658611984,
+                "volume": 850441.7584792589
+            },
+            {
+                "timestamp": 1509926400,
+                "open": 0.16988140068394014,
+                "high": 0.17400454545123878,
+                "low": 0.15407446312378179,
+                "close": 0.16698626989482981,
+                "volume": 1323639.2230131372
+            }
+        ]
+    },
+    {
+        "id": "b3f0e728-3adf-4725-bc02-2c3a2b5c0ae9",
+        "serialId": 7383,
+        "symbol": "RIO",
+        "name": "Realio Network",
+        "slug": "realio-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xf21661d0d1d76d3ecb8e1b9f1c923dbfffae4097"
+            },
+            {
+                "platform": "stellar",
+                "contractAddress": "RIO-GBNLJIYH34UWO5YZFA3A3HD3N76R6DOI33N4JONUOHEEYZYCAYTEJ5AK"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x8c49a510756224e887b3d99d00d959f2d86dda1c"
+            },
+            {
+                "platform": "algorand",
+                "contractAddress": "2751733"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "b84be4dc-e6df-48e7-82db-031de8161794",
+        "serialId": 2744,
+        "symbol": "PRO",
+        "name": "Propy",
+        "slug": "propy",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x226bb599a12c826476e3a771454697ea52e9e220"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x18dd5b087bca9920562aff7a0199b96b9230438b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": [
+            {
+                "timestamp": 1499644800,
+                "open": 1.8701257253689558,
+                "high": 2.5807677977962893,
+                "low": 1.8244665789874746,
+                "close": 1.8263780181953393,
+                "volume": 1055.5954267415837
+            },
+            {
+                "timestamp": 1499731200,
+                "open": 1.8181990830692358,
+                "high": 1.8181990830692358,
+                "low": 1.6253820374057704,
+                "close": 1.7321398343994412,
+                "volume": 442.1154675621352
+            },
+            {
+                "timestamp": 1499817600,
+                "open": 1.5706654951839998,
+                "high": 1.9418889074418886,
+                "low": 1.5706654951839998,
+                "close": 1.9418889074418886,
+                "volume": 71.44546162313502
+            },
+            {
+                "timestamp": 1499904000,
+                "open": 1.87277512571623,
+                "high": 1.87277512571623,
+                "low": 1.8716209845026146,
+                "close": 1.8716209845026146,
+                "volume": 112.29725907015688
+            },
+            {
+                "timestamp": 1500336000,
+                "open": 1.2457078796529935,
+                "high": 1.345484943585329,
+                "low": 1.2457078796529935,
+                "close": 1.345484943585329,
+                "volume": 142.82322676158267
+            },
+            {
+                "timestamp": 1500422400,
+                "open": 1.4869575072453889,
+                "high": 1.4869575072453889,
+                "low": 1.4850390783639655,
+                "close": 1.4850390783639655,
+                "volume": 29.70078156727931
+            },
+            {
+                "timestamp": 1501027200,
+                "open": 1.1866169712841952,
+                "high": 1.193087277135886,
+                "low": 1.1866169712841952,
+                "close": 1.193087277135886,
+                "volume": 11.93087277135886
+            },
+            {
+                "timestamp": 1502064000,
+                "open": 1.276614295946253,
+                "high": 1.276614295946253,
+                "low": 1.2749791253075777,
+                "close": 1.2749791253075777,
+                "volume": 44.62426938576522
+            },
+            {
+                "timestamp": 1502150400,
+                "open": 1.3770925953357562,
+                "high": 1.3795127618241385,
+                "low": 1.3770925953357562,
+                "close": 1.3795127618241385,
+                "volume": 19.90636915312232
+            },
+            {
+                "timestamp": 1502582400,
+                "open": 1.3751095979630397,
+                "high": 1.3751095979630397,
+                "low": 1.3733530857638467,
+                "close": 1.3733530857638467,
+                "volume": 10.300148143228851
+            },
+            {
+                "timestamp": 1503100800,
+                "open": 1.4272825246497416,
+                "high": 1.429244890057262,
+                "low": 1.4272825246497416,
+                "close": 1.429244890057262,
+                "volume": 27.284284951193133
+            },
+            {
+                "timestamp": 1503273600,
+                "open": 1.6226259863091128,
+                "high": 1.6226259863091128,
+                "low": 1.6210807122420834,
+                "close": 1.6210807122420834,
+                "volume": 19.40433612553774
+            },
+            {
+                "timestamp": 1503878400,
+                "open": 1.7122516652778115,
+                "high": 1.88051594256826,
+                "low": 1.7122516652778115,
+                "close": 1.88051594256826,
+                "volume": 174.3238278760777
+            },
+            {
+                "timestamp": 1503964800,
+                "open": 1.9714648524574157,
+                "high": 1.9714648524574157,
+                "low": 1.6973692401765592,
+                "close": 1.7018192636683596,
+                "volume": 131.38435462085062
+            },
+            {
+                "timestamp": 1504310400,
+                "open": 1.3849147984885055,
+                "high": 1.3849147984885055,
+                "low": 1.3809346235593751,
+                "close": 1.3809346235593751,
+                "volume": 26.90060646693663
+            },
+            {
+                "timestamp": 1504396800,
+                "open": 1.270642749263121,
+                "high": 1.2756943289702414,
+                "low": 1.270642749263121,
+                "close": 1.2756943289702414,
+                "volume": 48.50189838744857
+            },
+            {
+                "timestamp": 1505520000,
+                "open": 0.9169345003200817,
+                "high": 1.5286454125095748,
+                "low": 0.9169345003200817,
+                "close": 1.5269629000171794,
+                "volume": 75.3877335041936
+            },
+            {
+                "timestamp": 1505779200,
+                "open": 2.0067515504324493,
+                "high": 2.007927259800622,
+                "low": 2.0067515504324493,
+                "close": 2.007927259800622,
+                "volume": 59.4145676175004
+            },
+            {
+                "timestamp": 1505865600,
+                "open": 1.756698961632883,
+                "high": 1.7568782192822123,
+                "low": 1.756698961632883,
+                "close": 1.7568782192822123,
+                "volume": 13.721218892594079
+            },
+            {
+                "timestamp": 1505952000,
+                "open": 0.8190291407081249,
+                "high": 0.8190291407081249,
+                "low": 0.7984665037867934,
+                "close": 0.7984665037867934,
+                "volume": 47.907990227207605
+            },
+            {
+                "timestamp": 1506038400,
+                "open": 0.8038245534716861,
+                "high": 0.806069516452309,
+                "low": 0.6415874215728078,
+                "close": 0.6415874215728078,
+                "volume": 222.47470235303751
+            },
+            {
+                "timestamp": 1506124800,
+                "open": 0.7438101620349378,
+                "high": 0.7438101620349378,
+                "low": 0.7434245483678215,
+                "close": 0.7434245483678215,
+                "volume": 119.98128786108272
+            },
+            {
+                "timestamp": 1506211200,
+                "open": 0.5825095486693712,
+                "high": 0.5859587083574629,
+                "low": 0.5825095486693712,
+                "close": 0.5844454558127684,
+                "volume": 216.32356083962884
+            },
+            {
+                "timestamp": 1506384000,
+                "open": 0.4937805409267411,
+                "high": 0.4937805409267411,
+                "low": 0.49370379224147315,
+                "close": 0.49370379224147315,
+                "volume": 76.92398786914393
+            },
+            {
+                "timestamp": 1506470400,
+                "open": 0.8310568839922979,
+                "high": 0.8958015088970486,
+                "low": 0.8310568839922979,
+                "close": 0.8958015088970486,
+                "volume": 218.53681019948624
+            },
+            {
+                "timestamp": 1506556800,
+                "open": 0.7680705942211378,
+                "high": 0.8193379814582994,
+                "low": 0.7680705942211378,
+                "close": 0.809796891524343,
+                "volume": 374.07182188408814
+            },
+            {
+                "timestamp": 1507766400,
+                "open": 0.31529704099935874,
+                "high": 0.33015906168460774,
+                "low": 0.31529704099935874,
+                "close": 0.33015906168460774,
+                "volume": 312.6606314153235
+            },
+            {
+                "timestamp": 1507852800,
+                "open": 0.35555823484215615,
+                "high": 0.35555823484215615,
+                "low": 0.35553706916438643,
+                "close": 0.35553706916438643,
+                "volume": 12.79933448991791
+            },
+            {
+                "timestamp": 1508112000,
+                "open": 0.33913392567987244,
+                "high": 0.33913392567987244,
+                "low": 0.32052825324082673,
+                "close": 0.32086670641629444,
+                "volume": 121.87234179155114
+            },
+            {
+                "timestamp": 1509494400,
+                "open": 0.3266814241954966,
+                "high": 0.3270429607134233,
+                "low": 0.3266814241954966,
+                "close": 0.3270429607134233,
+                "volume": 162.5403514745714
+            },
+            {
+                "timestamp": 1509580800,
+                "open": 0.31417701189740194,
+                "high": 0.31417701189740194,
+                "low": 0.279987443289689,
+                "close": 0.28022402293454224,
+                "volume": 383.8166226733977
+            }
+        ]
+    },
+    {
+        "id": "bc000886-31af-4aa1-9b4e-e0ec9546dfca",
+        "serialId": 17221,
+        "symbol": "GFI",
+        "name": "Goldfinch",
+        "slug": "goldfinch-finance",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xdab396ccf3d84cf2d07c4454e10c8a6f5b008d2b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "bc8775ef-a2b9-4786-b6e4-5692e53b5d87",
+        "serialId": 6018,
+        "symbol": "XCH",
+        "name": "Chia",
+        "slug": "chia",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "be85b939-ec81-4d45-bd32-f52d63706a68",
+        "serialId": 7289,
+        "symbol": "TRADE",
+        "name": "Polytrade",
+        "slug": "polytrade",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6e5970dbd6fc7eb1f29c6d2edf2bc4c36124c0c1"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x692ac1e363ae34b6b489148152b12e2785a3d8d6"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0xe22c452bd2ade15dfc8ad98286bc6bdf0c9219b7"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x6ba7a8f9063c712c1c8cabc776b1da7126805f3b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "c0da60ef-b73f-45bd-8466-e90432406e4c",
+        "serialId": 8187,
+        "symbol": "LAND",
+        "name": "Landshare",
+        "slug": "landshare",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa73164db271931cf952cbaeff9e8f5817b42fa5c"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "c46470b3-5614-4dd3-a286-59a600fad94f",
+        "serialId": 15166,
+        "symbol": "ID",
+        "name": "Everest",
+        "slug": "everid",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xebd9d99a3982d547c5bb4db7e3b1f9f14b67eb83"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x8ea2526c2373ba3fe1d0987f5db8ac770a42dd51"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "cb1eec26-bd87-4585-a3f1-568ad28d3ef2",
+        "serialId": 19644,
+        "symbol": "LMR",
+        "name": "Lumerin",
+        "slug": "lumerin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4b1d0b9f081468d780ca1d5d79132b64301085d1"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "cb43529e-f4a4-4f18-a348-116ad35c9351",
+        "serialId": 2807,
+        "symbol": "LTO",
+        "name": "LTO Network",
+        "slug": "lto-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd01409314acb3b245cea9500ece3f6fd4d70ea30"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x857b222fc79e1cbbf8ca5f78cb133d1b7cf34bbd"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "ce222383-2753-44d4-b9ef-2dd67a7ea730",
+        "serialId": 349,
+        "symbol": "VET",
+        "name": "VeChain",
+        "slug": "vechain",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "d3540108-d1d6-4bd4-ae37-5a5287ecf9af",
+        "serialId": 7978,
+        "symbol": "ADS",
+        "name": "Alkimi",
+        "slug": "alkimi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3106a0a076bedae847652f42ef07fd58589e001f"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "db7344b5-586a-4e9f-917f-1ce09831decd",
+        "serialId": 820,
+        "symbol": "TRU",
+        "name": "TrueFi",
+        "slug": "truefi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4c19596f5aaff459fa38b0f7ed92f11ae6543784"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "eb9e9e28-13b8-4355-a70b-d4ae2a4ba724",
+        "serialId": 1128,
+        "symbol": "ORAI",
+        "name": "Oraichain",
+        "slug": "oraichain",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4c11249814f11b9346808179cf06e71ac328c1b5"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa325ad6d9c92b55a3fc5ad7e412b1518f96441c0"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "f086ee5f-e8c6-42ae-9c65-e2cb33879196",
+        "serialId": 501,
+        "symbol": "QNT",
+        "name": "Quant",
+        "slug": "quant-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4a220e6096b25eadb88358cb44068a3248254675"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "fefc437d-46fa-4470-9ffe-e6c7219a1f9d",
+        "serialId": 9835,
+        "symbol": "XEP",
+        "name": "Electra Protocol",
+        "slug": "electra-protocol",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xb897d0a0f68800f8be7d69ffdd1c24b69f57bf3e"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    }
+]

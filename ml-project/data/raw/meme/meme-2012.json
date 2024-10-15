@@ -1,0 +1,623 @@
+[
+    {
+        "id": "02e9c2cc-2e3b-45fe-b7bb-508cb23a3a39",
+        "serialId": 260634,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "slug": "pepe-0",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6982508145454ce325ddbe47a25d4ec3d2311933"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x25d887ce7a35172c62febfd67a1856f20faebb00"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x25d887ce7a35172c62febfd67a1856f20faebb00"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "05bf91a3-52e5-40ef-b09d-0c471617116e",
+        "serialId": 7472,
+        "symbol": "CATGIRL",
+        "name": "Catgirl",
+        "slug": "catgirl",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x79ebc9a2ce02277a4b5b3a768b1c0a4ed75bd936"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "0d8b00d2-9e0a-4489-891b-6e663a6fcd10",
+        "serialId": 276658,
+        "symbol": "TURBO",
+        "name": "Turbo",
+        "slug": "turbo-0",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xa35923162c49cf95e6bf26623385eb431ad920d3"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "1a5aa1bf-0512-4a7d-ac19-ddaccfbee99f",
+        "serialId": 16600,
+        "symbol": "KATA",
+        "name": "Katana Inu",
+        "slug": "katana-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2e85ae1c47602f7927bcabc2ff99c40aa222ae15"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x6d6ba21e4c4b29ca7bfa1c344ba1e35b8dae7205"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "1bc28038-aa5b-4e3d-9ad9-eaf8cbfed677",
+        "serialId": 401300,
+        "symbol": "TOKEN",
+        "name": "TokenFi",
+        "slug": "tokenfi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "21bca36c-d10c-4df1-87aa-25888c272328",
+        "serialId": 421,
+        "symbol": "BAN",
+        "name": "Banano",
+        "slug": "banano",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034"
+            },
+            {
+                "platform": "fantom",
+                "contractAddress": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "24f283e8-459a-451a-aa23-e7d87058bc8e",
+        "serialId": 9960,
+        "symbol": "DINGO",
+        "name": "Dingocoin",
+        "slug": "dingocoin",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "6VYF5jXq6rfq4QRgGMG6co7b1Ev1Lj7KSbHBxfQ9e1L3"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x9b208b117b2c4f76c1534b6f006b033220a681a4"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "30321bcc-7749-4c54-824d-a308a68ae4f9",
+        "serialId": 7582,
+        "symbol": "CUMMIES",
+        "name": "CumRocket",
+        "slug": "cumrocket",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x27ae27110350b98d564b9a3eed31baebc82d878d"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "474ab169-7082-4128-90ef-6004690230c4",
+        "serialId": 5969,
+        "symbol": "SAMO",
+        "name": "Samoyedcoin",
+        "slug": "samoyedcoin",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "4b58504f-c66e-41ab-88f4-fc923ca41910",
+        "serialId": 9231,
+        "symbol": "KISHU",
+        "name": "Kishu Inu",
+        "slug": "kishu-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xa2b4c0af19cc16a6cfacce81f192b024d625817d"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "4f17ed41-ad49-4693-9e09-066fc70ac686",
+        "serialId": 15723,
+        "symbol": "ELON",
+        "name": "Dogelon Mars",
+        "slug": "dogelon-mars",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe0339c80ffde91f3e20494df88d4206d86024cdf"
+            },
+            {
+                "platform": "solana",
+                "contractAddress": "7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5"
+            },
+            {
+                "platform": "fuse",
+                "contractAddress": "0x5dd8015cec49f4db01fd228f688bf30337d3e0a9"
+            },
+            {
+                "platform": "cronos",
+                "contractAddress": "0x02dccaf514c98451320a9365c5b46c61d3246ff3"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x7bd6fabd64813c48545c9c0e312a0099d9be2540"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "570c8b8a-67ae-4f1a-a67e-a8725d77c8c8",
+        "serialId": 433100,
+        "symbol": "COQ",
+        "name": "Coq Inu",
+        "slug": "coq-inu",
+        "contractAddresses": [
+            {
+                "platform": "avalanche",
+                "contractAddress": "0x420fca0121dc28039145009570975747295f2329"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "5f30210e-2be5-4df8-993a-d9a76b2d2459",
+        "serialId": 9695,
+        "symbol": "BONE",
+        "name": "Bone ShibaSwap",
+        "slug": "bone-shibaswap",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x9813037ee2218799597d83d4a5b6f3b6778218d9"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "63db6cb3-e05c-4097-b484-b3cc13eda823",
+        "serialId": 10105,
+        "symbol": "CAT",
+        "name": "Cat Token",
+        "slug": "cat-token",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x56015bbe3c01fe05bc30a8a9a9fd9a88917e7db3"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "659b36f4-fb73-434b-aad1-47ea91dab664",
+        "serialId": 6067,
+        "symbol": "PIT",
+        "name": "Pitbull",
+        "slug": "pitbull",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa57ac35ce91ee92caefaa8dc04140c8e232c2e50"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "7d793fa7-5fc6-432a-b26b-d1b10769d42e",
+        "serialId": 91,
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "slug": "dogecoin",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4206931337dc273a630d328da6441786bfad668f"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "84f23d4f-c8d9-4e98-b41d-61b2c7aa15a1",
+        "serialId": 6456,
+        "symbol": "KANGAL",
+        "name": "Kangal",
+        "slug": "kangal",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6e765d26388a17a6e86c49a8e41df3f58abcd337"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x34f380a4e3389e99c0369264453523bbe5af7fab"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xd632bd021a07af70592ce1e18717ab9aa126decb"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "8509a634-23a6-4791-ae1d-384d6dd068ee",
+        "serialId": 8169,
+        "symbol": "CHEEMS",
+        "name": "Cheems",
+        "slug": "cheems",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "3FoUAsGDbvTD6YZ4wVKJgTB76onJUKz7GPEBNiR5b8wc"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "8c4f84a7-6484-4074-8c17-fe363a243e7f",
+        "serialId": 6195,
+        "symbol": "SHIB",
+        "name": "Shiba Inu",
+        "slug": "shiba-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "8fd8e24d-3540-4b2c-903a-bb5f932ca054",
+        "serialId": 7668,
+        "symbol": "CATE",
+        "name": "CateCoin",
+        "slug": "catecoin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xf05897cfe3ce9bbbfe0751cbe6b1b2c686848dcb"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xe4fae3faa8300810c835970b9187c268f55d998f"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "9052787a-68c2-4c19-8925-80b49f2b8913",
+        "serialId": 13969,
+        "symbol": "LEASH",
+        "name": "Doge Killer",
+        "slug": "leash",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x27c70cd1946795b66be9d954418546998b546634"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "9297f192-d929-4c88-82bf-3cab3dff27f7",
+        "serialId": 466941,
+        "symbol": "WEN",
+        "name": "Wen",
+        "slug": "wen-4",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "9ccb430a-8884-451c-b382-49a4a0c81f61",
+        "serialId": 13878,
+        "symbol": "SMI",
+        "name": "SafeMoon Inu",
+        "slug": "safemoon-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xcd7492db29e2ab436e819b249452ee1bbdf52214"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "9fb6e340-7969-4047-86ae-d60cb11a70ad",
+        "serialId": 95060,
+        "symbol": "FLOKI",
+        "name": "FLOKI",
+        "slug": "floki",
+        "contractAddresses": null,
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "beded6db-7cfa-4ebc-8a27-4b27b4401d6b",
+        "serialId": 414086,
+        "symbol": "MYRO",
+        "name": "Myro",
+        "slug": "myro",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "c16cce0c-f968-4df0-9165-d790336bef6f",
+        "serialId": 13061,
+        "symbol": "LOWB",
+        "name": "Loser Coin",
+        "slug": "loser-coin",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x1c0a798b5a5273a9e54028eb1524fd337b24145f"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x843d4a358471547f51534e3e51fae91cb4dc3f28"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "c2b6aa74-ad3c-4b6d-8ddb-d649fadf27ae",
+        "serialId": 8018,
+        "symbol": "HOGE",
+        "name": "Hoge Finance",
+        "slug": "hoge-finance",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xfad45e47083e4607302aa43c65fb3106f1cd7607"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa4fffc757e8c4f24e7b209c033c123d20983ad40"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "dbd393f1-f374-439d-a705-636261b88096",
+        "serialId": 413267,
+        "symbol": "MEME",
+        "name": "Memecoin",
+        "slug": "memecoin-2",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "dce01826-60a0-4bf0-b917-0a54840327a8",
+        "serialId": 662497,
+        "symbol": "torsy",
+        "name": "TORSY",
+        "slug": "torsy",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "5YqckGEkWHJmp9LW5aUF2uJrdUbMJaHcYnGjA8M7Ebw8"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "de219c84-a43e-4d70-b29d-40735250282c",
+        "serialId": 333662,
+        "symbol": "MOG",
+        "name": "Mog Coin",
+        "slug": "mog-coin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xaaee1a9723aadb7afa2810263653a34ba2c21c7a"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x2da56acb9ea78330f947bd57c54119debda7af71"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "e365ad15-0867-4b03-864e-1ab59f21ef00",
+        "serialId": 14819,
+        "symbol": "VINU",
+        "name": "Vita Inu",
+        "slug": "vita-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xafcdd4f666c84fed1d8bd825aa762e3714f652c9"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xafcdd4f666c84fed1d8bd825aa762e3714f652c9"
+            },
+            {
+                "platform": "vite",
+                "contractAddress": "tti_541b25bd5e5db35166864096"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xfebe8c1ed424dbf688551d4e2267e7a53698f0aa"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x72ccf64ee5e2c7629ee4eee3e6ad6990289178ae"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "e399a238-6810-4ad4-93d9-24f110e85cdb",
+        "serialId": 15803,
+        "symbol": "AKITA",
+        "name": "Akita Inu",
+        "slug": "akita-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3301ee63fb29f863f2333bd4466acb46cd8323e6"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0xcaf5191fc480f43e4df80106c7695eca56e48b18"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "e7f6fb5c-b7e6-45b4-b9ed-3f3c761f280e",
+        "serialId": 154261,
+        "symbol": "BONK",
+        "name": "Bonk",
+        "slug": "bonk-0",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x1151cb3d861920e07a38e03eead12c32178567f6"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe5b49820e5a1063f6f4ddf851327b5e8b2301048"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x09199d9a5f4448d0848e4395d065e1ad9c4a1f74"
+            },
+            {
+                "platform": "solana",
+                "contractAddress": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa697e272a73744b343528c3bc4702f2565b2f422"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "f49aa7fe-7f5e-438d-80e6-07963f41b360",
+        "serialId": 8108,
+        "symbol": "HODL",
+        "name": "HODL",
+        "slug": "hodl",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xe2a083397521968eb05585932750634bed4b7d56"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    }
+]

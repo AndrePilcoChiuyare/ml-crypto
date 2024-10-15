@@ -1,0 +1,2116 @@
+[
+    {
+        "id": "0d0d9689-bf75-41ee-9555-aa2f2ca0186b",
+        "serialId": 6290,
+        "symbol": "RBN",
+        "name": "Ribbon Finance",
+        "slug": "ribbon-finance",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6123b0049f904d730db3c36a31167d9d4121fa6b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "0f2d0434-2ff5-4166-8d59-5cb1e5b102e1",
+        "serialId": 16077,
+        "symbol": "CREDI",
+        "name": "Credefi",
+        "slug": "credefi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xae6e307c3fe9e922e5674dbd7f830ed49c014c6b"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x2235e79086dd23135119366da45851c741874e5b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "13af58e4-0242-4aa0-8d09-e0aaa262f761",
+        "serialId": 11101,
+        "symbol": "CARR",
+        "name": "Carnomaly",
+        "slug": "carnomaly",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x884ddbb5dc6c2cef77d3e74c6ccca315797d655b"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x9b765735c82bb00085e9dbf194f20e3fa754258e"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "19850b5a-a264-4954-a312-67d15c77f347",
+        "serialId": 17162,
+        "symbol": "EKTA",
+        "name": "Ekta",
+        "slug": "ekta-2",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2f75113b13d136f861d212fa9b572f2c79ac81c4"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x45808ce43eb2d7685ff0242631f0feb6f3d8701a"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "1bc28038-aa5b-4e3d-9ad9-eaf8cbfed677",
+        "serialId": 401300,
+        "symbol": "TOKEN",
+        "name": "TokenFi",
+        "slug": "tokenfi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "1c1cd416-b027-4d73-9d4d-0a9edc63524d",
+        "serialId": 222,
+        "symbol": "CHR",
+        "name": "Chromia",
+        "slug": "chromia",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x8a2279d4a90b6fe1c4b30fa660cc9f926797baa2"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xf9cec8d50f6c8ad3fb6dccec577e05aa32b224fe"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "20a20296-c751-4011-88fa-fc2b8b0a8564",
+        "serialId": 9795,
+        "symbol": "EL",
+        "name": "ELYSIA",
+        "slug": "elysia",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2781246fe707bb15cee3e5ea354e2154a2877b16"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "2db6b38a-681a-4514-9d67-691e319597ee",
+        "serialId": 1265,
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "slug": "avalanche",
+        "contractAddresses": [
+            {
+                "platform": "avalanche",
+                "contractAddress": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z"
+            },
+            {
+                "platform": "moonbeam",
+                "contractAddress": "0x4792c1ecb969b036eb51330c63bd27899a13d84e"
+            },
+            {
+                "platform": "moonriver",
+                "contractAddress": "0x14a0243c333a5b238143068dc3a7323ba4c30ecb"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "317d6ffb-c0b3-43c1-a88a-e19ab22d6171",
+        "serialId": 6706,
+        "symbol": "SMT",
+        "name": "Swarm Markets",
+        "slug": "swarm-markets",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb17548c7b510427baac4e267bea62e800b247173"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe631dabef60c37a37d70d3b4f812871df663226f"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x2680e82fb8beb5a153a67fe687ffa67abb6b9013"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x2974dc646e375e83bd1c0342625b49f288987fa4"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "39a5cc70-09c6-4e20-899e-131507186776",
+        "serialId": 17291,
+        "symbol": "UBXS",
+        "name": "UBXS Token",
+        "slug": "ubxs-token",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4f1960e29b2ca581a38c5c474e123f420f8092db"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "39b71592-9e16-4198-8ca5-3b19a3f41dd3",
+        "serialId": 3993,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "slug": "xinfin-network",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "39f97a1d-e784-497c-926f-d065511bbd69",
+        "serialId": 549169,
+        "symbol": "PRCL",
+        "name": "Parcl",
+        "slug": "parcl",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "4LLbsb5ReP3yEtYzmXewyGjcir5uXtKFURtaEUVC2AHs"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "3b3bb244-c3df-47c4-b5d4-cc8af1c121b1",
+        "serialId": 7147,
+        "symbol": "BOSON",
+        "name": "Boson Protocol",
+        "slug": "boson-protocol",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xc477d038d5420c6a9e0b031712f61c5120090de9"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x9b3b0703d392321ad24338ff1f846650437a43c9"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "40f2f803-cf08-4970-a178-cbe19a916ff7",
+        "serialId": 701,
+        "symbol": "CFG",
+        "name": "Centrifuge",
+        "slug": "centrifuge",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "4758c080-821e-4a19-bbae-4df59682d229",
+        "serialId": 86,
+        "symbol": "MKR",
+        "name": "Maker",
+        "slug": "maker",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+            },
+            {
+                "platform": "sora",
+                "contractAddress": "0x00ec184ef0b4bd955db05eea5a8489ae72888ab6e63682a15beca1cd39344c8f"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x6f7c932e7684666c9fd1d44527765433e01ff61d"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0x88128fd4b259552a9a1d457f435a6527aab72d42"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "54038f3f-95f5-46a3-a9ba-c972b7c1d115",
+        "serialId": 15527,
+        "symbol": "UNO",
+        "name": "Uno Re",
+        "slug": "uno-re",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x474021845c4643113458ea4414bdb7fb74a01a77"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x474021845c4643113458ea4414bdb7fb74a01a77"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "54d246b7-f554-4386-97da-907a03c1a812",
+        "serialId": 343,
+        "symbol": "SNX",
+        "name": "Synthetix",
+        "slug": "synthetix",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x50b728d8d964fd00c2d0aad81718b71311fef68a"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x7b9c523d59aefd362247bd5601a89722e3774dd2"
+            },
+            {
+                "platform": "huobi-token",
+                "contractAddress": "0x777850281719d5a96c29812ab72f822e0e09f3da"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0xbec243c995409e6520d7c41e404da5deba4b209b"
+            },
+            {
+                "platform": "fantom",
+                "contractAddress": "0x56ee926bd8c72b2d5fa1af4d9e4cbb515a1e3adc"
+            },
+            {
+                "platform": "optimistic-ethereum",
+                "contractAddress": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "6f14c9a5-bbfc-4d63-aef2-e649e6a800db",
+        "serialId": 14188,
+        "symbol": "STRX",
+        "name": "StrikeX",
+        "slug": "strikecoin",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xd6fdde76b8c1c45b33790cc8751d5b88984c44ec"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "72ff9ca6-8231-40bd-ba05-e9758a2cbb4c",
+        "serialId": 11558,
+        "symbol": "STBU",
+        "name": "Stobox Token",
+        "slug": "stobox-token",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xa6422e3e219ee6d4c1b18895275fe43556fd50ed"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xcf403036bc139d30080d2cf0f5b48066f98191bb"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xb0c4080a8fa7afa11a09473f3be14d44af3f8743"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "752ea4d3-b21a-4d7c-8297-4817e9d0102c",
+        "serialId": 11105,
+        "symbol": "OPUL",
+        "name": "Opulous",
+        "slug": "opulous",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x80d55c03180349fff4a229102f62328220a96444"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x0c5fa0e07949f941a6c2c29a008252db1527d6ee"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x686318000d982bc8dcc1cdcf8ffd22322f0960ed"
+            },
+            {
+                "platform": "algorand",
+                "contractAddress": "287867876"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "7664656b-a3b9-4e40-9a82-a10c2e75b0ec",
+        "serialId": 18145,
+        "symbol": "POLYX",
+        "name": "Polymesh",
+        "slug": "polymesh",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "7ab662b2-2574-4e48-96ea-dc8eb4545a0b",
+        "serialId": 2792,
+        "symbol": "LSK",
+        "name": "Lisk",
+        "slug": "lisk",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f"
+            }
+        ],
+        "category": "rwa",
+        "market_data": [
+            {
+                "timestamp": 1464048000,
+                "open": 1.1126665405069556,
+                "high": 1.1126665405069556,
+                "low": 0.2321586785058582,
+                "close": 0.23491266841229164,
+                "volume": 192741.94239825735
+            },
+            {
+                "timestamp": 1464134400,
+                "open": 0.23306948117899892,
+                "high": 0.32978848242625625,
+                "low": 0.1580570508153306,
+                "close": 0.27420493047494915,
+                "volume": 4810112.225322062
+            },
+            {
+                "timestamp": 1464220800,
+                "open": 0.2744537773199227,
+                "high": 0.5136675187746189,
+                "low": 0.2685232401752299,
+                "close": 0.5136675187746189,
+                "volume": 10756790.683246639
+            },
+            {
+                "timestamp": 1464307200,
+                "open": 0.5134146979357259,
+                "high": 0.5805702870932798,
+                "low": 0.33305673281216003,
+                "close": 0.3872321701050216,
+                "volume": 10361609.582384229
+            },
+            {
+                "timestamp": 1464393600,
+                "open": 0.38658870638036674,
+                "high": 0.4080338098719943,
+                "low": 0.2754138900835933,
+                "close": 0.3463833407930863,
+                "volume": 5339359.189640229
+            },
+            {
+                "timestamp": 1464480000,
+                "open": 0.34546167733549354,
+                "high": 0.4111864187446342,
+                "low": 0.3448776647055157,
+                "close": 0.37605641140601603,
+                "volume": 2810292.773725214
+            },
+            {
+                "timestamp": 1464566400,
+                "open": 0.3779638176751724,
+                "high": 0.3937383507833461,
+                "low": 0.3439608751667236,
+                "close": 0.35260255041034244,
+                "volume": 1046874.8638235286
+            },
+            {
+                "timestamp": 1464652800,
+                "open": 0.3483634764266735,
+                "high": 0.37007310694692996,
+                "low": 0.2983751675261472,
+                "close": 0.3116312047770338,
+                "volume": 1882647.9422678128
+            },
+            {
+                "timestamp": 1464739200,
+                "open": 0.31231905250699993,
+                "high": 0.3456689352978145,
+                "low": 0.30510393165767313,
+                "close": 0.33580128407015547,
+                "volume": 914880.3195285257
+            },
+            {
+                "timestamp": 1464825600,
+                "open": 0.33715232188383004,
+                "high": 0.34139141294886977,
+                "low": 0.31674477235021997,
+                "close": 0.3324108730004064,
+                "volume": 317738.5654234912
+            },
+            {
+                "timestamp": 1464912000,
+                "open": 0.3313638055954309,
+                "high": 0.4205632762181642,
+                "low": 0.33085351654102774,
+                "close": 0.41055506826588106,
+                "volume": 1828889.76345971
+            },
+            {
+                "timestamp": 1464998400,
+                "open": 0.40949117150820596,
+                "high": 0.4762115321349808,
+                "low": 0.39793426672570825,
+                "close": 0.44657579475221965,
+                "volume": 1883263.7859913672
+            },
+            {
+                "timestamp": 1465084800,
+                "open": 0.44600856802988526,
+                "high": 0.5095036319771122,
+                "low": 0.433238522426298,
+                "close": 0.4891396037867169,
+                "volume": 2240373.7428492703
+            },
+            {
+                "timestamp": 1465171200,
+                "open": 0.48607274232719744,
+                "high": 0.4927159179495131,
+                "low": 0.43328970819141005,
+                "close": 0.45145050945351245,
+                "volume": 1353154.5229927087
+            },
+            {
+                "timestamp": 1465257600,
+                "open": 0.4517049121063876,
+                "high": 0.4571430736866215,
+                "low": 0.39873265226824384,
+                "close": 0.42232594716266464,
+                "volume": 1360989.438454113
+            },
+            {
+                "timestamp": 1465344000,
+                "open": 0.4234181503971163,
+                "high": 0.4924188287165325,
+                "low": 0.39703258579370587,
+                "close": 0.4727342995536785,
+                "volume": 1485550.3278010557
+            },
+            {
+                "timestamp": 1465430400,
+                "open": 0.4753920287919632,
+                "high": 0.4999587471161814,
+                "low": 0.45600819052062896,
+                "close": 0.46626381220939483,
+                "volume": 665040.0810834281
+            },
+            {
+                "timestamp": 1465516800,
+                "open": 0.4592653560672395,
+                "high": 0.46867555179362963,
+                "low": 0.43539792790019954,
+                "close": 0.45457565681735257,
+                "volume": 519044.93414597027
+            },
+            {
+                "timestamp": 1465603200,
+                "open": 0.45848167176270344,
+                "high": 0.48290682578990024,
+                "low": 0.44089024574228786,
+                "close": 0.4508306306210057,
+                "volume": 514044.85206741444
+            },
+            {
+                "timestamp": 1465689600,
+                "open": 0.4526146679077507,
+                "high": 0.45677455929621347,
+                "low": 0.3970643666979964,
+                "close": 0.423296435616807,
+                "volume": 3486359.455306991
+            },
+            {
+                "timestamp": 1465776000,
+                "open": 0.4216952854394328,
+                "high": 0.47203619742561226,
+                "low": 0.4075065261569632,
+                "close": 0.47067222096681094,
+                "volume": 2296309.240867251
+            },
+            {
+                "timestamp": 1465862400,
+                "open": 0.4671076133001912,
+                "high": 0.49273703584968526,
+                "low": 0.4421547681997941,
+                "close": 0.46872889501188775,
+                "volume": 1554677.815502455
+            },
+            {
+                "timestamp": 1465948800,
+                "open": 0.47140477773073575,
+                "high": 0.48209311840799735,
+                "low": 0.4451144596979504,
+                "close": 0.46049641377484113,
+                "volume": 641832.7723216666
+            },
+            {
+                "timestamp": 1466035200,
+                "open": 0.46176093851235994,
+                "high": 0.4749998524351106,
+                "low": 0.4382226647319368,
+                "close": 0.45749405386551434,
+                "volume": 1724517.4001937215
+            },
+            {
+                "timestamp": 1466121600,
+                "open": 0.4559380581186727,
+                "high": 0.4720484281929184,
+                "low": 0.3519904718739247,
+                "close": 0.4380121182323134,
+                "volume": 3637632.1405490767
+            },
+            {
+                "timestamp": 1466208000,
+                "open": 0.4349971030034624,
+                "high": 0.45404445324676634,
+                "low": 0.32763322651275695,
+                "close": 0.3528760052869616,
+                "volume": 2168910.2005276512
+            },
+            {
+                "timestamp": 1466294400,
+                "open": 0.348612873263258,
+                "high": 0.39579723289683943,
+                "low": 0.34401818827773034,
+                "close": 0.36327817371532073,
+                "volume": 691780.583479264
+            },
+            {
+                "timestamp": 1466380800,
+                "open": 0.3621398712187672,
+                "high": 0.36452490101781226,
+                "low": 0.3015961502983526,
+                "close": 0.323085914078052,
+                "volume": 1003516.1017802865
+            },
+            {
+                "timestamp": 1466467200,
+                "open": 0.32043323661193823,
+                "high": 0.3529267111581305,
+                "low": 0.30757011742001605,
+                "close": 0.3272886148298913,
+                "volume": 1254124.6326921547
+            },
+            {
+                "timestamp": 1466553600,
+                "open": 0.32959531336508024,
+                "high": 0.4373167745445703,
+                "low": 0.31052526602733654,
+                "close": 0.3473835270620612,
+                "volume": 3153946.413622059
+            },
+            {
+                "timestamp": 1466640000,
+                "open": 0.3502861061560994,
+                "high": 0.37076100459470535,
+                "low": 0.3356402580147448,
+                "close": 0.3584466053733274,
+                "volume": 1186872.7224516626
+            },
+            {
+                "timestamp": 1466726400,
+                "open": 0.36245038651492284,
+                "high": 0.3834384496495,
+                "low": 0.3293368621374745,
+                "close": 0.38326016362909465,
+                "volume": 1428632.25098531
+            },
+            {
+                "timestamp": 1466812800,
+                "open": 0.38144057475031484,
+                "high": 0.40038685228020654,
+                "low": 0.34108178158129965,
+                "close": 0.35637142938266125,
+                "volume": 691563.5209161397
+            },
+            {
+                "timestamp": 1466899200,
+                "open": 0.3557417753409176,
+                "high": 0.3571809612848114,
+                "low": 0.32542684745330447,
+                "close": 0.32842021175159253,
+                "volume": 281573.7337245542
+            },
+            {
+                "timestamp": 1466985600,
+                "open": 0.3269127144105482,
+                "high": 0.3437309790460416,
+                "low": 0.2884740841860351,
+                "close": 0.30740412083782837,
+                "volume": 437503.74938846164
+            },
+            {
+                "timestamp": 1467072000,
+                "open": 0.305136529819366,
+                "high": 0.32339041705963373,
+                "low": 0.2742710263125468,
+                "close": 0.2884381688929638,
+                "volume": 790362.2907474667
+            },
+            {
+                "timestamp": 1467158400,
+                "open": 0.2893006822379354,
+                "high": 0.31122879299043393,
+                "low": 0.28139378984572283,
+                "close": 0.30389772235288726,
+                "volume": 339806.4541390941
+            },
+            {
+                "timestamp": 1467244800,
+                "open": 0.31093173931372037,
+                "high": 0.3229476000707173,
+                "low": 0.30282781685849086,
+                "close": 0.307466933781991,
+                "volume": 368204.160077763
+            },
+            {
+                "timestamp": 1467331200,
+                "open": 0.30546892148739174,
+                "high": 0.33194549432265136,
+                "low": 0.30386031131427105,
+                "close": 0.32587048394244555,
+                "volume": 192622.82545530444
+            },
+            {
+                "timestamp": 1467417600,
+                "open": 0.32681075463786413,
+                "high": 0.32733355301093114,
+                "low": 0.29803659131509586,
+                "close": 0.3077650800060938,
+                "volume": 198082.3000667298
+            },
+            {
+                "timestamp": 1467504000,
+                "open": 0.3058892047281351,
+                "high": 0.3175378360959351,
+                "low": 0.29926553402292855,
+                "close": 0.30227506821626876,
+                "volume": 115208.68509506717
+            },
+            {
+                "timestamp": 1467590400,
+                "open": 0.3022125569329597,
+                "high": 0.3086950630567951,
+                "low": 0.2926853416629463,
+                "close": 0.304456648249759,
+                "volume": 107422.02885996086
+            },
+            {
+                "timestamp": 1467676800,
+                "open": 0.301849477308434,
+                "high": 0.3029587293651059,
+                "low": 0.27131028951628505,
+                "close": 0.28948973640504183,
+                "volume": 377387.02994030307
+            },
+            {
+                "timestamp": 1467763200,
+                "open": 0.2874758512066231,
+                "high": 0.30039440493187153,
+                "low": 0.28098931130316857,
+                "close": 0.29053490562750633,
+                "volume": 150126.25578055324
+            },
+            {
+                "timestamp": 1467849600,
+                "open": 0.28724740864835613,
+                "high": 0.2876834284435854,
+                "low": 0.25596427240268393,
+                "close": 0.2725625493955038,
+                "volume": 109973.18687691042
+            },
+            {
+                "timestamp": 1467936000,
+                "open": 0.2709614308184948,
+                "high": 0.2949152893778194,
+                "low": 0.26794161700255864,
+                "close": 0.280165989009121,
+                "volume": 189229.63058916014
+            },
+            {
+                "timestamp": 1468022400,
+                "open": 0.2860956284329017,
+                "high": 0.2860956284329017,
+                "low": 0.26393721776712725,
+                "close": 0.2858739971696962,
+                "volume": 85690.89731838954
+            },
+            {
+                "timestamp": 1468108800,
+                "open": 0.27816039149549937,
+                "high": 0.3045762138301846,
+                "low": 0.27668409259864873,
+                "close": 0.2930366050447831,
+                "volume": 31838.86759178163
+            },
+            {
+                "timestamp": 1468195200,
+                "open": 0.29603116926349965,
+                "high": 0.36086562401570677,
+                "low": 0.29603108830118263,
+                "close": 0.3338791036225257,
+                "volume": 1133454.6571097807
+            },
+            {
+                "timestamp": 1468281600,
+                "open": 0.33267008146586463,
+                "high": 0.36068471633553145,
+                "low": 0.30934189391009276,
+                "close": 0.31484035972582364,
+                "volume": 330787.8059805365
+            },
+            {
+                "timestamp": 1468368000,
+                "open": 0.31368576985205326,
+                "high": 0.3327135502943413,
+                "low": 0.3067678693153963,
+                "close": 0.3141437847571979,
+                "volume": 84511.39714319345
+            },
+            {
+                "timestamp": 1468454400,
+                "open": 0.3145230181393112,
+                "high": 0.33496745629040153,
+                "low": 0.3121184944165762,
+                "close": 0.32914392567409484,
+                "volume": 125928.42076807583
+            },
+            {
+                "timestamp": 1468540800,
+                "open": 0.3320315938258502,
+                "high": 0.34206642612827887,
+                "low": 0.321654042676776,
+                "close": 0.328489719120613,
+                "volume": 69770.41510908876
+            },
+            {
+                "timestamp": 1468627200,
+                "open": 0.32725688306442907,
+                "high": 0.32980289251014927,
+                "low": 0.3110677855462231,
+                "close": 0.32014195556007025,
+                "volume": 61824.35385384932
+            },
+            {
+                "timestamp": 1468713600,
+                "open": 0.31968424550542995,
+                "high": 0.3307281059018058,
+                "low": 0.3082202230880726,
+                "close": 0.3162992302795257,
+                "volume": 79062.42843489588
+            },
+            {
+                "timestamp": 1468800000,
+                "open": 0.3118258781430303,
+                "high": 0.32481395761509274,
+                "low": 0.30387478037397253,
+                "close": 0.3115575792238135,
+                "volume": 55205.35103237862
+            },
+            {
+                "timestamp": 1468886400,
+                "open": 0.30713014153230594,
+                "high": 0.32678115228535964,
+                "low": 0.30271871757970137,
+                "close": 0.31071366917815063,
+                "volume": 53923.21369765043
+            },
+            {
+                "timestamp": 1468972800,
+                "open": 0.31295522263949144,
+                "high": 0.3192449016383577,
+                "low": 0.29744053813660204,
+                "close": 0.3099114685010004,
+                "volume": 62546.34789354141
+            },
+            {
+                "timestamp": 1469059200,
+                "open": 0.3125739993589722,
+                "high": 0.32269538535226433,
+                "low": 0.30822839132320307,
+                "close": 0.31926562529149294,
+                "volume": 60508.75181081852
+            },
+            {
+                "timestamp": 1469145600,
+                "open": 0.31882115885577156,
+                "high": 0.33161514503028705,
+                "low": 0.2989074217196357,
+                "close": 0.31267886217946506,
+                "volume": 262216.48233284935
+            },
+            {
+                "timestamp": 1469232000,
+                "open": 0.31134453198991163,
+                "high": 0.31567940406893724,
+                "low": 0.3038014004303513,
+                "close": 0.31144138659227616,
+                "volume": 31881.860183521298
+            },
+            {
+                "timestamp": 1469318400,
+                "open": 0.3076136430187428,
+                "high": 0.3077660475920682,
+                "low": 0.2766863535093357,
+                "close": 0.2783930186340681,
+                "volume": 401129.2246813463
+            },
+            {
+                "timestamp": 1469404800,
+                "open": 0.28634141058827733,
+                "high": 0.2980261589504557,
+                "low": 0.2769558838382196,
+                "close": 0.29300310293689025,
+                "volume": 36307.65728071657
+            },
+            {
+                "timestamp": 1469491200,
+                "open": 0.29520951253828165,
+                "high": 0.308195825723477,
+                "low": 0.24901013437688518,
+                "close": 0.2841740658447979,
+                "volume": 762404.3284790317
+            },
+            {
+                "timestamp": 1469577600,
+                "open": 0.2848323714880197,
+                "high": 0.30339742911262996,
+                "low": 0.2705053583650912,
+                "close": 0.2760030204262582,
+                "volume": 203787.33251997453
+            },
+            {
+                "timestamp": 1469664000,
+                "open": 0.28359445584585535,
+                "high": 0.2847242624420266,
+                "low": 0.2629894376411275,
+                "close": 0.27943109637757657,
+                "volume": 224218.52130670208
+            },
+            {
+                "timestamp": 1469750400,
+                "open": 0.2816973049884212,
+                "high": 0.2856127481091014,
+                "low": 0.265927797852492,
+                "close": 0.28476413395997285,
+                "volume": 34164.76912392663
+            },
+            {
+                "timestamp": 1469836800,
+                "open": 0.2791541272939668,
+                "high": 0.292630067101509,
+                "low": 0.27145937359120587,
+                "close": 0.28110751188218447,
+                "volume": 41172.359878812415
+            },
+            {
+                "timestamp": 1469923200,
+                "open": 0.28403028320669466,
+                "high": 0.28450126277609245,
+                "low": 0.2612954112107651,
+                "close": 0.2669218529912721,
+                "volume": 71608.53805255092
+            },
+            {
+                "timestamp": 1470009600,
+                "open": 0.2686783102906279,
+                "high": 0.2687841285285692,
+                "low": 0.23342284861724377,
+                "close": 0.2396111162754509,
+                "volume": 264637.88581292145
+            },
+            {
+                "timestamp": 1470096000,
+                "open": 0.23926558004114465,
+                "high": 0.2447565475840902,
+                "low": 0.16412040348546184,
+                "close": 0.18158602574053737,
+                "volume": 1035440.8242541872
+            },
+            {
+                "timestamp": 1470182400,
+                "open": 0.18409341066205087,
+                "high": 0.23799624300781785,
+                "low": 0.18150361014533808,
+                "close": 0.2233737147232356,
+                "volume": 922574.3093883415
+            },
+            {
+                "timestamp": 1470268800,
+                "open": 0.22051178467233465,
+                "high": 0.24861124517811667,
+                "low": 0.22028912739898013,
+                "close": 0.23278714594156263,
+                "volume": 280849.5928220558
+            },
+            {
+                "timestamp": 1470355200,
+                "open": 0.22802585347577556,
+                "high": 0.23672138812659776,
+                "low": 0.2218983854311471,
+                "close": 0.2265733114932292,
+                "volume": 79938.91204764739
+            },
+            {
+                "timestamp": 1470441600,
+                "open": 0.22539206511073479,
+                "high": 0.23901431249720193,
+                "low": 0.21632796543495908,
+                "close": 0.23309266405096157,
+                "volume": 95817.38594457216
+            },
+            {
+                "timestamp": 1470528000,
+                "open": 0.23291697000560008,
+                "high": 0.24518283976264085,
+                "low": 0.21293534557650007,
+                "close": 0.21860809466113232,
+                "volume": 250984.08160297584
+            },
+            {
+                "timestamp": 1470614400,
+                "open": 0.2228892553301208,
+                "high": 0.23011454152150865,
+                "low": 0.21730360635955806,
+                "close": 0.22427238542289302,
+                "volume": 32088.741762961658
+            },
+            {
+                "timestamp": 1470700800,
+                "open": 0.22581869211780636,
+                "high": 0.2325760696008644,
+                "low": 0.21827733800327231,
+                "close": 0.22607708477351598,
+                "volume": 140757.7310842862
+            },
+            {
+                "timestamp": 1470787200,
+                "open": 0.22639818823866972,
+                "high": 0.2919577155399854,
+                "low": 0.225212484543298,
+                "close": 0.2636877797764888,
+                "volume": 998020.866053406
+            },
+            {
+                "timestamp": 1470873600,
+                "open": 0.2622539434123728,
+                "high": 0.2737960087616575,
+                "low": 0.23325568910249916,
+                "close": 0.2465313249510059,
+                "volume": 140388.19361601296
+            },
+            {
+                "timestamp": 1470960000,
+                "open": 0.2453443095366609,
+                "high": 0.266136854424699,
+                "low": 0.2340905633586955,
+                "close": 0.24595595868421335,
+                "volume": 189601.26334645168
+            },
+            {
+                "timestamp": 1471046400,
+                "open": 0.2519955873800673,
+                "high": 0.26531810789117793,
+                "low": 0.24648860636187617,
+                "close": 0.25998734107652305,
+                "volume": 56439.93669395955
+            },
+            {
+                "timestamp": 1471132800,
+                "open": 0.25298117182995694,
+                "high": 0.25374430913919416,
+                "low": 0.23138674107109133,
+                "close": 0.2410858507401023,
+                "volume": 83219.42555476534
+            },
+            {
+                "timestamp": 1471219200,
+                "open": 0.23951319399604692,
+                "high": 0.2639740887740182,
+                "low": 0.2377362406920791,
+                "close": 0.25399229500138853,
+                "volume": 140446.91898861315
+            },
+            {
+                "timestamp": 1471305600,
+                "open": 0.2529880901540118,
+                "high": 0.26711669650624503,
+                "low": 0.2512432018542327,
+                "close": 0.25268406934124005,
+                "volume": 42724.614381118605
+            },
+            {
+                "timestamp": 1471392000,
+                "open": 0.260796701076872,
+                "high": 0.27607248052422856,
+                "low": 0.2531615934727034,
+                "close": 0.26575581917072283,
+                "volume": 209518.26949539938
+            },
+            {
+                "timestamp": 1471478400,
+                "open": 0.26928092780207613,
+                "high": 0.33198341227972056,
+                "low": 0.2631483798291903,
+                "close": 0.3059235989566411,
+                "volume": 1112233.8687760448
+            },
+            {
+                "timestamp": 1471564800,
+                "open": 0.2985150254518856,
+                "high": 0.33097893660104466,
+                "low": 0.28407496428957923,
+                "close": 0.28954229835594275,
+                "volume": 539408.6348949708
+            },
+            {
+                "timestamp": 1471651200,
+                "open": 0.29590623855666587,
+                "high": 0.30902428668285253,
+                "low": 0.2807820138480045,
+                "close": 0.28548418918187274,
+                "volume": 137063.99877482603
+            },
+            {
+                "timestamp": 1471737600,
+                "open": 0.28887565581615304,
+                "high": 0.31814307382782225,
+                "low": 0.27005928121568984,
+                "close": 0.3080454211200828,
+                "volume": 113106.13094587681
+            },
+            {
+                "timestamp": 1471824000,
+                "open": 0.3110851763027997,
+                "high": 0.31412713778386997,
+                "low": 0.2720455703321832,
+                "close": 0.2882966344772408,
+                "volume": 265745.38842237624
+            },
+            {
+                "timestamp": 1471910400,
+                "open": 0.28506249567742403,
+                "high": 0.29484914481558494,
+                "low": 0.2460778838384928,
+                "close": 0.27203254070670385,
+                "volume": 637067.5507781345
+            },
+            {
+                "timestamp": 1471996800,
+                "open": 0.27165276041431285,
+                "high": 0.2832423714741424,
+                "low": 0.26111792502981085,
+                "close": 0.2647102039525711,
+                "volume": 156523.56065819893
+            },
+            {
+                "timestamp": 1472083200,
+                "open": 0.2609373699395714,
+                "high": 0.280803275864652,
+                "low": 0.25200461424495296,
+                "close": 0.25588985494122707,
+                "volume": 94227.99822782277
+            },
+            {
+                "timestamp": 1472169600,
+                "open": 0.25626753958284193,
+                "high": 0.2816286840898138,
+                "low": 0.2410889813138221,
+                "close": 0.26532783766861257,
+                "volume": 47923.02287582627
+            },
+            {
+                "timestamp": 1472256000,
+                "open": 0.2646736928909638,
+                "high": 0.27731743237533196,
+                "low": 0.2590613371589215,
+                "close": 0.25978738645815924,
+                "volume": 27880.27673765646
+            },
+            {
+                "timestamp": 1472342400,
+                "open": 0.2600894279356166,
+                "high": 0.2650664958909171,
+                "low": 0.24251327853077698,
+                "close": 0.2611273007703086,
+                "volume": 144049.9641101335
+            },
+            {
+                "timestamp": 1472428800,
+                "open": 0.25646373122737115,
+                "high": 0.26928677906955945,
+                "low": 0.24875798962883616,
+                "close": 0.26792895716931553,
+                "volume": 100454.03489403219
+            },
+            {
+                "timestamp": 1472515200,
+                "open": 0.2695187896773929,
+                "high": 0.26952933678548874,
+                "low": 0.24995767721357628,
+                "close": 0.2543165091608291,
+                "volume": 57634.79953848211
+            },
+            {
+                "timestamp": 1472601600,
+                "open": 0.25583210174420135,
+                "high": 0.2616578710320893,
+                "low": 0.24053911928103344,
+                "close": 0.25292299624599224,
+                "volume": 73126.5297689316
+            },
+            {
+                "timestamp": 1472688000,
+                "open": 0.2530174361099463,
+                "high": 0.25588967933399354,
+                "low": 0.24341801912939615,
+                "close": 0.24532705934107987,
+                "volume": 53582.28467111038
+            },
+            {
+                "timestamp": 1472774400,
+                "open": 0.2451430323669235,
+                "high": 0.2862829091625555,
+                "low": 0.24319027463557827,
+                "close": 0.24835736175561224,
+                "volume": 34712.70384066025
+            },
+            {
+                "timestamp": 1472860800,
+                "open": 0.2477834696798823,
+                "high": 0.3000769186403566,
+                "low": 0.23934077599181855,
+                "close": 0.2444810398144708,
+                "volume": 138438.27738240914
+            },
+            {
+                "timestamp": 1472947200,
+                "open": 0.2451443755115814,
+                "high": 0.2533670042617717,
+                "low": 0.23305135324028942,
+                "close": 0.2424872200215465,
+                "volume": 86087.64589337073
+            },
+            {
+                "timestamp": 1473033600,
+                "open": 0.2457098048296956,
+                "high": 0.2739903061082899,
+                "low": 0.23800281455031785,
+                "close": 0.24968792048395771,
+                "volume": 203692.68187106325
+            },
+            {
+                "timestamp": 1473120000,
+                "open": 0.2518632077632878,
+                "high": 0.25934869357381646,
+                "low": 0.24593138339899487,
+                "close": 0.2548923926477611,
+                "volume": 39767.26040723605
+            },
+            {
+                "timestamp": 1473206400,
+                "open": 0.25679883922343355,
+                "high": 0.260180193822534,
+                "low": 0.25010625570094364,
+                "close": 0.2588939622206829,
+                "volume": 80430.88832264065
+            },
+            {
+                "timestamp": 1473292800,
+                "open": 0.2574050471620268,
+                "high": 0.2624350532379251,
+                "low": 0.2495332160174859,
+                "close": 0.2546513804170519,
+                "volume": 47236.00382734569
+            },
+            {
+                "timestamp": 1473379200,
+                "open": 0.25329849882136113,
+                "high": 0.26148643305762864,
+                "low": 0.25027456246876023,
+                "close": 0.2588508852175333,
+                "volume": 30227.91135571921
+            },
+            {
+                "timestamp": 1473465600,
+                "open": 0.25465289548059467,
+                "high": 0.25888268098804734,
+                "low": 0.2490342255956764,
+                "close": 0.25117517495716746,
+                "volume": 16084.452928323662
+            },
+            {
+                "timestamp": 1473552000,
+                "open": 0.251802744029745,
+                "high": 0.25661280082067317,
+                "low": 0.2391234829051073,
+                "close": 0.24481919279434605,
+                "volume": 20537.03852972684
+            },
+            {
+                "timestamp": 1473638400,
+                "open": 0.24656028085426485,
+                "high": 0.287647001194047,
+                "low": 0.24342099071298215,
+                "close": 0.2668410363573289,
+                "volume": 316552.4151832659
+            },
+            {
+                "timestamp": 1473724800,
+                "open": 0.26617541800098754,
+                "high": 0.2869303279593938,
+                "low": 0.252076404731721,
+                "close": 0.26106367882254083,
+                "volume": 144258.24553105445
+            },
+            {
+                "timestamp": 1473811200,
+                "open": 0.25946776841993946,
+                "high": 0.2782480291475246,
+                "low": 0.2581436310861166,
+                "close": 0.2735397524642756,
+                "volume": 26915.027725449298
+            },
+            {
+                "timestamp": 1473897600,
+                "open": 0.27392903643692,
+                "high": 0.2745182035764436,
+                "low": 0.24960616142295336,
+                "close": 0.2535692696039667,
+                "volume": 39491.826331244396
+            },
+            {
+                "timestamp": 1473984000,
+                "open": 0.2512778996330114,
+                "high": 0.270648606863885,
+                "low": 0.24846465181759617,
+                "close": 0.2627325028716862,
+                "volume": 39203.206256785736
+            },
+            {
+                "timestamp": 1474070400,
+                "open": 0.26055025502654383,
+                "high": 0.26319952508869143,
+                "low": 0.2542158308511602,
+                "close": 0.25774612378955436,
+                "volume": 18311.764735558718
+            },
+            {
+                "timestamp": 1474156800,
+                "open": 0.2562634762253209,
+                "high": 0.25961031414914654,
+                "low": 0.2516110739679134,
+                "close": 0.2563114593077255,
+                "volume": 16922.543117553487
+            },
+            {
+                "timestamp": 1474243200,
+                "open": 0.2533877136929676,
+                "high": 0.26009142340849883,
+                "low": 0.25134356983985945,
+                "close": 0.2535303123864716,
+                "volume": 23043.672444276173
+            },
+            {
+                "timestamp": 1474329600,
+                "open": 0.25335304296565897,
+                "high": 0.27110321421760253,
+                "low": 0.25021955775233645,
+                "close": 0.2618689076591956,
+                "volume": 30641.37062438177
+            },
+            {
+                "timestamp": 1474416000,
+                "open": 0.25981244119306085,
+                "high": 0.27230214308482364,
+                "low": 0.23405401805484705,
+                "close": 0.2513194050108915,
+                "volume": 231402.35450045014
+            },
+            {
+                "timestamp": 1474502400,
+                "open": 0.24881599441414373,
+                "high": 0.25540445780491466,
+                "low": 0.24373897505200365,
+                "close": 0.2491638479259585,
+                "volume": 12513.04035951348
+            },
+            {
+                "timestamp": 1474588800,
+                "open": 0.24701645265982103,
+                "high": 0.24858473663574257,
+                "low": 0.2394236524655054,
+                "close": 0.24303299248752644,
+                "volume": 47408.570464473494
+            },
+            {
+                "timestamp": 1474675200,
+                "open": 0.24338524315660945,
+                "high": 0.2515507561894735,
+                "low": 0.24084771341455685,
+                "close": 0.24657721605530736,
+                "volume": 14692.724426501205
+            },
+            {
+                "timestamp": 1474761600,
+                "open": 0.2474886465509351,
+                "high": 0.25009701499795345,
+                "low": 0.24262700256323824,
+                "close": 0.24262700256323824,
+                "volume": 1563.5472699770125
+            },
+            {
+                "timestamp": 1474848000,
+                "open": 0.24328862605886023,
+                "high": 0.2478158019731943,
+                "low": 0.2369826938041459,
+                "close": 0.2370657334727249,
+                "volume": 44143.79627234193
+            },
+            {
+                "timestamp": 1474934400,
+                "open": 0.2373444637973418,
+                "high": 0.24079191821116205,
+                "low": 0.2357054938196058,
+                "close": 0.23638338138438875,
+                "volume": 12970.147996407408
+            },
+            {
+                "timestamp": 1475020800,
+                "open": 0.2367616868363437,
+                "high": 0.24022409357396243,
+                "low": 0.2346224972184158,
+                "close": 0.23602799035596675,
+                "volume": 9256.41970962379
+            },
+            {
+                "timestamp": 1475107200,
+                "open": 0.23896344665120572,
+                "high": 0.24002254259206077,
+                "low": 0.23456530863124375,
+                "close": 0.23736589293321145,
+                "volume": 18255.572883950223
+            },
+            {
+                "timestamp": 1475193600,
+                "open": 0.2372557777189855,
+                "high": 0.24035761801309177,
+                "low": 0.23372420785323533,
+                "close": 0.2365922283837729,
+                "volume": 16349.24322861381
+            },
+            {
+                "timestamp": 1475280000,
+                "open": 0.2380595698731903,
+                "high": 0.2439550843426473,
+                "low": 0.228936968498634,
+                "close": 0.2323371479716974,
+                "volume": 15967.144334019446
+            },
+            {
+                "timestamp": 1475366400,
+                "open": 0.2342548643710108,
+                "high": 0.23594608662996305,
+                "low": 0.2242882981477136,
+                "close": 0.2242882981477136,
+                "volume": 5992.704207810388
+            },
+            {
+                "timestamp": 1475452800,
+                "open": 0.22950726576138783,
+                "high": 0.24069805304230524,
+                "low": 0.2291708888721551,
+                "close": 0.23903013777461435,
+                "volume": 24761.06550245737
+            },
+            {
+                "timestamp": 1475539200,
+                "open": 0.2391884320040943,
+                "high": 0.24064052700246505,
+                "low": 0.23072504480485176,
+                "close": 0.2341222780967483,
+                "volume": 30506.363969809434
+            },
+            {
+                "timestamp": 1475625600,
+                "open": 0.2333890988514875,
+                "high": 0.23836912538502947,
+                "low": 0.22449714769242313,
+                "close": 0.228747264429421,
+                "volume": 95929.07681299993
+            },
+            {
+                "timestamp": 1475712000,
+                "open": 0.2264895912352085,
+                "high": 0.2291797473429613,
+                "low": 0.21871829403405663,
+                "close": 0.22282091284884875,
+                "volume": 43410.49884524051
+            },
+            {
+                "timestamp": 1475798400,
+                "open": 0.2269939948881272,
+                "high": 0.231438569558282,
+                "low": 0.2157640105409608,
+                "close": 0.2222529274427113,
+                "volume": 51074.333710275336
+            },
+            {
+                "timestamp": 1475884800,
+                "open": 0.2210907536960319,
+                "high": 0.2210907536960319,
+                "low": 0.202168380389524,
+                "close": 0.21832986204850705,
+                "volume": 47232.58751368696
+            },
+            {
+                "timestamp": 1475971200,
+                "open": 0.21719142139763825,
+                "high": 0.22158394283251703,
+                "low": 0.21069799806425657,
+                "close": 0.2155439911050253,
+                "volume": 20084.26302716747
+            },
+            {
+                "timestamp": 1476057600,
+                "open": 0.21326772244748535,
+                "high": 0.23778935326555853,
+                "low": 0.20946107055758695,
+                "close": 0.2129645681528873,
+                "volume": 104966.39417092709
+            },
+            {
+                "timestamp": 1476144000,
+                "open": 0.2161589110238928,
+                "high": 0.21933785583191368,
+                "low": 0.20992737565748593,
+                "close": 0.20992737565748593,
+                "volume": 24866.05986888689
+            },
+            {
+                "timestamp": 1476230400,
+                "open": 0.20849601060874337,
+                "high": 0.2179629405692558,
+                "low": 0.19934947396097305,
+                "close": 0.20744911859053317,
+                "volume": 24652.661956396063
+            },
+            {
+                "timestamp": 1476316800,
+                "open": 0.2056456379199369,
+                "high": 0.21389548713842577,
+                "low": 0.20033450845591308,
+                "close": 0.20216074814708304,
+                "volume": 42174.74407797622
+            },
+            {
+                "timestamp": 1476403200,
+                "open": 0.201568027767652,
+                "high": 0.20280523997242805,
+                "low": 0.17419631883630987,
+                "close": 0.18267473895187528,
+                "volume": 79284.34420047604
+            },
+            {
+                "timestamp": 1476489600,
+                "open": 0.18363488288559282,
+                "high": 0.19323454870631943,
+                "low": 0.17299295840673443,
+                "close": 0.17547681703016266,
+                "volume": 61417.04221412273
+            },
+            {
+                "timestamp": 1476576000,
+                "open": 0.18045624927084275,
+                "high": 0.18630767179238067,
+                "low": 0.17645553521277751,
+                "close": 0.17911608189118042,
+                "volume": 17714.979870078467
+            },
+            {
+                "timestamp": 1476662400,
+                "open": 0.18009209706248003,
+                "high": 0.18853863314120292,
+                "low": 0.1767647213966976,
+                "close": 0.17872345123868838,
+                "volume": 28796.79440351674
+            },
+            {
+                "timestamp": 1476748800,
+                "open": 0.1809682302350116,
+                "high": 0.18283982789245037,
+                "low": 0.17304767267505186,
+                "close": 0.17575224637692835,
+                "volume": 13362.978467338537
+            },
+            {
+                "timestamp": 1476835200,
+                "open": 0.17601309265226486,
+                "high": 0.18291978727132024,
+                "low": 0.1722557996289274,
+                "close": 0.18255559378232677,
+                "volume": 28935.289939678943
+            },
+            {
+                "timestamp": 1476921600,
+                "open": 0.18420887385615847,
+                "high": 0.19261870712826867,
+                "low": 0.17754498354187465,
+                "close": 0.18989633538417655,
+                "volume": 37300.67989972034
+            },
+            {
+                "timestamp": 1477008000,
+                "open": 0.18896008812534457,
+                "high": 0.19653145564454866,
+                "low": 0.18683810745221854,
+                "close": 0.18857908910928248,
+                "volume": 18851.89479933936
+            },
+            {
+                "timestamp": 1477094400,
+                "open": 0.18616433313174768,
+                "high": 0.1908560039636658,
+                "low": 0.17656621522274718,
+                "close": 0.17893533878651469,
+                "volume": 38338.82441326533
+            },
+            {
+                "timestamp": 1477180800,
+                "open": 0.17903358325375618,
+                "high": 0.18141212260643164,
+                "low": 0.15772868962902759,
+                "close": 0.15772868962902759,
+                "volume": 38331.58330874442
+            },
+            {
+                "timestamp": 1477267200,
+                "open": 0.16835086220820902,
+                "high": 0.18473826472970667,
+                "low": 0.16647739827707544,
+                "close": 0.17893912153685865,
+                "volume": 56635.73825799338
+            },
+            {
+                "timestamp": 1477353600,
+                "open": 0.18210941488850968,
+                "high": 0.19467411547435196,
+                "low": 0.17560911650909547,
+                "close": 0.18678865539191006,
+                "volume": 50950.27282257222
+            },
+            {
+                "timestamp": 1477440000,
+                "open": 0.18604223001589668,
+                "high": 0.22356958147181638,
+                "low": 0.18353052568993009,
+                "close": 0.19093201675782656,
+                "volume": 151910.20663165214
+            },
+            {
+                "timestamp": 1477526400,
+                "open": 0.19308340612496128,
+                "high": 0.20238044261938973,
+                "low": 0.18172764980148232,
+                "close": 0.18777536374517895,
+                "volume": 39535.096401433315
+            },
+            {
+                "timestamp": 1477612800,
+                "open": 0.18371128905692308,
+                "high": 0.19192068656723138,
+                "low": 0.17419098179325165,
+                "close": 0.17736466531550849,
+                "volume": 25969.9041543961
+            },
+            {
+                "timestamp": 1477699200,
+                "open": 0.178634619204173,
+                "high": 0.1803208572288196,
+                "low": 0.13727012001260167,
+                "close": 0.1518393577596634,
+                "volume": 238189.32568355757
+            },
+            {
+                "timestamp": 1477785600,
+                "open": 0.15010634452177157,
+                "high": 0.17848891305435,
+                "low": 0.14990112081072168,
+                "close": 0.1739743213836658,
+                "volume": 52880.96908591913
+            },
+            {
+                "timestamp": 1477872000,
+                "open": 0.16907122861797705,
+                "high": 0.182663012644441,
+                "low": 0.1540496629296165,
+                "close": 0.15821728993923553,
+                "volume": 33913.23575588207
+            },
+            {
+                "timestamp": 1477958400,
+                "open": 0.15806658728524145,
+                "high": 0.17606836028078904,
+                "low": 0.14926544680509593,
+                "close": 0.16280722637127906,
+                "volume": 135236.9144879003
+            },
+            {
+                "timestamp": 1478044800,
+                "open": 0.1652615487226324,
+                "high": 0.20041049258301835,
+                "low": 0.160495334543629,
+                "close": 0.1787696068209117,
+                "volume": 133543.8549652325
+            },
+            {
+                "timestamp": 1478131200,
+                "open": 0.17993830669482747,
+                "high": 0.20257661441327832,
+                "low": 0.17272340936048358,
+                "close": 0.1924712305002318,
+                "volume": 120794.86305104793
+            },
+            {
+                "timestamp": 1478217600,
+                "open": 0.18887121440455884,
+                "high": 0.20223595381773932,
+                "low": 0.17716007364781694,
+                "close": 0.18602544000087914,
+                "volume": 55705.88317609638
+            },
+            {
+                "timestamp": 1478304000,
+                "open": 0.18636274290374286,
+                "high": 0.20361720576363854,
+                "low": 0.18279677116892554,
+                "close": 0.20194758844380814,
+                "volume": 52814.670952156885
+            },
+            {
+                "timestamp": 1478390400,
+                "open": 0.20155340756955065,
+                "high": 0.21924086331186715,
+                "low": 0.18710079071657781,
+                "close": 0.21879187358700403,
+                "volume": 95006.60340385571
+            },
+            {
+                "timestamp": 1478476800,
+                "open": 0.21608793513407676,
+                "high": 0.24071293287157294,
+                "low": 0.19364598632009888,
+                "close": 0.21406537385367264,
+                "volume": 568202.4144301547
+            },
+            {
+                "timestamp": 1478563200,
+                "open": 0.2093563572551168,
+                "high": 0.2967937873070936,
+                "low": 0.18339461134343238,
+                "close": 0.18499341957872167,
+                "volume": 140795.8531312161
+            },
+            {
+                "timestamp": 1478649600,
+                "open": 0.1866318093542689,
+                "high": 0.19612611947334202,
+                "low": 0.17001847847539311,
+                "close": 0.1796576505019101,
+                "volume": 93574.57568882253
+            },
+            {
+                "timestamp": 1478736000,
+                "open": 0.18090062212834054,
+                "high": 0.1993265217129995,
+                "low": 0.17840333590254537,
+                "close": 0.18684263852957061,
+                "volume": 37250.15159245193
+            },
+            {
+                "timestamp": 1478822400,
+                "open": 0.18725164836370922,
+                "high": 0.19273544865701686,
+                "low": 0.17906280001262365,
+                "close": 0.18029750981066273,
+                "volume": 25805.94055695045
+            }
+        ]
+    },
+    {
+        "id": "a9c04b71-33e4-4fed-8126-cf1612c7e198",
+        "serialId": 6135,
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "slug": "chainlink",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x514910771af9ca656af840dff83e8264ecf986ca"
+            },
+            {
+                "platform": "sora",
+                "contractAddress": "0x008484148dcf23d1b48908393e7a00d5fdc3bf81029a73eeca62a15ebfb1205a"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x218532a12a389a4a92fc0c5fb22901d1c19198aa"
+            },
+            {
+                "platform": "huobi-token",
+                "contractAddress": "0x9e004545c59d359f6b7bfb06a26390b087717b42"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0x5947bb275c521040051d82396192181b413227a3"
+            },
+            {
+                "platform": "xdai",
+                "contractAddress": "0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2"
+            },
+            {
+                "platform": "fantom",
+                "contractAddress": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8"
+            },
+            {
+                "platform": "optimistic-ethereum",
+                "contractAddress": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd"
+            },
+            {
+                "platform": "osmosis",
+                "contractAddress": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "b3f0e728-3adf-4725-bc02-2c3a2b5c0ae9",
+        "serialId": 7383,
+        "symbol": "RIO",
+        "name": "Realio Network",
+        "slug": "realio-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xf21661d0d1d76d3ecb8e1b9f1c923dbfffae4097"
+            },
+            {
+                "platform": "stellar",
+                "contractAddress": "RIO-GBNLJIYH34UWO5YZFA3A3HD3N76R6DOI33N4JONUOHEEYZYCAYTEJ5AK"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x8c49a510756224e887b3d99d00d959f2d86dda1c"
+            },
+            {
+                "platform": "algorand",
+                "contractAddress": "2751733"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "b84be4dc-e6df-48e7-82db-031de8161794",
+        "serialId": 2744,
+        "symbol": "PRO",
+        "name": "Propy",
+        "slug": "propy",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x226bb599a12c826476e3a771454697ea52e9e220"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x18dd5b087bca9920562aff7a0199b96b9230438b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "bc000886-31af-4aa1-9b4e-e0ec9546dfca",
+        "serialId": 17221,
+        "symbol": "GFI",
+        "name": "Goldfinch",
+        "slug": "goldfinch-finance",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xdab396ccf3d84cf2d07c4454e10c8a6f5b008d2b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "bc8775ef-a2b9-4786-b6e4-5692e53b5d87",
+        "serialId": 6018,
+        "symbol": "XCH",
+        "name": "Chia",
+        "slug": "chia",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "be85b939-ec81-4d45-bd32-f52d63706a68",
+        "serialId": 7289,
+        "symbol": "TRADE",
+        "name": "Polytrade",
+        "slug": "polytrade",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6e5970dbd6fc7eb1f29c6d2edf2bc4c36124c0c1"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x692ac1e363ae34b6b489148152b12e2785a3d8d6"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0xe22c452bd2ade15dfc8ad98286bc6bdf0c9219b7"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x6ba7a8f9063c712c1c8cabc776b1da7126805f3b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "c0da60ef-b73f-45bd-8466-e90432406e4c",
+        "serialId": 8187,
+        "symbol": "LAND",
+        "name": "Landshare",
+        "slug": "landshare",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa73164db271931cf952cbaeff9e8f5817b42fa5c"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "c46470b3-5614-4dd3-a286-59a600fad94f",
+        "serialId": 15166,
+        "symbol": "ID",
+        "name": "Everest",
+        "slug": "everid",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xebd9d99a3982d547c5bb4db7e3b1f9f14b67eb83"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x8ea2526c2373ba3fe1d0987f5db8ac770a42dd51"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "cb1eec26-bd87-4585-a3f1-568ad28d3ef2",
+        "serialId": 19644,
+        "symbol": "LMR",
+        "name": "Lumerin",
+        "slug": "lumerin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4b1d0b9f081468d780ca1d5d79132b64301085d1"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "cb43529e-f4a4-4f18-a348-116ad35c9351",
+        "serialId": 2807,
+        "symbol": "LTO",
+        "name": "LTO Network",
+        "slug": "lto-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd01409314acb3b245cea9500ece3f6fd4d70ea30"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x857b222fc79e1cbbf8ca5f78cb133d1b7cf34bbd"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "ce222383-2753-44d4-b9ef-2dd67a7ea730",
+        "serialId": 349,
+        "symbol": "VET",
+        "name": "VeChain",
+        "slug": "vechain",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "d3540108-d1d6-4bd4-ae37-5a5287ecf9af",
+        "serialId": 7978,
+        "symbol": "ADS",
+        "name": "Alkimi",
+        "slug": "alkimi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3106a0a076bedae847652f42ef07fd58589e001f"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "db7344b5-586a-4e9f-917f-1ce09831decd",
+        "serialId": 820,
+        "symbol": "TRU",
+        "name": "TrueFi",
+        "slug": "truefi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4c19596f5aaff459fa38b0f7ed92f11ae6543784"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "eb9e9e28-13b8-4355-a70b-d4ae2a4ba724",
+        "serialId": 1128,
+        "symbol": "ORAI",
+        "name": "Oraichain",
+        "slug": "oraichain",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4c11249814f11b9346808179cf06e71ac328c1b5"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa325ad6d9c92b55a3fc5ad7e412b1518f96441c0"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "f086ee5f-e8c6-42ae-9c65-e2cb33879196",
+        "serialId": 501,
+        "symbol": "QNT",
+        "name": "Quant",
+        "slug": "quant-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4a220e6096b25eadb88358cb44068a3248254675"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "fefc437d-46fa-4470-9ffe-e6c7219a1f9d",
+        "serialId": 9835,
+        "symbol": "XEP",
+        "name": "Electra Protocol",
+        "slug": "electra-protocol",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xb897d0a0f68800f8be7d69ffdd1c24b69f57bf3e"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    }
+]

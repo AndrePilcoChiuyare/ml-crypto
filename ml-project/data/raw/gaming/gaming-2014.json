@@ -1,0 +1,2175 @@
+[
+    {
+        "id": "0432c2ca-0dc4-44c5-bf0c-a2feaa4b3130",
+        "serialId": 15981,
+        "symbol": "SENATE",
+        "name": "SENATE",
+        "slug": "senate",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x34be5b8c30ee4fde069dc878989686abe9884470"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "049abaff-71e0-4b1a-bcee-942cb1630222",
+        "serialId": 12916,
+        "symbol": "DARK",
+        "name": "Dark Frontiers",
+        "slug": "dark-frontiers",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x12fc07081fab7de60987cad8e8dc407b606fb2f8"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "06963e10-2042-41d3-9583-acb4135460dc",
+        "serialId": 6036,
+        "symbol": "MIST",
+        "name": "Mist",
+        "slug": "mist",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x68e374f856bf25468d365e539b700b648bf94b67"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "0844705f-10ed-42ca-b483-914b7d59e351",
+        "serialId": 345,
+        "symbol": "MANA",
+        "name": "Decentraland",
+        "slug": "decentraland",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942"
+            },
+            {
+                "platform": "sora",
+                "contractAddress": "0x00449af28b82575d6ac0e8c6d20e095be0917e1b0eaa63962a1dc2c6b81c2b0d"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x60c0380833da99269e45d8acaf3c36396853b69f"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "0889f611-0e32-4e5e-be44-d87dcf8bf9cf",
+        "serialId": 16168,
+        "symbol": "COPI",
+        "name": "Cornucopias",
+        "slug": "cornucopias",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x42baf1f659d765c65ade5bb7e08eb2c680360d9d"
+            },
+            {
+                "platform": "cardano",
+                "contractAddress": "asset1c6uau7pufsxhnm7eg0eerhu4snwfd9sn7kvvvz"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xfea292e5ea4510881bdb840e3cec63abd43f936f"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x0a953dd9fc813fefaf6015b804c9dfa0624690c0"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "10e910bd-6f50-4085-bd78-fbbcde408d28",
+        "serialId": 15767,
+        "symbol": "BSW",
+        "name": "Biswap",
+        "slug": "biswap",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x965f527d9159dce6288a2219db51fc6eef120dd1"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "126938ad-16e3-423a-8803-69d011694a48",
+        "serialId": 15970,
+        "symbol": "VOXEL",
+        "name": "Voxies",
+        "slug": "voxies",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xd0258a3fd00f38aa8090dfee343f10a9d4d30d3f"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "199c287f-3646-49cf-afd3-e17758f66cf0",
+        "serialId": 16841,
+        "symbol": "WRLD",
+        "name": "NFT Worlds",
+        "slug": "nft-worlds",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd5d86fc8d5c0ea1ac1ac5dfab6e529c9967a45e9"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xd5d86fc8d5c0ea1ac1ac5dfab6e529c9967a45e9"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "1a5aa1bf-0512-4a7d-ac19-ddaccfbee99f",
+        "serialId": 16600,
+        "symbol": "KATA",
+        "name": "Katana Inu",
+        "slug": "katana-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2e85ae1c47602f7927bcabc2ff99c40aa222ae15"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x6d6ba21e4c4b29ca7bfa1c344ba1e35b8dae7205"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "1ae14641-7365-4be1-9bb9-c86ab07715b3",
+        "serialId": 6021,
+        "symbol": "SUPER",
+        "name": "SuperVerse",
+        "slug": "superverse",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xa1428174f516f527fafdd146b883bb4428682737"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x51ba0b044d96c3abfca52b64d733603ccc4f0d4d"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "1c1cd416-b027-4d73-9d4d-0a9edc63524d",
+        "serialId": 222,
+        "symbol": "CHR",
+        "name": "Chromia",
+        "slug": "chromia",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x8a2279d4a90b6fe1c4b30fa660cc9f926797baa2"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xf9cec8d50f6c8ad3fb6dccec577e05aa32b224fe"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "1d3bfcac-acb6-46ed-99b2-94122b8de833",
+        "serialId": 485734,
+        "symbol": "PORTAL",
+        "name": "Portal",
+        "slug": "portal",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x1bbe973bef3a977fc51cbed703e8ffdefe001fed"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "2150225f-b2f2-4b59-bc68-001aa8ae4666",
+        "serialId": 6045,
+        "symbol": "BEAM",
+        "name": "Beam",
+        "slug": "beam",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xe5acbb03d73267c03349c76ead672ee4d941f499"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "246715d6-065f-475e-8026-3e0a201c7e33",
+        "serialId": 9538,
+        "symbol": "DFL",
+        "name": "DeFi Land",
+        "slug": "defi-land",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "DFL1zNkaGPWm1BqAVqRjCZvHmwTFrEaJtbzJWgseoNJh"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "24e85250-c2a7-4158-8e7d-244818085463",
+        "serialId": 8672,
+        "symbol": "DPET",
+        "name": "My DeFi Pet",
+        "slug": "my-defi-pet",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xfb62ae373aca027177d1c18ee0862817f9080d08"
+            },
+            {
+                "platform": "kardiachain",
+                "contractAddress": "0xfb62ae373aca027177d1c18ee0862817f9080d08"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xfb62ae373aca027177d1c18ee0862817f9080d08"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "2b02fee4-7b1b-4ba9-8826-8869866f319c",
+        "serialId": 15526,
+        "symbol": "RUNE",
+        "name": "Rune",
+        "slug": "rune",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa9776b590bfc2f956711b3419910a5ec1f63153e"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "2f85ad95-288c-4a53-8245-86c0679aff09",
+        "serialId": 14890,
+        "symbol": "ELMON",
+        "name": "Elemon",
+        "slug": "elemon",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xe3233fdb23f1c27ab37bd66a19a1f1762fcf5f3f"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "30d41b9d-f8eb-4821-8a6e-9016bfd35023",
+        "serialId": 13653,
+        "symbol": "BCMC",
+        "name": "Blockchain Monster Hunt",
+        "slug": "blockchain-monster-hunt",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2ba8349123de45e931a8c8264c332e6e9cf593f9"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xc10358f062663448a3489fc258139944534592ac"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xc10358f062663448a3489fc258139944534592ac"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "3490b937-5067-436c-bec7-119998ed1333",
+        "serialId": 10092,
+        "symbol": "BIN",
+        "name": "Binemon",
+        "slug": "binemon",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xe56842ed550ff2794f010738554db45e60730371"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "39268841-e3d8-40b3-8c30-6d6d5bb19bf4",
+        "serialId": 377,
+        "symbol": "ENJ",
+        "name": "Enjin Coin",
+        "slug": "enjin-coin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0xadbd41bfb4389de499535c14a8a3a12fead8f66a"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "395fe4e5-1e62-4911-97c4-d25f198ccd70",
+        "serialId": 15465,
+        "symbol": "JEWEL",
+        "name": "DeFi Kingdoms",
+        "slug": "defi-kingdoms",
+        "contractAddresses": [
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x72cb10c6bfa5624dd07ef608027e366bd690048f"
+            },
+            {
+                "platform": "metis-andromeda",
+                "contractAddress": "0x17c09cfc96c865cf546d73365cedb6dc66986963"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0x997ddaa07d716995de90577c123db411584e5e46"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "3a048f18-7aab-4abf-87bd-9f70572c5a9e",
+        "serialId": 13367,
+        "symbol": "WELT",
+        "name": "Fabwelt",
+        "slug": "fabwelt",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x23e8b6a3f6891254988b84da3738d2bfe5e703b9"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x1785113910847770290f5f840b4c74fc46451201"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "3bb77159-e905-41bf-9321-ca414622cc2b",
+        "serialId": 14995,
+        "symbol": "BABY",
+        "name": "BabySwap",
+        "slug": "babyswap",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x53e562b9b7e5e94b81f10e96ee70ad06df3d2657"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "3f548a16-866f-4e2c-b3e9-5df6d32d9083",
+        "serialId": 828,
+        "symbol": "UOS",
+        "name": "Ultra",
+        "slug": "ultra",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "40aa59cc-c529-4ac7-a8b9-9c20fd8acae5",
+        "serialId": 6246,
+        "symbol": "ERN",
+        "name": "Ethernity Chain",
+        "slug": "ethernity-chain",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xbbc2ae13b23d715c30720f079fcd9b4a74093505"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x0e50bea95fe001a370a4f1c220c49aedcb982dec"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "42da9689-d86b-40b6-a637-ed56c564edc9",
+        "serialId": 1016,
+        "symbol": "DVI",
+        "name": "Dvision Network",
+        "slug": "dvision-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x10633216e7e8281e33c86f02bf8e565a635d9770"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "4315622d-ca20-4ac1-96ee-8667d8b81797",
+        "serialId": 7986,
+        "symbol": "YOOSHI",
+        "name": "YooShi",
+        "slug": "yooshi",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x02ff5065692783374947393723dba9599e59f591"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "44f4db38-59dc-4abb-aa70-cbd422cfedf1",
+        "serialId": 10250,
+        "symbol": "HERO",
+        "name": "Step Hero",
+        "slug": "step-hero",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xe8176d414560cfe1bf82fd73b986823b89e4f545"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "46f2989f-7eb3-49e4-a32f-5064d6f5b1dc",
+        "serialId": 5873,
+        "symbol": "RFR",
+        "name": "Refereum",
+        "slug": "refereum",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd0929d411954c47438dc1d871dd6081f5c5e149c"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "4885df43-d6b8-4aa2-ba26-245b24d09e50",
+        "serialId": 7605,
+        "symbol": "CERE",
+        "name": "Cere Network",
+        "slug": "cere-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2da719db753dfa10a62e140f436e1d67f2ddb0d6"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "4b435425-ad49-462e-89cb-e9c727c3dc50",
+        "serialId": 6689,
+        "symbol": "PYM",
+        "name": "Playermon",
+        "slug": "playermon",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x0bd49815ea8e2682220bcb41524c0dd10ba71d41"
+            },
+            {
+                "platform": "solana",
+                "contractAddress": "7yF97k6jrBkb7BXJYXzmwQLQyxVirLtCSSGb75qLqAN8"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "4c36ad58-bf5f-4671-af04-b07e04871aed",
+        "serialId": 304460,
+        "symbol": "RON",
+        "name": "Ronin",
+        "slug": "ronin-1",
+        "contractAddresses": [
+            {
+                "platform": "ronin",
+                "contractAddress": "0xe514d9deb7966c8be0ca922de8a064264ea6bcd4"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "4eac1be4-a666-4d2c-a354-7e62bd76b5f5",
+        "serialId": 9528,
+        "symbol": "CTT",
+        "name": "CryptoTycoon",
+        "slug": "cryptotycoon",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x464863745ed3af8b9f8871f1082211c55f8f884d"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "4f714fbe-251c-4f4d-bf0d-bb8f5a5e9d57",
+        "serialId": 11881,
+        "symbol": "MAT",
+        "name": "My Master War",
+        "slug": "my-master-war",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xf3147987a00d35eecc10c731269003ca093740ca"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "4fbbf057-e0cf-47d5-8543-da4ed6045a85",
+        "serialId": 19158,
+        "symbol": "APE",
+        "name": "ApeCoin",
+        "slug": "apecoin",
+        "contractAddresses": null,
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "50d82ac0-c63a-4c7b-9f7b-d6113ae46617",
+        "serialId": 7340,
+        "symbol": "XWG",
+        "name": "X World Games",
+        "slug": "x-world-games",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x0a77ef9bf662d62fbf9ba4cf861eaa83f9cc4fec"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0xeb4d25db65dcef52380c99ba7e1344c820ecb1fc"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x6b23c89196deb721e6fd9726e6c76e4810a464bc"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "52b9da0d-1cb2-4de2-bcf2-1b43cbb584c6",
+        "serialId": 525,
+        "symbol": "AXS",
+        "name": "Axie Infinity",
+        "slug": "axie-infinity",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b"
+            },
+            {
+                "platform": "ronin",
+                "contractAddress": "0x97a9107c1793bc407d6f527b77e7fff4d812bece"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x14a7b318fed66ffdcc80c1517c172c13852865de"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x715d400f88c167884bbcc41c5fea407ed4d2f8a0"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "565bb04d-471c-4e29-a0de-7a721b8c8881",
+        "serialId": 18883,
+        "symbol": "RBLS",
+        "name": "Rebel Bots",
+        "slug": "rebel-bots",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe26cda27c13f4f87cffc2f437c5900b27ebb5bbb"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "57d1ac75-9212-45fc-9caa-2c0790c48398",
+        "serialId": 2817,
+        "symbol": "GAME",
+        "name": "GameCredits",
+        "slug": "gamecredits",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x63f88a2298a5c4aee3c216aa6d926b184a4b2437"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x8d1566569d5b695d44a9a234540f68d393cdc40d"
+            }
+        ],
+        "category": "gaming",
+        "market_data": [
+            {
+                "timestamp": 1440460800,
+                "open": 0.023965050090793763,
+                "high": 0.024310332207432197,
+                "low": 0.023965050090793763,
+                "close": 0.024310332207432197,
+                "volume": 10.636897613043974
+            },
+            {
+                "timestamp": 1440547200,
+                "open": 0.024239368639588824,
+                "high": 0.024656584308374405,
+                "low": 0.024239368639588824,
+                "close": 0.024656584308374405,
+                "volume": 149.13254558813168
+            },
+            {
+                "timestamp": 1440633600,
+                "open": 0.024645514750931078,
+                "high": 0.02471995614726499,
+                "low": 0.024645514750931078,
+                "close": 0.02471995614726499,
+                "volume": 20.607214656869065
+            },
+            {
+                "timestamp": 1441152000,
+                "open": 0.037665130381324116,
+                "high": 0.037702477083753634,
+                "low": 0.037665130381324116,
+                "close": 0.037702477083753634,
+                "volume": 128.8956344940483
+            },
+            {
+                "timestamp": 1441497600,
+                "open": 0.029368085847132974,
+                "high": 0.029445482229980408,
+                "low": 0.029368085847132974,
+                "close": 0.029445482229980408,
+                "volume": 21.59143338137058
+            },
+            {
+                "timestamp": 1442793600,
+                "open": 0.015450823186246606,
+                "high": 0.015451003684961663,
+                "low": 0.015450823186246606,
+                "close": 0.015451003684961663,
+                "volume": 19.134978955485906
+            },
+            {
+                "timestamp": 1444262400,
+                "open": 0.011923264133052626,
+                "high": 0.011923264133052626,
+                "low": 0.01143772843358566,
+                "close": 0.01143772843358566,
+                "volume": 93.5034333758813
+            },
+            {
+                "timestamp": 1444694400,
+                "open": 0.011522967935256418,
+                "high": 0.011522967935256418,
+                "low": 0.01094556419532404,
+                "close": 0.01129866347668456,
+                "volume": 23.01284602907063
+            },
+            {
+                "timestamp": 1444953600,
+                "open": 0.013612085426345425,
+                "high": 0.013612085426345425,
+                "low": 0.013431020248538275,
+                "close": 0.013431020248538275,
+                "volume": 67.15510124269137
+            },
+            {
+                "timestamp": 1445299200,
+                "open": 0.012828499490825686,
+                "high": 0.013604631016264501,
+                "low": 0.012828499490825686,
+                "close": 0.013604631016264501,
+                "volume": 285.9266336044906
+            },
+            {
+                "timestamp": 1445472000,
+                "open": 0.013099626536443604,
+                "high": 0.013140177394227036,
+                "low": 0.013099626536443604,
+                "close": 0.013140177394227036,
+                "volume": 21.53491598117529
+            },
+            {
+                "timestamp": 1445904000,
+                "open": 0.018965459390271413,
+                "high": 0.018965459390271413,
+                "low": 0.018622193177243066,
+                "close": 0.018622193177243066,
+                "volume": 10.61558122068741
+            },
+            {
+                "timestamp": 1446422400,
+                "open": 0.019741459075753483,
+                "high": 0.019741459075753483,
+                "low": 0.01965422435702415,
+                "close": 0.01965422435702415,
+                "volume": 66.26323050675123
+            },
+            {
+                "timestamp": 1446508800,
+                "open": 0.020258793120999482,
+                "high": 0.021626399242188277,
+                "low": 0.02021372612004354,
+                "close": 0.020763119944958948,
+                "volume": 913.9656144310519
+            },
+            {
+                "timestamp": 1446595200,
+                "open": 0.023044545323979752,
+                "high": 0.024208351002498518,
+                "low": 0.022329789341922344,
+                "close": 0.024206261361582503,
+                "volume": 190.0990160536534
+            },
+            {
+                "timestamp": 1447200000,
+                "open": 0.013322367493846668,
+                "high": 0.013322367493846668,
+                "low": 0.013177049020086866,
+                "close": 0.013177049020086866,
+                "volume": 65.6133562088509
+            },
+            {
+                "timestamp": 1447286400,
+                "open": 0.01573416656237861,
+                "high": 0.015746084301155577,
+                "low": 0.01573416656237861,
+                "close": 0.015746084301155577,
+                "volume": 18.70510185617566
+            },
+            {
+                "timestamp": 1447632000,
+                "open": 0.014991493317811995,
+                "high": 0.014991493317811995,
+                "low": 0.014934818262037694,
+                "close": 0.014934818262037694,
+                "volume": 29.921500033769632
+            }
+        ]
+    },
+    {
+        "id": "594c4880-8132-45d1-9c86-68a8b0b18514",
+        "serialId": 9763,
+        "symbol": "GHX",
+        "name": "GamerCoin",
+        "slug": "gamercoin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x728f30fa2f100742c7949d1961804fa8e0b1387d"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xbd7b8e4de08d9b01938f7ff2058f110ee1e0e8d4"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "5df45553-ca41-4567-afe2-8077d54992cc",
+        "serialId": 10496,
+        "symbol": "HUSL",
+        "name": "The HUSL",
+        "slug": "the-husl",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xa2881f7f441267042f9778ffa0d4f834693426be"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x284ac5af363bde6ef5296036af8fb0e9cc347b41"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "666b535c-530a-4f32-a7aa-21905cb5b9b7",
+        "serialId": 11185,
+        "symbol": "WILD",
+        "name": "Wilder World",
+        "slug": "wilder-world",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2a3bff78b79a009976eea096a51a948a3dc00e34"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "67045600-171b-4417-b9e3-db2c5a950dc9",
+        "serialId": 521,
+        "symbol": "EGLD",
+        "name": "MultiversX",
+        "slug": "elrond",
+        "contractAddresses": null,
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "673a26fe-e0ce-4570-8503-3e90adf528ff",
+        "serialId": 5989,
+        "symbol": "TWIN",
+        "name": "Twinci",
+        "slug": "twinci",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xaf83f292fced83032f52ced45ef7dbddb586441a"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "68221f51-660f-4bed-88e4-680165a9be0c",
+        "serialId": 6125,
+        "symbol": "KDA",
+        "name": "Kadena",
+        "slug": "kadena",
+        "contractAddresses": null,
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "6a25b7d5-8193-403d-b2b3-b72fd98c55fb",
+        "serialId": 6717,
+        "symbol": "GENE",
+        "name": "Genopets",
+        "slug": "genopets",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "GENEtH5amGSi8kHAtQoezp1XEXwZJ8vcuePYnXdKrMYz"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x9df465460938f9ebdf51c38cc87d72184471f8f0"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "6a998be7-42e5-4047-b55d-99e058bf2248",
+        "serialId": 14984,
+        "symbol": "ALU",
+        "name": "Altura",
+        "slug": "altura",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x8263cd1601fe73c066bf49cc09841f35348e3be0"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "6e87c632-4d4b-4c8f-aa8d-edb52a87125c",
+        "serialId": 7670,
+        "symbol": "DREAMS",
+        "name": "Dreams Quest",
+        "slug": "dreams-quest",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x54523d5fb56803bac758e8b10b321748a77ae9e9"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "6f3d4d83-badc-4d5a-b487-a70cea172cab",
+        "serialId": 8117,
+        "symbol": "NAKA",
+        "name": "Nakamoto Games",
+        "slug": "nakamoto-games",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2e10348ee563dec5fe483de558d1946b7a3372c2"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x311434160d7537be358930def317afb606c0d737"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "70ffc67f-2d85-4162-8696-023dbc5f3d13",
+        "serialId": 2609,
+        "symbol": "BORA",
+        "name": "BORA",
+        "slug": "bora",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x26fb86579e371c7aedc461b2ddef0a8628c93d3b"
+            },
+            {
+                "platform": "klay-token",
+                "contractAddress": "0x02cbe46fb8a1f579254a9b485788f2d86cad51aa"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "71be68b9-6431-424f-9a54-1500ced0a2e7",
+        "serialId": 7864,
+        "symbol": "MMO",
+        "name": "MMOCoin",
+        "slug": "mmocoin",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x0aa086e7a108d387de63294fe2a88b05820a9855"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "7234c1e3-87f4-4a15-b023-daf350f17429",
+        "serialId": 5385,
+        "symbol": "CHI",
+        "name": "Xaya",
+        "slug": "xaya",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6dc02164d75651758ac74435806093e421b64605"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe79feaaa457ad7899357e8e2065a3267ac9ee601"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x22648c12acd87912ea1710357b1302c6a4154ebc"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "73b1c708-fff6-4c99-9090-effdd52c5eb1",
+        "serialId": 534532,
+        "symbol": "PDA",
+        "name": "PlayDapp",
+        "slug": "pda",
+        "contractAddresses": null,
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "73e3f8fb-ea8e-4b49-b1af-7429239cbb6a",
+        "serialId": 6138,
+        "symbol": "ADS",
+        "name": "Adshares",
+        "slug": "adshares-1",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xcfcecfe2bd2fed07a9145222e8a7ad9cf1ccd22a"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x598e49f01befeb1753737934a5b11fea9119c796"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xcfcecfe2bd2fed07a9145222e8a7ad9cf1ccd22a"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "7464bda1-2c3d-4e8f-b3b3-78487d9b2351",
+        "serialId": 17903,
+        "symbol": "MF",
+        "name": "MetaFighter",
+        "slug": "metafighter",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xbb6cdedac5cab4a420211a4a8e8b5dca879b31de"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "74a71d75-c6fb-4d73-97ad-7f82ff56aeba",
+        "serialId": 15656,
+        "symbol": "SAITO",
+        "name": "Saito",
+        "slug": "saito",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xfa14fa6958401314851a17d6c5360ca29f74b57b"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x3c6dad0475d3a1696b359dc04c99fd401be134da"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "7583933b-8511-4122-8c2d-ab11ebcbf7c1",
+        "serialId": 611290,
+        "symbol": "PIRATE",
+        "name": "Pirate Nation",
+        "slug": "pirate-nation",
+        "contractAddresses": null,
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "7a532850-9ec9-4780-94ad-d2759dc1c5cf",
+        "serialId": 2955,
+        "symbol": "WAXP",
+        "name": "WAX",
+        "slug": "wax",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2a79324c19ef2b89ea98b23bc669b7e7c9f8a517"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "7aa95f5b-5f85-4129-936e-564f43b969f8",
+        "serialId": 12846,
+        "symbol": "EBA",
+        "name": "Elpis Battle",
+        "slug": "elpis-battle",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x3944ac66b9b9b40a6474022d6962b6caa001b5e3"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "7b98978b-69de-43db-abd9-65a3d9c6056e",
+        "serialId": 352642,
+        "symbol": "DG",
+        "name": "Decentral Games",
+        "slug": "decentral-games",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4b520c812e8430659fc9f12f6d0c39026c83588d"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xef938b6da8576a896f6e0321ef80996f4890f9c4"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "7e210122-849a-4314-8732-09e3e9ae8c73",
+        "serialId": 7481,
+        "symbol": "RENA",
+        "name": "Warena",
+        "slug": "warena",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa9d75cc3405f0450955050c520843f99aff8749d"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "81cb66e8-37b1-4f24-a597-04ee4a0456cc",
+        "serialId": 6735,
+        "symbol": "GZONE",
+        "name": "GameZone",
+        "slug": "gamezone",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xb6adb74efb5801160ff749b1985fd3bd5000e938"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "83d9ca82-15f9-46ca-a80f-74df4f7a055b",
+        "serialId": 10539,
+        "symbol": "XED",
+        "name": "Exeedme",
+        "slug": "exeedme",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xee573a945b01b788b9287ce062a0cfc15be9fd86"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x2fe8733dcb25bfbba79292294347415417510067"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x5621b5a3f4a8008c4ccdd1b942b121c8b1944f1f"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "84a7fc09-daeb-470b-be15-575a493a4069",
+        "serialId": 15570,
+        "symbol": "CRP",
+        "name": "Crypton",
+        "slug": "utopia",
+        "contractAddresses": null,
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "85ec7d3f-bc7a-4c7a-83c6-1685f18f42fb",
+        "serialId": 198751,
+        "symbol": "PRIME",
+        "name": "Echelon Prime",
+        "slug": "echelon-prime-0",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb23d80f5fefcddaa212212f028021b41ded428cf"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0xfa980ced6895ac314e7de34ef1bfae90a5add21b"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "8b4ba1e4-6a45-4738-9695-cbe7388760cf",
+        "serialId": 15014,
+        "symbol": "REVO",
+        "name": "Revomon",
+        "slug": "revomon",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x155040625d7ae3e9cada9a73e3e44f76d3ed1409"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x155040625d7ae3e9cada9a73e3e44f76d3ed1409"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "8b88329d-a168-4590-a664-110db3c90308",
+        "serialId": 926,
+        "symbol": "SOUL",
+        "name": "Phantasma",
+        "slug": "phantasma",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x75858677e27c930fb622759feaffee2b754af07f"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x298eff8af1ecebbb2c034eaa3b9a5d0cc56c59cd"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "8c28c829-ac6b-45e8-9cc0-47441be493e1",
+        "serialId": 8178,
+        "symbol": "UFO",
+        "name": "UFO Gaming",
+        "slug": "ufo-gaming",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x249e38ea4102d0cf8264d3701f1a0e39c4f2dc3b"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "8d8ad247-b9b1-4136-894a-be3298072415",
+        "serialId": 16818,
+        "symbol": "DIO",
+        "name": "Decimated",
+        "slug": "decimated",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x35a5cb585d51d836922b78a9bb1f5c04635c39b6"
+            },
+            {
+                "platform": "solana",
+                "contractAddress": "BiDB55p4G3n1fGhwKFpxsokBMqgctL4qnZpDH1bVQxMD"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "8de8d193-45b7-4a95-81ff-4a3c1114a102",
+        "serialId": 6607,
+        "symbol": "DOSE",
+        "name": "DOSE",
+        "slug": "dose-token",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb31ef9e52d94d4120eb44fe1ddfde5b4654a6515"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x81382e9693de2afc33f69b70a6c12ca9b3a73f47"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x7837fd820ba38f95c54d6dac4ca3751b81511357"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x455234ab787665a219125235fb01b22b512dfcaa"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "8fd8e24d-3540-4b2c-903a-bb5f932ca054",
+        "serialId": 7668,
+        "symbol": "CATE",
+        "name": "CateCoin",
+        "slug": "catecoin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xf05897cfe3ce9bbbfe0751cbe6b1b2c686848dcb"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xe4fae3faa8300810c835970b9187c268f55d998f"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "979cf48d-4724-4647-9c6b-1f3d6e23bfca",
+        "serialId": 5976,
+        "symbol": "FINE",
+        "name": "Refinable",
+        "slug": "refinable",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4e6415a5727ea08aae4580057187923aec331227"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "98482dd5-6663-4a5f-b93a-b3ac05502123",
+        "serialId": 6855,
+        "symbol": "TLM",
+        "name": "Alien Worlds",
+        "slug": "alien-worlds",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x888888848b652b3e3a0f34c96e00eec0f3a23f72"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "9bb73af8-6ad9-4825-b17c-4ccc6a8fbcf8",
+        "serialId": 5782,
+        "symbol": "VRA",
+        "name": "Verasity",
+        "slug": "verasity",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xf411903cbc70a74d22900a5de66a2dda66507255"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "9ccb430a-8884-451c-b382-49a4a0c81f61",
+        "serialId": 13878,
+        "symbol": "SMI",
+        "name": "SafeMoon Inu",
+        "slug": "safemoon-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xcd7492db29e2ab436e819b249452ee1bbdf52214"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "9e79e939-dc11-445e-91b9-1e0ec35180fd",
+        "serialId": 6156,
+        "symbol": "SAND",
+        "name": "The Sandbox",
+        "slug": "thesandbox",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3845badade8e6dff049820680d1f14bd3903a5d0"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xbbba073c31bf03b8acf7c28ef0738decf3695683"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x35de8649e1e4fd1a7bd3b14f7e24e5e7887174ed"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "9fb6e340-7969-4047-86ae-d60cb11a70ad",
+        "serialId": 95060,
+        "symbol": "FLOKI",
+        "name": "FLOKI",
+        "slug": "floki",
+        "contractAddresses": null,
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "a1784d78-05c5-4fb9-95b2-941b9574a8f2",
+        "serialId": 15657,
+        "symbol": "SHROOM",
+        "name": "Niftyx Protocol",
+        "slug": "shroom-finance",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xed0439eacf4c4965ae4613d77a5c2efe10e5f183"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "a252b851-675b-4244-a655-3a773ec53584",
+        "serialId": 8299,
+        "symbol": "ATLAS",
+        "name": "Star Atlas",
+        "slug": "star-atlas",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "a3a20209-36b2-4d3d-94d1-d085f533a4a3",
+        "serialId": 7936,
+        "symbol": "FINA",
+        "name": "Defina Finance",
+        "slug": "defina-finance",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x426c72701833fddbdfc06c944737c6031645c708"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "a3a65b10-ea76-4cfe-a22a-22bb8455aa99",
+        "serialId": 8277,
+        "symbol": "AURY",
+        "name": "Aurory",
+        "slug": "aurory",
+        "contractAddresses": [
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x11bf4f05eb28b802ed3ab672594decb20ffe2313"
+            },
+            {
+                "platform": "solana",
+                "contractAddress": "AURYydfxJib1ZkTir1Jn1J9ECYUtjb6rKQVmtYaixWPP"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "a8ef4bc2-b81f-408b-99a8-faef416e1234",
+        "serialId": 13128,
+        "symbol": "GMEE",
+        "name": "GAMEE",
+        "slug": "gamee",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd9016a907dc0ecfa3ca425ab20b6b785b42f2373"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xcf32822ff397ef82425153a9dcb726e5ff61dca7"
+            },
+            {
+                "platform": "the-open-network",
+                "contractAddress": "EQCqnhZndBGbwjPpV8K_8WOK58ZkQPXlS_bshau9DKWnAF-p"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x84e9a6f9d240fdd33801f7135908bfa16866939a"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "a98165fb-f93b-4a46-8ac3-ea61f14ebe59",
+        "serialId": 5987,
+        "symbol": "GALA",
+        "name": "Gala",
+        "slug": "gala",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd1d2eb1b1e90b638588728b4130137d262c87cae"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x7ddee176f665cd201f93eede625770e2fd911990"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "abb61f82-3489-4368-bf0b-407a96a42a49",
+        "serialId": 12339,
+        "symbol": "SKILL",
+        "name": "CryptoBlades",
+        "slug": "cryptoblades",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x863d6074afaf02d9d41a5f8ea83278df7089aa86"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x154a9f9cbd3449ad22fdae23044319d6ef2a1fab"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "adb1789e-2062-44eb-a285-9235e949bb55",
+        "serialId": 13064,
+        "symbol": "SFUND",
+        "name": "Seedify.fund",
+        "slug": "seedify-fund",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x477bc8d23c634c154061869478bce96be6045d12"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "affc6d47-8c0b-4369-9808-70a0fe3ad8d1",
+        "serialId": 6956,
+        "symbol": "GAME",
+        "name": "Gamestarter",
+        "slug": "gamestarter",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd567b5f02b9073ad3a982a099a23bf019ff11d1c"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x66109633715d2110dda791e64a7b2afadb517abb"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "b189d76c-98a1-4b07-868c-eb2460b9f3dc",
+        "serialId": 6231,
+        "symbol": "ILV",
+        "name": "Illuvium",
+        "slug": "illuvium",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x767fe9edc9e0df98e07454847909b5e959d7ca0e"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "b3b59d2b-dd1e-4ce6-ae35-4a0bae861f9d",
+        "serialId": 9875,
+        "symbol": "ASPO",
+        "name": "ASPO World",
+        "slug": "aspo-world",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x1a9b49e9f075c37fe5f86c916bac9deb33556d7e"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "b3eeb034-1d5b-4e73-9218-c4cf61d4423d",
+        "serialId": 10880,
+        "symbol": "GODS",
+        "name": "Gods Unchained",
+        "slug": "gods-unchained",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xccc8cb5229b0ac8069c51fd58367fd1e622afd97"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "b8323e1e-bdaa-4370-afd9-16f1fc56a2a7",
+        "serialId": 13161,
+        "symbol": "FOC",
+        "name": "TheForce Trade",
+        "slug": "theforce-trade",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x3051cfb958dcd408fba70256073adba943fdf552"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "bce4e0be-b5c2-4f75-aa27-9c2631418558",
+        "serialId": 12350,
+        "symbol": "VIDYA",
+        "name": "Vidya",
+        "slug": "vidya",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3d3d35bb9bec23b06ca00fe472b50e7a4c692c30"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c1b6fdae-1b30-462b-b47d-3f14e212e826",
+        "serialId": 8337,
+        "symbol": "FEVR",
+        "name": "RealFevr",
+        "slug": "realfevr",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x9fb83c0635de2e815fd1c21b3a292277540c2e8d"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe6b9d092223f39013656702a40dbe6b7decc5746"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0x73178fceb736a9d6c1a9ef1fe413f09cba2d4a68"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x82030cdbd9e4b7c5bb0b811a61da6360d69449cc"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c1d1a22d-6776-4dd4-bb17-69965948c642",
+        "serialId": 12313,
+        "symbol": "NFTB",
+        "name": "NFTb",
+        "slug": "nftb",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xde3dbbe30cfa9f437b293294d1fd64b26045c71a"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c2278b42-2ae4-4c4e-9aa8-ea7c6123b0a7",
+        "serialId": 14533,
+        "symbol": "PWAR",
+        "name": "PolkaWar",
+        "slug": "polkawar",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x16153214e683018d5aa318864c8e692b66e16778"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c2973207-8df8-4210-82e7-1693d55c7ec5",
+        "serialId": 16024,
+        "symbol": "MCRT",
+        "name": "MagicCraft",
+        "slug": "magiccraft",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xde16ce60804a881e9f8c4ebb3824646edecd478d"
+            },
+            {
+                "platform": "fantom",
+                "contractAddress": "0xe705af5f63fcabdcdf5016aa838eaaac35d12890"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4b8285ab433d8f69cb48d5ad62b415ed1a221e4f"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c2b6aa74-ad3c-4b6d-8ddb-d649fadf27ae",
+        "serialId": 8018,
+        "symbol": "HOGE",
+        "name": "Hoge Finance",
+        "slug": "hoge-finance",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xfad45e47083e4607302aa43c65fb3106f1cd7607"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa4fffc757e8c4f24e7b209c033c123d20983ad40"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c4630d75-cb40-4faa-b741-a66ae67f3033",
+        "serialId": 391452,
+        "symbol": "BIGTIME",
+        "name": "Big Time",
+        "slug": "big-time",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x64bc2ca1be492be7185faa2c8835d9b824c8a194"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c5062f88-c5a4-4d4b-b313-8e9682150d46",
+        "serialId": 8472,
+        "symbol": "COMBO",
+        "name": "COMBO",
+        "slug": "cocos-bcx",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xc03fbf20a586fa89c2a5f6f941458e1fbc40c661"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xc03fbf20a586fa89c2a5f6f941458e1fbc40c661"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c56695c3-af0c-4c31-baec-630e0aae4cfe",
+        "serialId": 475913,
+        "symbol": "PIXEL",
+        "name": "Pixels",
+        "slug": "pixels",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31"
+            },
+            {
+                "platform": "ronin",
+                "contractAddress": "0x7eae20d11ef8c779433eb24503def900b9d28ad7"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c5e016fd-f608-47bc-b5a9-d326135a9896",
+        "serialId": 13754,
+        "symbol": "CPO",
+        "name": "Cryptopolis",
+        "slug": "cryptopolis",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xea395dfafed39924988b475f2ca7f4c72655203a"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c6fb2219-d8b6-4271-8954-40edf62fe04f",
+        "serialId": 9654,
+        "symbol": "KNIGHT",
+        "name": "Forest Knight",
+        "slug": "forest-knight",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x4455ef8b4b4a007a93daa12de63a47eeac700d9d"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c70d3af0-331f-4c18-b2bc-9b636f13b961",
+        "serialId": 21149,
+        "symbol": "ASTRAFER",
+        "name": "Astrafer",
+        "slug": "astrafer",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb51b97dd5569fab69495316b5a065cccff4b829d"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xdfce1e99a31c4597a3f8a8945cbfa9037655e335"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c80411ec-cb08-420c-964d-82fea28e769a",
+        "serialId": 422822,
+        "symbol": "ROOT",
+        "name": "The Root Network",
+        "slug": "the-root-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xa3d4bee77b05d4a0c943877558ce21a763c4fa29"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "c945198e-88f1-416d-abc5-e4cb465be078",
+        "serialId": 12268,
+        "symbol": "FARA",
+        "name": "FaraLand",
+        "slug": "faraland",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xf4ed363144981d3a65f42e7d0dc54ff9eef559a1"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "d08e692f-7064-4406-9789-98e688699479",
+        "serialId": 21034,
+        "symbol": "HFT",
+        "name": "Hashflow",
+        "slug": "hashflow",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb3999f658c0391d94a37f7ff328f3fec942bcadc"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x44ec807ce2f4a6f2737a92e985f318d035883e47"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "dd32a002-d816-4592-ba34-d43aab08255f",
+        "serialId": 12257,
+        "symbol": "KABY",
+        "name": "Kaby Arena",
+        "slug": "kaby-arena",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x5198e7cc1640049de37d1bd10b03fa5a3afda120"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x02a40c048ee2607b5f5606e445cfc3633fb20b58"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "def04c24-d3a3-4b80-8eb1-98f9a91c80c9",
+        "serialId": 14619,
+        "symbol": "SHILL",
+        "name": "SHILL Token",
+        "slug": "shill-token",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "6cVgJUqo4nmvQpbgrDZwyfd6RwWw5bfnCamS3M9N1fd"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xfb9c339b4bace4fe63ccc1dd9a3c3c531441d5fe"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "e399a238-6810-4ad4-93d9-24f110e85cdb",
+        "serialId": 15803,
+        "symbol": "AKITA",
+        "name": "Akita Inu",
+        "slug": "akita-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3301ee63fb29f863f2333bd4466acb46cd8323e6"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0xcaf5191fc480f43e4df80106c7695eca56e48b18"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "e39a2a75-3b24-4235-8abb-cda6d2c91b55",
+        "serialId": 7297,
+        "symbol": "XCV",
+        "name": "XCarnival",
+        "slug": "xcarnival",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4be63a9b26ee89b9a3a13fd0aa1d0b2427c135f8"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "e5d6cff1-5f6b-4468-98d6-84354d1704d0",
+        "serialId": 6932,
+        "symbol": "VR",
+        "name": "Victoria VR",
+        "slug": "victoria-vr",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x7d5121505149065b562c789a0145ed750e6e8cdd"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "e6ca0755-75f7-41c1-b354-4a0de9867c0b",
+        "serialId": 6261,
+        "symbol": "YGG",
+        "name": "Yield Guild Games",
+        "slug": "yield-guild-games",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x25f8087ead173b73d6e8b84329989a8eea16cf73"
+            },
+            {
+                "platform": "ronin",
+                "contractAddress": "0x1c306872bc82525d72bf3562e8f0aa3f8f26e857"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x82617aa52dddf5ed9bb7b370ed777b3182a30fd1"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x63cf309500d8be0b9fdb8f1fb66c821236c0438c"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "ed71d843-ae9e-49cf-bdc0-8ca74576c8f0",
+        "serialId": 12909,
+        "symbol": "NINO",
+        "name": "Ninneko",
+        "slug": "ninneko",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x6cad12b3618a3c7ef1feb6c91fdc3251f58c2a90"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "ee667b5c-2eed-417a-b472-cf7a5af44a8f",
+        "serialId": 9036,
+        "symbol": "WEMIX",
+        "name": "WEMIX",
+        "slug": "wemix",
+        "contractAddresses": [
+            {
+                "platform": "klay-token",
+                "contractAddress": "0x5096db80b21ef45230c9e423c373f1fc9c0198dd"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "f14d3862-f857-4705-8fda-40da9c7aa198",
+        "serialId": 7185,
+        "symbol": "BMON",
+        "name": "Binamon",
+        "slug": "binamon",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x08ba0619b1e7a582e0bce5bbe9843322c954c340"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "f5bf148f-d833-408a-83eb-50e12d2139ee",
+        "serialId": 11920,
+        "symbol": "MARS4",
+        "name": "MARS4",
+        "slug": "mars4",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x16cda4028e9e872a38acb903176719299beaed87"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x9cd9c5a44cb8fab39b2ee3556f5c439e65e4fddd"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "fa6ba615-5aa8-4d70-bf6c-b9f16a437586",
+        "serialId": 12947,
+        "symbol": "SPWN",
+        "name": "Bitspawn",
+        "slug": "bitspawn",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xe516d78d784c77d479977be58905b3f2b1111126"
+            },
+            {
+                "platform": "solana",
+                "contractAddress": "5U9QqCPhqXAJcEv9uyzFJd5zhN93vuPk1aNNkXnUfPnt"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    },
+    {
+        "id": "fc58d32a-af0e-43db-be43-2ad2f257151c",
+        "serialId": 16543,
+        "symbol": "GOG",
+        "name": "Guild of Guardians",
+        "slug": "guild-of-guardians",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x9ab7bb7fdc60f4357ecfef43986818a2a3569c62"
+            }
+        ],
+        "category": "gaming",
+        "market_data": "No content"
+    }
+]
