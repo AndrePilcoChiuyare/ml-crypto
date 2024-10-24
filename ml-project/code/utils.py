@@ -226,5 +226,20 @@ def plot_predictions(train_data: pd.DataFrame, predictions_x_days: pd.DataFrame,
 
         # Display plot
         plt.show()
+    
+    error_df = pd.DataFrame.from_dict(error_dict, orient='index')
+    error_df.reset_index(inplace=True)
+    error_df.rename(columns={'index': 'Token ID'}, inplace=True)
 
-    return error_dict
+    return error_df
+
+def inverse_scaling(train_df: pd.DataFrame, test_df:pd.DataFrame, pred_df: pd.DataFrame, series_scaler: StandardScaler) -> pd.DataFrame:
+    train = train_df.copy()
+    test = test_df.copy()
+    pred = pred_df.copy()
+    train['close'] = series_scaler.inverse_transform(train[['close']])
+    test['close'] = series_scaler.inverse_transform(test[['close']])
+    for column in pred_df.columns:
+        pred[column] = series_scaler.inverse_transform(pred[[column]])
+
+    return train, test, pred
