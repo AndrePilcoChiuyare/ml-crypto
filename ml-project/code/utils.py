@@ -64,7 +64,6 @@ def plot_time_series(df: pd.DataFrame, n: int) -> None:
         plt.title(f'Token ID: {id}')
         plt.show()
 
-
 def create_series_exog(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     data_copy = df.copy()
     data_copy['seconds'] = data_copy['timestamp'].apply(lambda x: x.timestamp())
@@ -243,3 +242,16 @@ def inverse_scaling(train_df: pd.DataFrame, test_df:pd.DataFrame, pred_df: pd.Da
         pred[column] = series_scaler.inverse_transform(pred[[column]])
 
     return train, test, pred
+
+def preprocess(data: pd.DataFrame, days_to_predict: int = 7):
+    data_cleaned = removing_duplicates(data)
+    data_capped = capping_time_series(data_cleaned)
+    data_datetime = timestamp_to_datetime(data_capped)
+    data_datetime.reset_index(drop=True, inplace=True)
+    data_final, series_scaler, exog_scaler = scaling(data_datetime)
+    train_data, test_data = train_test_split(data_final)
+    series, exog = create_series_exog(train_data)
+    future_exog = create_all_future_exog(train_data, exog_scaler=exog_scaler, days=days_to_predict)
+    series_dict, exog_dict, future_exog_dict = create_dictionaries(series, exog, future_exog)
+
+    return train_data, test_data, series_dict, exog_dict, future_exog_dict, series_scaler, exog_scaler
