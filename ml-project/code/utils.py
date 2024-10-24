@@ -8,6 +8,9 @@ from skforecast.preprocessing import series_long_to_dict, exog_long_to_dict
 from lightgbm import LGBMRegressor
 from skforecast.ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
 from sklearn.metrics import mean_squared_error, mean_absolute_error
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import make_scorer
+from sklearn.model_selection import ParameterGrid
 
 # load JSON
 def loadJSON(filepath):
@@ -153,6 +156,85 @@ def train_forecaster(series_dict: dict, exog_dict: exog_long_to_dict) -> Forecas
     forecaster.fit(series=series_dict, exog=exog_dict,suppress_warnings=True)
     
     return forecaster
+
+def train_best_forecaster(series_dict: dict, exog_dict: dict, future_exog_dict: dict, test_data: pd.DataFrame, future_days: int) -> ForecasterAutoregMultiSeries:
+    # Define the parameter grid for LGBMRegressor
+    param_grid = {
+        'learning_rate': [0.01, 0.1],
+        'n_estimators': [100, 500],
+        'max_depth': [5],
+        'num_leaves': [50, 100],
+        'min_child_samples': [10, 30],
+        'subsample': [0.8, 1.0],
+        'colsample_bytree': [0.8, 1.0]
+    }
+
+    # Initialize the LGBMRegressor
+    lgbm = LGBMRegressor(random_state=123)
+
+    # Keep track of the best forecaster based on MAPE
+    best_forecaster = None
+    best_mape = float('inf')
+    best_params = None
+    error_dict = {}
+
+    # Perform grid search manually
+    for params in ParameterGrid(param_grid):
+        print(f"Training model with parameters: {params}")
+        lgbm.set_params(**params)
+        
+        # Initialize forecaster
+        forecaster = ForecasterAutoregMultiSeries(
+            regressor=lgbm,
+            lags=10,
+            encoding="ordinal",
+            dropna_from_series=False
+        )
+        
+        # Train the forecaster
+        forecaster.fit(series=series_dict, exog=exog_dict, suppress_warnings=True)
+        
+        # Make future predictions
+        predictions = forecaster.predict(steps=future_days, exog=future_exog_dict)
+        
+        # Calculate errors (MSE, MAE, MAPE) on the test data
+        for token_id in test_data['id'].unique():
+            test_token_data = test_data[test_data['id'] == token_id].set_index('timestamp')['close']
+            future_dates = test_token_data.index[:future_days]
+            
+            # Extract predictions for the token
+            if token_id in predictions.columns:
+                predicted_values = predictions[token_id].values[:future_days]
+            else:
+                continue  # Skip if no predictions available
+
+            # Calculate errors for the overlap in future dates
+            test_overlap = test_token_data.loc[future_dates]
+            predictions_overlap = predicted_values[:len(test_overlap)]
+            
+            # Ensure there is no empty data
+            if len(test_overlap) == 0:
+                continue
+            
+            mse = mean_squared_error(test_overlap, predictions_overlap)
+            mae = mean_absolute_error(test_overlap, predictions_overlap)
+            mape = np.mean(np.abs((test_overlap - predictions_overlap) / test_overlap)) * 100
+            
+            # Store the errors for this token
+            error_dict[token_id] = {'MSE': mse, 'MAE': mae, 'MAPE': mape}
+
+            # Update the best forecaster based on MAPE
+            if mape < best_mape:
+                best_mape = mape
+                best_forecaster = forecaster
+                best_params = params
+
+    # Print the best parameters
+    print(f"Best Parameters: {best_params}")
+    print(f"Best MAPE: {best_mape}")
+
+    # Return the best forecaster based on future errors (MAPE in this case)
+    return best_forecaster, error_dict
 
 def predict_X_days(days_to_predict: int, forecaster: ForecasterAutoregMultiSeries, future_exog_dict: exog_long_to_dict) -> pd.DataFrame:
     return forecaster.predict(steps=days_to_predict, exog=future_exog_dict, suppress_warnings=True)
