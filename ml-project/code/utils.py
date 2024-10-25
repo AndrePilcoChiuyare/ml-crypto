@@ -1,7 +1,7 @@
 import json
 import pandas as pd
 import numpy as np
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler, MinMaxScaler
 import matplotlib.pyplot as plt
 from datetime import timedelta
 from skforecast.preprocessing import series_long_to_dict, exog_long_to_dict
@@ -48,7 +48,7 @@ def timestamp_to_datetime(df: pd.DataFrame) -> pd.DataFrame:
     df['timestamp'] = pd.to_datetime(df['timestamp'], unit='s')
     return df
 
-def scaling(df: pd.DataFrame) -> tuple[pd.DataFrame, StandardScaler, StandardScaler]:
+def scaling(df: pd.DataFrame):
     series_scaler = StandardScaler()
     exog_scaler = StandardScaler()
     halving_dates = [pd.to_datetime('2012-11-28'), pd.to_datetime('2016-07-09'), pd.to_datetime('2020-05-11'), pd.to_datetime('2024-04-20'), pd.to_datetime('2028-03-28')]
