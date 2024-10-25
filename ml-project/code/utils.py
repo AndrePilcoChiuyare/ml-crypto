@@ -81,7 +81,7 @@ def create_series_exog(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
     data_copy['month_cos'] = np.cos(data_copy['seconds'] * (2 * np.pi / month))
 
     series = data_copy[['timestamp', 'id', 'close']]
-    exog = data_copy[['timestamp', 'id', 'days_until_halving']]
+    exog = data_copy[['timestamp', 'id', 'days_until_halving', 'week_sin', 'week_cos', 'month_sin', 'month_cos']]
     return series, exog
 
 def create_future_exog(df: pd.DataFrame, exog_scaler: StandardScaler, days: int = 60) -> pd.DataFrame:
@@ -106,7 +106,7 @@ def create_future_exog(df: pd.DataFrame, exog_scaler: StandardScaler, days: int 
     future_data['days_until_halving'] = future_data['timestamp'].apply(lambda x: min([(halving - x).days for halving in halving_dates if halving > x]) if any(halving > x for halving in halving_dates) else 0).astype('float64')
     
 
-    exog_future = future_data[['timestamp', 'id', 'days_until_halving']]
+    exog_future = future_data[['timestamp', 'id', 'days_until_halving', 'week_sin', 'week_cos', 'month_sin', 'month_cos']]
     exog_future.loc[:, 'days_until_halving'] = exog_scaler.transform(exog_future[['days_until_halving']])
     return exog_future
 
