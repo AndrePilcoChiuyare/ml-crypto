@@ -146,6 +146,7 @@ def create_dictionaries(series_df: pd.DataFrame, exog_df: pd.DataFrame, future_e
 
 def train_forecaster(series_dict: dict, exog_dict: exog_long_to_dict) -> ForecasterAutoregMultiSeries:
     regressor = LGBMRegressor(random_state=123, max_depth=5)
+    print(regressor.get_params())
     forecaster = ForecasterAutoregMultiSeries(
                     regressor          = regressor,
                     lags               = 10,
@@ -163,8 +164,8 @@ def train_best_forecaster(series_dict: dict, exog_dict: dict, future_exog_dict: 
         'learning_rate': [0.01, 0.1],
         'n_estimators': [100, 500],
         'max_depth': [5],
-        'num_leaves': [50, 100],
-        'min_child_samples': [10, 30],
+        'num_leaves': [31, 50],
+        'min_child_samples': [10, 20],
         'subsample': [0.8, 1.0],
         'colsample_bytree': [0.8, 1.0]
     }
@@ -233,8 +234,7 @@ def train_best_forecaster(series_dict: dict, exog_dict: dict, future_exog_dict: 
     print(f"Best Parameters: {best_params}")
     print(f"Best MAPE: {best_mape}")
 
-    # Return the best forecaster based on future errors (MAPE in this case)
-    return best_forecaster, error_dict
+    return best_forecaster
 
 def predict_X_days(days_to_predict: int, forecaster: ForecasterAutoregMultiSeries, future_exog_dict: exog_long_to_dict) -> pd.DataFrame:
     return forecaster.predict(steps=days_to_predict, exog=future_exog_dict, suppress_warnings=True)
@@ -307,6 +307,50 @@ def plot_predictions(train_data: pd.DataFrame, predictions_x_days: pd.DataFrame,
 
         # Display plot
         plt.show()
+
+def compute_errors(train_data: pd.DataFrame, predictions_x_days: pd.DataFrame, test_data: pd.DataFrame):
+    tokens = test_data['id'].unique()  # Get unique tokens from test_data
+    error_dict = {}
+
+    for token_id in tokens:
+        # Filter the historical (train) data and test data by token
+        historical_data_token = train_data[train_data['id'] == token_id]
+        test_data_token = test_data[test_data['id'] == token_id]
+        
+        if historical_data_token.empty or test_data_token.empty:
+            continue  # Skip if no data is available for the token
+        
+        historical_data_token = historical_data_token.set_index('timestamp')
+        test_data_token = test_data_token.set_index('timestamp')
+        
+        historical_data_token = historical_data_token['close']  # Extract only the 'close' column
+
+        # Determine the number of steps ahead (based on the prediction length)
+        steps_ahead = len(predictions_x_days)
+
+        # Create a timeline for the predictions (future dates after the last historical data point)
+        last_date = historical_data_token.index[-1]
+        future_dates = pd.date_range(start=last_date, periods=steps_ahead + 1, freq='D')[1:]  # Skip the last date
+
+        # Get the predicted values for the token
+        if token_id in predictions_x_days.columns:
+            predictions = pd.Series(predictions_x_days[token_id], index=future_dates, name='Predictions')
+            test_data_token = test_data_token['close']
+        else:
+            continue
+
+        # Ensure the test data and predictions overlap in time
+        overlap_idx = test_data_token.index.intersection(predictions.index)
+        predictions_overlap = predictions.loc[overlap_idx]
+        test_data_overlap = test_data_token.loc[overlap_idx]
+
+        # Calculate the errors
+        mse = mean_squared_error(test_data_overlap, predictions_overlap)
+        mae = mean_absolute_error(test_data_overlap, predictions_overlap)
+        mape = np.mean(np.abs((test_data_overlap - predictions_overlap) / test_data_overlap)) * 100
+
+        # Store errors for the token
+        error_dict[token_id] = {'MSE': mse, 'MAE': mae, 'MAPE': mape, 'MAPE (%)': f'{mape:.2f}%'}
     
     error_df = pd.DataFrame.from_dict(error_dict, orient='index')
     error_df.reset_index(inplace=True)
@@ -337,3 +381,34 @@ def preprocess(data: pd.DataFrame, days_to_predict: int = 7):
     series_dict, exog_dict, future_exog_dict = create_dictionaries(series, exog, future_exog)
 
     return train_data, test_data, series_dict, exog_dict, future_exog_dict, series_scaler, exog_scaler
+
+def get_last_close_info(historical_df: pd.DataFrame, test_df: pd.DataFrame, pred_df: pd.DataFrame):
+    tokens = list(pred_df.columns)
+    close_performance = {}
+    for token_id in tokens:
+        historical_data_token = historical_df[historical_df['id'] == token_id]
+        test_data_token = test_df[test_df['id'] == token_id]
+
+        if historical_data_token.empty or test_data_token.empty:
+            continue
+
+        historical_data_token = historical_data_token.set_index('timestamp')
+        test_data_token = test_data_token.set_index('timestamp')
+
+        last_historical_close = historical_data_token['close'].iloc[-1]
+        last_test_close = test_data_token['close'].iloc[-1]
+        last_pred_close = pred_df[token_id].iloc[-1]
+
+        close_performance[token_id] = {'last_close': last_historical_close, 'last_test_close': last_test_close, 'last_pred_close': last_pred_close}
+
+    close_performance_df = pd.DataFrame.from_dict(close_performance, orient='index')
+    close_performance_df.reset_index(inplace=True)
+    close_performance_df.rename(columns={'index': 'Token ID'}, inplace=True)
+
+    close_performance_df['real_difference'] = close_performance_df.apply(lambda x: x['last_test_close'] - x['last_close'], axis=1)
+    close_performance_df['pred_difference'] = close_performance_df.apply(lambda x: x['last_pred_close'] - x['last_close'], axis=1)
+    close_performance_df['test_pred_difference'] = close_performance_df.apply(lambda x: x['last_test_close'] - x['last_pred_close'], axis=1)
+    close_performance_df['real_went_up'] = close_performance_df.apply(lambda x: 1 if x['real_difference'] > 0 else 0, axis=1).astype(np.float64)
+    close_performance_df['pred_went_up'] = close_performance_df.apply(lambda x: 1 if x['pred_difference'] > 0 else 0, axis=1).astype(np.float64)
+
+    return close_performance_df
