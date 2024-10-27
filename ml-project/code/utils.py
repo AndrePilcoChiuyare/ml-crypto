@@ -49,13 +49,27 @@ def timestamp_to_datetime(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 def scaling(df: pd.DataFrame):
-    series_scaler = StandardScaler()
+    scalers = {}
+    df_scaled = df.copy()
+
+    # Escalado global para days_until_halving
     exog_scaler = StandardScaler()
     halving_dates = [pd.to_datetime('2012-11-28'), pd.to_datetime('2016-07-09'), pd.to_datetime('2020-05-11'), pd.to_datetime('2024-04-20'), pd.to_datetime('2028-03-28')]
-    df['days_until_halving'] = df['timestamp'].apply(lambda x: min([(halving - x).days for halving in halving_dates if halving > x]) if any(halving > x for halving in halving_dates) else 0).astype('float64')
-    df['close'] = series_scaler.fit_transform(df[['close']])
-    df['days_until_halving'] = exog_scaler.fit_transform(df[['days_until_halving']])
-    return df, series_scaler, exog_scaler
+    df_scaled['days_until_halving'] = df['timestamp'].apply(lambda x: min([(halving - x).days for halving in halving_dates if halving > x]) if any(halving > x for halving in halving_dates) else 0).astype('float64')
+    df_scaled['days_until_halving'] = exog_scaler.fit_transform(df_scaled[['days_until_halving']])
+
+    # Escalado específico para close por cada token
+    for token_id in df['id'].unique():
+        token_data = df[df['id'] == token_id]
+        series_scaler = StandardScaler()
+        
+        # Escalar 'close' por cada token
+        df_scaled.loc[df['id'] == token_id, 'close'] = series_scaler.fit_transform(token_data[['close']])
+        
+        # Guardar el scaler para usarlo en la inversión del escalado
+        scalers[token_id] = series_scaler
+
+    return df_scaled, scalers, exog_scaler
 
 def plot_time_series(df: pd.DataFrame, n: int) -> None:
     ids = df['id'].unique()
@@ -161,13 +175,14 @@ def train_forecaster(series_dict: dict, exog_dict: exog_long_to_dict) -> Forecas
 def train_best_forecaster(series_dict: dict, exog_dict: dict, future_exog_dict: dict, test_data: pd.DataFrame, future_days: int) -> ForecasterAutoregMultiSeries:
     # Define the parameter grid for LGBMRegressor
     param_grid = {
-        'learning_rate': [0.01, 0.1],
+        'learning_rate': [0.01],
         'n_estimators': [100, 500],
-        'max_depth': [5],
-        'num_leaves': [31, 50],
-        'min_child_samples': [10, 20],
-        'subsample': [0.8, 1.0],
-        'colsample_bytree': [0.8, 1.0]
+        'num_leaves': [31, 63],
+        'min_child_samples': [5],
+        'min_split_gain': [0.001],
+        'subsample': [1.0],
+        'colsample_bytree': [1.0],
+        'max_depth': [-1]
     }
 
     # Initialize the LGBMRegressor
@@ -358,14 +373,22 @@ def compute_errors(train_data: pd.DataFrame, predictions_x_days: pd.DataFrame, t
 
     return error_df
 
-def inverse_scaling(train_df: pd.DataFrame, test_df:pd.DataFrame, pred_df: pd.DataFrame, series_scaler: StandardScaler) -> pd.DataFrame:
+def inverse_scaling(train_df: pd.DataFrame, test_df: pd.DataFrame, pred_df: pd.DataFrame, scalers: dict) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     train = train_df.copy()
     test = test_df.copy()
     pred = pred_df.copy()
-    train['close'] = series_scaler.inverse_transform(train[['close']])
-    test['close'] = series_scaler.inverse_transform(test[['close']])
-    for column in pred_df.columns:
-        pred[column] = series_scaler.inverse_transform(pred[[column]])
+
+    # Desescalar los datos de entrenamiento y prueba por token
+    for token_id, scaler in scalers.items():
+        # Aplicar el inverso del escalado en 'close' para cada token
+        if token_id in train['id'].unique():
+            train.loc[train['id'] == token_id, 'close'] = scaler.inverse_transform(train[train['id'] == token_id][['close']])
+        if token_id in test['id'].unique():
+            test.loc[test['id'] == token_id, 'close'] = scaler.inverse_transform(test[test['id'] == token_id][['close']])
+
+        # Desescalar las predicciones para cada columna del token en pred_df
+        if token_id in pred.columns:
+            pred[token_id] = scaler.inverse_transform(pred[[token_id]])
 
     return train, test, pred
 
