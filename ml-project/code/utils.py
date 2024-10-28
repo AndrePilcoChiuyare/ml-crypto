@@ -11,11 +11,8 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import make_scorer
 from sklearn.model_selection import ParameterGrid
-
-# load JSON
-def loadJSON(filepath):
-    with open(filepath) as file:
-        return json.load(file)
+import joblib
+from catboost import CatBoostRegressor
     
 def removing_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     duplicates = pd.read_csv('../data/raw/duplicates.csv')
@@ -62,6 +59,7 @@ def scaling(df: pd.DataFrame):
     for token_id in df['id'].unique():
         token_data = df[df['id'] == token_id]
         series_scaler = StandardScaler()
+        joblib.dump(series_scaler, f'../models/scalers/{token_id}.joblib')
         
         # Escalar 'close' por cada token
         df_scaled.loc[df['id'] == token_id, 'close'] = series_scaler.fit_transform(token_data[['close']])
@@ -122,9 +120,10 @@ def create_future_exog(df: pd.DataFrame, exog_scaler: StandardScaler, days: int 
 
     exog_future = future_data[['timestamp', 'id', 'days_until_halving', 'week_sin', 'week_cos', 'month_sin', 'month_cos']]
     exog_future.loc[:, 'days_until_halving'] = exog_scaler.transform(exog_future[['days_until_halving']])
+
     return exog_future
 
-def create_all_future_exog(df: pd.DataFrame, exog_scaler: StandardScaler,days: int = 7) -> pd.DataFrame:
+def create_all_future_exog(df: pd.DataFrame, exog_scaler: StandardScaler,days: int = 7, category: str = '') -> pd.DataFrame:
     future_exog_list = []
     
     for id, group in df.groupby('id'):
@@ -132,6 +131,7 @@ def create_all_future_exog(df: pd.DataFrame, exog_scaler: StandardScaler,days: i
         future_exog_list.append(future_exog)
     
     all_future_exog = pd.concat(future_exog_list, ignore_index=True)
+    all_future_exog.to_csv(f'../data/processed/future_exog/{category}_future_exog.csv', index=False)
     return all_future_exog
 
 def create_dictionaries(series_df: pd.DataFrame, exog_df: pd.DataFrame, future_exog_df: pd.DataFrame) -> tuple[series_long_to_dict, exog_long_to_dict, exog_long_to_dict]:
@@ -400,7 +400,7 @@ def preprocess(data: pd.DataFrame, days_to_predict: int = 7):
     data_final, series_scaler, exog_scaler = scaling(data_datetime)
     train_data, test_data = train_test_split(data_final)
     series, exog = create_series_exog(train_data)
-    future_exog = create_all_future_exog(train_data, exog_scaler=exog_scaler, days=days_to_predict)
+    future_exog = create_all_future_exog(train_data, exog_scaler=exog_scaler, days=days_to_predict, category=data['category'].iloc[0])
     series_dict, exog_dict, future_exog_dict = create_dictionaries(series, exog, future_exog)
 
     return train_data, test_data, series_dict, exog_dict, future_exog_dict, series_scaler, exog_scaler
