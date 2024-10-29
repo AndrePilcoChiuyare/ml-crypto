@@ -13,6 +13,7 @@ from sklearn.metrics import make_scorer
 from sklearn.model_selection import ParameterGrid
 import joblib
 from catboost import CatBoostRegressor
+from sklearn.ensemble import HistGradientBoostingRegressor
     
 def removing_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     duplicates = pd.read_csv('../data/raw/duplicates.csv')
@@ -30,8 +31,19 @@ def capping_time_series(df: pd.DataFrame) -> pd.DataFrame:
     first_timestamps = filtered_meme.groupby('id').timestamp.min()
     last_timestamps = filtered_meme.groupby('id').timestamp.max()
     max_first_timestamp = first_timestamps.max()
-    min_last_timestamp = last_timestamps.min()
-    return filtered_meme[filtered_meme['timestamp'] <= min_last_timestamp]
+    last_timestamp = last_timestamps.max()
+    ids_to_keep2 = last_timestamps[last_timestamps == last_timestamp].index
+    return filtered_meme[filtered_meme['id'].isin(ids_to_keep2)]
+
+# def capping_time_series_future(df: pd.DataFrame) -> pd.DataFrame:
+#     token_info = df.groupby('id')['name'].value_counts()
+#     mean = np.floor(token_info.mean()).astype(int)
+#     ids_to_keep = token_info[token_info > mean].index.get_level_values(0).unique()
+#     filtered_meme = df[df['id'].isin(ids_to_keep)]
+#     last_timestamps = filtered_meme.groupby('id')['timestamp'].max()
+#     last_timestamp = last_timestamps.max()
+#     ids_to_keep2 = last_timestamps[last_timestamps == last_timestamp].index
+#     return filtered_meme[filtered_meme['id'].isin(ids_to_keep2)]
 
 def train_test_split(df: pd.DataFrame, test_days: int = 7) -> tuple[pd.DataFrame, pd.DataFrame]:
     last_timestamp = df['timestamp'].max()
@@ -45,7 +57,7 @@ def timestamp_to_datetime(df: pd.DataFrame) -> pd.DataFrame:
     df['timestamp'] = pd.to_datetime(df['timestamp'], unit='s')
     return df
 
-def scaling(df: pd.DataFrame):
+def scaling(df: pd.DataFrame, future: bool):
     scalers = {}
     df_scaled = df.copy()
 
@@ -59,7 +71,10 @@ def scaling(df: pd.DataFrame):
     for token_id in df['id'].unique():
         token_data = df[df['id'] == token_id]
         series_scaler = StandardScaler()
-        joblib.dump(series_scaler, f'../models/scalers/{token_id}.joblib')
+        if future:
+            joblib.dump(series_scaler, f'../models/scalers/{token_id}.joblib')
+        else:
+            joblib.dump(series_scaler, f'../models_28/scalers/{token_id}.joblib')
         
         # Escalar 'close' por cada token
         df_scaled.loc[df['id'] == token_id, 'close'] = series_scaler.fit_transform(token_data[['close']])
@@ -159,7 +174,8 @@ def create_dictionaries(series_df: pd.DataFrame, exog_df: pd.DataFrame, future_e
     return series_dict, exog_dict, future_exog_dict
 
 def train_forecaster(series_dict: dict, exog_dict: exog_long_to_dict) -> ForecasterAutoregMultiSeries:
-    regressor = LGBMRegressor(random_state=123, max_depth=5)
+    regressor = CatBoostRegressor(random_state=123, max_depth=5, silent=True)
+    # regressor = LGBMRegressor(random_state=123, max_depth=5)
     print(regressor.get_params())
     forecaster = ForecasterAutoregMultiSeries(
                     regressor          = regressor,
@@ -323,6 +339,57 @@ def plot_predictions(train_data: pd.DataFrame, predictions_x_days: pd.DataFrame,
         # Display plot
         plt.show()
 
+def plot_predictions_only(train_data: pd.DataFrame, predictions_x_days: pd.DataFrame, last_data_points=-1, max_coins=None):
+    tokens = train_data['id'].unique()  # Get unique tokens from train_data
+
+    if max_coins:
+        tokens = tokens[:max_coins]
+
+    for token_id in tokens:
+        # Filter the historical (train) data by token
+        historical_data_token = train_data[train_data['id'] == token_id]
+        
+        if historical_data_token.empty:
+            continue  # Skip if no data is available for the token
+        
+        historical_data_token = historical_data_token.set_index('timestamp')
+        
+        token_name = historical_data_token['name'].iloc[0]
+        token_symbol = historical_data_token['symbol'].iloc[0]
+        historical_data_token = historical_data_token['close']  # Extract only the 'close' column
+
+        # Determine the number of steps ahead (based on the prediction length)
+        steps_ahead = len(predictions_x_days)
+
+        # Create a timeline for the predictions (future dates after the last historical data point)
+        last_date = historical_data_token.index[-1]
+        future_dates = pd.date_range(start=last_date, periods=steps_ahead + 1, freq='D')[1:]  # Skip the last date
+
+        # Get the predicted values for the token
+        if token_id in predictions_x_days.columns:
+            predictions = pd.Series(predictions_x_days[token_id], index=future_dates, name='Predictions')
+        else:
+            continue
+
+        # Get only the last `last_data_points` from historical data
+        if last_data_points > -1:
+            historical_data_token = historical_data_token[-last_data_points:]
+
+        # Plot the data
+        plt.figure(figsize=(20, 5))
+        if last_data_points != 0:
+            plt.plot(historical_data_token.index, historical_data_token, label='Historical')
+        plt.plot(predictions.index, predictions, label='Predictions', color='purple')
+        plt.axvline(x=last_date, color='red', linestyle='--', label='Start of Predictions')
+        plt.title(f'Token: {token_name} ({token_symbol}) - Historical Data and {steps_ahead}-Day Forecast')
+        plt.xlabel('Date')
+        plt.ylabel('Close Price')
+        plt.legend()
+        plt.grid(True)
+
+        # Display plot
+        plt.show()
+
 def compute_errors(train_data: pd.DataFrame, predictions_x_days: pd.DataFrame, test_data: pd.DataFrame):
     tokens = test_data['id'].unique()  # Get unique tokens from test_data
     error_dict = {}
@@ -392,18 +459,48 @@ def inverse_scaling(train_df: pd.DataFrame, test_df: pd.DataFrame, pred_df: pd.D
 
     return train, test, pred
 
+def inverse_scaling_future(train_df: pd.DataFrame, pred_df: pd.DataFrame, scalers: dict) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    train = train_df.copy()
+    pred = pred_df.copy()
+
+    # Desescalar los datos de entrenamiento y prueba por token
+    for token_id, scaler in scalers.items():
+        # Aplicar el inverso del escalado en 'close' para cada token
+        if token_id in train['id'].unique():
+            train.loc[train['id'] == token_id, 'close'] = scaler.inverse_transform(train[train['id'] == token_id][['close']])
+
+        # Desescalar las predicciones para cada columna del token en pred_df
+        if token_id in pred.columns:
+            pred[token_id] = scaler.inverse_transform(pred[[token_id]])
+
+    return train, pred
+
 def preprocess(data: pd.DataFrame, days_to_predict: int = 7):
+    future = False
     data_cleaned = removing_duplicates(data)
     data_capped = capping_time_series(data_cleaned)
     data_datetime = timestamp_to_datetime(data_capped)
     data_datetime.reset_index(drop=True, inplace=True)
-    data_final, series_scaler, exog_scaler = scaling(data_datetime)
+    data_final, series_scaler, exog_scaler = scaling(data_datetime, future=future)
     train_data, test_data = train_test_split(data_final)
     series, exog = create_series_exog(train_data)
     future_exog = create_all_future_exog(train_data, exog_scaler=exog_scaler, days=days_to_predict, category=data['category'].iloc[0])
     series_dict, exog_dict, future_exog_dict = create_dictionaries(series, exog, future_exog)
 
     return train_data, test_data, series_dict, exog_dict, future_exog_dict, series_scaler, exog_scaler
+
+def preprocess_future(data: pd.DataFrame, days_to_predict: int = 7):
+    future = True
+    data_cleaned = removing_duplicates(data)
+    data_capped = capping_time_series(data_cleaned)
+    data_datetime = timestamp_to_datetime(data_capped)
+    data_datetime.reset_index(drop=True, inplace=True)
+    data_final, series_scaler, exog_scaler = scaling(data_datetime, future=future)
+    series, exog = create_series_exog(data_final)
+    future_exog = create_all_future_exog(data_final, exog_scaler=exog_scaler, days=days_to_predict, category=data['category'].iloc[0])
+    series_dict, exog_dict, future_exog_dict = create_dictionaries(series, exog, future_exog)
+
+    return data_final, series_dict, exog_dict, future_exog_dict, series_scaler, exog_scaler
 
 def get_last_close_info(historical_df: pd.DataFrame, test_df: pd.DataFrame, pred_df: pd.DataFrame):
     tokens = list(pred_df.columns)
