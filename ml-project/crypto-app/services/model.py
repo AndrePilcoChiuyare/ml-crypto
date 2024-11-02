@@ -23,11 +23,13 @@ class Model:
         self.complete_time_series = None
         self.days_to_predict = None
 
-    def loadJSON(filepath):
+    def loadJSON(self, filepath):
         with open(filepath) as file:
             return json.load(file)
 
     def load_complete_time_series(self, category: str):
+        if category not in ["meme", "ai", "rwa", "gaming"]:
+            raise ValueError('Category not listed')
         return self.loadJSON(f'../data/processed/{category}_complete_time_series.json')
 
     def train_predict(self, category: str, days_to_predict: int = 7, model: str = "catboost") -> None:

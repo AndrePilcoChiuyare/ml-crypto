@@ -16,6 +16,13 @@ def predict():
     predictions = model.complete_time_series
 
     return predictions
+
+@app.route("/prediction/<category>", methods=["GET"])
+def predict_get(category):
+    model = Model()
+    predictions = model.load_complete_time_series(category)
+
+    return predictions
     
 if __name__ == '__main__':
     app.run(debug=True)
