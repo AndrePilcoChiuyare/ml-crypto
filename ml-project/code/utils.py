@@ -532,3 +532,45 @@ def get_last_close_info(historical_df: pd.DataFrame, test_df: pd.DataFrame, pred
     close_performance_df['pred_went_up'] = close_performance_df.apply(lambda x: 1 if x['pred_difference'] > 0 else 0, axis=1).astype(np.float64)
 
     return close_performance_df
+
+def gen_complete_time_series(hist_df: pd.DataFrame, pred_df: pd.DataFrame, category: str):
+    ids = list(pred_df.columns)
+
+    pred = pred_df.copy()
+    hist = hist_df.copy()
+
+    close_df = hist.groupby('id').tail(1)[['id', 'close']]
+
+    for i in ids:
+        close_df.loc[close_df['id'] == i, 'pred_close'] = pred[i].tail(1).values[0]
+        close_df['increase'] = (close_df['pred_close'] > close_df['close']).astype(int)
+    close_df.reset_index(drop=True, inplace=True)
+
+    close_df.columns = ['id', 'last_close', 'last_pred_close', 'has_increased']
+
+    hist = hist[['timestamp', 'id', 'name', 'symbol', 'category', 'close']]
+    pred = pred.stack().reset_index()
+    pred.columns = ['timestamp', 'id', 'close']
+
+    metadata_df = hist[['id', 'name', 'symbol', 'category']].drop_duplicates()
+
+    pred = pred.merge(metadata_df, on='id', how='left')
+
+    final_df = pd.concat([hist, pred], ignore_index=True)
+    final_df = final_df.sort_values(['id', 'timestamp']).reset_index(drop=True)
+
+    for i in ids:
+        final_df.loc[final_df['id'] == i, ['last_close', 'last_pred_close', 'has_increased']] = close_df.loc[close_df['id'] == i, ['last_close', 'last_pred_close', 'has_increased']].values
+
+    final_df['timestamp'] = final_df['timestamp'].astype(str)
+
+    result = (
+        final_df.groupby(["id", "name", "symbol", "category", 'last_close', 'last_pred_close', 'has_increased'])
+        .apply(lambda group: group[["timestamp", "close"]].to_dict(orient="records"))
+        .reset_index(name="close_data")
+        .to_dict(orient="records")
+    )
+
+    json_result = json.dumps(result, indent=4)
+
+    return json_result
