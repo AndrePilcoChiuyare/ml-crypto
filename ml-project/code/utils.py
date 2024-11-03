@@ -548,11 +548,11 @@ def gen_complete_time_series(hist_df: pd.DataFrame, pred_df: pd.DataFrame, categ
 
     close_df.columns = ['id', 'last_close', 'last_pred_close', 'has_increased']
 
-    hist = hist[['timestamp', 'id', 'name', 'symbol', 'category', 'close']]
+    hist = hist[['timestamp', 'id', 'name', 'symbol', 'category', 'marketcap', 'close']]
     pred = pred.stack().reset_index()
     pred.columns = ['timestamp', 'id', 'close']
 
-    metadata_df = hist[['id', 'name', 'symbol', 'category']].drop_duplicates()
+    metadata_df = hist[['id', 'name', 'symbol', 'category', 'marketcap']].drop_duplicates()
 
     pred = pred.merge(metadata_df, on='id', how='left')
 
@@ -565,7 +565,7 @@ def gen_complete_time_series(hist_df: pd.DataFrame, pred_df: pd.DataFrame, categ
     final_df['timestamp'] = final_df['timestamp'].astype(str)
 
     result = (
-        final_df.groupby(["id", "name", "symbol", "category", 'last_close', 'last_pred_close', 'has_increased'])
+        final_df.groupby(["id", "name", "symbol", "category", 'last_close', 'last_pred_close', 'has_increased', 'marketcap'])
         .apply(lambda group: group[["timestamp", "close"]].to_dict(orient="records"))
         .reset_index(name="close_data")
         .to_dict(orient="records")
