@@ -303,12 +303,13 @@ class Model:
             final_df.loc[final_df['id'] == i, ['last_close', 'last_pred_close', 'has_increased', 'future_multiply']] = close_df.loc[close_df['id'] == i, ['last_close', 'last_pred_close', 'has_increased', 'future_multiply']].values
 
         final_df['timestamp'] = final_df['timestamp'].astype(str)
+        final_df['token_id'] = final_df['id']
 
         result = (
-            final_df.groupby(["id", "name", "symbol", "category", 'last_close', 'last_pred_close', 'has_increased', 'future_multiply', 'marketcap', 'market_cap_level'])
+            final_df.groupby(["id", "token_id", "name", "symbol", "category", 'last_close', 'last_pred_close', 'has_increased', 'future_multiply', 'marketcap', 'market_cap_level'])
             .apply(lambda group: group[["timestamp", "close"]].to_dict(orient="records"))
             .reset_index(name="close_data")
-            .set_index("id")
+            .set_index("token_id")
             .to_dict(orient="index")
         )              
 
