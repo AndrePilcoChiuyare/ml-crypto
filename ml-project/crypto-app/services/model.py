@@ -26,6 +26,24 @@ class Model:
     def loadJSON(self, filepath):
         with open(filepath) as file:
             return json.load(file)
+        
+    def get_basic_prediction_info(self, category:str):
+        if category not in ["meme", "ai", "rwa", "gaming"]:
+            raise ValueError('Category not listed')
+        tokens = self.loadJSON(f'../data/processed/{category}_complete_time_series.json')
+
+        for token in tokens.values():
+            # remove the key "close_data" from the dictionary
+            token.pop('close_data', None)
+        
+        return tokens
+    
+    def get_prediction_by_id(self, category:str, token_id: str):
+        if category not in ["meme", "ai", "rwa", "gaming"]:
+            raise ValueError('Category not listed')
+        tokens = self.loadJSON(f'../data/processed/{category}_complete_time_series.json')
+
+        return tokens[token_id]
 
     def load_complete_time_series(self, category: str):
         if category not in ["meme", "ai", "rwa", "gaming"]:
@@ -242,6 +260,17 @@ class Model:
         self.og_train, self.og_pred = self.inverse_scaling(train_df=self.train_data, pred_df=self.predictions, scalers=self.series_scaler)
         self.complete_time_series = self.generate_complete_time_series(hist_df=self.og_train, pred_df=self.og_pred, category=self.og_train['category'].iloc[0])
 
+    def market_cap_level(self, row):
+        if row['category'] == 'meme':
+            return 'low' if row['marketcap'] < 100e6 else 'high'
+        elif row['category'] == 'ai':
+            return 'low' if row['marketcap'] < 30e6 else 'high'
+        elif row['category'] == 'rwa':
+            return 'low' if row['marketcap'] < 150e6 else 'high'
+        elif row['category'] == 'gaming':
+            return 'low' if row['marketcap'] < 50e6 else 'high'
+        return 'unknown'
+
     def generate_complete_time_series(self, hist_df: pd.DataFrame, pred_df: pd.DataFrame, category: str):
         ids = list(pred_df.columns)
 
@@ -253,15 +282,17 @@ class Model:
         for i in ids:
             close_df.loc[close_df['id'] == i, 'pred_close'] = pred[i].tail(1).values[0]
             close_df['increase'] = (close_df['pred_close'] > close_df['close']).astype(int)
+            close_df['future_multiply'] = round(close_df['pred_close'] / close_df['close'], 2)
         close_df.reset_index(drop=True, inplace=True)
 
-        close_df.columns = ['id', 'last_close', 'last_pred_close', 'has_increased']
+        close_df.columns = ['id', 'last_close', 'last_pred_close', 'has_increased', 'future_multiply']
 
-        hist = hist[['timestamp', 'id', 'name', 'symbol', 'category', 'close']]
+        hist = hist[['timestamp', 'id', 'name', 'symbol', 'category', 'marketcap','close']]
+        hist['market_cap_level'] = hist.apply(self.market_cap_level, axis=1)
         pred = pred.stack().reset_index()
         pred.columns = ['timestamp', 'id', 'close']
 
-        metadata_df = hist[['id', 'name', 'symbol', 'category']].drop_duplicates()
+        metadata_df = hist[['id', 'name', 'symbol', 'category', 'marketcap', 'market_cap_level']].drop_duplicates()
 
         pred = pred.merge(metadata_df, on='id', how='left')
 
@@ -269,21 +300,23 @@ class Model:
         final_df = final_df.sort_values(['id', 'timestamp']).reset_index(drop=True)
 
         for i in ids:
-            final_df.loc[final_df['id'] == i, ['last_close', 'last_pred_close', 'has_increased']] = close_df.loc[close_df['id'] == i, ['last_close', 'last_pred_close', 'has_increased']].values
+            final_df.loc[final_df['id'] == i, ['last_close', 'last_pred_close', 'has_increased', 'future_multiply']] = close_df.loc[close_df['id'] == i, ['last_close', 'last_pred_close', 'has_increased', 'future_multiply']].values
 
         final_df['timestamp'] = final_df['timestamp'].astype(str)
 
         result = (
-            final_df.groupby(["id", "name", "symbol", "category", 'last_close', 'last_pred_close', 'has_increased'])
+            final_df.groupby(["id", "name", "symbol", "category", 'last_close', 'last_pred_close', 'has_increased', 'future_multiply', 'marketcap', 'market_cap_level'])
             .apply(lambda group: group[["timestamp", "close"]].to_dict(orient="records"))
             .reset_index(name="close_data")
-            .to_dict(orient="records")
-        )
-
-        json_result = json.dumps(result, indent=4)
+            .set_index("id")
+            .to_dict(orient="index")
+        )              
 
         if category not in ["meme", "ai", "rwa", "gaming"]:
             raise ValueError('Category not listed')
+
+        json_result = json.dumps(result, indent=4)   
+        
         # save
         with open(f'../data/processed/{category}_complete_time_series.json', 'w') as f:
             f.write(json_result)

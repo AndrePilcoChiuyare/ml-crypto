@@ -17,12 +17,30 @@ def predict():
 
     return predictions
 
-@app.route("/prediction/<category>", methods=["GET"])
+@app.route("/predictionsComplete/<category>", methods=["GET"])
 def predict_get(category):
     model = Model()
     predictions = model.load_complete_time_series(category)
 
     return predictions
+
+@app.route("/predictions-basic/<category>", methods=["GET"])
+def get_basic_info(category):
+    model = Model()
+    basic_info = model.get_basic_prediction_info(category)
+
+    return basic_info
+
+@app.route("/predictions", methods=["GET"])
+def get_prediction_by_id():
+    body = request.json
+    category = body["category"]
+    token_id = body["id"]
+
+    model = Model()
+    prediction = model.get_prediction_by_id(category=category, token_id=token_id)
+
+    return prediction
     
 if __name__ == '__main__':
     app.run(debug=True)
