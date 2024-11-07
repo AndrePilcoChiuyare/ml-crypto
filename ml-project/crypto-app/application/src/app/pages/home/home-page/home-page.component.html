@@ -1,0 +1,11 @@
+<div>
+    <label for="category">Select Category: </label>
+    <select id="category" (change)="onCategoryChange($event)">
+      <option value="ai">AI</option>
+      <option value="rwa">RWA</option>
+      <option value="meme">Meme</option>
+      <option value="gaming">Gaming</option>
+    </select>
+</div>
+  
+<app-rank [data]="data"></app-rank>

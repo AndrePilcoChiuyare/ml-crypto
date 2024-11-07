@@ -1,0 +1,28 @@
+<table *ngIf="data.length > 0">
+  <thead>
+    <tr>
+      <th>Category</th>
+      <th>Future Multiply</th>
+      <th>Has Increased</th>
+      <th>Last Close</th>
+      <th>Last Predicted Close</th>
+      <th>Market Cap Level</th>
+      <th>Market Cap</th>
+      <th>Name</th>
+      <th>Symbol</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item of data">
+      <td>{{ item.category }}</td>
+      <td>{{ item.future_multiply }}</td>
+      <td>{{ item.has_increased }}</td>
+      <td>{{ item.last_close }}</td>
+      <td>{{ item.last_pred_close }}</td>
+      <td>{{ item.market_cap_level }}</td>
+      <td>{{ item.marketcap }}</td>
+      <td>{{ item.name }}</td>
+      <td>{{ item.symbol }}</td>
+    </tr>
+  </tbody>
+</table>
