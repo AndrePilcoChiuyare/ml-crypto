@@ -288,12 +288,12 @@ class Model:
 
         close_df.columns = ['id', 'last_close', 'last_pred_close', 'has_increased', 'future_multiply']
 
-        hist = hist[['timestamp', 'id', 'name', 'symbol', 'category', 'marketcap','close']]
+        hist = hist[['timestamp', 'id', 'name', 'symbol', 'category', 'marketcap', 'image','close']]
         hist['market_cap_level'] = hist.apply(self.market_cap_level, axis=1)
         pred = pred.stack().reset_index()
         pred.columns = ['timestamp', 'id', 'close']
 
-        metadata_df = hist[['id', 'name', 'symbol', 'category', 'marketcap', 'market_cap_level']].drop_duplicates()
+        metadata_df = hist[['id', 'name', 'symbol', 'category', 'marketcap', 'market_cap_level', 'image']].drop_duplicates()
 
         pred = pred.merge(metadata_df, on='id', how='left')
 
@@ -307,7 +307,7 @@ class Model:
         final_df['token_id'] = final_df['id']
 
         result = (
-            final_df.groupby(["id", "token_id", "name", "symbol", "category", 'last_close', 'last_pred_close', 'has_increased', 'future_multiply', 'marketcap', 'market_cap_level'])
+            final_df.groupby(["id", "token_id", "name", "symbol", "category", 'last_close', 'last_pred_close', 'has_increased', 'future_multiply', 'marketcap', 'market_cap_level', 'image'])
             .apply(lambda group: group[["timestamp", "close"]].to_dict(orient="records"))
             .reset_index(name="close_data")
             .set_index("token_id")

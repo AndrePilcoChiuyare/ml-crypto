@@ -1,6 +1,7 @@
 <table *ngIf="data.length > 0">
   <thead>
     <tr>
+      <th>Image</th>
       <th>Category</th>
       <th>Future Multiply</th>
       <th>Has Increased</th>
@@ -14,6 +15,7 @@
   </thead>
   <tbody>
     <tr *ngFor="let item of data">
+      <td><img [src]="item.image" alt="{{item.name}} image" width="50" height="50"></td>
       <td>{{ item.category }}</td>
       <td>{{ item.future_multiply }}</td>
       <td>{{ item.has_increased }}</td>

@@ -10,6 +10,7 @@
         "future_multiply": 0.95,
         "marketcap": 130579846,
         "market_cap_level": "low",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/3978.png",
         "close_data": [
             {
                 "timestamp": "2019-05-28",
@@ -7976,6 +7977,7 @@
         "future_multiply": 1.05,
         "marketcap": 27140616,
         "market_cap_level": "low",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/5382.png",
         "close_data": [
             {
                 "timestamp": "2020-09-21",
@@ -13810,6 +13812,7 @@
         "future_multiply": 1.01,
         "marketcap": 9786182063,
         "market_cap_level": "high",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/5805.png",
         "close_data": [
             {
                 "timestamp": "2020-09-21",
@@ -19848,6 +19851,7 @@
         "future_multiply": 1.01,
         "marketcap": 402557525,
         "market_cap_level": "high",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/2634.png",
         "close_data": [
             {
                 "timestamp": "2020-11-19",
@@ -25626,6 +25630,7 @@
         "future_multiply": 0.98,
         "marketcap": 1049093562,
         "market_cap_level": "high",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/1518.png",
         "close_data": [
             {
                 "timestamp": "2017-12-29",
@@ -35632,6 +35637,7 @@
         "future_multiply": 1.0,
         "marketcap": 441754845,
         "market_cap_level": "high",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/2586.png",
         "close_data": [
             {
                 "timestamp": "2018-12-05",
@@ -44294,6 +44300,7 @@
         "future_multiply": 1.06,
         "marketcap": 13057056,
         "market_cap_level": "low",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/7245.png",
         "close_data": [
             {
                 "timestamp": "2020-10-21",
@@ -50168,6 +50175,7 @@
         "future_multiply": 1.16,
         "marketcap": 122446510,
         "market_cap_level": "low",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/1214.png",
         "close_data": [
             {
                 "timestamp": "2016-05-24",
@@ -62530,6 +62538,7 @@
         "future_multiply": 0.96,
         "marketcap": 6998454254,
         "market_cap_level": "high",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/1975.png",
         "close_data": [
             {
                 "timestamp": "2017-09-28",
@@ -72924,6 +72933,7 @@
         "future_multiply": 1.0,
         "marketcap": 4711072,
         "market_cap_level": "low",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/4166.png",
         "close_data": [
             {
                 "timestamp": "2020-09-16",
@@ -78982,6 +78992,7 @@
         "future_multiply": 0.98,
         "marketcap": 89607485,
         "market_cap_level": "low",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/1974.png",
         "close_data": [
             {
                 "timestamp": "2017-07-10",
@@ -89304,6 +89315,7 @@
         "future_multiply": 1.02,
         "marketcap": 49545581,
         "market_cap_level": "low",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/3714.png",
         "close_data": [
             {
                 "timestamp": "2020-02-07",
@@ -96250,6 +96262,7 @@
         "future_multiply": 1.05,
         "marketcap": 1647254974,
         "market_cap_level": "high",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/3077.png",
         "close_data": [
             {
                 "timestamp": "2018-07-25",
@@ -105444,6 +105457,7 @@
         "future_multiply": 1.01,
         "marketcap": 86338173,
         "market_cap_level": "low",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/7725.png",
         "close_data": [
             {
                 "timestamp": "2020-11-23",
@@ -111230,6 +111244,7 @@
         "future_multiply": 1.0,
         "marketcap": 89377433,
         "market_cap_level": "low",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/7533.png",
         "close_data": [
             {
                 "timestamp": "2020-10-19",
@@ -117156,6 +117171,7 @@
         "future_multiply": 1.06,
         "marketcap": 693993030,
         "market_cap_level": "high",
+        "image": "https://s2.coinmarketcap.com/static/img/coins/128x128/3155.png",
         "close_data": [
             {
                 "timestamp": "2019-01-29",
