@@ -1,4 +1,5 @@
 export interface PredictionBasic {
+    id: string;
     category: string;
     future_multiply: number;
     has_increased: number;

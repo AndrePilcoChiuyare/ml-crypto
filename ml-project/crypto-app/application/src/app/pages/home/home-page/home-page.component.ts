@@ -23,9 +23,14 @@ export class HomePageComponent {
 
   fetchData(): void {
     console.log('Fetching data for category:', this.selectedCategory);  // Debug line
-    this.dataService.getPredictionsBasic(this.selectedCategory).subscribe((data: Record<string, PredictionBasic>) => {
-      this.data = Object.values(data);  // Convert the object to an array
-      console.log('Fetched data:', this.data);  // Debug line
+    this.dataService.getPredictionsBasic(this.selectedCategory).subscribe({
+      next: (data: Record<string, PredictionBasic>) => {
+        this.data = Object.values(data);
+        console.log('Data:', this.data);  // Debug line
+      },
+      error: (error) => {
+        console.error('Error:', error);  // Debug line
+      }
     });
   }
 

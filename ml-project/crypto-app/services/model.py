@@ -258,6 +258,7 @@ class Model:
 
         self.predictions = self.predict_X_days(days_to_predict=self.days_to_predict, forecaster=self.forecaster, future_exog_dict=self.future_exog_dict)
         self.og_train, self.og_pred = self.inverse_scaling(train_df=self.train_data, pred_df=self.predictions, scalers=self.series_scaler)
+        self.of_pred = self.reemplazar_valores_negativos_ponderada(self.og_pred, self.og_train)
         self.complete_time_series = self.generate_complete_time_series(hist_df=self.og_train, pred_df=self.og_pred, category=self.og_train['category'].iloc[0])
 
     def market_cap_level(self, row):
@@ -323,3 +324,61 @@ class Model:
             f.write(json_result)
 
         return json_result
+    
+    def media_movil_ponderada(self, valores):
+        n = len(valores)
+        pesos = range(1, n + 1)
+        return sum(v * p for v, p in zip(valores, pesos)) / sum(pesos)
+    
+    def obtener_valores_anteriores(self, df, columna, indice_negativo, cantidad=14):
+        inicio = max(indice_negativo - cantidad, 0)
+        return df[columna].iloc[inicio:indice_negativo + 1].tolist()
+    
+    def completar_valores_con_train(self, df_pred, df_train, id_moneda, fecha_negativa, cantidad_total=15):
+        # Filtrar los datos de entrenamiento por el ID de la moneda
+        datos_moneda = df_train[df_train['id'] == id_moneda]
+        valores_close = []
+
+        # Obtener el valor de close en la fecha negativa
+        valor_fecha_negativa = datos_moneda[datos_moneda['timestamp'] == fecha_negativa]['close']
+
+        if not valor_fecha_negativa.empty:
+            valores_close.append(valor_fecha_negativa.values[0])
+
+        # Obtener valores de close hasta completar 15 valores
+        for i in range(1, cantidad_total):
+            fecha_anterior = pd.to_datetime(fecha_negativa) - pd.Timedelta(days=i)
+            valor_anterior = datos_moneda[datos_moneda['timestamp'] == fecha_anterior.strftime('%Y-%m-%d')]
+            
+            if not valor_anterior.empty:
+                valores_close.append(valor_anterior['close'].values[0])
+            else:
+                break
+
+        return valores_close
+    
+    def reemplazar_valores_negativos_ponderada(self, df_pred, df_train):
+        for columna in df_pred.columns:
+            for i in range(len(df_pred)):
+                valor_actual = df_pred[columna].iloc[i]
+
+                if valor_actual < 0:
+                    # Obtener 14 valores anteriores
+                    valores_anteriores = self.obtener_valores_anteriores(df_pred, columna, i)
+
+                    # Si hay suficientes valores, calcular la media
+                    if len(valores_anteriores) == 15:
+                        media_ponderada = self.media_movil_ponderada(valores_anteriores)
+                    else:
+                        # Completar con datos de gaming_obj.og_train
+                        fecha_negativa = df_pred.index[i]
+                        id_moneda = columna
+                        valores_necesarios = self.completar_valores_con_train(df_pred, df_train, id_moneda, fecha_negativa)
+                        # Concatenar valores anteriores con los obtenidos de og_train
+                        valores_totales = valores_anteriores + valores_necesarios
+                        media_ponderada = self.media_movil_ponderada(valores_totales)
+
+                    # Reemplazar el valor negativo con la media móvil ponderada
+                    df_pred[columna].iloc[i] = max(media_ponderada, 0)
+
+        return df_pred
