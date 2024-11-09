@@ -1,0 +1,23 @@
+.main-div {
+    width: 90%;
+    margin: 30px auto 20px auto;
+    align-items: center;
+}
+
+.button-div {
+    border: 0;
+    background-color: rgb(51, 146, 223);
+    margin-right: 10px;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 4px;
+}
+
+.button-div:hover {
+    background-color: rgb(39, 107, 163);
+    cursor: pointer;
+}
+
+.selected {
+    background-color: rgb(38, 167, 177);
+}

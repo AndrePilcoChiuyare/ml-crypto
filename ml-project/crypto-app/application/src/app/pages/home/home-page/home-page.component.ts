@@ -34,9 +34,8 @@ export class HomePageComponent {
     });
   }
 
-  onCategoryChange(event: Event): void {
-    const selectElement = event.target as HTMLSelectElement;
-    this.selectedCategory = selectElement.value;
+  onCategoryChange(category: string): void {
+    this.selectedCategory = category;
     console.log('Selected Category:', this.selectedCategory); 
     this.fetchData();
   }
