@@ -1,0 +1,1312 @@
+[
+    {
+        "id": "02e9c2cc-2e3b-45fe-b7bb-508cb23a3a39",
+        "serialId": 260634,
+        "symbol": "PEPE",
+        "name": "Pepe",
+        "slug": "pepe-0",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6982508145454ce325ddbe47a25d4ec3d2311933"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x25d887ce7a35172c62febfd67a1856f20faebb00"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x25d887ce7a35172c62febfd67a1856f20faebb00"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "05bf91a3-52e5-40ef-b09d-0c471617116e",
+        "serialId": 7472,
+        "symbol": "CATGIRL",
+        "name": "Catgirl",
+        "slug": "catgirl",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x79ebc9a2ce02277a4b5b3a768b1c0a4ed75bd936"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "0d8b00d2-9e0a-4489-891b-6e663a6fcd10",
+        "serialId": 276658,
+        "symbol": "TURBO",
+        "name": "Turbo",
+        "slug": "turbo-0",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xa35923162c49cf95e6bf26623385eb431ad920d3"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "1a5aa1bf-0512-4a7d-ac19-ddaccfbee99f",
+        "serialId": 16600,
+        "symbol": "KATA",
+        "name": "Katana Inu",
+        "slug": "katana-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2e85ae1c47602f7927bcabc2ff99c40aa222ae15"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x6d6ba21e4c4b29ca7bfa1c344ba1e35b8dae7205"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "1bc28038-aa5b-4e3d-9ad9-eaf8cbfed677",
+        "serialId": 401300,
+        "symbol": "TOKEN",
+        "name": "TokenFi",
+        "slug": "tokenfi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "21bca36c-d10c-4df1-87aa-25888c272328",
+        "serialId": 421,
+        "symbol": "BAN",
+        "name": "Banano",
+        "slug": "banano",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034"
+            },
+            {
+                "platform": "fantom",
+                "contractAddress": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xe20b9e246db5a0d21bf9209e4858bc9a3ff7a034"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "24f283e8-459a-451a-aa23-e7d87058bc8e",
+        "serialId": 9960,
+        "symbol": "DINGO",
+        "name": "Dingocoin",
+        "slug": "dingocoin",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "6VYF5jXq6rfq4QRgGMG6co7b1Ev1Lj7KSbHBxfQ9e1L3"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x9b208b117b2c4f76c1534b6f006b033220a681a4"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "30321bcc-7749-4c54-824d-a308a68ae4f9",
+        "serialId": 7582,
+        "symbol": "CUMMIES",
+        "name": "CumRocket",
+        "slug": "cumrocket",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x27ae27110350b98d564b9a3eed31baebc82d878d"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "474ab169-7082-4128-90ef-6004690230c4",
+        "serialId": 5969,
+        "symbol": "SAMO",
+        "name": "Samoyedcoin",
+        "slug": "samoyedcoin",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "4b58504f-c66e-41ab-88f4-fc923ca41910",
+        "serialId": 9231,
+        "symbol": "KISHU",
+        "name": "Kishu Inu",
+        "slug": "kishu-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xa2b4c0af19cc16a6cfacce81f192b024d625817d"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "4f17ed41-ad49-4693-9e09-066fc70ac686",
+        "serialId": 15723,
+        "symbol": "ELON",
+        "name": "Dogelon Mars",
+        "slug": "dogelon-mars",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe0339c80ffde91f3e20494df88d4206d86024cdf"
+            },
+            {
+                "platform": "solana",
+                "contractAddress": "7ZCm8WBN9aLa3o47SoYctU6iLdj7wkGG5SV2hE5CgtD5"
+            },
+            {
+                "platform": "fuse",
+                "contractAddress": "0x5dd8015cec49f4db01fd228f688bf30337d3e0a9"
+            },
+            {
+                "platform": "cronos",
+                "contractAddress": "0x02dccaf514c98451320a9365c5b46c61d3246ff3"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x7bd6fabd64813c48545c9c0e312a0099d9be2540"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "570c8b8a-67ae-4f1a-a67e-a8725d77c8c8",
+        "serialId": 433100,
+        "symbol": "COQ",
+        "name": "Coq Inu",
+        "slug": "coq-inu",
+        "contractAddresses": [
+            {
+                "platform": "avalanche",
+                "contractAddress": "0x420fca0121dc28039145009570975747295f2329"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "5f30210e-2be5-4df8-993a-d9a76b2d2459",
+        "serialId": 9695,
+        "symbol": "BONE",
+        "name": "Bone ShibaSwap",
+        "slug": "bone-shibaswap",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x9813037ee2218799597d83d4a5b6f3b6778218d9"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "63db6cb3-e05c-4097-b484-b3cc13eda823",
+        "serialId": 10105,
+        "symbol": "CAT",
+        "name": "Cat Token",
+        "slug": "cat-token",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x56015bbe3c01fe05bc30a8a9a9fd9a88917e7db3"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "659b36f4-fb73-434b-aad1-47ea91dab664",
+        "serialId": 6067,
+        "symbol": "PIT",
+        "name": "Pitbull",
+        "slug": "pitbull",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa57ac35ce91ee92caefaa8dc04140c8e232c2e50"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "7d793fa7-5fc6-432a-b26b-d1b10769d42e",
+        "serialId": 91,
+        "symbol": "DOGE",
+        "name": "Dogecoin",
+        "slug": "dogecoin",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4206931337dc273a630d328da6441786bfad668f"
+            }
+        ],
+        "category": "meme",
+        "market_data": [
+            {
+                "timestamp": 1409011200,
+                "open": 0.00015064953559949944,
+                "high": 0.00015064953559949944,
+                "low": 0.00015062656177388666,
+                "close": 0.00015062656177388666,
+                "volume": 18.376440536414172
+            },
+            {
+                "timestamp": 1409184000,
+                "open": 0.00013876825011296598,
+                "high": 0.00013876864396392802,
+                "low": 0.00013876825011296598,
+                "close": 0.00013876864396392802,
+                "volume": 104.30267599232815
+            },
+            {
+                "timestamp": 1409270400,
+                "open": 0.00013856736009181924,
+                "high": 0.00014225972648854472,
+                "low": 0.00012704312651038783,
+                "close": 0.00012740795279603603,
+                "volume": 168.89759930271703
+            },
+            {
+                "timestamp": 1409443200,
+                "open": 0.00012848910360987778,
+                "high": 0.000130099421790054,
+                "low": 0.00012825113939716963,
+                "close": 0.000130099421790054,
+                "volume": 44.74900668036592
+            },
+            {
+                "timestamp": 1409529600,
+                "open": 0.0001278399254582924,
+                "high": 0.00013507087075676288,
+                "low": 0.00012760242998504322,
+                "close": 0.00013026859411764707,
+                "volume": 71.9847317595539
+            },
+            {
+                "timestamp": 1409616000,
+                "open": 0.00012659964826242063,
+                "high": 0.00014022503181449058,
+                "low": 0.0001265799421576817,
+                "close": 0.00014022503181449058,
+                "volume": 212.53647488862134
+            },
+            {
+                "timestamp": 1409702400,
+                "open": 0.00013701356360867686,
+                "high": 0.00013953563370510397,
+                "low": 0.00013484094734367332,
+                "close": 0.00013612470666666667,
+                "volume": 118.88950062987281
+            },
+            {
+                "timestamp": 1409788800,
+                "open": 0.00013829506103537313,
+                "high": 0.00016235086733485952,
+                "low": 0.00013721230676884706,
+                "close": 0.00016196315099657434,
+                "volume": 2542.6712983854495
+            },
+            {
+                "timestamp": 1409875200,
+                "open": 0.00015718551437434984,
+                "high": 0.0001678037280833498,
+                "low": 0.0001457576921970737,
+                "close": 0.00016472083737120372,
+                "volume": 483.5736160703347
+            },
+            {
+                "timestamp": 1409961600,
+                "open": 0.00016774535714285708,
+                "high": 0.00021656739508396246,
+                "low": 0.00016774535714285708,
+                "close": 0.00019405951710094177,
+                "volume": 2129.9128673483715
+            },
+            {
+                "timestamp": 1410048000,
+                "open": 0.00021678009064653002,
+                "high": 0.00021678009064653002,
+                "low": 0.00018794629342192695,
+                "close": 0.00019036205554817277,
+                "volume": 1761.057917291558
+            },
+            {
+                "timestamp": 1410134400,
+                "open": 0.00018699992339075102,
+                "high": 0.00018766069312696148,
+                "low": 0.0001702771399673736,
+                "close": 0.00017924112433125773,
+                "volume": 2189.206658686514
+            },
+            {
+                "timestamp": 1410220800,
+                "open": 0.00017939869869398602,
+                "high": 0.00019650118578793012,
+                "low": 0.00017296257408616188,
+                "close": 0.00018819533166040305,
+                "volume": 2058.656241687586
+            },
+            {
+                "timestamp": 1410307200,
+                "open": 0.00019187402069513492,
+                "high": 0.0002011114179595785,
+                "low": 0.00018556776035501718,
+                "close": 0.00018940696369516258,
+                "volume": 382.17351161992644
+            },
+            {
+                "timestamp": 1410393600,
+                "open": 0.0001909464277683085,
+                "high": 0.0002113399828045028,
+                "low": 0.0001822021136646175,
+                "close": 0.0002113399828045028,
+                "volume": 798.1576039725346
+            },
+            {
+                "timestamp": 1410480000,
+                "open": 0.00020034545873244585,
+                "high": 0.0002130198015860827,
+                "low": 0.00019321597531203824,
+                "close": 0.00020955088434414666,
+                "volume": 829.3802622080163
+            },
+            {
+                "timestamp": 1410566400,
+                "open": 0.00021358030035919815,
+                "high": 0.0002694978627500372,
+                "low": 0.00021020256244874707,
+                "close": 0.00026414266537372935,
+                "volume": 855.8209964216098
+            },
+            {
+                "timestamp": 1410652800,
+                "open": 0.0002685555636295345,
+                "high": 0.0004575346769266109,
+                "low": 0.00026806762350821796,
+                "close": 0.00034644776924493554,
+                "volume": 12928.527573789015
+            },
+            {
+                "timestamp": 1410739200,
+                "open": 0.00032793121808766745,
+                "high": 0.0003612607408838388,
+                "low": 0.0003050348729227324,
+                "close": 0.00032485494492582136,
+                "volume": 4577.5275645136835
+            },
+            {
+                "timestamp": 1410825600,
+                "open": 0.00033242864952312193,
+                "high": 0.00033242864952312193,
+                "low": 0.0002867974405870016,
+                "close": 0.00028866005644835705,
+                "volume": 1576.4655844812817
+            },
+            {
+                "timestamp": 1410912000,
+                "open": 0.00029634544376970273,
+                "high": 0.000300955256228098,
+                "low": 0.0002620451984751998,
+                "close": 0.00028021667083770186,
+                "volume": 1443.4684004397518
+            },
+            {
+                "timestamp": 1410998400,
+                "open": 0.0002785488977239686,
+                "high": 0.00031792122460771647,
+                "low": 0.00027854766855918916,
+                "close": 0.00029886217027992503,
+                "volume": 1762.8349167871663
+            },
+            {
+                "timestamp": 1411084800,
+                "open": 0.00029277039937092335,
+                "high": 0.0002981089357239252,
+                "low": 0.0002742371033048399,
+                "close": 0.000281695930465756,
+                "volume": 707.2062578126109
+            },
+            {
+                "timestamp": 1411171200,
+                "open": 0.00027325266078840444,
+                "high": 0.00031480453238748627,
+                "low": 0.00027325266078840444,
+                "close": 0.0002912062440668477,
+                "volume": 1215.1571657180414
+            },
+            {
+                "timestamp": 1411257600,
+                "open": 0.00029013734069698765,
+                "high": 0.0002980476328992739,
+                "low": 0.0002840794210434979,
+                "close": 0.00028578802891385767,
+                "volume": 1334.598755414896
+            },
+            {
+                "timestamp": 1411344000,
+                "open": 0.00028350347994028814,
+                "high": 0.000306632027896282,
+                "low": 0.00028069914282064553,
+                "close": 0.0003035388304963806,
+                "volume": 960.4608340230368
+            },
+            {
+                "timestamp": 1411430400,
+                "open": 0.00029383048036008333,
+                "high": 0.00033421281659171506,
+                "low": 0.00029383048036008333,
+                "close": 0.0003136743060380159,
+                "volume": 1322.9415657885127
+            },
+            {
+                "timestamp": 1411516800,
+                "open": 0.00031523062382478046,
+                "high": 0.00035916317744027164,
+                "low": 0.0003097600771565615,
+                "close": 0.0003519905200606425,
+                "volume": 1806.8425680008027
+            },
+            {
+                "timestamp": 1411603200,
+                "open": 0.00035541636489473075,
+                "high": 0.00038966446745177544,
+                "low": 0.00032608643592511193,
+                "close": 0.00037877951372549025,
+                "volume": 1579.7891394302167
+            },
+            {
+                "timestamp": 1411689600,
+                "open": 0.00038026942246587237,
+                "high": 0.0004779823585508674,
+                "low": 0.00038026942246587237,
+                "close": 0.00044814738885176126,
+                "volume": 8551.49819454128
+            },
+            {
+                "timestamp": 1411776000,
+                "open": 0.0004557133471421367,
+                "high": 0.00045805732047640854,
+                "low": 0.0003568570781078331,
+                "close": 0.00036670415217802217,
+                "volume": 3590.2867546249704
+            },
+            {
+                "timestamp": 1411862400,
+                "open": 0.00037689396371868043,
+                "high": 0.0004156925954153699,
+                "low": 0.0003620282339515315,
+                "close": 0.00038954879983347336,
+                "volume": 952.0513351331356
+            },
+            {
+                "timestamp": 1411948800,
+                "open": 0.00037829600462227383,
+                "high": 0.00039737268182747925,
+                "low": 0.0003716517421951173,
+                "close": 0.00038517270230285566,
+                "volume": 997.0153346861969
+            },
+            {
+                "timestamp": 1412035200,
+                "open": 0.0003952540438244554,
+                "high": 0.0004137723277152704,
+                "low": 0.0003878794413516573,
+                "close": 0.0003978655764955534,
+                "volume": 1369.4239919452084
+            },
+            {
+                "timestamp": 1412121600,
+                "open": 0.000400453003119595,
+                "high": 0.0004079248350239823,
+                "low": 0.00036914503000838226,
+                "close": 0.00038084287589345493,
+                "volume": 3274.497390422207
+            },
+            {
+                "timestamp": 1412208000,
+                "open": 0.0003750014608531995,
+                "high": 0.00037729709540777913,
+                "low": 0.00032807545061959334,
+                "close": 0.00034648383076759515,
+                "volume": 1637.3534241044445
+            },
+            {
+                "timestamp": 1412294400,
+                "open": 0.0003296870680307237,
+                "high": 0.00033842545936543116,
+                "low": 0.0003050741533576284,
+                "close": 0.00031854039168828106,
+                "volume": 1275.0437319806888
+            },
+            {
+                "timestamp": 1412380800,
+                "open": 0.0003239122656165475,
+                "high": 0.00033495288405555057,
+                "low": 0.0002910335269192077,
+                "close": 0.0002910335269192077,
+                "volume": 2115.1115751226253
+            },
+            {
+                "timestamp": 1412467200,
+                "open": 0.0003005449542236334,
+                "high": 0.00030591863797137253,
+                "low": 0.0002639534193813886,
+                "close": 0.00026426287203767013,
+                "volume": 877.631972432185
+            },
+            {
+                "timestamp": 1412553600,
+                "open": 0.00027883514507111333,
+                "high": 0.00030639605830851845,
+                "low": 0.00025399073704219377,
+                "close": 0.00028992674440455636,
+                "volume": 1000.6650102897261
+            },
+            {
+                "timestamp": 1412640000,
+                "open": 0.00029388945803081074,
+                "high": 0.00030604589125399174,
+                "low": 0.0002855533779499666,
+                "close": 0.00029686798841060014,
+                "volume": 1127.4744324247463
+            },
+            {
+                "timestamp": 1412726400,
+                "open": 0.00028776906571605185,
+                "high": 0.00029830400562310034,
+                "low": 0.00028776906571605185,
+                "close": 0.00029824097279635255,
+                "volume": 191.4721380083102
+            },
+            {
+                "timestamp": 1412812800,
+                "open": 0.00029693314491608747,
+                "high": 0.00030388311666220796,
+                "low": 0.00027964710024061935,
+                "close": 0.00027964710024061935,
+                "volume": 747.9997648306869
+            },
+            {
+                "timestamp": 1412899200,
+                "open": 0.00028156072188285436,
+                "high": 0.0002926602956467792,
+                "low": 0.0002681185062853435,
+                "close": 0.00026836926601111767,
+                "volume": 337.73258243991154
+            },
+            {
+                "timestamp": 1412985600,
+                "open": 0.00026859923950475523,
+                "high": 0.00028271333978850183,
+                "low": 0.0002636939425285735,
+                "close": 0.0002706968382352941,
+                "volume": 578.6963260429943
+            },
+            {
+                "timestamp": 1413072000,
+                "open": 0.00027454437930806265,
+                "high": 0.00029257474829380673,
+                "low": 0.0002702884020882153,
+                "close": 0.00028857935342389336,
+                "volume": 1266.5172079319577
+            },
+            {
+                "timestamp": 1413158400,
+                "open": 0.0002887044052298152,
+                "high": 0.0002921712372718564,
+                "low": 0.0002816214590142488,
+                "close": 0.0002921712372718564,
+                "volume": 596.2533149838795
+            },
+            {
+                "timestamp": 1413244800,
+                "open": 0.000288495749617534,
+                "high": 0.0002910189488538425,
+                "low": 0.0002766143056404244,
+                "close": 0.00028101525279349563,
+                "volume": 449.8384196849754
+            },
+            {
+                "timestamp": 1413331200,
+                "open": 0.00027767876297504096,
+                "high": 0.00027830382635553823,
+                "low": 0.00025279696551927137,
+                "close": 0.0002592164831136953,
+                "volume": 1152.8102752759073
+            },
+            {
+                "timestamp": 1413417600,
+                "open": 0.00025109960266533725,
+                "high": 0.0002520297417413458,
+                "low": 0.00025109960266533725,
+                "close": 0.0002520297417413458,
+                "volume": 126.33860967312074
+            },
+            {
+                "timestamp": 1413504000,
+                "open": 0.00024992697274864425,
+                "high": 0.00024992697274864425,
+                "low": 0.00024982972209202715,
+                "close": 0.00024982972209202715,
+                "volume": 55.536263984263016
+            },
+            {
+                "timestamp": 1413676800,
+                "open": 0.00024071178875507618,
+                "high": 0.0002447505237217485,
+                "low": 0.00022974943060068565,
+                "close": 0.0002357234440090677,
+                "volume": 2754.165387163642
+            },
+            {
+                "timestamp": 1413763200,
+                "open": 0.00023571767860977466,
+                "high": 0.00023839434139275769,
+                "low": 0.0002236638876439156,
+                "close": 0.00022869716373776324,
+                "volume": 1720.8080140851596
+            },
+            {
+                "timestamp": 1413849600,
+                "open": 0.00022875255737704923,
+                "high": 0.00023597094561803093,
+                "low": 0.000223102939054658,
+                "close": 0.00022436195242545116,
+                "volume": 746.5691371277144
+            },
+            {
+                "timestamp": 1413936000,
+                "open": 0.00022647476603367966,
+                "high": 0.0002806535733247174,
+                "low": 0.00022341996364428333,
+                "close": 0.00025475441968250196,
+                "volume": 2050.82566333146
+            },
+            {
+                "timestamp": 1414022400,
+                "open": 0.0002526478362633997,
+                "high": 0.00026938782238942224,
+                "low": 0.00024002373509266292,
+                "close": 0.0002425392158123439,
+                "volume": 1314.78922110662
+            },
+            {
+                "timestamp": 1414108800,
+                "open": 0.00024150998813040172,
+                "high": 0.0002587377667348388,
+                "low": 0.00023260734298756968,
+                "close": 0.0002458684736278241,
+                "volume": 701.936063640479
+            },
+            {
+                "timestamp": 1414195200,
+                "open": 0.0002467031479096727,
+                "high": 0.00025012398827422286,
+                "low": 0.0002375579759637766,
+                "close": 0.00024141249556519287,
+                "volume": 869.531946316667
+            },
+            {
+                "timestamp": 1414281600,
+                "open": 0.0002453407300773577,
+                "high": 0.00025902156322093426,
+                "low": 0.00024169504445031823,
+                "close": 0.00024652579634413694,
+                "volume": 917.9924551466873
+            },
+            {
+                "timestamp": 1414368000,
+                "open": 0.0002439536425905272,
+                "high": 0.0002538499606838479,
+                "low": 0.0002429410799262868,
+                "close": 0.00024801084872134245,
+                "volume": 1523.8773057622507
+            },
+            {
+                "timestamp": 1414454400,
+                "open": 0.000247645044742268,
+                "high": 0.0002592359245008312,
+                "low": 0.0002441754943820225,
+                "close": 0.0002441754943820225,
+                "volume": 539.4670225810924
+            },
+            {
+                "timestamp": 1414540800,
+                "open": 0.0002496028688929353,
+                "high": 0.0002496028688929353,
+                "low": 0.00023348308959693424,
+                "close": 0.00023744695052797983,
+                "volume": 791.0623601391226
+            },
+            {
+                "timestamp": 1414627200,
+                "open": 0.00023641005955750015,
+                "high": 0.00023692718558311477,
+                "low": 0.000233125570128214,
+                "close": 0.00023663267934770864,
+                "volume": 294.9418833642221
+            },
+            {
+                "timestamp": 1414713600,
+                "open": 0.00023501533013001223,
+                "high": 0.00024420547131622937,
+                "low": 0.00022963672958771305,
+                "close": 0.0002310984815523645,
+                "volume": 483.6608758156055
+            },
+            {
+                "timestamp": 1414800000,
+                "open": 0.00022988638250611543,
+                "high": 0.00023391886386554624,
+                "low": 0.00021793030699087664,
+                "close": 0.00022371316688112044,
+                "volume": 634.090254613361
+            },
+            {
+                "timestamp": 1414886400,
+                "open": 0.00022393802986261756,
+                "high": 0.00023000145714285712,
+                "low": 0.0002007041936507141,
+                "close": 0.00020070420767727388,
+                "volume": 699.2241986906965
+            },
+            {
+                "timestamp": 1414972800,
+                "open": 0.0002175519215447393,
+                "high": 0.0002284092510324662,
+                "low": 0.0002067978353240751,
+                "close": 0.00020709530818340108,
+                "volume": 1059.893900325411
+            },
+            {
+                "timestamp": 1415059200,
+                "open": 0.00021640444248055985,
+                "high": 0.00021640444248055985,
+                "low": 0.00019476720682859815,
+                "close": 0.0002062033730366918,
+                "volume": 717.261067961974
+            },
+            {
+                "timestamp": 1415145600,
+                "open": 0.00020872767992708693,
+                "high": 0.000222001906600341,
+                "low": 0.00019895874678167616,
+                "close": 0.00021340451711389095,
+                "volume": 1418.7971074037953
+            },
+            {
+                "timestamp": 1415232000,
+                "open": 0.0001999936631448039,
+                "high": 0.00022745775534540523,
+                "low": 0.00019945965016949152,
+                "close": 0.0002249864062252729,
+                "volume": 1142.2456207579582
+            },
+            {
+                "timestamp": 1415318400,
+                "open": 0.00021684265269903045,
+                "high": 0.00022503890033596428,
+                "low": 0.0001994122201556698,
+                "close": 0.000210758807199599,
+                "volume": 1087.6348663753733
+            },
+            {
+                "timestamp": 1415404800,
+                "open": 0.00021204616006342285,
+                "high": 0.0002248004886040324,
+                "low": 0.00020506562850526253,
+                "close": 0.00021417629051009808,
+                "volume": 1001.7068709465746
+            },
+            {
+                "timestamp": 1415491200,
+                "open": 0.0002115966027362791,
+                "high": 0.00022219659929824563,
+                "low": 0.000206742430877193,
+                "close": 0.00021909107624916015,
+                "volume": 813.68960875277
+            },
+            {
+                "timestamp": 1415577600,
+                "open": 0.00021771890034994425,
+                "high": 0.0002340357436747289,
+                "low": 0.00021185108868083843,
+                "close": 0.0002188991997588867,
+                "volume": 1676.4602015068585
+            },
+            {
+                "timestamp": 1415664000,
+                "open": 0.0002192825245404752,
+                "high": 0.00023070417645386617,
+                "low": 0.0002156053998485213,
+                "close": 0.00022329602842639072,
+                "volume": 869.5932998552233
+            },
+            {
+                "timestamp": 1415750400,
+                "open": 0.0002208746915200775,
+                "high": 0.00025916169949422697,
+                "low": 0.00021960673011251893,
+                "close": 0.00023992478116884364,
+                "volume": 2178.0911471929367
+            },
+            {
+                "timestamp": 1415836800,
+                "open": 0.00026917199611062304,
+                "high": 0.00027337009265474037,
+                "low": 0.00023010474305677287,
+                "close": 0.000250966620191301,
+                "volume": 2558.5211825051347
+            },
+            {
+                "timestamp": 1415923200,
+                "open": 0.0002601945910667627,
+                "high": 0.0002602377093890241,
+                "low": 0.0002281100074036703,
+                "close": 0.00023790394733538305,
+                "volume": 1342.1169051822699
+            },
+            {
+                "timestamp": 1416009600,
+                "open": 0.0002392501438955308,
+                "high": 0.00023927373836945355,
+                "low": 0.00022183580361319268,
+                "close": 0.00022275535605201436,
+                "volume": 954.9206235508982
+            },
+            {
+                "timestamp": 1416096000,
+                "open": 0.00022888447719238917,
+                "high": 0.0002288958474253967,
+                "low": 0.00021092781847180747,
+                "close": 0.0002282798648151144,
+                "volume": 1500.2928755781727
+            },
+            {
+                "timestamp": 1416182400,
+                "open": 0.0002301051844133262,
+                "high": 0.0002301051844133262,
+                "low": 0.00022094623933527184,
+                "close": 0.0002209644018660087,
+                "volume": 254.72609148374838
+            },
+            {
+                "timestamp": 1416268800,
+                "open": 0.0002173752636096317,
+                "high": 0.0002173752636096317,
+                "low": 0.00021231680009764243,
+                "close": 0.00021277372793049,
+                "volume": 66.44118595774921
+            },
+            {
+                "timestamp": 1416355200,
+                "open": 0.0002154667984182641,
+                "high": 0.0002196107698844141,
+                "low": 0.0002034332849551332,
+                "close": 0.00020843452875918768,
+                "volume": 803.4613505891606
+            },
+            {
+                "timestamp": 1416441600,
+                "open": 0.0002130203582117647,
+                "high": 0.00021336440108524435,
+                "low": 0.00019844126027761271,
+                "close": 0.0002038839538863942,
+                "volume": 1065.8147240455082
+            },
+            {
+                "timestamp": 1416528000,
+                "open": 0.00019728089477738205,
+                "high": 0.0002322098839744212,
+                "low": 0.00019640405420323257,
+                "close": 0.00019902788412044377,
+                "volume": 671.9192549538776
+            },
+            {
+                "timestamp": 1416614400,
+                "open": 0.0002080945969114716,
+                "high": 0.00021772583512452663,
+                "low": 0.00020047431047590637,
+                "close": 0.0002080511468416195,
+                "volume": 610.6506255719678
+            }
+        ]
+    },
+    {
+        "id": "84f23d4f-c8d9-4e98-b41d-61b2c7aa15a1",
+        "serialId": 6456,
+        "symbol": "KANGAL",
+        "name": "Kangal",
+        "slug": "kangal",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6e765d26388a17a6e86c49a8e41df3f58abcd337"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x34f380a4e3389e99c0369264453523bbe5af7fab"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xd632bd021a07af70592ce1e18717ab9aa126decb"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "8509a634-23a6-4791-ae1d-384d6dd068ee",
+        "serialId": 8169,
+        "symbol": "CHEEMS",
+        "name": "Cheems",
+        "slug": "cheems",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "3FoUAsGDbvTD6YZ4wVKJgTB76onJUKz7GPEBNiR5b8wc"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "8c4f84a7-6484-4074-8c17-fe363a243e7f",
+        "serialId": 6195,
+        "symbol": "SHIB",
+        "name": "Shiba Inu",
+        "slug": "shiba-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "8fd8e24d-3540-4b2c-903a-bb5f932ca054",
+        "serialId": 7668,
+        "symbol": "CATE",
+        "name": "CateCoin",
+        "slug": "catecoin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xf05897cfe3ce9bbbfe0751cbe6b1b2c686848dcb"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xe4fae3faa8300810c835970b9187c268f55d998f"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "9052787a-68c2-4c19-8925-80b49f2b8913",
+        "serialId": 13969,
+        "symbol": "LEASH",
+        "name": "Doge Killer",
+        "slug": "leash",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x27c70cd1946795b66be9d954418546998b546634"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "9297f192-d929-4c88-82bf-3cab3dff27f7",
+        "serialId": 466941,
+        "symbol": "WEN",
+        "name": "Wen",
+        "slug": "wen-4",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "9ccb430a-8884-451c-b382-49a4a0c81f61",
+        "serialId": 13878,
+        "symbol": "SMI",
+        "name": "SafeMoon Inu",
+        "slug": "safemoon-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xcd7492db29e2ab436e819b249452ee1bbdf52214"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "9fb6e340-7969-4047-86ae-d60cb11a70ad",
+        "serialId": 95060,
+        "symbol": "FLOKI",
+        "name": "FLOKI",
+        "slug": "floki",
+        "contractAddresses": null,
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "beded6db-7cfa-4ebc-8a27-4b27b4401d6b",
+        "serialId": 414086,
+        "symbol": "MYRO",
+        "name": "Myro",
+        "slug": "myro",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "HhJpBhRRn4g56VsyLuT8DL5Bv31HkXqsrahTTUCZeZg4"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "c16cce0c-f968-4df0-9165-d790336bef6f",
+        "serialId": 13061,
+        "symbol": "LOWB",
+        "name": "Loser Coin",
+        "slug": "loser-coin",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x1c0a798b5a5273a9e54028eb1524fd337b24145f"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x843d4a358471547f51534e3e51fae91cb4dc3f28"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "c2b6aa74-ad3c-4b6d-8ddb-d649fadf27ae",
+        "serialId": 8018,
+        "symbol": "HOGE",
+        "name": "Hoge Finance",
+        "slug": "hoge-finance",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xfad45e47083e4607302aa43c65fb3106f1cd7607"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa4fffc757e8c4f24e7b209c033c123d20983ad40"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "dbd393f1-f374-439d-a705-636261b88096",
+        "serialId": 413267,
+        "symbol": "MEME",
+        "name": "Memecoin",
+        "slug": "memecoin-2",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb131f4a55907b10d1f0a50d8ab8fa09ec342cd74"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "dce01826-60a0-4bf0-b917-0a54840327a8",
+        "serialId": 662497,
+        "symbol": "torsy",
+        "name": "TORSY",
+        "slug": "torsy",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "5YqckGEkWHJmp9LW5aUF2uJrdUbMJaHcYnGjA8M7Ebw8"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "de219c84-a43e-4d70-b29d-40735250282c",
+        "serialId": 333662,
+        "symbol": "MOG",
+        "name": "Mog Coin",
+        "slug": "mog-coin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xaaee1a9723aadb7afa2810263653a34ba2c21c7a"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x2da56acb9ea78330f947bd57c54119debda7af71"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "e365ad15-0867-4b03-864e-1ab59f21ef00",
+        "serialId": 14819,
+        "symbol": "VINU",
+        "name": "Vita Inu",
+        "slug": "vita-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xafcdd4f666c84fed1d8bd825aa762e3714f652c9"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xafcdd4f666c84fed1d8bd825aa762e3714f652c9"
+            },
+            {
+                "platform": "vite",
+                "contractAddress": "tti_541b25bd5e5db35166864096"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xfebe8c1ed424dbf688551d4e2267e7a53698f0aa"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x72ccf64ee5e2c7629ee4eee3e6ad6990289178ae"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "e399a238-6810-4ad4-93d9-24f110e85cdb",
+        "serialId": 15803,
+        "symbol": "AKITA",
+        "name": "Akita Inu",
+        "slug": "akita-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3301ee63fb29f863f2333bd4466acb46cd8323e6"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0xcaf5191fc480f43e4df80106c7695eca56e48b18"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "e7f6fb5c-b7e6-45b4-b9ed-3f3c761f280e",
+        "serialId": 154261,
+        "symbol": "BONK",
+        "name": "Bonk",
+        "slug": "bonk-0",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x1151cb3d861920e07a38e03eead12c32178567f6"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe5b49820e5a1063f6f4ddf851327b5e8b2301048"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x09199d9a5f4448d0848e4395d065e1ad9c4a1f74"
+            },
+            {
+                "platform": "solana",
+                "contractAddress": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa697e272a73744b343528c3bc4702f2565b2f422"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    },
+    {
+        "id": "f49aa7fe-7f5e-438d-80e6-07963f41b360",
+        "serialId": 8108,
+        "symbol": "HODL",
+        "name": "HODL",
+        "slug": "hodl",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xe2a083397521968eb05585932750634bed4b7d56"
+            }
+        ],
+        "category": "meme",
+        "market_data": "No content"
+    }
+]

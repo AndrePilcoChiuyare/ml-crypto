@@ -68,9 +68,10 @@ class Model:
 
     def capping_time_series(self, df: pd.DataFrame) -> pd.DataFrame:
         token_info = df.groupby('id')['name'].value_counts()
-        mean = np.floor(token_info.mean()).astype(int)
-        ids_to_keep = token_info[token_info > mean].index.get_level_values(0).unique()
-        filtered_meme = df[df['id'].isin(ids_to_keep)]
+        # mean = np.floor(token_info.mean()).astype(int)
+        # ids_to_keep = token_info[token_info > mean].index.get_level_values(0).unique()
+        # filtered_meme = df[df['id'].isin(ids_to_keep)]
+        filtered_meme = df.copy()
         first_timestamps = filtered_meme.groupby('id').timestamp.min()
         last_timestamps = filtered_meme.groupby('id').timestamp.max()
         max_first_timestamp = first_timestamps.max()

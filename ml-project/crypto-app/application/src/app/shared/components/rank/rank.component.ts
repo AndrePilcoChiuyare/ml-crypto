@@ -20,7 +20,10 @@ export class RankComponent {
 
   openDialog(item: any): void {
     this.dialog.open(DialogComponent, {
-      data: item
+      data: item,
+      minWidth: '30%',
+      maxWidth: '100%',
+      width: '70%',
     });
   }
 }

@@ -1,1 +1,17 @@
-<p>chart works!</p>
+<div>
+    <apx-chart
+        *ngIf="chartOptions"
+        [series]="chartOptions.series"
+        [chart]="chartOptions.chart"
+        [xaxis]="chartOptions.xaxis"
+        [title]="chartOptions.title"
+        [annotations]="chartOptions.annotations"
+        [tooltip]="chartOptions.tooltip"
+        [fill]="chartOptions.fill"
+        >
+        
+
+    </apx-chart>
+</div>
+
+

@@ -1,5 +1,5 @@
-<h1 mat-dialog-title>Item Details</h1>
-<div mat-dialog-content>
+<h1 mat-dialog-title class="custom-dialog-title">Item Details</h1>
+<div mat-dialog-content class="custom-dialog-content">
   <p>Category: {{ data.category }}</p>
   <p>Future Multiply: {{ data.future_multiply }}</p>
   <p>Current Close Price: {{ data.last_close }}</p>
@@ -7,7 +7,6 @@
   <p>Market Cap Level: {{ data.market_cap_level }}</p>
   <p>Market Cap: {{ data.marketcap }}</p>
   <p>Token: {{ data.name }} ({{ data.symbol }})</p>
-</div>
-<div mat-dialog-actions>
-  <button mat-button mat-dialog-close>Close</button>
+  <p>ID: {{ data.id }}</p>
+  <app-chart [category]="category" [tokenId]="tokenID"></app-chart>
 </div>

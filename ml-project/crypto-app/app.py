@@ -33,14 +33,10 @@ def get_basic_info(category):
 
     return basic_info
 
-@app.route("/predictions", methods=["GET"])
-def get_prediction_by_id():
-    body = request.json
-    category = body["category"]
-    token_id = body["id"]
-
+@app.route("/categories/<category>/tokens/<id>", methods=["GET"])
+def get_prediction_by_id(category, id):
     model = Model()
-    prediction = model.get_prediction_by_id(category=category, token_id=token_id)
+    prediction = model.get_prediction_by_id(category=category, token_id=id)
 
     return prediction
     

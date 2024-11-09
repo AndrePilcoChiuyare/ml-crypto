@@ -1,0 +1,739 @@
+[
+    {
+        "id": "0d0d9689-bf75-41ee-9555-aa2f2ca0186b",
+        "serialId": 6290,
+        "symbol": "RBN",
+        "name": "Ribbon Finance",
+        "slug": "ribbon-finance",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6123b0049f904d730db3c36a31167d9d4121fa6b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "0f2d0434-2ff5-4166-8d59-5cb1e5b102e1",
+        "serialId": 16077,
+        "symbol": "CREDI",
+        "name": "Credefi",
+        "slug": "credefi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xae6e307c3fe9e922e5674dbd7f830ed49c014c6b"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x2235e79086dd23135119366da45851c741874e5b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "13af58e4-0242-4aa0-8d09-e0aaa262f761",
+        "serialId": 11101,
+        "symbol": "CARR",
+        "name": "Carnomaly",
+        "slug": "carnomaly",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x884ddbb5dc6c2cef77d3e74c6ccca315797d655b"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x9b765735c82bb00085e9dbf194f20e3fa754258e"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "19850b5a-a264-4954-a312-67d15c77f347",
+        "serialId": 17162,
+        "symbol": "EKTA",
+        "name": "Ekta",
+        "slug": "ekta-2",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2f75113b13d136f861d212fa9b572f2c79ac81c4"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x45808ce43eb2d7685ff0242631f0feb6f3d8701a"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "1bc28038-aa5b-4e3d-9ad9-eaf8cbfed677",
+        "serialId": 401300,
+        "symbol": "TOKEN",
+        "name": "TokenFi",
+        "slug": "tokenfi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "1c1cd416-b027-4d73-9d4d-0a9edc63524d",
+        "serialId": 222,
+        "symbol": "CHR",
+        "name": "Chromia",
+        "slug": "chromia",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x8a2279d4a90b6fe1c4b30fa660cc9f926797baa2"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xf9cec8d50f6c8ad3fb6dccec577e05aa32b224fe"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "20a20296-c751-4011-88fa-fc2b8b0a8564",
+        "serialId": 9795,
+        "symbol": "EL",
+        "name": "ELYSIA",
+        "slug": "elysia",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2781246fe707bb15cee3e5ea354e2154a2877b16"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "2db6b38a-681a-4514-9d67-691e319597ee",
+        "serialId": 1265,
+        "symbol": "AVAX",
+        "name": "Avalanche",
+        "slug": "avalanche",
+        "contractAddresses": [
+            {
+                "platform": "avalanche",
+                "contractAddress": "FvwEAhmxKfeiG8SnEvq42hc6whRyY3EFYAvebMqDNDGCgxN5Z"
+            },
+            {
+                "platform": "moonbeam",
+                "contractAddress": "0x4792c1ecb969b036eb51330c63bd27899a13d84e"
+            },
+            {
+                "platform": "moonriver",
+                "contractAddress": "0x14a0243c333a5b238143068dc3a7323ba4c30ecb"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "317d6ffb-c0b3-43c1-a88a-e19ab22d6171",
+        "serialId": 6706,
+        "symbol": "SMT",
+        "name": "Swarm Markets",
+        "slug": "swarm-markets",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb17548c7b510427baac4e267bea62e800b247173"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe631dabef60c37a37d70d3b4f812871df663226f"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x2680e82fb8beb5a153a67fe687ffa67abb6b9013"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x2974dc646e375e83bd1c0342625b49f288987fa4"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "39a5cc70-09c6-4e20-899e-131507186776",
+        "serialId": 17291,
+        "symbol": "UBXS",
+        "name": "UBXS Token",
+        "slug": "ubxs-token",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4f1960e29b2ca581a38c5c474e123f420f8092db"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "39b71592-9e16-4198-8ca5-3b19a3f41dd3",
+        "serialId": 3993,
+        "symbol": "XDC",
+        "name": "XDC Network",
+        "slug": "xinfin-network",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "39f97a1d-e784-497c-926f-d065511bbd69",
+        "serialId": 549169,
+        "symbol": "PRCL",
+        "name": "Parcl",
+        "slug": "parcl",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "4LLbsb5ReP3yEtYzmXewyGjcir5uXtKFURtaEUVC2AHs"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "3b3bb244-c3df-47c4-b5d4-cc8af1c121b1",
+        "serialId": 7147,
+        "symbol": "BOSON",
+        "name": "Boson Protocol",
+        "slug": "boson-protocol",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xc477d038d5420c6a9e0b031712f61c5120090de9"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x9b3b0703d392321ad24338ff1f846650437a43c9"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "40f2f803-cf08-4970-a178-cbe19a916ff7",
+        "serialId": 701,
+        "symbol": "CFG",
+        "name": "Centrifuge",
+        "slug": "centrifuge",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "4758c080-821e-4a19-bbae-4df59682d229",
+        "serialId": 86,
+        "symbol": "MKR",
+        "name": "Maker",
+        "slug": "maker",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+            },
+            {
+                "platform": "sora",
+                "contractAddress": "0x00ec184ef0b4bd955db05eea5a8489ae72888ab6e63682a15beca1cd39344c8f"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x6f7c932e7684666c9fd1d44527765433e01ff61d"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x2e9a6df78e42a30712c10a9dc4b1c8656f8f2879"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0x88128fd4b259552a9a1d457f435a6527aab72d42"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "54038f3f-95f5-46a3-a9ba-c972b7c1d115",
+        "serialId": 15527,
+        "symbol": "UNO",
+        "name": "Uno Re",
+        "slug": "uno-re",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x474021845c4643113458ea4414bdb7fb74a01a77"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x474021845c4643113458ea4414bdb7fb74a01a77"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "54d246b7-f554-4386-97da-907a03c1a812",
+        "serialId": 343,
+        "symbol": "SNX",
+        "name": "Synthetix",
+        "slug": "synthetix",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x50b728d8d964fd00c2d0aad81718b71311fef68a"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x7b9c523d59aefd362247bd5601a89722e3774dd2"
+            },
+            {
+                "platform": "huobi-token",
+                "contractAddress": "0x777850281719d5a96c29812ab72f822e0e09f3da"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0xbec243c995409e6520d7c41e404da5deba4b209b"
+            },
+            {
+                "platform": "fantom",
+                "contractAddress": "0x56ee926bd8c72b2d5fa1af4d9e4cbb515a1e3adc"
+            },
+            {
+                "platform": "optimistic-ethereum",
+                "contractAddress": "0x8700daec35af8ff88c16bdf0418774cb3d7599b4"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "6f14c9a5-bbfc-4d63-aef2-e649e6a800db",
+        "serialId": 14188,
+        "symbol": "STRX",
+        "name": "StrikeX",
+        "slug": "strikecoin",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xd6fdde76b8c1c45b33790cc8751d5b88984c44ec"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "72ff9ca6-8231-40bd-ba05-e9758a2cbb4c",
+        "serialId": 11558,
+        "symbol": "STBU",
+        "name": "Stobox Token",
+        "slug": "stobox-token",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xa6422e3e219ee6d4c1b18895275fe43556fd50ed"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xcf403036bc139d30080d2cf0f5b48066f98191bb"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xb0c4080a8fa7afa11a09473f3be14d44af3f8743"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "752ea4d3-b21a-4d7c-8297-4817e9d0102c",
+        "serialId": 11105,
+        "symbol": "OPUL",
+        "name": "Opulous",
+        "slug": "opulous",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x80d55c03180349fff4a229102f62328220a96444"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x0c5fa0e07949f941a6c2c29a008252db1527d6ee"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x686318000d982bc8dcc1cdcf8ffd22322f0960ed"
+            },
+            {
+                "platform": "algorand",
+                "contractAddress": "287867876"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "7664656b-a3b9-4e40-9a82-a10c2e75b0ec",
+        "serialId": 18145,
+        "symbol": "POLYX",
+        "name": "Polymesh",
+        "slug": "polymesh",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "7ab662b2-2574-4e48-96ea-dc8eb4545a0b",
+        "serialId": 2792,
+        "symbol": "LSK",
+        "name": "Lisk",
+        "slug": "lisk",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6033f7f88332b8db6ad452b7c6d5bb643990ae3f"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "a9c04b71-33e4-4fed-8126-cf1612c7e198",
+        "serialId": 6135,
+        "symbol": "LINK",
+        "name": "Chainlink",
+        "slug": "chainlink",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x514910771af9ca656af840dff83e8264ecf986ca"
+            },
+            {
+                "platform": "sora",
+                "contractAddress": "0x008484148dcf23d1b48908393e7a00d5fdc3bf81029a73eeca62a15ebfb1205a"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0xf97f4df75117a78c1a5a0dbb814af92458539fb4"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x218532a12a389a4a92fc0c5fb22901d1c19198aa"
+            },
+            {
+                "platform": "huobi-token",
+                "contractAddress": "0x9e004545c59d359f6b7bfb06a26390b087717b42"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0x5947bb275c521040051d82396192181b413227a3"
+            },
+            {
+                "platform": "xdai",
+                "contractAddress": "0xe2e73a1c69ecf83f464efce6a5be353a37ca09b2"
+            },
+            {
+                "platform": "fantom",
+                "contractAddress": "0xb3654dc3d10ea7645f8319668e8f54d2574fbdc8"
+            },
+            {
+                "platform": "optimistic-ethereum",
+                "contractAddress": "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd"
+            },
+            {
+                "platform": "osmosis",
+                "contractAddress": "ibc/D3327A763C23F01EC43D1F0DB3CEFEC390C362569B6FD191F40A5192F8960049"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "b3f0e728-3adf-4725-bc02-2c3a2b5c0ae9",
+        "serialId": 7383,
+        "symbol": "RIO",
+        "name": "Realio Network",
+        "slug": "realio-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xf21661d0d1d76d3ecb8e1b9f1c923dbfffae4097"
+            },
+            {
+                "platform": "stellar",
+                "contractAddress": "RIO-GBNLJIYH34UWO5YZFA3A3HD3N76R6DOI33N4JONUOHEEYZYCAYTEJ5AK"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x8c49a510756224e887b3d99d00d959f2d86dda1c"
+            },
+            {
+                "platform": "algorand",
+                "contractAddress": "2751733"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "b84be4dc-e6df-48e7-82db-031de8161794",
+        "serialId": 2744,
+        "symbol": "PRO",
+        "name": "Propy",
+        "slug": "propy",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x226bb599a12c826476e3a771454697ea52e9e220"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x18dd5b087bca9920562aff7a0199b96b9230438b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "bc000886-31af-4aa1-9b4e-e0ec9546dfca",
+        "serialId": 17221,
+        "symbol": "GFI",
+        "name": "Goldfinch",
+        "slug": "goldfinch-finance",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xdab396ccf3d84cf2d07c4454e10c8a6f5b008d2b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "bc8775ef-a2b9-4786-b6e4-5692e53b5d87",
+        "serialId": 6018,
+        "symbol": "XCH",
+        "name": "Chia",
+        "slug": "chia",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "be85b939-ec81-4d45-bd32-f52d63706a68",
+        "serialId": 7289,
+        "symbol": "TRADE",
+        "name": "Polytrade",
+        "slug": "polytrade",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6e5970dbd6fc7eb1f29c6d2edf2bc4c36124c0c1"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x692ac1e363ae34b6b489148152b12e2785a3d8d6"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0xe22c452bd2ade15dfc8ad98286bc6bdf0c9219b7"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x6ba7a8f9063c712c1c8cabc776b1da7126805f3b"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "c0da60ef-b73f-45bd-8466-e90432406e4c",
+        "serialId": 8187,
+        "symbol": "LAND",
+        "name": "Landshare",
+        "slug": "landshare",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa73164db271931cf952cbaeff9e8f5817b42fa5c"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "c46470b3-5614-4dd3-a286-59a600fad94f",
+        "serialId": 15166,
+        "symbol": "ID",
+        "name": "Everest",
+        "slug": "everid",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xebd9d99a3982d547c5bb4db7e3b1f9f14b67eb83"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x8ea2526c2373ba3fe1d0987f5db8ac770a42dd51"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "cb1eec26-bd87-4585-a3f1-568ad28d3ef2",
+        "serialId": 19644,
+        "symbol": "LMR",
+        "name": "Lumerin",
+        "slug": "lumerin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4b1d0b9f081468d780ca1d5d79132b64301085d1"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "cb43529e-f4a4-4f18-a348-116ad35c9351",
+        "serialId": 2807,
+        "symbol": "LTO",
+        "name": "LTO Network",
+        "slug": "lto-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd01409314acb3b245cea9500ece3f6fd4d70ea30"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x857b222fc79e1cbbf8ca5f78cb133d1b7cf34bbd"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "ce222383-2753-44d4-b9ef-2dd67a7ea730",
+        "serialId": 349,
+        "symbol": "VET",
+        "name": "VeChain",
+        "slug": "vechain",
+        "contractAddresses": null,
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "d3540108-d1d6-4bd4-ae37-5a5287ecf9af",
+        "serialId": 7978,
+        "symbol": "ADS",
+        "name": "Alkimi",
+        "slug": "alkimi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3106a0a076bedae847652f42ef07fd58589e001f"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "db7344b5-586a-4e9f-917f-1ce09831decd",
+        "serialId": 820,
+        "symbol": "TRU",
+        "name": "TrueFi",
+        "slug": "truefi",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4c19596f5aaff459fa38b0f7ed92f11ae6543784"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "eb9e9e28-13b8-4355-a70b-d4ae2a4ba724",
+        "serialId": 1128,
+        "symbol": "ORAI",
+        "name": "Oraichain",
+        "slug": "oraichain",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4c11249814f11b9346808179cf06e71ac328c1b5"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa325ad6d9c92b55a3fc5ad7e412b1518f96441c0"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "f086ee5f-e8c6-42ae-9c65-e2cb33879196",
+        "serialId": 501,
+        "symbol": "QNT",
+        "name": "Quant",
+        "slug": "quant-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4a220e6096b25eadb88358cb44068a3248254675"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    },
+    {
+        "id": "fefc437d-46fa-4470-9ffe-e6c7219a1f9d",
+        "serialId": 9835,
+        "symbol": "XEP",
+        "name": "Electra Protocol",
+        "slug": "electra-protocol",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xb897d0a0f68800f8be7d69ffdd1c24b69f57bf3e"
+            }
+        ],
+        "category": "rwa",
+        "market_data": "No content"
+    }
+]

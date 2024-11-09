@@ -25,9 +25,10 @@ def removing_duplicates(df: pd.DataFrame) -> pd.DataFrame:
 
 def capping_time_series(df: pd.DataFrame) -> pd.DataFrame:
     token_info = df.groupby('id')['name'].value_counts()
-    mean = np.floor(token_info.mean()).astype(int)
-    ids_to_keep = token_info[token_info > mean].index.get_level_values(0).unique()
-    filtered_meme = df[df['id'].isin(ids_to_keep)]
+    # mean = np.floor(token_info.quantile(0.25)).astype(int)
+    # ids_to_keep = token_info[token_info > mean].index.get_level_values(0).unique()
+    # filtered_meme = df[df['id'].isin(ids_to_keep)]
+    filtered_meme = df.copy()
     first_timestamps = filtered_meme.groupby('id').timestamp.min()
     last_timestamps = filtered_meme.groupby('id').timestamp.max()
     max_first_timestamp = first_timestamps.max()
@@ -146,7 +147,6 @@ def create_all_future_exog(df: pd.DataFrame, exog_scaler: StandardScaler,days: i
         future_exog_list.append(future_exog)
     
     all_future_exog = pd.concat(future_exog_list, ignore_index=True)
-    all_future_exog.to_csv(f'../data/processed/future_exog/{category}_future_exog.csv', index=False)
     return all_future_exog
 
 def create_dictionaries(series_df: pd.DataFrame, exog_df: pd.DataFrame, future_exog_df: pd.DataFrame) -> tuple[series_long_to_dict, exog_long_to_dict, exog_long_to_dict]:

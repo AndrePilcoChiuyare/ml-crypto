@@ -11,6 +11,6 @@ export interface PredictionHistorical {
     symbol: string;
     close_data: {
         close:number;
-        timestamp: string
+        timestamp: string;
     }[];
 }
