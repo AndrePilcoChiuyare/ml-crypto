@@ -19,6 +19,19 @@ def predict():
 
     return predictions
 
+@app.route("/predict-all", methods=["POST"])
+def predict_all():
+    body = request.json
+    days_to_predict = int(body["days_to_predict"])
+    model_name = body["model"]
+
+    categories = ["ai", "meme", "rwa", "gaming"]
+    for category in categories:
+        model = Model()
+        model.train_predict(category=category, days_to_predict=days_to_predict, model=model_name)
+    
+    return "Predictions completed"
+
 @app.route("/predictionsComplete/<category>", methods=["GET"])
 def predict_get(category):
     model = Model()
