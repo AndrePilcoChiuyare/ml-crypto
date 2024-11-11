@@ -59,6 +59,22 @@ def get_data():
     data = model.getData()
 
     return "Data retrieved"
+
+@app.route("/get-data/predict-all", methods=["POST"])
+def get_data_predict_all():
+    body = request.json
+    days_to_predict = int(body["days_to_predict"])
+    model_name = body["model"]
+
+    model = Model()
+    data = model.getData()
+
+    categories = ["ai", "meme", "rwa", "gaming"]
+    for category in categories:
+        model = Model()
+        model.train_predict(category=category, days_to_predict=days_to_predict, model=model_name)
+    
+    return "Predictions completed"
     
 if __name__ == '__main__':
     app.run(debug=True)

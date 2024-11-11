@@ -420,37 +420,61 @@ class Model:
         print("gaming start")
         self.get_yearly_data('30/09/2024', '1d', gaming, 'gaming')
 
+        print("data complete")
+        meme_complete = self.complete_historical_data('meme')
+        ai_complete = self.complete_historical_data('ai')
+        rwa_complete = self.complete_historical_data('rwa')
+        gaming_complete = self.complete_historical_data('gaming')
 
+        print("saving complete json")
+        self.save_json(meme_complete, 'meme')
+        self.save_json(ai_complete, 'ai')
+        self.save_json(rwa_complete, 'rwa')
+        self.save_json(gaming_complete, 'gaming')
 
-        gaming_data = pd.read_csv("../data/processed/gaming.csv")
-        meme_data = pd.read_csv("../data/processed/meme.csv")
-        ai_data = pd.read_csv("../data/processed/ai.csv")
-        rwa_data = pd.read_csv("../data/processed/rwa.csv")
+        print(type(meme_complete))
+
+        print("complete to df")
+        meme_data = self.historical_json_to_dataframe(meme_complete)
+        ai_data = self.historical_json_to_dataframe(ai_complete)
+        rwa_data = self.historical_json_to_dataframe(rwa_complete)
+        gaming_data = self.historical_json_to_dataframe(gaming_complete)
+
+        print("saving data csv")
+        meme_data.to_csv("../data/processed/meme.csv", index=False)
+        ai_data.to_csv("../data/processed/ai.csv", index=False)
+        rwa_data.to_csv("../data/processed/rwa.csv", index=False)
+        gaming_data.to_csv("../data/processed/gaming.csv", index=False)
+
+        # gaming_data = pd.read_csv("../data/processed/gaming.csv")
+        # meme_data = pd.read_csv("../data/processed/meme.csv")
+        # ai_data = pd.read_csv("../data/processed/ai.csv")
+        # rwa_data = pd.read_csv("../data/processed/rwa.csv")
         # print("data loaded")
 
         gaming_cap = pd.read_csv("../data/processed/gaming_market_caps.csv")
         meme_cap = pd.read_csv("../data/processed/meme_market_caps.csv")
         ai_cap = pd.read_csv("../data/processed/ai_market_caps.csv")
         rwa_cap = pd.read_csv("../data/processed/rwa_market_caps.csv")
-        # print("market caps loaded")
+        print("market caps loaded")
 
         gaming_image = pd.read_csv("../data/processed/gaming_logos.csv")
         meme_image = pd.read_csv("../data/processed/meme_logos.csv")
         ai_image = pd.read_csv("../data/processed/ai_logos.csv")
         rwa_image = pd.read_csv("../data/processed/rwa_logos.csv")
-        # print("images loaded")
+        print("images loaded")
 
         gaming_data = self.add_cols_to_df(gaming_data, gaming_cap, gaming_image)
         meme_data = self.add_cols_to_df(meme_data, meme_cap, meme_image)
         ai_data = self.add_cols_to_df(ai_data, ai_cap, ai_image)
         rwa_data = self.add_cols_to_df(rwa_data, rwa_cap, rwa_image)
-        # print("cols added")
+        print("cols added")
 
         gaming_data.to_csv("../data/processed/gaming.csv", index=False)
         meme_data.to_csv("../data/processed/meme.csv", index=False)
         ai_data.to_csv("../data/processed/ai.csv", index=False)
         rwa_data.to_csv("../data/processed/rwa.csv", index=False)
-        # print("data saved")
+        print("data saved")
 
     def get_from_api(self, endpoint: str):
         base_url = 'https://api.messari.io/'
@@ -461,7 +485,7 @@ class Model:
         }
         return requests.get(url, headers=headers)
     
-    def getting_interval_timestamps(date: str, days:int) -> tuple[int, int]:
+    def getting_interval_timestamps(self, date: str, days:int) -> tuple[int, int]:
         startdate: datetime = datetime.strptime(date, '%d/%m/%Y')
         enddate: datetime = startdate + timedelta(days=days)
         return int(datetime.timestamp(startdate)), int(datetime.timestamp(enddate))
@@ -524,7 +548,7 @@ class Model:
                                     
         return complete_data
     
-    def historical_json_to_dataframe(json_file: list) -> pd.DataFrame:
+    def historical_json_to_dataframe(self, json_file: list) -> pd.DataFrame:
         data = []
         for token in json_file:
             for record in token['market_data']:
