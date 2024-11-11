@@ -1,0 +1,3317 @@
+[
+    {
+        "id": "0432c2ca-0dc4-44c5-bf0c-a2feaa4b3130",
+        "serialId": 15981,
+        "symbol": "SENATE",
+        "name": "SENATE",
+        "slug": "senate",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x34be5b8c30ee4fde069dc878989686abe9884470"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 5.836390187945891,
+            "at": "2022-01-01T14:00:00Z",
+            "daysSince": 1017.6064282560255,
+            "percentDown": 99.21407085907286,
+            "breakevenMultiple": 127.23793379392008
+        },
+        "cycleLowData": {
+            "price": 0.018242209358568674,
+            "at": "2023-10-16T20:00:00Z",
+            "percentUp": 151.44920970733847,
+            "daysSince": 364.3564282560255
+        }
+    },
+    {
+        "id": "049abaff-71e0-4b1a-bcee-942cb1630222",
+        "serialId": 12916,
+        "symbol": "DARK",
+        "name": "Dark Frontiers",
+        "slug": "dark-frontiers",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x12fc07081fab7de60987cad8e8dc407b606fb2f8"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.0739373236650619,
+            "at": "2023-12-14T21:00:00Z",
+            "daysSince": 305.3147615905719,
+            "percentDown": 71.22102758946521,
+            "breakevenMultiple": 3.474759229533649
+        },
+        "cycleLowData": {
+            "price": 0.020202935794942315,
+            "at": "2024-09-18T16:00:00Z",
+            "percentUp": 5.323316346839515,
+            "daysSince": 26.52309492390522
+        }
+    },
+    {
+        "id": "06963e10-2042-41d3-9583-acb4135460dc",
+        "serialId": 6036,
+        "symbol": "MIST",
+        "name": "Mist",
+        "slug": "mist",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x68e374f856bf25468d365e539b700b648bf94b67"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.2748680371805873,
+            "at": "2021-08-04T10:00:00Z",
+            "daysSince": 1167.7730949418096,
+            "percentDown": 98.93607162717186,
+            "breakevenMultiple": 93.99128978408528
+        },
+        "cycleLowData": {
+            "price": 0.001241642227653953,
+            "at": "2023-11-08T08:00:00Z",
+            "percentUp": 135.52670570214377,
+            "daysSince": 341.85642827514306
+        }
+    },
+    {
+        "id": "0844705f-10ed-42ca-b483-914b7d59e351",
+        "serialId": 345,
+        "symbol": "MANA",
+        "name": "Decentraland",
+        "slug": "decentraland",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x0f5d2fb29fb7d3cfee444a200298f468908cc942"
+            },
+            {
+                "platform": "sora",
+                "contractAddress": "0x00449af28b82575d6ac0e8c6d20e095be0917e1b0eaa63962a1dc2c6b81c2b0d"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x60c0380833da99269e45d8acaf3c36396853b69f"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 5.783532723266934,
+            "at": "2021-11-25T09:00:00Z",
+            "daysSince": 1054.814761570992,
+            "percentDown": 94.66613779169903,
+            "breakevenMultiple": 18.748140858301905
+        },
+        "cycleLowData": {
+            "price": 0.22508868721368055,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 37.05071989611128,
+            "daysSince": 70.68976157099202
+        }
+    },
+    {
+        "id": "0889f611-0e32-4e5e-be44-d87dcf8bf9cf",
+        "serialId": 16168,
+        "symbol": "COPI",
+        "name": "Cornucopias",
+        "slug": "cornucopias",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x42baf1f659d765c65ade5bb7e08eb2c680360d9d"
+            },
+            {
+                "platform": "cardano",
+                "contractAddress": "asset1c6uau7pufsxhnm7eg0eerhu4snwfd9sn7kvvvz"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xfea292e5ea4510881bdb840e3cec63abd43f936f"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x0a953dd9fc813fefaf6015b804c9dfa0624690c0"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.13673945516402913,
+            "at": "2023-12-16T03:00:00Z",
+            "daysSince": 304.0647615819197,
+            "percentDown": 82.48413341294221,
+            "breakevenMultiple": 5.709109480994133
+        },
+        "cycleLowData": {
+            "price": 0.021732365052756535,
+            "at": "2024-10-10T18:00:00Z",
+            "percentUp": 10.209360464258777,
+            "daysSince": 4.439761581919699
+        }
+    },
+    {
+        "id": "10e910bd-6f50-4085-bd78-fbbcde408d28",
+        "serialId": 15767,
+        "symbol": "BSW",
+        "name": "Biswap",
+        "slug": "biswap",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x965f527d9159dce6288a2219db51fc6eef120dd1"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 2.9560411705291583,
+            "at": "2021-06-04T21:00:00Z",
+            "daysSince": 1228.3147615801554,
+            "percentDown": 97.90335552521618,
+            "breakevenMultiple": 47.69525840107501
+        },
+        "cycleLowData": {
+            "price": 0.04016186997734476,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 54.31969156116424,
+            "daysSince": 70.68976158015536
+        }
+    },
+    {
+        "id": "126938ad-16e3-423a-8803-69d011694a48",
+        "serialId": 15970,
+        "symbol": "VOXEL",
+        "name": "Voxies",
+        "slug": "voxies",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xd0258a3fd00f38aa8090dfee343f10a9d4d30d3f"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 4.679142521879111,
+            "at": "2021-12-16T02:00:00Z",
+            "daysSince": 1034.1064282465798,
+            "percentDown": 96.62046862795123,
+            "breakevenMultiple": 29.589901377177437
+        },
+        "cycleLowData": {
+            "price": 0.09197733877330493,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 71.92614135045397,
+            "daysSince": 70.68976157991321
+        }
+    },
+    {
+        "id": "199c287f-3646-49cf-afd3-e17758f66cf0",
+        "serialId": 16841,
+        "symbol": "WRLD",
+        "name": "NFT Worlds",
+        "slug": "nft-worlds",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd5d86fc8d5c0ea1ac1ac5dfab6e529c9967a45e9"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xd5d86fc8d5c0ea1ac1ac5dfab6e529c9967a45e9"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.6023675881304633,
+            "at": "2022-02-19T20:00:00Z",
+            "daysSince": 968.3564282547298,
+            "percentDown": 97.942200197159,
+            "breakevenMultiple": 48.59559217662507
+        },
+        "cycleLowData": {
+            "price": 0.004729018747033843,
+            "at": "2023-01-02T19:00:00Z",
+            "percentUp": 162.1160901233781,
+            "daysSince": 651.3980949213966
+        }
+    },
+    {
+        "id": "1a5aa1bf-0512-4a7d-ac19-ddaccfbee99f",
+        "serialId": 16600,
+        "symbol": "KATA",
+        "name": "Katana Inu",
+        "slug": "katana-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2e85ae1c47602f7927bcabc2ff99c40aa222ae15"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x6d6ba21e4c4b29ca7bfa1c344ba1e35b8dae7205"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.00809630214322986,
+            "at": "2021-12-24T07:00:00Z",
+            "daysSince": 1025.8980949179831,
+            "percentDown": 94.36843824260251,
+            "breakevenMultiple": 17.757063547894525
+        },
+        "cycleLowData": {
+            "price": 0.0001086193725753894,
+            "at": "2022-12-22T19:00:00Z",
+            "percentUp": 319.7669756792484,
+            "daysSince": 662.398094917983
+        }
+    },
+    {
+        "id": "1ae14641-7365-4be1-9bb9-c86ab07715b3",
+        "serialId": 6021,
+        "symbol": "SUPER",
+        "name": "SuperVerse",
+        "slug": "superverse",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xa1428174f516f527fafdd146b883bb4428682737"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x51ba0b044d96c3abfca52b64d733603ccc4f0d4d"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 4.612720158254704,
+            "at": "2021-03-31T06:00:00Z",
+            "daysSince": 1293.9397615709524,
+            "percentDown": 70.30559378869813,
+            "breakevenMultiple": 3.3676376381602613
+        },
+        "cycleLowData": {
+            "price": 0.07035200697078378,
+            "at": "2023-10-19T02:00:00Z",
+            "percentUp": 1846.952077360897,
+            "daysSince": 362.10642823761924
+        }
+    },
+    {
+        "id": "1c1cd416-b027-4d73-9d4d-0a9edc63524d",
+        "serialId": 222,
+        "symbol": "CHR",
+        "name": "Chromia",
+        "slug": "chromia",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x8a2279d4a90b6fe1c4b30fa660cc9f926797baa2"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xf9cec8d50f6c8ad3fb6dccec577e05aa32b224fe"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1.4734165886255906,
+            "at": "2021-11-20T11:00:00Z",
+            "daysSince": 1059.7314282402333,
+            "percentDown": 87.1590249670856,
+            "breakevenMultiple": 7.787570627906115
+        },
+        "cycleLowData": {
+            "price": 0.08188541240415857,
+            "at": "2023-08-25T04:00:00Z",
+            "percentUp": 131.05587518128277,
+            "daysSince": 417.02309490690004
+        }
+    },
+    {
+        "id": "1d3bfcac-acb6-46ed-99b2-94122b8de833",
+        "serialId": 485734,
+        "symbol": "PORTAL",
+        "name": "Portal",
+        "slug": "portal",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x1bbe973bef3a977fc51cbed703e8ffdefe001fed"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 2.848255528231176,
+            "at": "2024-02-29T09:00:00Z",
+            "daysSince": 228.81476157793983,
+            "percentDown": 88.94425801883482,
+            "breakevenMultiple": 9.045073607032647
+        },
+        "cycleLowData": {
+            "price": 0.20750640682019733,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 51.752317911979915,
+            "daysSince": 70.68976157793982
+        }
+    },
+    {
+        "id": "2150225f-b2f2-4b59-bc68-001aa8ae4666",
+        "serialId": 6045,
+        "symbol": "BEAM",
+        "name": "Beam",
+        "slug": "beam",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xe5acbb03d73267c03349c76ead672ee4d941f499"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 3.4308731225333924,
+            "at": "2019-01-28T09:00:00Z",
+            "daysSince": 2086.8147615888643,
+            "percentDown": 98.8473853422018,
+            "breakevenMultiple": 86.75926453254232
+        },
+        "cycleLowData": {
+            "price": 0.02465294077081135,
+            "at": "2023-10-14T08:00:00Z",
+            "percentUp": 60.40579851471131,
+            "daysSince": 366.85642825553094
+        }
+    },
+    {
+        "id": "246715d6-065f-475e-8026-3e0a201c7e33",
+        "serialId": 9538,
+        "symbol": "DFL",
+        "name": "DeFi Land",
+        "slug": "defi-land",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "DFL1zNkaGPWm1BqAVqRjCZvHmwTFrEaJtbzJWgseoNJh"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.42026441532558945,
+            "at": "2021-11-27T22:00:00Z",
+            "daysSince": 1052.2730949260003,
+            "percentDown": 99.89069046258005,
+            "breakevenMultiple": 914.8332557278866
+        },
+        "cycleLowData": {
+            "price": 0.00028871678182867315,
+            "at": "2023-09-27T05:00:00Z",
+            "percentUp": 59.11409285714979,
+            "daysSince": 383.9814282593336
+        }
+    },
+    {
+        "id": "24e85250-c2a7-4158-8e7d-244818085463",
+        "serialId": 8672,
+        "symbol": "DPET",
+        "name": "My DeFi Pet",
+        "slug": "my-defi-pet",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xfb62ae373aca027177d1c18ee0862817f9080d08"
+            },
+            {
+                "platform": "kardiachain",
+                "contractAddress": "0xfb62ae373aca027177d1c18ee0862817f9080d08"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xfb62ae373aca027177d1c18ee0862817f9080d08"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 10.199558557131487,
+            "at": "2021-07-26T00:00:00Z",
+            "daysSince": 1177.1897615969015,
+            "percentDown": 99.68028258501039,
+            "breakevenMultiple": 312.7762058355347
+        },
+        "cycleLowData": {
+            "price": 0.019128526268229824,
+            "at": "2023-06-12T06:00:00Z",
+            "percentUp": 70.47714236812259,
+            "daysSince": 490.9397615969015
+        }
+    },
+    {
+        "id": "2b02fee4-7b1b-4ba9-8826-8869866f319c",
+        "serialId": 15526,
+        "symbol": "RUNE",
+        "name": "Rune",
+        "slug": "rune",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa9776b590bfc2f956711b3419910a5ec1f63153e"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 127.92481127100372,
+            "at": "2024-06-06T14:00:00Z",
+            "daysSince": 130.60642829987492,
+            "percentDown": 26.465509039468632,
+            "breakevenMultiple": 1.359906061682995
+        },
+        "cycleLowData": {
+            "price": 71.89117703887553,
+            "at": "2024-08-05T06:00:00Z",
+            "percentUp": 30.848961798865552,
+            "daysSince": 70.93976163320825
+        }
+    },
+    {
+        "id": "2f85ad95-288c-4a53-8245-86c0679aff09",
+        "serialId": 14890,
+        "symbol": "ELMON",
+        "name": "Elemon",
+        "slug": "elemon",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xe3233fdb23f1c27ab37bd66a19a1f1762fcf5f3f"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 3.033980079529526,
+            "at": "2021-11-15T08:00:00Z",
+            "daysSince": 1064.8564282703687,
+            "percentDown": 99.97585898036947,
+            "breakevenMultiple": 4142.327106744378
+        },
+        "cycleLowData": {
+            "price": 0.000611562775726322,
+            "at": "2024-09-09T07:00:00Z",
+            "percentUp": 19.764275338009696,
+            "daysSince": 35.8980949370354
+        }
+    },
+    {
+        "id": "30d41b9d-f8eb-4821-8a6e-9016bfd35023",
+        "serialId": 13653,
+        "symbol": "BCMC",
+        "name": "Blockchain Monster Hunt",
+        "slug": "blockchain-monster-hunt",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2ba8349123de45e931a8c8264c332e6e9cf593f9"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xc10358f062663448a3489fc258139944534592ac"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xc10358f062663448a3489fc258139944534592ac"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 4.574333013607857,
+            "at": "2021-11-03T18:00:00Z",
+            "daysSince": 1076.4397616044077,
+            "percentDown": 99.96228253536329,
+            "breakevenMultiple": 2651.291675174714
+        },
+        "cycleLowData": {
+            "price": 0.0016387499162966376,
+            "at": "2024-10-01T18:00:00Z",
+            "percentUp": 5.282839047937097,
+            "daysSince": 13.43976160440779
+        }
+    },
+    {
+        "id": "3490b937-5067-436c-bec7-119998ed1333",
+        "serialId": 10092,
+        "symbol": "BIN",
+        "name": "Binemon",
+        "slug": "binemon",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xe56842ed550ff2794f010738554db45e60730371"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.035064665707702045,
+            "at": "2021-08-29T11:00:00Z",
+            "daysSince": 1142.7314282942268,
+            "percentDown": 98.6519239756832,
+            "breakevenMultiple": 74.17979267948155
+        },
+        "cycleLowData": {
+            "price": 0.0004472800657124931,
+            "at": "2024-08-05T06:00:00Z",
+            "percentUp": 5.682856815758862,
+            "daysSince": 70.9397616275602
+        }
+    },
+    {
+        "id": "39268841-e3d8-40b3-8c30-6d6d5bb19bf4",
+        "serialId": 377,
+        "symbol": "ENJ",
+        "name": "Enjin Coin",
+        "slug": "enjin-coin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0xadbd41bfb4389de499535c14a8a3a12fead8f66a"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 4.748477707806693,
+            "at": "2021-11-25T08:00:00Z",
+            "daysSince": 1054.8564282388743,
+            "percentDown": 96.67249251748744,
+            "breakevenMultiple": 30.052524457282637
+        },
+        "cycleLowData": {
+            "price": 0.12296884757387934,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 28.492666354199635,
+            "daysSince": 70.68976157220766
+        }
+    },
+    {
+        "id": "395fe4e5-1e62-4911-97c4-d25f198ccd70",
+        "serialId": 15465,
+        "symbol": "JEWEL",
+        "name": "DeFi Kingdoms",
+        "slug": "defi-kingdoms",
+        "contractAddresses": [
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x72cb10c6bfa5624dd07ef608027e366bd690048f"
+            },
+            {
+                "platform": "metis-andromeda",
+                "contractAddress": "0x17c09cfc96c865cf546d73365cedb6dc66986963"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0x997ddaa07d716995de90577c123db411584e5e46"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.7772325723337878,
+            "at": "2023-12-08T06:00:00Z",
+            "daysSince": 311.9397615834775,
+            "percentDown": 82.26392726958022,
+            "breakevenMultiple": 5.63822676642989
+        },
+        "cycleLowData": {
+            "price": 0.07711524587166974,
+            "at": "2024-08-09T21:00:00Z",
+            "percentUp": 78.759119231799,
+            "daysSince": 66.31476158347748
+        }
+    },
+    {
+        "id": "3a048f18-7aab-4abf-87bd-9f70572c5a9e",
+        "serialId": 13367,
+        "symbol": "WELT",
+        "name": "Fabwelt",
+        "slug": "fabwelt",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x23e8b6a3f6891254988b84da3738d2bfe5e703b9"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x1785113910847770290f5f840b4c74fc46451201"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.07239313625688766,
+            "at": "2021-12-04T22:00:00Z",
+            "daysSince": 1045.2730949341098,
+            "percentDown": 94.57331450267206,
+            "breakevenMultiple": 18.427454483816952
+        },
+        "cycleLowData": {
+            "price": 0.0008969809984984688,
+            "at": "2022-11-10T05:00:00Z",
+            "percentUp": 337.97447581271996,
+            "daysSince": 704.9814282674432
+        }
+    },
+    {
+        "id": "3bb77159-e905-41bf-9321-ca414622cc2b",
+        "serialId": 14995,
+        "symbol": "BABY",
+        "name": "BabySwap",
+        "slug": "babyswap",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x53e562b9b7e5e94b81f10e96ee70ad06df3d2657"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 4.393925093077149,
+            "at": "2021-12-07T11:00:00Z",
+            "daysSince": 1042.7314282820662,
+            "percentDown": 99.93995486829301,
+            "breakevenMultiple": 1665.4139504259194
+        },
+        "cycleLowData": {
+            "price": 0.0025587912020065395,
+            "at": "2024-10-11T07:00:00Z",
+            "percentUp": 3.1087689834243375,
+            "daysSince": 3.8980949487328584
+        }
+    },
+    {
+        "id": "3f548a16-866f-4e2c-b3e9-5df6d32d9083",
+        "serialId": 828,
+        "symbol": "UOS",
+        "name": "Ultra",
+        "slug": "ultra",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 2.4769712528963996,
+            "at": "2021-11-25T06:00:00Z",
+            "daysSince": 1054.9397615797623,
+            "percentDown": 96.57969991584591,
+            "breakevenMultiple": 29.237200695719594
+        },
+        "cycleLowData": {
+            "price": 0.0693934219067845,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 22.086283568911945,
+            "daysSince": 70.68976157976213
+        }
+    },
+    {
+        "id": "40aa59cc-c529-4ac7-a8b9-9c20fd8acae5",
+        "serialId": 6246,
+        "symbol": "ERN",
+        "name": "Ethernity Chain",
+        "slug": "ethernity-chain",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xbbc2ae13b23d715c30720f079fcd9b4a74093505"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x0e50bea95fe001a370a4f1c220c49aedcb982dec"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 72.92802367768864,
+            "at": "2021-03-27T01:00:00Z",
+            "daysSince": 1298.1480949116096,
+            "percentDown": 97.12747036116566,
+            "breakevenMultiple": 34.81252156568852
+        },
+        "cycleLowData": {
+            "price": 1.1781009292393654,
+            "at": "2022-06-18T20:00:00Z",
+            "percentUp": 77.81830428656745,
+            "daysSince": 849.356428244943
+        }
+    },
+    {
+        "id": "42da9689-d86b-40b6-a637-ed56c564edc9",
+        "serialId": 1016,
+        "symbol": "DVI",
+        "name": "Dvision Network",
+        "slug": "dvision-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x10633216e7e8281e33c86f02bf8e565a635d9770"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 3.047472297517987,
+            "at": "2021-11-21T07:00:00Z",
+            "daysSince": 1058.8980949257734,
+            "percentDown": 99.55546858636849,
+            "breakevenMultiple": 224.95598046282
+        },
+        "cycleLowData": {
+            "price": 0.009571650086331868,
+            "at": "2023-10-01T04:00:00Z",
+            "percentUp": 41.53224952853445,
+            "daysSince": 380.0230949257734
+        }
+    },
+    {
+        "id": "4315622d-ca20-4ac1-96ee-8667d8b81797",
+        "serialId": 7986,
+        "symbol": "YOOSHI",
+        "name": "YooShi",
+        "slug": "yooshi",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x02ff5065692783374947393723dba9599e59f591"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 4.430110402152219e-05,
+            "at": "2021-11-26T23:00:00Z",
+            "daysSince": 1053.2314284066772,
+            "percentDown": 99.9607842591564,
+            "breakevenMultiple": 2549.9964516503273
+        },
+        "cycleLowData": {
+            "price": 1.5763347138962976e-08,
+            "at": "2024-10-14T03:00:00Z",
+            "percentUp": 10.211403649094867,
+            "daysSince": 1.064761740010382
+        }
+    },
+    {
+        "id": "44f4db38-59dc-4abb-aa70-cbd422cfedf1",
+        "serialId": 10250,
+        "symbol": "HERO",
+        "name": "Step Hero",
+        "slug": "step-hero",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xe8176d414560cfe1bf82fd73b986823b89e4f545"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 5.952164315014226,
+            "at": "2021-10-28T23:00:00Z",
+            "daysSince": 1082.2314283416758,
+            "percentDown": 99.9760616069172,
+            "breakevenMultiple": 4177.389837911767
+        },
+        "cycleLowData": {
+            "price": 0.00031794158604015724,
+            "at": "2023-07-01T00:00:00Z",
+            "percentUp": 348.14914223958107,
+            "daysSince": 472.18976167500915
+        }
+    },
+    {
+        "id": "46f2989f-7eb3-49e4-a32f-5064d6f5b1dc",
+        "serialId": 5873,
+        "symbol": "RFR",
+        "name": "Refereum",
+        "slug": "refereum",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd0929d411954c47438dc1d871dd6081f5c5e149c"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.042672660519913246,
+            "at": "2021-04-03T00:00:00Z",
+            "daysSince": 1291.189761608243,
+            "percentDown": 99.9197426402072,
+            "breakevenMultiple": 1245.9916480951226
+        },
+        "cycleLowData": {
+            "price": 1.055888618029402e-05,
+            "at": "2024-09-25T11:00:00Z",
+            "percentUp": 224.35192596872233,
+            "daysSince": 19.731428274909792
+        }
+    },
+    {
+        "id": "4885df43-d6b8-4aa2-ba26-245b24d09e50",
+        "serialId": 7605,
+        "symbol": "CERE",
+        "name": "Cere Network",
+        "slug": "cere-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2da719db753dfa10a62e140f436e1d67f2ddb0d6"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.32703633152747913,
+            "at": "2021-11-08T16:00:00Z",
+            "daysSince": 1071.5230949168424,
+            "percentDown": 99.28034362509737,
+            "breakevenMultiple": 138.9552062448295
+        },
+        "cycleLowData": {
+            "price": 0.0021766176612185734,
+            "at": "2024-10-09T05:00:00Z",
+            "percentUp": 8.128214248135386,
+            "daysSince": 5.981428250175637
+        }
+    },
+    {
+        "id": "4b435425-ad49-462e-89cb-e9c727c3dc50",
+        "serialId": 6689,
+        "symbol": "PYM",
+        "name": "Playermon",
+        "slug": "playermon",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x0bd49815ea8e2682220bcb41524c0dd10ba71d41"
+            },
+            {
+                "platform": "solana",
+                "contractAddress": "7yF97k6jrBkb7BXJYXzmwQLQyxVirLtCSSGb75qLqAN8"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 259.9641662882002,
+            "at": "2021-12-16T09:00:00Z",
+            "daysSince": 1033.8147616043527,
+            "percentDown": 99.99966439145437,
+            "breakevenMultiple": 297966.19097573997
+        },
+        "cycleLowData": {
+            "price": 0.000601917208110963,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 44.947169790120405,
+            "daysSince": 70.68976160435277
+        }
+    },
+    {
+        "id": "4c36ad58-bf5f-4671-af04-b07e04871aed",
+        "serialId": 304460,
+        "symbol": "RON",
+        "name": "Ronin",
+        "slug": "ronin-1",
+        "contractAddresses": [
+            {
+                "platform": "ronin",
+                "contractAddress": "0xe514d9deb7966c8be0ca922de8a064264ea6bcd4"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 4.447610553605396,
+            "at": "2024-03-26T04:00:00Z",
+            "daysSince": 203.02309490433854,
+            "percentDown": 63.135443570867565,
+            "breakevenMultiple": 2.712632666345455
+        },
+        "cycleLowData": {
+            "price": 1.252598140914362,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 30.89528466688079,
+            "daysSince": 70.68976157100518
+        }
+    },
+    {
+        "id": "4eac1be4-a666-4d2c-a354-7e62bd76b5f5",
+        "serialId": 9528,
+        "symbol": "CTT",
+        "name": "CryptoTycoon",
+        "slug": "cryptotycoon",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x464863745ed3af8b9f8871f1082211c55f8f884d"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 370.378835046418,
+            "at": "2021-05-24T19:00:00Z",
+            "daysSince": 1239.3980950795135,
+            "percentDown": 99.94117035527889,
+            "breakevenMultiple": 1699.823285930794
+        },
+        "cycleLowData": {
+            "price": 0.16697939509111906,
+            "at": "2024-09-06T19:00:00Z",
+            "percentUp": 30.490682794208794,
+            "daysSince": 38.39809507951353
+        }
+    },
+    {
+        "id": "4f714fbe-251c-4f4d-bf0d-bb8f5a5e9d57",
+        "serialId": 11881,
+        "symbol": "MAT",
+        "name": "My Master War",
+        "slug": "my-master-war",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xf3147987a00d35eecc10c731269003ca093740ca"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 4.629810981914996,
+            "at": "2021-10-14T23:00:00Z",
+            "daysSince": 1096.231428294881,
+            "percentDown": 99.95495149853222,
+            "breakevenMultiple": 2219.829666731961
+        },
+        "cycleLowData": {
+            "price": 0.0017454307439218949,
+            "at": "2024-09-23T08:00:00Z",
+            "percentUp": 19.492593756949606,
+            "daysSince": 21.85642829488097
+        }
+    },
+    {
+        "id": "4fbbf057-e0cf-47d5-8543-da4ed6045a85",
+        "serialId": 19158,
+        "symbol": "APE",
+        "name": "ApeCoin",
+        "slug": "apecoin",
+        "contractAddresses": null,
+        "allTimeHighData": {
+            "price": 25.923759675984005,
+            "at": "2022-04-28T21:00:00Z",
+            "daysSince": 900.3147615711122,
+            "percentDown": 97.01935406717605,
+            "breakevenMultiple": 33.54977486549623
+        },
+        "cycleLowData": {
+            "price": 0.4952689123130294,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 56.015342212493756,
+            "daysSince": 70.68976157111217
+        }
+    },
+    {
+        "id": "50d82ac0-c63a-4c7b-9f7b-d6113ae46617",
+        "serialId": 7340,
+        "symbol": "XWG",
+        "name": "X World Games",
+        "slug": "x-world-games",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x0a77ef9bf662d62fbf9ba4cf861eaa83f9cc4fec"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0xeb4d25db65dcef52380c99ba7e1344c820ecb1fc"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x6b23c89196deb721e6fd9726e6c76e4810a464bc"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.4187816917443571,
+            "at": "2021-07-15T16:00:00Z",
+            "daysSince": 1187.5230949309,
+            "percentDown": 99.90135551864758,
+            "breakevenMultiple": 1013.7414544532048
+        },
+        "cycleLowData": {
+            "price": 0.0003565938684478522,
+            "at": "2024-08-16T17:00:00Z",
+            "percentUp": 15.847484876366607,
+            "daysSince": 59.481428264233244
+        }
+    },
+    {
+        "id": "52b9da0d-1cb2-4de2-bcf2-1b43cbb584c6",
+        "serialId": 525,
+        "symbol": "AXS",
+        "name": "Axie Infinity",
+        "slug": "axie-infinity",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xbb0e17ef65f82ab018d8edd776e8dd940327b28b"
+            },
+            {
+                "platform": "ronin",
+                "contractAddress": "0x97a9107c1793bc407d6f527b77e7fff4d812bece"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x14a7b318fed66ffdcc80c1517c172c13852865de"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x715d400f88c167884bbcc41c5fea407ed4d2f8a0"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 163.29581520054418,
+            "at": "2021-11-06T19:00:00Z",
+            "daysSince": 1073.3980949040413,
+            "percentDown": 97.01270431660737,
+            "breakevenMultiple": 33.475092725481915
+        },
+        "cycleLowData": {
+            "price": 3.917664159875717,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 24.516258657592747,
+            "daysSince": 70.68976157070784
+        }
+    },
+    {
+        "id": "565bb04d-471c-4e29-a0de-7a721b8c8881",
+        "serialId": 18883,
+        "symbol": "RBLS",
+        "name": "Rebel Bots",
+        "slug": "rebel-bots",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe26cda27c13f4f87cffc2f437c5900b27ebb5bbb"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 2.640255891447501,
+            "at": "2022-03-22T18:00:00Z",
+            "daysSince": 937.439761640741,
+            "percentDown": 99.61406704889949,
+            "breakevenMultiple": 259.11236580044033
+        },
+        "cycleLowData": {
+            "price": 0.005781867488251699,
+            "at": "2024-08-09T10:00:00Z",
+            "percentUp": 76.23401953042064,
+            "daysSince": 66.77309497407447
+        }
+    },
+    {
+        "id": "57d1ac75-9212-45fc-9caa-2c0790c48398",
+        "serialId": 2817,
+        "symbol": "GAME",
+        "name": "GameCredits",
+        "slug": "gamecredits",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x63f88a2298a5c4aee3c216aa6d926b184a4b2437"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x8d1566569d5b695d44a9a234540f68d393cdc40d"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 6.693625337450818,
+            "at": "2018-01-09T18:00:00Z",
+            "daysSince": 2470.439761635264,
+            "percentDown": 99.99552136861361,
+            "breakevenMultiple": 22328.249720130032
+        },
+        "cycleLowData": {
+            "price": 0.00013601153172007792,
+            "at": "2024-07-31T23:00:00Z",
+            "percentUp": 120.40984426836458,
+            "daysSince": 75.23142830193092
+        }
+    },
+    {
+        "id": "594c4880-8132-45d1-9c86-68a8b0b18514",
+        "serialId": 9763,
+        "symbol": "GHX",
+        "name": "GamerCoin",
+        "slug": "gamercoin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x728f30fa2f100742c7949d1961804fa8e0b1387d"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xbd7b8e4de08d9b01938f7ff2058f110ee1e0e8d4"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1.534295547487428,
+            "at": "2021-04-11T10:00:00Z",
+            "daysSince": 1282.7730949108488,
+            "percentDown": 94.07953140628106,
+            "breakevenMultiple": 16.8905549310895
+        },
+        "cycleLowData": {
+            "price": 0.004590611879437652,
+            "at": "2023-07-14T23:00:00Z",
+            "percentUp": 1878.766413050559,
+            "daysSince": 458.23142824418215
+        }
+    },
+    {
+        "id": "5df45553-ca41-4567-afe2-8077d54992cc",
+        "serialId": 10496,
+        "symbol": "HUSL",
+        "name": "The HUSL",
+        "slug": "the-husl",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xa2881f7f441267042f9778ffa0d4f834693426be"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x284ac5af363bde6ef5296036af8fb0e9cc347b41"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 6.715048773160366,
+            "at": "2021-09-23T21:00:00Z",
+            "daysSince": 1117.3147616155807,
+            "percentDown": 99.87355201018076,
+            "breakevenMultiple": 790.838985601538
+        },
+        "cycleLowData": {
+            "price": 0.007091713793400642,
+            "at": "2024-10-03T20:00:00Z",
+            "percentUp": 19.731907355655576,
+            "daysSince": 11.356428282247384
+        }
+    },
+    {
+        "id": "666b535c-530a-4f32-a7aa-21905cb5b9b7",
+        "serialId": 11185,
+        "symbol": "WILD",
+        "name": "Wilder World",
+        "slug": "wilder-world",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2a3bff78b79a009976eea096a51a948a3dc00e34"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 7.409540951029976,
+            "at": "2021-11-27T15:00:00Z",
+            "daysSince": 1052.564761576881,
+            "percentDown": 96.71810998127356,
+            "breakevenMultiple": 30.470247153134554
+        },
+        "cycleLowData": {
+            "price": 0.1568792994945433,
+            "at": "2022-06-18T20:00:00Z",
+            "percentUp": 55.0064193866184,
+            "daysSince": 849.3564282435476
+        }
+    },
+    {
+        "id": "67045600-171b-4417-b9e3-db2c5a950dc9",
+        "serialId": 521,
+        "symbol": "EGLD",
+        "name": "MultiversX",
+        "slug": "elrond",
+        "contractAddresses": null,
+        "allTimeHighData": {
+            "price": 539.9010480981295,
+            "at": "2021-11-23T09:00:00Z",
+            "daysSince": 1056.8147615706187,
+            "percentDown": 94.85671694572726,
+            "breakevenMultiple": 19.442834264570703
+        },
+        "cycleLowData": {
+            "price": 22.35521314607812,
+            "at": "2023-09-11T19:00:00Z",
+            "percentUp": 24.21549700832813,
+            "daysSince": 399.39809490395186
+        }
+    },
+    {
+        "id": "673a26fe-e0ce-4570-8503-3e90adf528ff",
+        "serialId": 5989,
+        "symbol": "TWIN",
+        "name": "Twinci",
+        "slug": "twinci",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xaf83f292fced83032f52ced45ef7dbddb586441a"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 5.098530348338178,
+            "at": "2021-05-18T17:00:00Z",
+            "daysSince": 1245.4814284053266,
+            "percentDown": 98.92275093019958,
+            "breakevenMultiple": 92.8290427937216
+        },
+        "cycleLowData": {
+            "price": 0.034192129744322806,
+            "at": "2023-03-12T04:00:00Z",
+            "percentUp": 60.633078903441515,
+            "daysSince": 583.0230950719932
+        }
+    },
+    {
+        "id": "68221f51-660f-4bed-88e4-680165a9be0c",
+        "serialId": 6125,
+        "symbol": "KDA",
+        "name": "Kadena",
+        "slug": "kadena",
+        "contractAddresses": null,
+        "allTimeHighData": {
+            "price": 27.19814264052644,
+            "at": "2021-11-11T12:00:00Z",
+            "daysSince": 1068.6897615732744,
+            "percentDown": 97.82097774729317,
+            "breakevenMultiple": 45.89214262304001
+        },
+        "cycleLowData": {
+            "price": 0.38142975843642224,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 55.3768596581073,
+            "daysSince": 70.68976157327425
+        }
+    },
+    {
+        "id": "6a25b7d5-8193-403d-b2b3-b72fd98c55fb",
+        "serialId": 6717,
+        "symbol": "GENE",
+        "name": "Genopets",
+        "slug": "genopets",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "GENEtH5amGSi8kHAtQoezp1XEXwZJ8vcuePYnXdKrMYz"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x9df465460938f9ebdf51c38cc87d72184471f8f0"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 37.46109827078859,
+            "at": "2021-11-30T08:00:00Z",
+            "daysSince": 1049.8564282544799,
+            "percentDown": 99.6810676459757,
+            "breakevenMultiple": 313.54611326885146
+        },
+        "cycleLowData": {
+            "price": 0.08130568689710758,
+            "at": "2024-09-11T06:00:00Z",
+            "percentUp": 46.946132697425355,
+            "daysSince": 33.939761587813145
+        }
+    },
+    {
+        "id": "6a998be7-42e5-4047-b55d-99e058bf2248",
+        "serialId": 14984,
+        "symbol": "ALU",
+        "name": "Altura",
+        "slug": "altura",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x8263cd1601fe73c066bf49cc09841f35348e3be0"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.4845809462048854,
+            "at": "2021-11-02T19:00:00Z",
+            "daysSince": 1077.3980949149607,
+            "percentDown": 95.16596983172538,
+            "breakevenMultiple": 20.686672717992664
+        },
+        "cycleLowData": {
+            "price": 0.007677694957383928,
+            "at": "2023-01-03T18:00:00Z",
+            "percentUp": 205.1018470944362,
+            "daysSince": 650.4397615816274
+        }
+    },
+    {
+        "id": "6e87c632-4d4b-4c8f-aa8d-edb52a87125c",
+        "serialId": 7670,
+        "symbol": "DREAMS",
+        "name": "Dreams Quest",
+        "slug": "dreams-quest",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x54523d5fb56803bac758e8b10b321748a77ae9e9"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1.733696376796827,
+            "at": "2021-11-02T17:00:00Z",
+            "daysSince": 1077.4814282711648,
+            "percentDown": 99.98552837041123,
+            "breakevenMultiple": 6910.071833074366
+        },
+        "cycleLowData": {
+            "price": 0.00020428566916724916,
+            "at": "2024-09-16T15:00:00Z",
+            "percentUp": 22.81532956599231,
+            "daysSince": 28.564761604498
+        }
+    },
+    {
+        "id": "6f3d4d83-badc-4d5a-b487-a70cea172cab",
+        "serialId": 8117,
+        "symbol": "NAKA",
+        "name": "Nakamoto Games",
+        "slug": "nakamoto-games",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2e10348ee563dec5fe483de558d1946b7a3372c2"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x311434160d7537be358930def317afb606c0d737"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 7.186142559526561,
+            "at": "2021-10-30T16:00:00Z",
+            "daysSince": 1080.5230949081515,
+            "percentDown": 84.21382851016834,
+            "breakevenMultiple": 6.334658157262071
+        },
+        "cycleLowData": {
+            "price": 0.05039784399988001,
+            "at": "2022-09-28T09:00:00Z",
+            "percentUp": 2150.923249719455,
+            "daysSince": 747.8147615748181
+        }
+    },
+    {
+        "id": "70ffc67f-2d85-4162-8696-023dbc5f3d13",
+        "serialId": 2609,
+        "symbol": "BORA",
+        "name": "BORA",
+        "slug": "bora",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x26fb86579e371c7aedc461b2ddef0a8628c93d3b"
+            },
+            {
+                "platform": "klay-token",
+                "contractAddress": "0x02cbe46fb8a1f579254a9b485788f2d86cad51aa"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1.5102671106123455,
+            "at": "2022-02-08T03:00:00Z",
+            "daysSince": 980.0647615749034,
+            "percentDown": 93.70433096973501,
+            "breakevenMultiple": 15.883935371963336
+        },
+        "cycleLowData": {
+            "price": 0.07202268734311236,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 32.015927570344886,
+            "daysSince": 70.68976157490344
+        }
+    },
+    {
+        "id": "71be68b9-6431-424f-9a54-1500ced0a2e7",
+        "serialId": 7864,
+        "symbol": "MMO",
+        "name": "MMOCoin",
+        "slug": "mmocoin",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x0aa086e7a108d387de63294fe2a88b05820a9855"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.001856466504770321,
+            "at": "2023-12-03T11:00:00Z",
+            "daysSince": 316.7314282804154,
+            "percentDown": 77.57563015738666,
+            "breakevenMultiple": 4.45943412019403
+        },
+        "cycleLowData": {
+            "price": 0.0003425768271087544,
+            "at": "2024-08-05T01:00:00Z",
+            "percentUp": 21.520453834367252,
+            "daysSince": 71.1480949470821
+        }
+    },
+    {
+        "id": "7234c1e3-87f4-4a15-b023-daf350f17429",
+        "serialId": 5385,
+        "symbol": "CHI",
+        "name": "Xaya",
+        "slug": "xaya",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x6dc02164d75651758ac74435806093e421b64605"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe79feaaa457ad7899357e8e2065a3267ac9ee601"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x22648c12acd87912ea1710357b1302c6a4154ebc"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.8378346233085887,
+            "at": "2021-11-13T15:00:00Z",
+            "daysSince": 1066.5647615946955,
+            "percentDown": 94.95579305527954,
+            "breakevenMultiple": 19.824721922772255
+        },
+        "cycleLowData": {
+            "price": 0.03622577721599456,
+            "at": "2024-09-07T20:00:00Z",
+            "percentUp": 16.663093250473278,
+            "daysSince": 37.3564282613622
+        }
+    },
+    {
+        "id": "73b1c708-fff6-4c99-9090-effdd52c5eb1",
+        "serialId": 534532,
+        "symbol": "PDA",
+        "name": "PlayDapp",
+        "slug": "pda",
+        "contractAddresses": null,
+        "allTimeHighData": {
+            "price": 0.14901835721578072,
+            "at": "2024-04-04T02:00:00Z",
+            "daysSince": 194.10642824741004,
+            "percentDown": 69.4747383979032,
+            "breakevenMultiple": 3.275975200590285
+        },
+        "cycleLowData": {
+            "price": 0.04019886524738117,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 13.158028455113103,
+            "daysSince": 70.68976158074338
+        }
+    },
+    {
+        "id": "73e3f8fb-ea8e-4b49-b1af-7429239cbb6a",
+        "serialId": 6138,
+        "symbol": "ADS",
+        "name": "Adshares",
+        "slug": "adshares-1",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xcfcecfe2bd2fed07a9145222e8a7ad9cf1ccd22a"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x598e49f01befeb1753737934a5b11fea9119c796"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xcfcecfe2bd2fed07a9145222e8a7ad9cf1ccd22a"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 5.71959131511522,
+            "at": "2022-04-03T21:00:00Z",
+            "daysSince": 925.3147615871317,
+            "percentDown": 96.39722405646563,
+            "breakevenMultiple": 27.756374963994766
+        },
+        "cycleLowData": {
+            "price": 0.1000050335570872,
+            "at": "2024-08-01T18:00:00Z",
+            "percentUp": 106.05368813942941,
+            "daysSince": 74.4397615871317
+        }
+    },
+    {
+        "id": "7464bda1-2c3d-4e8f-b3b3-78487d9b2351",
+        "serialId": 17903,
+        "symbol": "MF",
+        "name": "MetaFighter",
+        "slug": "metafighter",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xbb6cdedac5cab4a420211a4a8e8b5dca879b31de"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.023004433939397835,
+            "at": "2022-04-18T07:00:00Z",
+            "daysSince": 910.8980949371003,
+            "percentDown": 98.07850484563102,
+            "breakevenMultiple": 52.04280623483545
+        },
+        "cycleLowData": {
+            "price": 0.00018603344537854128,
+            "at": "2023-11-07T17:00:00Z",
+            "percentUp": 137.60731976774412,
+            "daysSince": 342.4814282704335
+        }
+    },
+    {
+        "id": "74a71d75-c6fb-4d73-97ad-7f82ff56aeba",
+        "serialId": 15656,
+        "symbol": "SAITO",
+        "name": "Saito",
+        "slug": "saito",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xfa14fa6958401314851a17d6c5360ca29f74b57b"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x3c6dad0475d3a1696b359dc04c99fd401be134da"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.11366334508123044,
+            "at": "2022-01-03T13:00:00Z",
+            "daysSince": 1015.6480949182892,
+            "percentDown": 96.55356046702099,
+            "breakevenMultiple": 29.015451756254304
+        },
+        "cycleLowData": {
+            "price": 0.0036735738022841,
+            "at": "2024-10-03T16:00:00Z",
+            "percentUp": 6.63562705478277,
+            "daysSince": 11.52309491828926
+        }
+    },
+    {
+        "id": "7583933b-8511-4122-8c2d-ab11ebcbf7c1",
+        "serialId": 611290,
+        "symbol": "PIRATE",
+        "name": "Pirate Nation",
+        "slug": "pirate-nation",
+        "contractAddresses": null,
+        "allTimeHighData": {
+            "price": 0.4637929697535518,
+            "at": "2024-07-18T23:00:00Z",
+            "daysSince": 88.23142824606008,
+            "percentDown": 63.33128192592423,
+            "breakevenMultiple": 2.7271201517867762
+        },
+        "cycleLowData": {
+            "price": 0.1411141825116323,
+            "at": "2024-10-02T19:00:00Z",
+            "percentUp": 20.51725312039026,
+            "daysSince": 12.398094912726735
+        }
+    },
+    {
+        "id": "7a532850-9ec9-4780-94ad-d2759dc1c5cf",
+        "serialId": 2955,
+        "symbol": "WAXP",
+        "name": "WAX",
+        "slug": "wax",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x2a79324c19ef2b89ea98b23bc669b7e7c9f8a517"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 2.7421610677332713,
+            "at": "2018-01-27T01:00:00Z",
+            "daysSince": 2453.148094907604,
+            "percentDown": 98.73615041676295,
+            "breakevenMultiple": 79.12333977582522
+        },
+        "cycleLowData": {
+            "price": 0.015066919679419729,
+            "at": "2019-12-30T15:00:00Z",
+            "percentUp": 130.01908793324276,
+            "daysSince": 1750.5647615742707
+        }
+    },
+    {
+        "id": "7aa95f5b-5f85-4129-936e-564f43b969f8",
+        "serialId": 12846,
+        "symbol": "EBA",
+        "name": "Elpis Battle",
+        "slug": "elpis-battle",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x3944ac66b9b9b40a6474022d6962b6caa001b5e3"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.009618458878325903,
+            "at": "2022-06-26T12:00:00Z",
+            "daysSince": 841.6897617228269,
+            "percentDown": 57.26786142130196,
+            "breakevenMultiple": 2.340159030792107
+        },
+        "cycleLowData": {
+            "price": 0.003042436298220322,
+            "at": "2024-02-07T17:00:00Z",
+            "percentUp": 35.09479818609718,
+            "daysSince": 250.48142838949352
+        }
+    },
+    {
+        "id": "7b98978b-69de-43db-abd9-65a3d9c6056e",
+        "serialId": 352642,
+        "symbol": "DG",
+        "name": "Decentral Games",
+        "slug": "decentral-games",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x4b520c812e8430659fc9f12f6d0c39026c83588d"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xef938b6da8576a896f6e0321ef80996f4890f9c4"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.8731111922391965,
+            "at": "2021-12-02T16:00:00Z",
+            "daysSince": 1047.5230950212815,
+            "percentDown": 95.00217244180622,
+            "breakevenMultiple": 20.008693544468787
+        },
+        "cycleLowData": {
+            "price": 0.0128483079630531,
+            "at": "2023-10-11T20:00:00Z",
+            "percentUp": 239.6290928337585,
+            "daysSince": 369.356428354615
+        }
+    },
+    {
+        "id": "7e210122-849a-4314-8732-09e3e9ae8c73",
+        "serialId": 7481,
+        "symbol": "RENA",
+        "name": "Warena",
+        "slug": "warena",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa9d75cc3405f0450955050c520843f99aff8749d"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 3.1963448718665153,
+            "at": "2021-05-17T22:00:00Z",
+            "daysSince": 1246.2730949441445,
+            "percentDown": 99.96809101330207,
+            "breakevenMultiple": 3133.913368878496
+        },
+        "cycleLowData": {
+            "price": 0.0005047551131772151,
+            "at": "2023-08-19T07:00:00Z",
+            "percentUp": 102.06259101840493,
+            "daysSince": 422.89809494414436
+        }
+    },
+    {
+        "id": "81cb66e8-37b1-4f24-a597-04ee4a0456cc",
+        "serialId": 6735,
+        "symbol": "GZONE",
+        "name": "GameZone",
+        "slug": "gamezone",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xb6adb74efb5801160ff749b1985fd3bd5000e938"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 2.1232198583381483,
+            "at": "2021-10-29T14:00:00Z",
+            "daysSince": 1081.6064282589894,
+            "percentDown": 99.61258895584592,
+            "breakevenMultiple": 258.12377191866034
+        },
+        "cycleLowData": {
+            "price": 0.006817678153596147,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 20.650873179397557,
+            "daysSince": 70.6897615923227
+        }
+    },
+    {
+        "id": "83d9ca82-15f9-46ca-a80f-74df4f7a055b",
+        "serialId": 10539,
+        "symbol": "XED",
+        "name": "Exeedme",
+        "slug": "exeedme",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xee573a945b01b788b9287ce062a0cfc15be9fd86"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x2fe8733dcb25bfbba79292294347415417510067"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x5621b5a3f4a8008c4ccdd1b942b121c8b1944f1f"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1.966276732362927,
+            "at": "2021-03-18T05:00:00Z",
+            "daysSince": 1306.9814282632651,
+            "percentDown": 99.02509938608696,
+            "breakevenMultiple": 102.57455844511462
+        },
+        "cycleLowData": {
+            "price": 0.01723911001201307,
+            "at": "2024-10-03T14:00:00Z",
+            "percentUp": 11.196250396204434,
+            "daysSince": 11.606428263265103
+        }
+    },
+    {
+        "id": "84a7fc09-daeb-470b-be15-575a493a4069",
+        "serialId": 15570,
+        "symbol": "CRP",
+        "name": "Crypton",
+        "slug": "utopia",
+        "contractAddresses": null,
+        "allTimeHighData": {
+            "price": 1.7721602994972234,
+            "at": "2021-12-12T14:00:00Z",
+            "daysSince": 1037.6064282560626,
+            "percentDown": 71.05513525563924,
+            "breakevenMultiple": 3.454844266269467
+        },
+        "cycleLowData": {
+            "price": 0.05875296893911586,
+            "at": "2023-01-28T20:00:00Z",
+            "percentUp": 773.061244401599,
+            "daysSince": 625.3564282560626
+        }
+    },
+    {
+        "id": "85ec7d3f-bc7a-4c7a-83c6-1685f18f42fb",
+        "serialId": 198751,
+        "symbol": "PRIME",
+        "name": "Echelon Prime",
+        "slug": "echelon-prime-0",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb23d80f5fefcddaa212212f028021b41ded428cf"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0xfa980ced6895ac314e7de34ef1bfae90a5add21b"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 27.92774731618894,
+            "at": "2024-03-17T21:00:00Z",
+            "daysSince": 211.31476157150487,
+            "percentDown": 69.58676715752758,
+            "breakevenMultiple": 3.2880424293582124
+        },
+        "cycleLowData": {
+            "price": 4.808284267878795,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 76.64785078684517,
+            "daysSince": 70.68976157150487
+        }
+    },
+    {
+        "id": "8b4ba1e4-6a45-4738-9695-cbe7388760cf",
+        "serialId": 15014,
+        "symbol": "REVO",
+        "name": "Revomon",
+        "slug": "revomon",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x155040625d7ae3e9cada9a73e3e44f76d3ed1409"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x155040625d7ae3e9cada9a73e3e44f76d3ed1409"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 2.349095625501521,
+            "at": "2021-04-12T20:00:00Z",
+            "daysSince": 1281.3564283107592,
+            "percentDown": 98.5850363013471,
+            "breakevenMultiple": 70.67319118872412
+        },
+        "cycleLowData": {
+            "price": 4.0761640086590846e-05,
+            "at": "2024-02-23T05:00:00Z",
+            "percentUp": 81444.43804733956,
+            "daysSince": 234.98142831075924
+        }
+    },
+    {
+        "id": "8b88329d-a168-4590-a664-110db3c90308",
+        "serialId": 926,
+        "symbol": "SOUL",
+        "name": "Phantasma",
+        "slug": "phantasma",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x75858677e27c930fb622759feaffee2b754af07f"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x298eff8af1ecebbb2c034eaa3b9a5d0cc56c59cd"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 3.976430868389034,
+            "at": "2021-12-01T07:00:00Z",
+            "daysSince": 1048.898094921413,
+            "percentDown": 98.62193335038741,
+            "breakevenMultiple": 72.56543072725266
+        },
+        "cycleLowData": {
+            "price": 0.00090854316244603,
+            "at": "2024-04-23T05:00:00Z",
+            "percentUp": 5931.399487355117,
+            "daysSince": 174.9814282547463
+        }
+    },
+    {
+        "id": "8c28c829-ac6b-45e8-9cc0-47441be493e1",
+        "serialId": 8178,
+        "symbol": "UFO",
+        "name": "UFO Gaming",
+        "slug": "ufo-gaming",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x249e38ea4102d0cf8264d3701f1a0e39c4f2dc3b"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.0015484012025650216,
+            "at": "2021-07-03T21:00:00Z",
+            "daysSince": 1199.3147615854791,
+            "percentDown": 99.9721404783769,
+            "breakevenMultiple": 3589.4370819742553
+        },
+        "cycleLowData": {
+            "price": 3.5098033439272966e-07,
+            "at": "2024-09-06T21:00:00Z",
+            "percentUp": 22.906364137818635,
+            "daysSince": 38.31476158547914
+        }
+    },
+    {
+        "id": "8d8ad247-b9b1-4136-894a-be3298072415",
+        "serialId": 16818,
+        "symbol": "DIO",
+        "name": "Decimated",
+        "slug": "decimated",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x35a5cb585d51d836922b78a9bb1f5c04635c39b6"
+            },
+            {
+                "platform": "solana",
+                "contractAddress": "BiDB55p4G3n1fGhwKFpxsokBMqgctL4qnZpDH1bVQxMD"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 13.6484480383987,
+            "at": "2021-12-28T15:00:00Z",
+            "daysSince": 1021.5647615903318,
+            "percentDown": 99.92351596387056,
+            "breakevenMultiple": 1307.462381179275
+        },
+        "cycleLowData": {
+            "price": 0.0044542465119689735,
+            "at": "2023-03-12T04:00:00Z",
+            "percentUp": 134.35801994224002,
+            "daysSince": 583.0230949236651
+        }
+    },
+    {
+        "id": "8de8d193-45b7-4a95-81ff-4a3c1114a102",
+        "serialId": 6607,
+        "symbol": "DOSE",
+        "name": "DOSE",
+        "slug": "dose-token",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb31ef9e52d94d4120eb44fe1ddfde5b4654a6515"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x81382e9693de2afc33f69b70a6c12ca9b3a73f47"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x7837fd820ba38f95c54d6dac4ca3751b81511357"
+            },
+            {
+                "platform": "base",
+                "contractAddress": "0x455234ab787665a219125235fb01b22b512dfcaa"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.5472543801193955,
+            "at": "2021-11-03T14:00:00Z",
+            "daysSince": 1076.6064282678224,
+            "percentDown": 99.95636698973269,
+            "breakevenMultiple": 2291.842790294548
+        },
+        "cycleLowData": {
+            "price": 0.00010114780440847834,
+            "at": "2024-08-30T03:00:00Z",
+            "percentUp": 136.07389331114967,
+            "daysSince": 46.064761601155624
+        }
+    },
+    {
+        "id": "8fd8e24d-3540-4b2c-903a-bb5f932ca054",
+        "serialId": 7668,
+        "symbol": "CATE",
+        "name": "CateCoin",
+        "slug": "catecoin",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xf05897cfe3ce9bbbfe0751cbe6b1b2c686848dcb"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xe4fae3faa8300810c835970b9187c268f55d998f"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1.4041356954980785e-05,
+            "at": "2021-11-04T08:00:00Z",
+            "daysSince": 1075.8564282489112,
+            "percentDown": 97.42487245682139,
+            "breakevenMultiple": 38.8330280047275
+        },
+        "cycleLowData": {
+            "price": 1.5013100720497685e-07,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 140.84488415511592,
+            "daysSince": 70.6897615822447
+        }
+    },
+    {
+        "id": "979cf48d-4724-4647-9c6b-1f3d6e23bfca",
+        "serialId": 5976,
+        "symbol": "FINE",
+        "name": "Refinable",
+        "slug": "refinable",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4e6415a5727ea08aae4580057187923aec331227"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 4.58898768796315,
+            "at": "2021-04-27T14:00:00Z",
+            "daysSince": 1266.6064283764847,
+            "percentDown": 99.95815455243276,
+            "breakevenMultiple": 2389.7462164619733
+        },
+        "cycleLowData": {
+            "price": 3.5160821924589674e-09,
+            "at": "2024-01-31T15:00:00Z",
+            "percentUp": 54614164.733423494,
+            "daysSince": 257.564761709818
+        }
+    },
+    {
+        "id": "98482dd5-6663-4a5f-b93a-b3ac05502123",
+        "serialId": 6855,
+        "symbol": "TLM",
+        "name": "Alien Worlds",
+        "slug": "alien-worlds",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x888888848b652b3e3a0f34c96e00eec0f3a23f72"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.8935307740025724,
+            "at": "2021-04-14T01:00:00Z",
+            "daysSince": 1280.1480949114625,
+            "percentDown": 98.80308588081333,
+            "breakevenMultiple": 83.54818311271312
+        },
+        "cycleLowData": {
+            "price": 0.0076304365215352915,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 40.159687629023146,
+            "daysSince": 70.68976157812925
+        }
+    },
+    {
+        "id": "9bb73af8-6ad9-4825-b17c-4ccc6a8fbcf8",
+        "serialId": 5782,
+        "symbol": "VRA",
+        "name": "Verasity",
+        "slug": "verasity",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xf411903cbc70a74d22900a5de66a2dda66507255"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.08678766438526518,
+            "at": "2021-10-31T23:00:00Z",
+            "daysSince": 1079.2314282466916,
+            "percentDown": 96.29254621108898,
+            "breakevenMultiple": 26.972689531316583
+        },
+        "cycleLowData": {
+            "price": 0.0021353989832963985,
+            "at": "2023-01-01T04:00:00Z",
+            "percentUp": 50.67968921629261,
+            "daysSince": 653.0230949133584
+        }
+    },
+    {
+        "id": "9ccb430a-8884-451c-b382-49a4a0c81f61",
+        "serialId": 13878,
+        "symbol": "SMI",
+        "name": "SafeMoon Inu",
+        "slug": "safemoon-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xcd7492db29e2ab436e819b249452ee1bbdf52214"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.00011731691078085452,
+            "at": "2021-10-30T06:00:00Z",
+            "daysSince": 1080.9397616018307,
+            "percentDown": 99.4453865743117,
+            "breakevenMultiple": 180.30576860972266
+        },
+        "cycleLowData": {
+            "price": 6.121285931377692e-07,
+            "at": "2024-09-08T14:00:00Z",
+            "percentUp": 6.2938972443886545,
+            "daysSince": 36.606428268497375
+        }
+    },
+    {
+        "id": "9e79e939-dc11-445e-91b9-1e0ec35180fd",
+        "serialId": 6156,
+        "symbol": "SAND",
+        "name": "The Sandbox",
+        "slug": "thesandbox",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3845badade8e6dff049820680d1f14bd3903a5d0"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xbbba073c31bf03b8acf7c28ef0738decf3695683"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x35de8649e1e4fd1a7bd3b14f7e24e5e7887174ed"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 8.44007743300576,
+            "at": "2021-11-25T06:00:00Z",
+            "daysSince": 1054.9397615708679,
+            "percentDown": 96.74339912855281,
+            "breakevenMultiple": 30.706863981019914
+        },
+        "cycleLowData": {
+            "price": 0.21484625598759943,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 27.9331743393044,
+            "daysSince": 70.68976157086799
+        }
+    },
+    {
+        "id": "9fb6e340-7969-4047-86ae-d60cb11a70ad",
+        "serialId": 95060,
+        "symbol": "FLOKI",
+        "name": "FLOKI",
+        "slug": "floki",
+        "contractAddresses": null,
+        "allTimeHighData": {
+            "price": 0.0003372020855861775,
+            "at": "2024-06-05T03:00:00Z",
+            "daysSince": 132.06476156985778,
+            "percentDown": 54.343044364381086,
+            "breakevenMultiple": 2.190246778565012
+        },
+        "cycleLowData": {
+            "price": 0.00010090098374841355,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 52.581472349503635,
+            "daysSince": 70.68976156985777
+        }
+    },
+    {
+        "id": "a1784d78-05c5-4fb9-95b2-941b9574a8f2",
+        "serialId": 15657,
+        "symbol": "SHROOM",
+        "name": "Niftyx Protocol",
+        "slug": "shroom-finance",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xed0439eacf4c4965ae4613d77a5c2efe10e5f183"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 7.958883885501602,
+            "at": "2020-09-02T15:00:00Z",
+            "daysSince": 1503.564761601061,
+            "percentDown": 99.81493925970902,
+            "breakevenMultiple": 540.363125332594
+        },
+        "cycleLowData": {
+            "price": 0.0035114350441074896,
+            "at": "2020-09-07T16:00:00Z",
+            "percentUp": 319.4515704377154,
+            "daysSince": 1498.5230949343943
+        }
+    },
+    {
+        "id": "a252b851-675b-4244-a655-3a773ec53584",
+        "serialId": 8299,
+        "symbol": "ATLAS",
+        "name": "Star Atlas",
+        "slug": "star-atlas",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "ATLASXmbPQxBUYbxPsV97usA3fPQYEqzQBUHgiFCUsXx"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.2643956334932776,
+            "at": "2021-09-04T05:00:00Z",
+            "daysSince": 1136.9814282445097,
+            "percentDown": 98.80724315508562,
+            "breakevenMultiple": 83.83938472151652
+        },
+        "cycleLowData": {
+            "price": 0.001336971606904066,
+            "at": "2023-07-12T02:00:00Z",
+            "percentUp": 135.8761397669775,
+            "daysSince": 461.10642824450974
+        }
+    },
+    {
+        "id": "a3a20209-36b2-4d3d-94d1-d085f533a4a3",
+        "serialId": 7936,
+        "symbol": "FINA",
+        "name": "Defina Finance",
+        "slug": "defina-finance",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x426c72701833fddbdfc06c944737c6031645c708"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 9.605741715039793,
+            "at": "2021-11-25T04:00:00Z",
+            "daysSince": 1055.0230949435263,
+            "percentDown": 99.98125281845587,
+            "breakevenMultiple": 5334.135147971598
+        },
+        "cycleLowData": {
+            "price": 0.0015220317960151176,
+            "at": "2024-06-02T15:00:00Z",
+            "percentUp": 18.315914470014217,
+            "daysSince": 134.56476161019302
+        }
+    },
+    {
+        "id": "a3a65b10-ea76-4cfe-a22a-22bb8455aa99",
+        "serialId": 8277,
+        "symbol": "AURY",
+        "name": "Aurory",
+        "slug": "aurory",
+        "contractAddresses": [
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x11bf4f05eb28b802ed3ab672594decb20ffe2313"
+            },
+            {
+                "platform": "solana",
+                "contractAddress": "AURYydfxJib1ZkTir1Jn1J9ECYUtjb6rKQVmtYaixWPP"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 25.28173752595395,
+            "at": "2021-11-08T11:00:00Z",
+            "daysSince": 1071.7314282488699,
+            "percentDown": 98.66527868538154,
+            "breakevenMultiple": 74.9220072420774
+        },
+        "cycleLowData": {
+            "price": 0.23024965525229488,
+            "at": "2024-08-17T01:00:00Z",
+            "percentUp": 46.55428651784707,
+            "daysSince": 59.14809491553663
+        }
+    },
+    {
+        "id": "a8ef4bc2-b81f-408b-99a8-faef416e1234",
+        "serialId": 13128,
+        "symbol": "GMEE",
+        "name": "GAMEE",
+        "slug": "gamee",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd9016a907dc0ecfa3ca425ab20b6b785b42f2373"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xcf32822ff397ef82425153a9dcb726e5ff61dca7"
+            },
+            {
+                "platform": "the-open-network",
+                "contractAddress": "EQCqnhZndBGbwjPpV8K_8WOK58ZkQPXlS_bshau9DKWnAF-p"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x84e9a6f9d240fdd33801f7135908bfa16866939a"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.7990233549849145,
+            "at": "2021-10-31T03:00:00Z",
+            "daysSince": 1080.0647615841024,
+            "percentDown": 98.59544268219715,
+            "breakevenMultiple": 71.1968096513357
+        },
+        "cycleLowData": {
+            "price": 0.0031722002332760235,
+            "at": "2023-10-19T07:00:00Z",
+            "percentUp": 253.78413019673712,
+            "daysSince": 361.8980949174358
+        }
+    },
+    {
+        "id": "a98165fb-f93b-4a46-8ac3-ea61f14ebe59",
+        "serialId": 5987,
+        "symbol": "GALA",
+        "name": "Gala",
+        "slug": "gala",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd1d2eb1b1e90b638588728b4130137d262c87cae"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x7ddee176f665cd201f93eede625770e2fd911990"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.8221747064251775,
+            "at": "2021-11-26T00:00:00Z",
+            "daysSince": 1054.1897615703285,
+            "percentDown": 97.18067184759927,
+            "breakevenMultiple": 35.46944328380052
+        },
+        "cycleLowData": {
+            "price": 0.01259646046017784,
+            "at": "2023-10-19T02:00:00Z",
+            "percentUp": 84.01838384237558,
+            "daysSince": 362.1064282369952
+        }
+    },
+    {
+        "id": "abb61f82-3489-4368-bf0b-407a96a42a49",
+        "serialId": 12339,
+        "symbol": "SKILL",
+        "name": "CryptoBlades",
+        "slug": "cryptoblades",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x863d6074afaf02d9d41a5f8ea83278df7089aa86"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x154a9f9cbd3449ad22fdae23044319d6ef2a1fab"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 175.09104960215254,
+            "at": "2021-07-24T04:00:00Z",
+            "daysSince": 1179.0230949400795,
+            "percentDown": 99.8563672878859,
+            "breakevenMultiple": 696.2202309496348
+        },
+        "cycleLowData": {
+            "price": 0.21800608660878804,
+            "at": "2024-09-11T13:00:00Z",
+            "percentUp": 15.358257709523631,
+            "daysSince": 33.648094940079396
+        }
+    },
+    {
+        "id": "adb1789e-2062-44eb-a285-9235e949bb55",
+        "serialId": 13064,
+        "symbol": "SFUND",
+        "name": "Seedify.fund",
+        "slug": "seedify-fund",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60"
+            },
+            {
+                "platform": "arbitrum-one",
+                "contractAddress": "0x560363bda52bc6a44ca6c8c9b4a5fadbda32fa60"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x477bc8d23c634c154061869478bce96be6045d12"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 16.761978633772216,
+            "at": "2021-11-29T01:00:00Z",
+            "daysSince": 1051.1480949090753,
+            "percentDown": 91.61068312325784,
+            "breakevenMultiple": 11.91992166575942
+        },
+        "cycleLowData": {
+            "price": 0.5360222251926086,
+            "at": "2023-09-25T05:00:00Z",
+            "percentUp": 162.34276048790187,
+            "daysSince": 385.9814282424088
+        }
+    },
+    {
+        "id": "affc6d47-8c0b-4369-9808-70a0fe3ad8d1",
+        "serialId": 6956,
+        "symbol": "GAME",
+        "name": "Gamestarter",
+        "slug": "gamestarter",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xd567b5f02b9073ad3a982a099a23bf019ff11d1c"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x66109633715d2110dda791e64a7b2afadb517abb"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 7.943557705630203,
+            "at": "2021-09-23T09:00:00Z",
+            "daysSince": 1117.8147615966197,
+            "percentDown": 99.81124831094797,
+            "breakevenMultiple": 529.7965835549985
+        },
+        "cycleLowData": {
+            "price": 0.002727258735806697,
+            "at": "2024-07-05T03:00:00Z",
+            "percentUp": 449.7681295634237,
+            "daysSince": 102.06476159661965
+        }
+    },
+    {
+        "id": "b189d76c-98a1-4b07-868c-eb2460b9f3dc",
+        "serialId": 6231,
+        "symbol": "ILV",
+        "name": "Illuvium",
+        "slug": "illuvium",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x767fe9edc9e0df98e07454847909b5e959d7ca0e"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1902.6878554228492,
+            "at": "2021-12-01T04:00:00Z",
+            "daysSince": 1049.0230949058086,
+            "percentDown": 97.99125384959835,
+            "breakevenMultiple": 49.78229826601284
+        },
+        "cycleLowData": {
+            "price": 33.564559525548,
+            "at": "2024-09-06T20:00:00Z",
+            "percentUp": 13.870611115496764,
+            "daysSince": 38.356428239141984
+        }
+    },
+    {
+        "id": "b3b59d2b-dd1e-4ce6-ae35-4a0bae861f9d",
+        "serialId": 9875,
+        "symbol": "ASPO",
+        "name": "ASPO World",
+        "slug": "aspo-world",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x1a9b49e9f075c37fe5f86c916bac9deb33556d7e"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1.2658258337222923,
+            "at": "2021-11-14T19:00:00Z",
+            "daysSince": 1065.3980949428405,
+            "percentDown": 99.86193501275578,
+            "breakevenMultiple": 724.2965939156331
+        },
+        "cycleLowData": {
+            "price": 0.0015366488438511062,
+            "at": "2023-09-25T07:00:00Z",
+            "percentUp": 13.732052892636759,
+            "daysSince": 385.8980949428406
+        }
+    },
+    {
+        "id": "b3eeb034-1d5b-4e73-9218-c4cf61d4423d",
+        "serialId": 10880,
+        "symbol": "GODS",
+        "name": "Gods Unchained",
+        "slug": "gods-unchained",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xccc8cb5229b0ac8069c51fd58367fd1e622afd97"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 8.497800372606752,
+            "at": "2021-12-10T20:00:00Z",
+            "daysSince": 1039.3564282439118,
+            "percentDown": 97.75132271312094,
+            "breakevenMultiple": 44.470587479802234
+        },
+        "cycleLowData": {
+            "price": 0.1066133965954355,
+            "at": "2023-06-10T14:00:00Z",
+            "percentUp": 79.23461118892268,
+            "daysSince": 492.6064282439118
+        }
+    },
+    {
+        "id": "b8323e1e-bdaa-4370-afd9-16f1fc56a2a7",
+        "serialId": 13161,
+        "symbol": "FOC",
+        "name": "TheForce Trade",
+        "slug": "theforce-trade",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x3051cfb958dcd408fba70256073adba943fdf552"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.42572373202584696,
+            "at": "2021-05-14T15:00:00Z",
+            "daysSince": 1249.5647616126741,
+            "percentDown": 99.8406728912779,
+            "breakevenMultiple": 627.6395825045706
+        },
+        "cycleLowData": {
+            "price": 0.00040441387822804785,
+            "at": "2023-10-16T14:00:00Z",
+            "percentUp": 67.72256094488446,
+            "daysSince": 364.6064282793409
+        }
+    },
+    {
+        "id": "bce4e0be-b5c2-4f75-aa27-9c2631418558",
+        "serialId": 12350,
+        "symbol": "VIDYA",
+        "name": "Vidya",
+        "slug": "vidya",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3d3d35bb9bec23b06ca00fe472b50e7a4c692c30"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.5429850022416868,
+            "at": "2022-04-03T22:00:00Z",
+            "daysSince": 925.2730949292444,
+            "percentDown": 92.29294105204443,
+            "breakevenMultiple": 12.975118093073194
+        },
+        "cycleLowData": {
+            "price": 0.031943721462065124,
+            "at": "2023-09-27T19:00:00Z",
+            "percentUp": 31.005945099482634,
+            "daysSince": 383.39809492924445
+        }
+    },
+    {
+        "id": "c1b6fdae-1b30-462b-b47d-3f14e212e826",
+        "serialId": 8337,
+        "symbol": "FEVR",
+        "name": "RealFevr",
+        "slug": "realfevr",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x9fb83c0635de2e815fd1c21b3a292277540c2e8d"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xe6b9d092223f39013656702a40dbe6b7decc5746"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0x73178fceb736a9d6c1a9ef1fe413f09cba2d4a68"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x82030cdbd9e4b7c5bb0b811a61da6360d69449cc"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.015629558235315703,
+            "at": "2021-08-10T23:00:00Z",
+            "daysSince": 1161.2314282630043,
+            "percentDown": 99.11079648995064,
+            "breakevenMultiple": 112.46019484836454
+        },
+        "cycleLowData": {
+            "price": 1.299823225062676e-05,
+            "at": "2024-09-08T05:00:00Z",
+            "percentUp": 969.2113954721318,
+            "daysSince": 36.981428263004396
+        }
+    },
+    {
+        "id": "c1d1a22d-6776-4dd4-bb17-69965948c642",
+        "serialId": 12313,
+        "symbol": "NFTB",
+        "name": "NFTb",
+        "slug": "nftb",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xde3dbbe30cfa9f437b293294d1fd64b26045c71a"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.597707398454398,
+            "at": "2021-11-24T10:00:00Z",
+            "daysSince": 1055.7730949345867,
+            "percentDown": 99.58846651236145,
+            "breakevenMultiple": 242.99359105335316
+        },
+        "cycleLowData": {
+            "price": 0.0019095544314743857,
+            "at": "2024-10-03T16:00:00Z",
+            "percentUp": 28.813615479594922,
+            "daysSince": 11.523094934586746
+        }
+    },
+    {
+        "id": "c2278b42-2ae4-4c4e-9aa8-ea7c6123b0a7",
+        "serialId": 14533,
+        "symbol": "PWAR",
+        "name": "PolkaWar",
+        "slug": "polkawar",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x16153214e683018d5aa318864c8e692b66e16778"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1.1545427587770574,
+            "at": "2021-11-30T00:00:00Z",
+            "daysSince": 1050.1897616116898,
+            "percentDown": 99.90298719779044,
+            "breakevenMultiple": 1030.791789561838
+        },
+        "cycleLowData": {
+            "price": 0.0009892101165062692,
+            "at": "2024-08-05T04:00:00Z",
+            "percentUp": 13.227135904455208,
+            "daysSince": 71.02309494502316
+        }
+    },
+    {
+        "id": "c2973207-8df8-4210-82e7-1693d55c7ec5",
+        "serialId": 16024,
+        "symbol": "MCRT",
+        "name": "MagicCraft",
+        "slug": "magiccraft",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xde16ce60804a881e9f8c4ebb3824646edecd478d"
+            },
+            {
+                "platform": "fantom",
+                "contractAddress": "0xe705af5f63fcabdcdf5016aa838eaaac35d12890"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4b8285ab433d8f69cb48d5ad62b415ed1a221e4f"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.08102098863237868,
+            "at": "2021-12-31T07:00:00Z",
+            "daysSince": 1018.8980949249923,
+            "percentDown": 98.90152716818767,
+            "breakevenMultiple": 91.0354786244586
+        },
+        "cycleLowData": {
+            "price": 0.0008642894048886627,
+            "at": "2024-09-11T09:00:00Z",
+            "percentUp": 2.9740204101062218,
+            "daysSince": 33.81476159165892
+        }
+    },
+    {
+        "id": "c2b6aa74-ad3c-4b6d-8ddb-d649fadf27ae",
+        "serialId": 8018,
+        "symbol": "HOGE",
+        "name": "Hoge Finance",
+        "slug": "hoge-finance",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xfad45e47083e4607302aa43c65fb3106f1cd7607"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xa4fffc757e8c4f24e7b209c033c123d20983ad40"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.0009317980338792556,
+            "at": "2021-03-15T09:00:00Z",
+            "daysSince": 1309.814761589984,
+            "percentDown": 98.7509463344844,
+            "breakevenMultiple": 80.06061129384713
+        },
+        "cycleLowData": {
+            "price": 2.20322264570897e-06,
+            "at": "2024-08-08T04:00:00Z",
+            "percentUp": 428.2560761636519,
+            "daysSince": 68.02309492331752
+        }
+    },
+    {
+        "id": "c4630d75-cb40-4faa-b741-a66ae67f3033",
+        "serialId": 391452,
+        "symbol": "BIGTIME",
+        "name": "Big Time",
+        "slug": "big-time",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x64bc2ca1be492be7185faa2c8835d9b824c8a194"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.9471844845117696,
+            "at": "2023-12-05T16:00:00Z",
+            "daysSince": 314.52309490688657,
+            "percentDown": 85.28978266566585,
+            "breakevenMultiple": 6.7979960953123815
+        },
+        "cycleLowData": {
+            "price": 0.056586994483104336,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 146.22777283281167,
+            "daysSince": 70.68976157355324
+        }
+    },
+    {
+        "id": "c5062f88-c5a4-4d4b-b313-8e9682150d46",
+        "serialId": 8472,
+        "symbol": "COMBO",
+        "name": "COMBO",
+        "slug": "cocos-bcx",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xc03fbf20a586fa89c2a5f6f941458e1fbc40c661"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xc03fbf20a586fa89c2a5f6f941458e1fbc40c661"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 5.389621468192097,
+            "at": "2021-11-24T23:00:00Z",
+            "daysSince": 1055.2314283833696,
+            "percentDown": 91.77947073987924,
+            "breakevenMultiple": 12.164666876756671
+        },
+        "cycleLowData": {
+            "price": 0.29488574130378253,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 50.24646761270791,
+            "daysSince": 70.68976171670282
+        }
+    },
+    {
+        "id": "c56695c3-af0c-4c31-baec-630e0aae4cfe",
+        "serialId": 475913,
+        "symbol": "PIXEL",
+        "name": "Pixels",
+        "slug": "pixels",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3429d03c6f7521aec737a0bbf2e5ddcef2c3ae31"
+            },
+            {
+                "platform": "ronin",
+                "contractAddress": "0x7eae20d11ef8c779433eb24503def900b9d28ad7"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1.0093751789998813,
+            "at": "2024-03-11T01:00:00Z",
+            "daysSince": 218.14809490780806,
+            "percentDown": 84.96358883364152,
+            "breakevenMultiple": 6.6505231131038585
+        },
+        "cycleLowData": {
+            "price": 0.10763917595544031,
+            "at": "2024-08-05T06:00:00Z",
+            "percentUp": 41.00238205875827,
+            "daysSince": 70.93976157447473
+        }
+    },
+    {
+        "id": "c5e016fd-f608-47bc-b5a9-d326135a9896",
+        "serialId": 13754,
+        "symbol": "CPO",
+        "name": "Cryptopolis",
+        "slug": "cryptopolis",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xea395dfafed39924988b475f2ca7f4c72655203a"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.1992826935949868,
+            "at": "2021-12-17T17:00:00Z",
+            "daysSince": 1032.4814282821199,
+            "percentDown": 99.99366944433214,
+            "breakevenMultiple": 15796.401650462318
+        },
+        "cycleLowData": {
+            "price": 5.7401439587461716e-06,
+            "at": "2024-09-19T11:00:00Z",
+            "percentUp": 119.78023452187291,
+            "daysSince": 25.73142828211986
+        }
+    },
+    {
+        "id": "c6fb2219-d8b6-4271-8954-40edf62fe04f",
+        "serialId": 9654,
+        "symbol": "KNIGHT",
+        "name": "Forest Knight",
+        "slug": "forest-knight",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x4455ef8b4b4a007a93daa12de63a47eeac700d9d"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.15852074137530445,
+            "at": "2024-02-28T06:00:00Z",
+            "daysSince": 229.93976160796535,
+            "percentDown": 94.1488137437608,
+            "breakevenMultiple": 17.090551491736996
+        },
+        "cycleLowData": {
+            "price": 0.008598332940076545,
+            "at": "2024-10-03T13:00:00Z",
+            "percentUp": 7.873745960780871,
+            "daysSince": 11.648094941298668
+        }
+    },
+    {
+        "id": "c70d3af0-331f-4c18-b2bc-9b636f13b961",
+        "serialId": 21149,
+        "symbol": "ASTRAFER",
+        "name": "Astrafer",
+        "slug": "astrafer",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb51b97dd5569fab69495316b5a065cccff4b829d"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0xdfce1e99a31c4597a3f8a8945cbfa9037655e335"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 3.756998402604568,
+            "at": "2022-11-06T11:00:00Z",
+            "daysSince": 708.7314283929178,
+            "percentDown": 78.58821434279993,
+            "breakevenMultiple": 4.670325100437075
+        },
+        "cycleLowData": {
+            "price": 0.3209569813195431,
+            "at": "2023-10-13T04:00:00Z",
+            "percentUp": 150.6380891927768,
+            "daysSince": 368.0230950595845
+        }
+    },
+    {
+        "id": "c80411ec-cb08-420c-964d-82fea28e769a",
+        "serialId": 422822,
+        "symbol": "ROOT",
+        "name": "The Root Network",
+        "slug": "the-root-network",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xa3d4bee77b05d4a0c943877558ce21a763c4fa29"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.25478968336397056,
+            "at": "2023-11-21T05:00:00Z",
+            "daysSince": 328.98142823901406,
+            "percentDown": 91.19061145571891,
+            "breakevenMultiple": 11.351525647590858
+        },
+        "cycleLowData": {
+            "price": 0.017565840553587175,
+            "at": "2024-10-05T02:00:00Z",
+            "percentUp": 27.778759631813138,
+            "daysSince": 10.10642823901404
+        }
+    },
+    {
+        "id": "c945198e-88f1-416d-abc5-e4cb465be078",
+        "serialId": 12268,
+        "symbol": "FARA",
+        "name": "FaraLand",
+        "slug": "faraland",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xf4ed363144981d3a65f42e7d0dc54ff9eef559a1"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 7.780090179180246,
+            "at": "2021-11-18T19:00:00Z",
+            "daysSince": 1061.3980949399042,
+            "percentDown": 99.92175891199994,
+            "breakevenMultiple": 1278.100836224692
+        },
+        "cycleLowData": {
+            "price": 0.005761536581755869,
+            "at": "2024-09-06T21:00:00Z",
+            "percentUp": 5.652843077513299,
+            "daysSince": 38.31476160657083
+        }
+    },
+    {
+        "id": "d08e692f-7064-4406-9789-98e688699479",
+        "serialId": 21034,
+        "symbol": "HFT",
+        "name": "Hashflow",
+        "slug": "hashflow",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xb3999f658c0391d94a37f7ff328f3fec942bcadc"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x44ec807ce2f4a6f2737a92e985f318d035883e47"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1.280380221195316,
+            "at": "2022-11-08T10:00:00Z",
+            "daysSince": 706.7730949098159,
+            "percentDown": 87.41368079522734,
+            "breakevenMultiple": 7.945134584071296
+        },
+        "cycleLowData": {
+            "price": 0.11761977716579104,
+            "at": "2024-08-05T12:00:00Z",
+            "percentUp": 37.01160260426592,
+            "daysSince": 70.68976157648261
+        }
+    },
+    {
+        "id": "dd32a002-d816-4592-ba34-d43aab08255f",
+        "serialId": 12257,
+        "symbol": "KABY",
+        "name": "Kaby Arena",
+        "slug": "kaby-arena",
+        "contractAddresses": [
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x5198e7cc1640049de37d1bd10b03fa5a3afda120"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x02a40c048ee2607b5f5606e445cfc3633fb20b58"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.13725485050788985,
+            "at": "2021-09-05T20:00:00Z",
+            "daysSince": 1135.356428272065,
+            "percentDown": 99.73173783833558,
+            "breakevenMultiple": 372.7696794044693
+        },
+        "cycleLowData": {
+            "price": 0.0003567998666386708,
+            "at": "2024-09-12T19:00:00Z",
+            "percentUp": 3.195898706606306,
+            "daysSince": 32.398094938731525
+        }
+    },
+    {
+        "id": "def04c24-d3a3-4b80-8eb1-98f9a91c80c9",
+        "serialId": 14619,
+        "symbol": "SHILL",
+        "name": "SHILL Token",
+        "slug": "shill-token",
+        "contractAddresses": [
+            {
+                "platform": "solana",
+                "contractAddress": "6cVgJUqo4nmvQpbgrDZwyfd6RwWw5bfnCamS3M9N1fd"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0xfb9c339b4bace4fe63ccc1dd9a3c3c531441d5fe"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1.6594243398529154,
+            "at": "2021-11-24T10:00:00Z",
+            "daysSince": 1055.7730949489294,
+            "percentDown": 99.94552284789704,
+            "breakevenMultiple": 1835.6319326492717
+        },
+        "cycleLowData": {
+            "price": 0.0006273456085600916,
+            "at": "2024-09-26T14:00:00Z",
+            "percentUp": 44.100334699124275,
+            "daysSince": 18.60642828226257
+        }
+    },
+    {
+        "id": "e399a238-6810-4ad4-93d9-24f110e85cdb",
+        "serialId": 15803,
+        "symbol": "AKITA",
+        "name": "Akita Inu",
+        "slug": "akita-inu",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x3301ee63fb29f863f2333bd4466acb46cd8323e6"
+            },
+            {
+                "platform": "avalanche",
+                "contractAddress": "0xcaf5191fc480f43e4df80106c7695eca56e48b18"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 3.10543770487803e-05,
+            "at": "2021-05-11T06:00:00Z",
+            "daysSince": 1252.939761587448,
+            "percentDown": 99.64266296900232,
+            "breakevenMultiple": 279.8478504195359
+        },
+        "cycleLowData": {
+            "price": 5.5343962582148834e-08,
+            "at": "2024-09-01T23:00:00Z",
+            "percentUp": 100.50748765273558,
+            "daysSince": 43.23142825411455
+        }
+    },
+    {
+        "id": "e39a2a75-3b24-4235-8abb-cda6d2c91b55",
+        "serialId": 7297,
+        "symbol": "XCV",
+        "name": "XCarnival",
+        "slug": "xcarnival",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x4be63a9b26ee89b9a3a13fd0aa1d0b2427c135f8"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 1.9188439531010149,
+            "at": "2021-11-17T17:00:00Z",
+            "daysSince": 1062.4814283882856,
+            "percentDown": 99.9486539037023,
+            "breakevenMultiple": 1947.567725892353
+        },
+        "cycleLowData": {
+            "price": 0.0005278482377798363,
+            "at": "2024-09-17T09:00:00Z",
+            "percentUp": 86.65430581074823,
+            "daysSince": 27.814761721619018
+        }
+    },
+    {
+        "id": "e5d6cff1-5f6b-4468-98d6-84354d1704d0",
+        "serialId": 6932,
+        "symbol": "VR",
+        "name": "Victoria VR",
+        "slug": "victoria-vr",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x7d5121505149065b562c789a0145ed750e6e8cdd"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.6248595622045229,
+            "at": "2021-12-11T02:00:00Z",
+            "daysSince": 1039.1064282449918,
+            "percentDown": 98.91974046874307,
+            "breakevenMultiple": 92.57034731611735
+        },
+        "cycleLowData": {
+            "price": 0.004647655016007908,
+            "at": "2023-01-03T14:00:00Z",
+            "percentUp": 45.23679047681685,
+            "daysSince": 650.6064282449917
+        }
+    },
+    {
+        "id": "e6ca0755-75f7-41c1-b354-4a0de9867c0b",
+        "serialId": 6261,
+        "symbol": "YGG",
+        "name": "Yield Guild Games",
+        "slug": "yield-guild-games",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x25f8087ead173b73d6e8b84329989a8eea16cf73"
+            },
+            {
+                "platform": "ronin",
+                "contractAddress": "0x1c306872bc82525d72bf3562e8f0aa3f8f26e857"
+            },
+            {
+                "platform": "polygon-pos",
+                "contractAddress": "0x82617aa52dddf5ed9bb7b370ed777b3182a30fd1"
+            },
+            {
+                "platform": "harmony-shard-0",
+                "contractAddress": "0x63cf309500d8be0b9fdb8f1fb66c821236c0438c"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 10.977725158524896,
+            "at": "2021-11-20T16:00:00Z",
+            "daysSince": 1059.5230949063605,
+            "percentDown": 95.40337044407453,
+            "breakevenMultiple": 21.75507048878689
+        },
+        "cycleLowData": {
+            "price": 0.12831393985010137,
+            "at": "2023-06-10T05:00:00Z",
+            "percentUp": 293.25840964318576,
+            "daysSince": 492.98142823969397
+        }
+    },
+    {
+        "id": "ed71d843-ae9e-49cf-bdc0-8ca74576c8f0",
+        "serialId": 12909,
+        "symbol": "NINO",
+        "name": "Ninneko",
+        "slug": "ninneko",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x6cad12b3618a3c7ef1feb6c91fdc3251f58c2a90"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.3462981873208092,
+            "at": "2022-01-12T02:00:00Z",
+            "daysSince": 1007.106428377553,
+            "percentDown": 99.04058780710002,
+            "breakevenMultiple": 104.23048689607894
+        },
+        "cycleLowData": {
+            "price": 0.0009992522954124766,
+            "at": "2022-12-21T01:00:00Z",
+            "percentUp": 232.49130857147705,
+            "daysSince": 664.1480950442196
+        }
+    },
+    {
+        "id": "ee667b5c-2eed-417a-b472-cf7a5af44a8f",
+        "serialId": 9036,
+        "symbol": "WEMIX",
+        "name": "WEMIX",
+        "slug": "wemix",
+        "contractAddresses": [
+            {
+                "platform": "klay-token",
+                "contractAddress": "0x5096db80b21ef45230c9e423c373f1fc9c0198dd"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 23.620279452402116,
+            "at": "2021-11-21T18:00:00Z",
+            "daysSince": 1058.4397615718647,
+            "percentDown": 96.55946940350157,
+            "breakevenMultiple": 29.065284320323727
+        },
+        "cycleLowData": {
+            "price": 0.1511755445465923,
+            "at": "2022-12-08T05:00:00Z",
+            "percentUp": 437.56243708311234,
+            "daysSince": 676.9814282385313
+        }
+    },
+    {
+        "id": "f14d3862-f857-4705-8fda-40da9c7aa198",
+        "serialId": 7185,
+        "symbol": "BMON",
+        "name": "Binamon",
+        "slug": "binamon",
+        "contractAddresses": [
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x08ba0619b1e7a582e0bce5bbe9843322c954c340"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.8265011166144246,
+            "at": "2021-08-23T07:00:00Z",
+            "daysSince": 1148.8980949343602,
+            "percentDown": 99.43609323478412,
+            "breakevenMultiple": 177.3342796512033
+        },
+        "cycleLowData": {
+            "price": 0.002293331413273136,
+            "at": "2023-10-10T05:00:00Z",
+            "percentUp": 103.22818081149788,
+            "daysSince": 370.9814282676935
+        }
+    },
+    {
+        "id": "f5bf148f-d833-408a-83eb-50e12d2139ee",
+        "serialId": 11920,
+        "symbol": "MARS4",
+        "name": "MARS4",
+        "slug": "mars4",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x16cda4028e9e872a38acb903176719299beaed87"
+            },
+            {
+                "platform": "binance-smart-chain",
+                "contractAddress": "0x9cd9c5a44cb8fab39b2ee3556f5c439e65e4fddd"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.16413219200558288,
+            "at": "2021-09-29T09:00:00Z",
+            "daysSince": 1111.8147615947667,
+            "percentDown": 99.6334213491452,
+            "breakevenMultiple": 272.7927547521232
+        },
+        "cycleLowData": {
+            "price": 0.0004979815586055982,
+            "at": "2024-09-08T23:00:00Z",
+            "percentUp": 20.822461128327802,
+            "daysSince": 36.23142826143329
+        }
+    },
+    {
+        "id": "fa6ba615-5aa8-4d70-bf6c-b9f16a437586",
+        "serialId": 12947,
+        "symbol": "SPWN",
+        "name": "Bitspawn",
+        "slug": "bitspawn",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0xe516d78d784c77d479977be58905b3f2b1111126"
+            },
+            {
+                "platform": "solana",
+                "contractAddress": "5U9QqCPhqXAJcEv9uyzFJd5zhN93vuPk1aNNkXnUfPnt"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 0.025855198654260583,
+            "at": "2021-09-13T18:00:00Z",
+            "daysSince": 1127.4397616513154,
+            "percentDown": 99.97995295187219,
+            "breakevenMultiple": 4988.265572192773
+        },
+        "cycleLowData": {
+            "price": 3.0272696199405698e-06,
+            "at": "2024-06-21T19:00:00Z",
+            "percentUp": 71.2171285840031,
+            "daysSince": 115.3980949846487
+        }
+    },
+    {
+        "id": "fc58d32a-af0e-43db-be43-2ad2f257151c",
+        "serialId": 16543,
+        "symbol": "GOG",
+        "name": "Guild of Guardians",
+        "slug": "guild-of-guardians",
+        "contractAddresses": [
+            {
+                "platform": "ethereum",
+                "contractAddress": "0x9ab7bb7fdc60f4357ecfef43986818a2a3569c62"
+            }
+        ],
+        "allTimeHighData": {
+            "price": 2.639645816167383,
+            "at": "2021-12-22T03:00:00Z",
+            "daysSince": 1028.0647615808998,
+            "percentDown": 98.47385277657366,
+            "breakevenMultiple": 65.52447789112449
+        },
+        "cycleLowData": {
+            "price": 0.02996819803187925,
+            "at": "2024-09-06T20:00:00Z",
+            "percentUp": 34.425437555084706,
+            "daysSince": 38.35642824756648
+        }
+    }
+]

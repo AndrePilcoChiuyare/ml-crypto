@@ -2,11 +2,14 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 from skforecast.preprocessing import series_long_to_dict, exog_long_to_dict
-from datetime import timedelta
+from datetime import timedelta, datetime
 from lightgbm import LGBMRegressor
 from skforecast.ForecasterAutoregMultiSeries import ForecasterAutoregMultiSeries
 from catboost import CatBoostRegressor
 import json
+import os
+import requests
+from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 
 class Model:
     def __init__(self) -> None:
@@ -26,6 +29,10 @@ class Model:
     def loadJSON(self, filepath):
         with open(filepath) as file:
             return json.load(file)
+        
+    def save_json(self, json_variable: list, category: str):
+        with open(f'../data/processed/{category}.json', 'w') as json_file:
+                json.dump(json_variable, json_file, indent=4)
         
     def get_basic_prediction_info(self, category:str):
         if category not in ["meme", "ai", "rwa", "gaming"]:
@@ -383,3 +390,148 @@ class Model:
                     df_pred[columna].iloc[i] = max(media_ponderada, 0)
 
         return df_pred
+    
+    def add_cols_to_df(self, df, df_marketcap, df_image):
+        df_csv = df.copy()
+        
+        df_csv['marketcap'] = int(-1)
+        df_csv['image'] = "https://cdn-icons-png.flaticon.com/512/272/272525.png"
+
+        for _, row in df_marketcap.iterrows():
+            df_csv.loc[df_csv['id'] == row['id'], 'marketcap'] = row['marketcap']
+
+        for _, row in df_image.iterrows():
+            df_csv.loc[df_csv['id'] == row['id'], 'image'] = row['image']
+        
+        return df_csv
+    
+    def getData(self):
+        meme = self.loadJSON("../data/processed/meme-pre-filtered.json")
+        ai = self.loadJSON("../data/processed/ai-pre-filtered.json")
+        rwa = self.loadJSON("../data/processed/rwa-pre-filtered.json")
+        gaming = self.loadJSON("../data/processed/gaming-pre-filtered.json")
+
+        print("meme start")
+        self.get_yearly_data('30/09/2024', '1d', meme, 'meme')
+        print("ai start")
+        self.get_yearly_data('30/09/2024', '1d', ai, 'ai')
+        print("rwa start")
+        self.get_yearly_data('30/09/2024', '1d', rwa, 'rwa')
+        print("gaming start")
+        self.get_yearly_data('30/09/2024', '1d', gaming, 'gaming')
+
+
+
+        gaming_data = pd.read_csv("../data/processed/gaming.csv")
+        meme_data = pd.read_csv("../data/processed/meme.csv")
+        ai_data = pd.read_csv("../data/processed/ai.csv")
+        rwa_data = pd.read_csv("../data/processed/rwa.csv")
+        # print("data loaded")
+
+        gaming_cap = pd.read_csv("../data/processed/gaming_market_caps.csv")
+        meme_cap = pd.read_csv("../data/processed/meme_market_caps.csv")
+        ai_cap = pd.read_csv("../data/processed/ai_market_caps.csv")
+        rwa_cap = pd.read_csv("../data/processed/rwa_market_caps.csv")
+        # print("market caps loaded")
+
+        gaming_image = pd.read_csv("../data/processed/gaming_logos.csv")
+        meme_image = pd.read_csv("../data/processed/meme_logos.csv")
+        ai_image = pd.read_csv("../data/processed/ai_logos.csv")
+        rwa_image = pd.read_csv("../data/processed/rwa_logos.csv")
+        # print("images loaded")
+
+        gaming_data = self.add_cols_to_df(gaming_data, gaming_cap, gaming_image)
+        meme_data = self.add_cols_to_df(meme_data, meme_cap, meme_image)
+        ai_data = self.add_cols_to_df(ai_data, ai_cap, ai_image)
+        rwa_data = self.add_cols_to_df(rwa_data, rwa_cap, rwa_image)
+        # print("cols added")
+
+        gaming_data.to_csv("../data/processed/gaming.csv", index=False)
+        meme_data.to_csv("../data/processed/meme.csv", index=False)
+        ai_data.to_csv("../data/processed/ai.csv", index=False)
+        rwa_data.to_csv("../data/processed/rwa.csv", index=False)
+        # print("data saved")
+
+    def get_from_api(self, endpoint: str):
+        base_url = 'https://api.messari.io/'
+        url = f'{base_url}{endpoint}'
+        headers = {
+            'accept': 'application/json',
+            'x-messari-api-key': os.getenv('MESSARI_ANDRE_KEY'),
+        }
+        return requests.get(url, headers=headers)
+    
+    def getting_interval_timestamps(date: str, days:int) -> tuple[int, int]:
+        startdate: datetime = datetime.strptime(date, '%d/%m/%Y')
+        enddate: datetime = startdate + timedelta(days=days)
+        return int(datetime.timestamp(startdate)), int(datetime.timestamp(enddate))
+    
+    def get_yearly_data(self, date_since:str, interval:str, tokens: list, category: str)->None:
+        year = date_since
+
+        while(1):
+            print(f"Getting data since {year}")
+            annual_data = []
+
+            days = 360
+
+            if datetime.now() - timedelta(days=360) < datetime.strptime(year, "%d/%m/%Y"):
+                days = int((datetime.now() - datetime.strptime(year, "%d/%m/%Y")).days)
+            
+            start_timestamp, end_timestamp = self.getting_interval_timestamps(year, days)
+            print(f"{start_timestamp} - {end_timestamp} ({days} days)")
+            
+            for token in tokens:
+                new_token = token.copy()
+                del new_token['allTimeHighData']
+                del new_token['cycleLowData']
+                new_token['category'] = category
+                endpoint = f"marketdata/v1/assets/{token['id']}/price/time-series?interval={interval}&startTime={start_timestamp}&endTime={end_timestamp}"
+                response = self.get_from_api(endpoint)
+                if response.status_code == 200:
+                    result = response.json()
+                    new_token['market_data'] = result['data']
+                else:
+                    new_token['market_data'] = "No content"
+                annual_data.append(new_token)
+            
+            with open(f'../data/raw/{category}/{category}-{year[6:]}.json', 'w') as json_file:
+                json.dump(annual_data, json_file, indent=4)
+            
+            # updating year
+            next_year = datetime.strptime(year, "%d/%m/%Y") + timedelta(days=days)
+            year = next_year.strftime("%d/%m/%Y")
+
+            if days < 360:
+                break
+    
+    def complete_historical_data(self, category: str):
+        complete_data = []
+        for file in os.listdir(f'../data/raw/{category}'):
+            with open(f'../data/raw/{category}/{file}') as json_file:
+                data = json.load(json_file)
+                if complete_data == []:
+                    complete_data = data
+                else:
+                    for record in complete_data:
+                        for new_record in data:
+                            if record['id'] == new_record['id']:
+                                if record['market_data'] == "No content":
+                                    record['market_data'] = new_record['market_data']
+                                elif new_record['market_data'] != "No content":
+                                    record['market_data'] += new_record['market_data']
+                                break
+                                    
+        return complete_data
+    
+    def historical_json_to_dataframe(json_file: list) -> pd.DataFrame:
+        data = []
+        for token in json_file:
+            for record in token['market_data']:
+                new_record = record.copy()
+                new_record['name'] = token['name']
+                new_record['symbol'] = token['symbol']
+                new_record['id'] = token['id']
+                new_record['category'] = token['category']
+                data.append(new_record)
+        return pd.DataFrame(data)

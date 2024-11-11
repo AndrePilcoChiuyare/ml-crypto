@@ -64,25 +64,26 @@ export class ChartComponent {
           type: 'line',
           height: 350,
           zoom: {
-            enabled: true // Enable zoom functionality
+            enabled: true,
+            type: 'x', // Enable zoom on x-axis
+            autoScaleYaxis: true, // Automatically scales the y-axis
+          },
+          events: {
+            zoomed: (chartContext, { xaxis }) => {
+              const filteredData = this.seriesData.filter(
+                (dataPoint) => dataPoint.x.getTime() >= xaxis.min && dataPoint.x.getTime() <= xaxis.max
+              );
+              if (filteredData.length > 0) {
+                this.chartOptions.yaxis = {
+                  min: Math.min(...filteredData.map(data => data.y)),
+                  max: Math.max(...filteredData.map(data => data.y)),
+                  title: {
+                    text: 'Close Price'
+                  }
+                };
+              }
+            },
           }
-        },
-        xaxis: {
-          type: 'datetime',
-          title: {
-            text: 'Date'
-          }
-        },
-        yaxis: {
-          min: undefined, // Allow y-axis to be dynamic
-          max: undefined, // Allow y-axis to adjust based on zoom level
-          title: {
-            text: 'Close Price'
-          }
-        },
-        title: {
-          text: `Close Price History for ${prediction.name}`,
-          align: 'left'
         },
         annotations: {
           xaxis: [
@@ -140,6 +141,21 @@ export class ChartComponent {
           x: {
             format: "dd MMM yyyy"
           }
+        },
+        xaxis: {
+          type: 'datetime',
+          title: {
+            text: 'Date'
+          }
+        },
+        yaxis: {
+          title: {
+            text: 'Close Price'
+          }
+        },
+        title: {
+          text: `Close Price History for ${prediction.name}`,
+          align: 'left'
         },
         fill: {
           type: "gradient",

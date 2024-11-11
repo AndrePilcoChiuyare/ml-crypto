@@ -52,6 +52,13 @@ def get_prediction_by_id(category, id):
     prediction = model.get_prediction_by_id(category=category, token_id=id)
 
     return prediction
+
+@app.route("/get-data", methods=["POST"])
+def get_data():
+    model = Model()
+    data = model.getData()
+
+    return "Data retrieved"
     
 if __name__ == '__main__':
     app.run(debug=True)
