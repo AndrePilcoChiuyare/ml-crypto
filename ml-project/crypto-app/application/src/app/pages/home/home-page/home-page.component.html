@@ -1,3 +1,6 @@
+<div *ngIf="isLoading" class="loading-overlay">
+  <mat-spinner></mat-spinner>
+</div>
 <div class="main-div">
   <button [ngClass]="{'selected': selectedCategory == 'ai'}" class="button-div" (click)="onCategoryChange('ai')">AI</button>
   <button [ngClass]="{'selected': selectedCategory == 'rwa'}" class="button-div" (click)="onCategoryChange('rwa')">RWA</button>

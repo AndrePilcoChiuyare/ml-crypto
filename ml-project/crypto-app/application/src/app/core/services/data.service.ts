@@ -30,6 +30,15 @@ export class DataService {
     );
   }
 
+  getDataAndPredict(): Observable<string> {
+    // the model is prediction-request
+    const body = {
+      days_to_predict: 7,
+      model: 'catboost'
+    };
+    return this.http.post(`${this.baseUrl}/get-data/predict-all`, body, { responseType: 'text' });
+  } 
+
   getPredictionById(category: string, tokenId: string): Observable<PredictionHistorical> {
     return this.http.get<PredictionHistorical>(`${this.baseUrl}/categories/${category}/tokens/${tokenId}`);
   }

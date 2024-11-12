@@ -83,6 +83,7 @@ class Model:
         last_timestamps = filtered_meme.groupby('id').timestamp.max()
         max_first_timestamp = first_timestamps.max()
         last_timestamp = last_timestamps.max()
+        print(filtered_meme['category'].iloc[0], last_timestamp)
         ids_to_keep2 = last_timestamps[last_timestamps == last_timestamp].index
         return filtered_meme[filtered_meme['id'].isin(ids_to_keep2)]
 
