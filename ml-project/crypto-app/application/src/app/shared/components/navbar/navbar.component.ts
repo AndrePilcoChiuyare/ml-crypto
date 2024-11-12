@@ -2,11 +2,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { Component, EventEmitter, Output } from '@angular/core';
 import { DataService } from '../../../core/services/data.service';
 import { LoadingService } from '../../../core/services/loading.service';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [MatToolbarModule],
+  imports: [MatToolbarModule, MatButtonModule],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })

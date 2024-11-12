@@ -1,73 +1,75 @@
-<table mat-table [dataSource]="data" *ngIf="data.length > 0" >
+<div class="table-div">
+  <table mat-table [dataSource]="data" *ngIf="data.length > 0" >
 
-  <!-- Columna de Imagen -->
-  <ng-container matColumnDef="image">
-    <th mat-header-cell *matHeaderCellDef></th>
-    <td mat-cell *matCellDef="let item">
-      <img [src]="item.image" alt="{{item.name}} image" width="50" height="50">
-    </td>
-  </ng-container>
-
-  <!-- Columna de Categoría -->
-  <ng-container matColumnDef="category">
-    <th mat-header-cell *matHeaderCellDef> Category </th>
-    <td mat-cell *matCellDef="let item"> {{ item.category }} </td>
-  </ng-container>
-
-  <!-- Columna de Future Multiply -->
-  <ng-container matColumnDef="future_multiply">
-    <th mat-header-cell *matHeaderCellDef> Next 7d x </th>
-    <td mat-cell *matCellDef="let item"> 
-      <div style="display: flex; align-items: center; justify-content: center;">
-        <mat-icon *ngIf="item.future_multiply < 1" [ngClass]="'red-color'" aria-hidden="false" aria-label="arrow down" fontIcon="arrow_drop_down"></mat-icon>
-        <mat-icon *ngIf="item.future_multiply > 1" [ngClass]="'green-color'" aria-hidden="false" aria-label="arrow up" fontIcon="arrow_drop_up"></mat-icon>
-        <mat-icon *ngIf="item.future_multiply == 1" [ngClass]="'grey-color'" aria-hidden="false" aria-label="minimize" fontIcon="more_horiz"></mat-icon>
+    <!-- Columna de Imagen -->
+    <ng-container matColumnDef="image">
+      <th mat-header-cell *matHeaderCellDef></th>
+      <td mat-cell *matCellDef="let item">
+        <img [src]="item.image" alt="{{item.name}} image" width="50" height="50">
+      </td>
+    </ng-container>
+  
+    <!-- Columna de Categoría -->
+    <ng-container matColumnDef="category">
+      <th mat-header-cell *matHeaderCellDef> Category </th>
+      <td mat-cell *matCellDef="let item"> {{ item.category }} </td>
+    </ng-container>
+  
+    <!-- Columna de Future Multiply -->
+    <ng-container matColumnDef="future_multiply">
+      <th mat-header-cell *matHeaderCellDef> Next 7d x </th>
+      <td mat-cell *matCellDef="let item"> 
+        <div style="display: flex; align-items: center; justify-content: center;">
+          <mat-icon *ngIf="item.future_multiply < 1" [ngClass]="'red-color'" aria-hidden="false" aria-label="arrow down" fontIcon="arrow_drop_down"></mat-icon>
+          <mat-icon *ngIf="item.future_multiply > 1" [ngClass]="'green-color'" aria-hidden="false" aria-label="arrow up" fontIcon="arrow_drop_up"></mat-icon>
+          <mat-icon *ngIf="item.future_multiply == 1" [ngClass]="'grey-color'" aria-hidden="false" aria-label="minimize" fontIcon="more_horiz"></mat-icon>
+          <span [ngClass]="{'red-color': item.future_multiply < 1, 'green-color': item.future_multiply > 1, 'grey-color': item.future_multiply == 1}">
+            x{{ item.future_multiply }}
+          </span>
+        </div>
+      </td>
+    </ng-container>
+  
+    <!-- Columna de Last Close -->
+    <ng-container matColumnDef="last_close">
+      <th mat-header-cell *matHeaderCellDef> Current Close Price </th>
+      <td mat-cell *matCellDef="let item"> ${{ item.last_close }} </td>
+    </ng-container>
+  
+    <!-- Columna de Last Predicted Close -->
+    <ng-container matColumnDef="last_pred_close">
+      <th mat-header-cell *matHeaderCellDef> 7d Predicted Close Price </th>
+      <td mat-cell *matCellDef="let item">
         <span [ngClass]="{'red-color': item.future_multiply < 1, 'green-color': item.future_multiply > 1, 'grey-color': item.future_multiply == 1}">
-          x{{ item.future_multiply }}
+          ${{ item.last_pred_close }}
         </span>
-      </div>
-    </td>
-  </ng-container>
-
-  <!-- Columna de Last Close -->
-  <ng-container matColumnDef="last_close">
-    <th mat-header-cell *matHeaderCellDef> Current Close Price </th>
-    <td mat-cell *matCellDef="let item"> ${{ item.last_close }} </td>
-  </ng-container>
-
-  <!-- Columna de Last Predicted Close -->
-  <ng-container matColumnDef="last_pred_close">
-    <th mat-header-cell *matHeaderCellDef> 7d Predicted Close Price </th>
-    <td mat-cell *matCellDef="let item">
-      <span [ngClass]="{'red-color': item.future_multiply < 1, 'green-color': item.future_multiply > 1, 'grey-color': item.future_multiply == 1}">
-        ${{ item.last_pred_close }}
-      </span>
-    </td>
-  </ng-container>
-
-  <!-- Columna de Market Cap Level -->
-  <ng-container matColumnDef="market_cap_level">
-    <th mat-header-cell *matHeaderCellDef> Market Cap Level </th>
-    <td mat-cell *matCellDef="let item">
-      <div class="badge-div" [ngClass]="{'bg-dark-green': item.market_cap_level == 'high', 'bg-orange': item.market_cap_level == 'low'}">
-        {{ item.market_cap_level }}
-      </div>
-    </td>
-  </ng-container>
-
-  <!-- Columna de Market Cap -->
-  <ng-container matColumnDef="marketcap">
-    <th mat-header-cell *matHeaderCellDef> Market Cap </th>
-    <td mat-cell *matCellDef="let item"> ${{ item.marketcap }} </td>
-  </ng-container>
-
-  <!-- Columna de Name -->
-  <ng-container matColumnDef="token">
-    <th mat-header-cell *matHeaderCellDef style="text-align: left;"> Token </th>
-    <td mat-cell *matCellDef="let item" style="text-align: left;"> {{ item.name }} <span class="grey-color">{{item.symbol}}</span> </td>
-  </ng-container>
-
-  <!-- Encabezado y filas -->
-  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-  <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="openDialog(row)"></tr>
-</table>
+      </td>
+    </ng-container>
+  
+    <!-- Columna de Market Cap Level -->
+    <ng-container matColumnDef="market_cap_level">
+      <th mat-header-cell *matHeaderCellDef> Market Cap Level </th>
+      <td mat-cell *matCellDef="let item">
+        <div class="badge-div" [ngClass]="{'bg-dark-green': item.market_cap_level == 'high', 'bg-orange': item.market_cap_level == 'low'}">
+          {{ item.market_cap_level }}
+        </div>
+      </td>
+    </ng-container>
+  
+    <!-- Columna de Market Cap -->
+    <ng-container matColumnDef="marketcap">
+      <th mat-header-cell *matHeaderCellDef> Market Cap </th>
+      <td mat-cell *matCellDef="let item"> ${{ item.marketcap }} </td>
+    </ng-container>
+  
+    <!-- Columna de Name -->
+    <ng-container matColumnDef="token">
+      <th mat-header-cell *matHeaderCellDef style="text-align: left;"> Token </th>
+      <td mat-cell *matCellDef="let item" style="text-align: left;"> {{ item.name }} <span class="grey-color">{{item.symbol}}</span> </td>
+    </ng-container>
+  
+    <!-- Encabezado y filas -->
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="openDialog(row)"></tr>
+  </table>
+</div>

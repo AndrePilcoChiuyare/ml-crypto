@@ -1,6 +1,13 @@
 .main-div {
-    width: 800px;
+    width: 90%;
     align-items: center;
+    padding: 30px;
+    margin: 0px auto;
+    /* content to the left */
+    display: flex;
+    flex-direction: row;
+    /* center content */
+    justify-content: right;
 }
 
 .button-div {
