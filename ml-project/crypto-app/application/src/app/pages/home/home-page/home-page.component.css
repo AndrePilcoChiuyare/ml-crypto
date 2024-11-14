@@ -2,32 +2,77 @@
     width: 90%;
     align-items: center;
     padding: 30px;
-    margin: 0px auto;
-    /* content to the left */
+    margin: 0 auto;
     display: flex;
     flex-direction: row;
-    /* center content */
     justify-content: right;
+    gap: 5px;
 }
 
-.button-div {
-    border: 0;
-    background-color: rgb(51, 146, 223);
-    margin-right: 10px;
-    width: 6rem;
-    height: 2rem;
-    border-radius: 4px;
+button {
+    font-family: Roboto, sans-serif;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 1rem;
 }
 
-.button-div:hover {
-    background-color: rgb(39, 107, 163);
+/* Button styling for each color */
+.button-green {
+    background-color: white;
+    border: 3px solid #4CAF50;
+    color: #4CAF50;
+}
+
+.button-blue {
+    background-color: white;
+    border: 3px solid #2196f3;
+    color: #2196f3;
+}
+
+.button-yellow {
+    background-color: white;
+    border: 3px solid #ffeb3b;
+    color: black;
+}
+
+.button-pink {
+    background-color: white;
+    border: 3px solid #e91e63;
+    color: #e91e63;
+}
+
+/* Hover effects */
+.button-green:hover,
+.button-green-selected {
+    background-color: #4CAF50;
+    color: white;
     cursor: pointer;
 }
 
-.selected {
-    background-color: rgb(38, 167, 177);
+.button-blue:hover,
+.button-blue-selected {
+    background-color: #2196f3;
+    color: white;
+    cursor: pointer;
 }
 
+.button-yellow:hover,
+.button-yellow-selected {
+    background-color: #ffeb3b;
+    color: black;
+    cursor: pointer;
+}
+
+.button-pink:hover,
+.button-pink-selected {
+    background-color: #e91e63;
+    color: white;
+    cursor: pointer;
+}
+
+/* Loading overlay */
 .loading-overlay {
     position: fixed;
     top: 0;

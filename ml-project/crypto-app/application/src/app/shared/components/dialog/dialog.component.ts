@@ -2,11 +2,13 @@ import { Component, Inject } from '@angular/core';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { ChartComponent } from '../chart/chart.component';
 import { DataService } from '../../../core/services/data.service';
+import { CommonModule } from '@angular/common';
+import { ScientificFormatPipe } from '../../../core/pipes/scientific-format.pipe';
 
 @Component({
   selector: 'app-dialog',
   standalone: true,
-  imports: [ChartComponent],
+  imports: [ChartComponent, CommonModule, ScientificFormatPipe],
   templateUrl: './dialog.component.html',
   styleUrl: './dialog.component.css'
 })

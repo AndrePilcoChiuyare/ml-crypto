@@ -9,7 +9,8 @@ import {
   ApexAnnotations,
   ApexTooltip,
   ApexYAxis,
-  ApexFill
+  ApexFill,
+  ApexStroke
 } from 'ng-apexcharts';
 import { DataService } from '../../../core/services/data.service';
 
@@ -22,6 +23,7 @@ export type ChartOptions = {
   annotations: ApexAnnotations;
   tooltip: ApexTooltip;
   fill: ApexFill;
+  stroke: ApexStroke;
 };
 
 @Component({
@@ -154,8 +156,8 @@ export class ChartComponent {
           }
         },
         title: {
-          text: `Close Price History for ${prediction.name}`,
-          align: 'left'
+          text: `Close Price History`,
+          align: 'center'
         },
         fill: {
           type: "gradient",
@@ -165,7 +167,10 @@ export class ChartComponent {
             opacityTo: 0.9,
             stops: [0, 100]
           }
-        }
+        },
+        stroke: {
+          width: 3 // Set the line width here (e.g., 2 for a thin line, 4 for a thicker line)
+        },
       };
     });
   }

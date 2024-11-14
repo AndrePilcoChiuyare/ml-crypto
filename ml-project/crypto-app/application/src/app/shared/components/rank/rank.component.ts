@@ -4,16 +4,17 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatTableModule } from '@angular/material/table';
 import { DialogComponent } from '../dialog/dialog.component';
 import { MatDialog } from '@angular/material/dialog';
+import { ScientificFormatPipe } from '../../../core/pipes/scientific-format.pipe';
 
 @Component({
   selector: 'app-rank',
   standalone: true,
-  imports: [CommonModule, MatTableModule, MatIconModule],
+  imports: [CommonModule, MatTableModule, MatIconModule, ScientificFormatPipe],
   templateUrl: './rank.component.html',
   styleUrl: './rank.component.css'
 })
 export class RankComponent {
-  displayedColumns: string[] = ['image', 'token', 'last_close', 'last_pred_close', 'future_multiply', 'marketcap','market_cap_level'];
+  displayedColumns: string[] = ['image', 'token', 'last_close', 'last_pred_close', 'future_multiply','market_cap_level'];
   @Input() data: any[] = [];
 
   constructor(public dialog: MatDialog) {}
@@ -23,7 +24,7 @@ export class RankComponent {
       data: item,
       minWidth: '30%',
       maxWidth: '100%',
-      width: '70%',
+      width: '80%',
     });
   }
 }

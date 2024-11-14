@@ -1,12 +1,26 @@
-<h1 mat-dialog-title class="custom-dialog-title">Item Details</h1>
 <div mat-dialog-content class="custom-dialog-content">
-  <p>Category: {{ data.category }}</p>
-  <p>Future Multiply: {{ data.future_multiply }}</p>
-  <p>Current Close Price: {{ data.last_close }}</p>
-  <p>Predicted Close Price: {{ data.last_pred_close }}</p>
-  <p>Market Cap Level: {{ data.market_cap_level }}</p>
-  <p>Market Cap: {{ data.marketcap }}</p>
-  <p>Token: {{ data.name }} ({{ data.symbol }})</p>
-  <p>ID: {{ data.id }}</p>
+  <div class="information">
+    <div class="header-div">
+      <div class="title-div">
+        <img [src]="data.image" alt="{{data.name}} image" width="50" height="50">
+        <p>{{ data.name }}<span class="text-shade">{{ data.symbol }}</span></p>
+      </div>
+      <div class="category-banner" [ngClass]="{'bg-green': data.category == 'meme', 'bg-blue': data.category == 'ai', 'bg-yellow': data.category == 'rwa', 'bg-pink': data.category == 'gaming'}">
+        <p>{{ data.category | uppercase }}</p>
+      </div>
+    </div>
+    <div class="content-div">
+      <div class="info-div">
+        <p>Current Close Price: ${{ data.last_close | scientificFormat }}</p>
+        <p>Predicted Close Price: ${{ data.last_pred_close | scientificFormat }}</p>
+        <p>Market Cap: ${{ data.marketcap | number:'1.0-0' }}</p>
+      </div>
+    </div>
+    <div class="multiply-div">
+      <div class="category-banner" [ngClass]="{'bg-green': data.future_multiply > 1, 'bg-grey': data.future_multiply == 1, 'bg-red': data.future_multiply < 1}">
+        <p class="multiply-text">x{{ data.future_multiply}}</p>
+      </div>
+    </div>
+  </div>
   <app-chart [category]="category" [tokenId]="tokenID"></app-chart>
 </div>
