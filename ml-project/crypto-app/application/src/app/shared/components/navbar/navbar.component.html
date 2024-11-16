@@ -1,6 +1,9 @@
 <mat-toolbar style="background-color: #32CA5B">
     <div class="navbar">
         <span class="title">CryptoProphet</span>
-        <button mat-button (click)="makePrediction()">Update predictions</button>
+        <div class="button-div">
+            <p>Last update: {{ startDate | date: 'dd-MM-YYYY' }}</p>
+            <button mat-button (click)="makePrediction()">Update predictions</button>
+        </div>
     </div>
 </mat-toolbar>

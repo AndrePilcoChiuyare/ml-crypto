@@ -33,6 +33,19 @@ class Model:
     def save_json(self, json_variable: list, category: str):
         with open(f'../data/processed/{category}.json', 'w') as json_file:
                 json.dump(json_variable, json_file, indent=4)
+
+    def get_last_date(self, category: str):
+        if category == "ai":
+            token_id = "040f0133-1654-4e4e-85ac-417155ca814f"
+        elif category == "gaming":
+            token_id = "def04c24-d3a3-4b80-8eb1-98f9a91c80c9"
+        elif category == "meme":
+            token_id = "02e9c2cc-2e3b-45fe-b7bb-508cb23a3a39"
+        elif category == "rwa":
+            token_id = "1c1cd416-b027-4d73-9d4d-0a9edc63524d"
+        data = self.loadJSON(f'../data/processed/{category}_complete_time_series.json')
+        last_date = data[token_id]['close_data'][-8]['timestamp']
+        return last_date
         
     def get_basic_prediction_info(self, category:str):
         if category not in ["meme", "ai", "rwa", "gaming"]:

@@ -75,6 +75,13 @@ def get_data_predict_all():
         model.train_predict(category=category, days_to_predict=days_to_predict, model=model_name)
     
     return "Predictions completed"
+
+@app.route("/last-date/<category>", methods=["GET"])
+def get_last_date(category):
+    model = Model()
+    last_date = model.get_last_date(category)
+
+    return last_date
     
 if __name__ == '__main__':
     app.run(debug=True)

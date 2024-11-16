@@ -16,6 +16,10 @@ export class DataService {
     return this.http.get(`${this.baseUrl}/predictionsComplete/${category}`);
   }
 
+  getDateRange(): Observable<string> {
+    return this.http.get(`${this.baseUrl}/last-date/meme`, { responseType: 'text' });
+  }
+
   getPredictionsBasic(category: string): Observable<Record<string, PredictionBasic>> {
     return this.http.get<Record<string, PredictionBasic>>(`${this.baseUrl}/predictions-basic/${category}`).pipe(
       map(predictions => {
