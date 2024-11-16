@@ -23,6 +23,10 @@ export class NavbarComponent implements OnInit{
   ) {}
 
   ngOnInit(): void {
+    this.getDate();
+  }
+
+  getDate():void {
     this.dataService.getDateRange().subscribe({
       next: (response) => {
         const [year, month, day] = response.split('-');
@@ -44,6 +48,7 @@ export class NavbarComponent implements OnInit{
       error: () => this.loadingService.setLoading(false),
       complete: () => {
         // End loading when the prediction is completed
+        this.getDate();
         this.loadingService.setLoading(false);
       },
     });
