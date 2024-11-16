@@ -159,17 +159,18 @@ export class ChartComponent {
           text: `Close Price History`,
           align: 'center'
         },
-        fill: {
-          type: "gradient",
-          gradient: {
-            shadeIntensity: 1,
-            opacityFrom: 0.7,
-            opacityTo: 0.9,
-            stops: [0, 100]
-          }
-        },
+        // fill: {
+        //   type: "gradient",
+        //   gradient: {
+        //     shadeIntensity: 1,
+        //     opacityFrom: 0.7,
+        //     opacityTo: 0.9,
+        //     stops: [0, 100]
+        //   }
+        // },
         stroke: {
-          width: 3 // Set the line width here (e.g., 2 for a thin line, 4 for a thicker line)
+          width: 3, // Set the line width here (e.g., 2 for a thin line, 4 for a thicker line)
+          colors: ['#32CA5B'] // Set the line color here
         },
       };
     });

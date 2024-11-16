@@ -15,16 +15,21 @@ table {
 }
 
 tr:hover {
-  background-color: #f5f5f5;
+  background-color: #b7fac53a;
   cursor: pointer;
+}
+
+tr:not(:hover) {
+  transition: background-color 0.2s ease-out;
 }
 
 th, td {
   padding: 8px;
   border-color: lightgrey;
-  color: black;
+  color: rgb(30, 32, 30);
   text-align: center;
-  font-weight: 500;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .mat-cell {
@@ -36,15 +41,15 @@ th, td {
 
 /* Icon colors */
 .red-color {
-  color: red; /* Color for future_multiply < 1 */
+  color: #FF3A33; /* Color for future_multiply < 1 */
 }
 
 .green-color {
-  color: green; /* Color for future_multiply > 1 */
+  color: #32CA5B; /* Color for future_multiply > 1 */
 }
 
 .grey-color {
-  color: grey; /* Color for future_multiply == 1 */
+  color: #64748B; /* Color for future_multiply == 1 */
 }
 
 .badge-div {
@@ -58,11 +63,11 @@ th, td {
 }
 
 .bg-dark-green {
-  background-color: #4CAF50;
+  background-color: #32CA5B;
   color: white;
 }
 
 .bg-orange {
-  background-color: #FFA500;
+  background-color: #faa200;
   color: white;
 }

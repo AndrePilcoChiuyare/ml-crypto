@@ -1,13 +1,19 @@
-.button {
-    border: 0;
-    background-color: rgb(51, 146, 223);
-    margin-right: 10px;
-    width: 6rem;
-    height: 2rem;
-    border-radius: 4px;
+button {
+    background-color: #175f2a;
+    transition: all ease-in-out 0.2s;
+    color: white;
+    font-weight: bold;
 }
 
-.button:hover {
-    background-color: rgb(39, 107, 163);
+button:hover {
+    background-color: white;
+    color: #175f2a;
     cursor: pointer;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }

@@ -1,15 +1,16 @@
 <div *ngIf="isLoading" class="loading-overlay">
-  <mat-spinner></mat-spinner>
+  <div class="loader"></div>
 </div>
 <div class="main-div">
-  <!-- <button [ngClass]="{'selected': selectedCategory == 'ai'}" class="button-div" (click)="onCategoryChange('ai')">AI</button>
-  <button [ngClass]="{'selected': selectedCategory == 'rwa'}" class="button-div" (click)="onCategoryChange('rwa')">RWA</button>
-  <button [ngClass]="{'selected': selectedCategory == 'meme'}" class="button-div" (click)="onCategoryChange('meme')">Meme</button>
-  <button [ngClass]="{'selected': selectedCategory == 'gaming'}" class="button-div" (click)="onCategoryChange('gaming')">Gaming</button> -->
-  <button [ngClass]="{'button-blue-selected': selectedCategory == 'ai'}" class="button-blue" (click)="onCategoryChange('ai')">AI</button>
-  <button [ngClass]="{'button-yellow-selected': selectedCategory == 'rwa'}" class="button-yellow" (click)="onCategoryChange('rwa')">RWA</button>
-  <button [ngClass]="{'button-green-selected': selectedCategory == 'meme'}" class="button-green" (click)="onCategoryChange('meme')">Meme</button>
-  <button [ngClass]="{'button-pink-selected': selectedCategory == 'gaming'}" class="button-pink" (click)="onCategoryChange('gaming')">Gaming</button>
+  <div class="title-div">
+    <img src="assets/astronaut.png" alt="Astronaut" class="logo">
+  </div>
+  <div class="button-div">
+    <button [ngClass]="{'button-blue-selected': selectedCategory == 'ai'}" class="button-blue" (click)="onCategoryChange('ai')">AI</button>
+    <button [ngClass]="{'button-yellow-selected': selectedCategory == 'rwa'}" class="button-yellow" (click)="onCategoryChange('rwa')">RWA</button>
+    <button [ngClass]="{'button-green-selected': selectedCategory == 'meme'}" class="button-green" (click)="onCategoryChange('meme')">Meme</button>
+    <button [ngClass]="{'button-pink-selected': selectedCategory == 'gaming'}" class="button-pink" (click)="onCategoryChange('gaming')">Gaming</button>
+  </div>
 </div>
   
 <app-rank [data]="data"></app-rank>
