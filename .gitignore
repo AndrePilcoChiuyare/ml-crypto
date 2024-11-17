@@ -42,3 +42,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+/catboost_info
+/__pycache__
+/ml-project/code/catboost_info
+/ml-project/code/__pycache__
