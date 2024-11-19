@@ -16,6 +16,21 @@ from catboost import CatBoostRegressor
 from sklearn.ensemble import HistGradientBoostingRegressor
     
 def removing_duplicates(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Remove duplicate rows from the DataFrame based on an external CSV file.
+
+    This function reads a CSV file containing duplicate entries and removes
+    the corresponding rows from the provided DataFrame. The CSV file is
+    expected to have columns 'id' and 'category' which are used to identify
+    duplicates.
+
+    Args:
+        df (pd.DataFrame): The input DataFrame from which duplicates need to be removed.
+
+    Returns:
+        pd.DataFrame: The DataFrame with duplicates removed.
+    """
+    # Your code here
     duplicates = pd.read_csv('../data/raw/duplicates.csv')
     for index, row in duplicates.iterrows():
         id = row['id']
@@ -24,10 +39,19 @@ def removing_duplicates(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 def capping_time_series(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Filters the input DataFrame to keep only the rows corresponding to the 
+    latest timestamp for each unique 'id'.
+
+    Args:
+        df (pd.DataFrame): Input DataFrame containing time series data with 
+                           columns 'id', 'name', and 'timestamp'.
+
+    Returns:
+        pd.DataFrame: A DataFrame filtered to include only the rows with the 
+                      latest timestamp for each 'id'.
+    """
     token_info = df.groupby('id')['name'].value_counts()
-    # mean = np.floor(token_info.quantile(0.25)).astype(int)
-    # ids_to_keep = token_info[token_info > mean].index.get_level_values(0).unique()
-    # filtered_meme = df[df['id'].isin(ids_to_keep)]
     filtered_meme = df.copy()
     first_timestamps = filtered_meme.groupby('id').timestamp.min()
     last_timestamps = filtered_meme.groupby('id').timestamp.max()
@@ -36,17 +60,17 @@ def capping_time_series(df: pd.DataFrame) -> pd.DataFrame:
     ids_to_keep2 = last_timestamps[last_timestamps == last_timestamp].index
     return filtered_meme[filtered_meme['id'].isin(ids_to_keep2)]
 
-# def capping_time_series_future(df: pd.DataFrame) -> pd.DataFrame:
-#     token_info = df.groupby('id')['name'].value_counts()
-#     mean = np.floor(token_info.mean()).astype(int)
-#     ids_to_keep = token_info[token_info > mean].index.get_level_values(0).unique()
-#     filtered_meme = df[df['id'].isin(ids_to_keep)]
-#     last_timestamps = filtered_meme.groupby('id')['timestamp'].max()
-#     last_timestamp = last_timestamps.max()
-#     ids_to_keep2 = last_timestamps[last_timestamps == last_timestamp].index
-#     return filtered_meme[filtered_meme['id'].isin(ids_to_keep2)]
-
 def train_test_split(df: pd.DataFrame, test_days: int = 7) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """
+    Splits a DataFrame into training and testing sets based on a specified number of test days.
+
+    Parameters:
+    df (pd.DataFrame): The input DataFrame containing a 'timestamp' column and an 'id' column.
+    test_days (int): The number of days to include in the test set. Default is 7.
+
+    Returns:
+    tuple[pd.DataFrame, pd.DataFrame]: A tuple containing the training DataFrame and the testing DataFrame.
+    """
     last_timestamp = df['timestamp'].max()
     test_start = last_timestamp - timedelta(days=test_days)
     train_df = df[df['timestamp'] < test_start]
@@ -96,60 +120,96 @@ def plot_time_series(df: pd.DataFrame, n: int) -> None:
         plt.show()
 
 def create_series_exog(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
+    # Create a copy of the dataframe to avoid modifying the original data
     data_copy = df.copy()
+    
+    # Convert timestamps to seconds since epoch
     data_copy['seconds'] = data_copy['timestamp'].apply(lambda x: x.timestamp())
     
+    # Define time periods in seconds
     day = 60 * 60 * 24
     week = day * 7
     month = week * 4
 
+    # Create sine and cosine transformations for weekly and monthly periodicity
     data_copy['week_sin'] = np.sin(data_copy['seconds'] * (2 * np.pi / week))
     data_copy['week_cos'] = np.cos(data_copy['seconds'] * (2 * np.pi / week))
     data_copy['month_sin'] = np.sin(data_copy['seconds'] * (2 * np.pi / month))
     data_copy['month_cos'] = np.cos(data_copy['seconds'] * (2 * np.pi / month))
 
+    # Extract the series and exogenous variables
     series = data_copy[['timestamp', 'id', 'close']]
     exog = data_copy[['timestamp', 'id', 'days_until_halving', 'week_sin', 'week_cos', 'month_sin', 'month_cos']]
+    
     return series, exog
 
 def create_future_exog(df: pd.DataFrame, exog_scaler: StandardScaler, days: int = 60) -> pd.DataFrame:
+    # Get the last timestamp in the dataframe
     last_timestamp = df['timestamp'].max()
+    
+    # Generate future dates starting from the day after the last timestamp
     future_dates = pd.date_range(start=last_timestamp + timedelta(days=1), periods=days, freq='D')
     
+    # Create a dataframe for future dates
     future_data = pd.DataFrame({'timestamp': future_dates})
+    
+    # Convert future timestamps to seconds since epoch
     future_data['seconds'] = future_data['timestamp'].apply(lambda x: x.timestamp())
 
+    # Define time periods in seconds
     day = 60 * 60 * 24
     week = day * 7
     month = week * 4
 
+    # Create sine and cosine transformations for weekly and monthly periodicity
     future_data['week_sin'] = np.sin(future_data['seconds'] * (2 * np.pi / week))
     future_data['week_cos'] = np.cos(future_data['seconds'] * (2 * np.pi / week))
     future_data['month_sin'] = np.sin(future_data['seconds'] * (2 * np.pi / month))
     future_data['month_cos'] = np.cos(future_data['seconds'] * (2 * np.pi / month))
 
+    # Assign the same token ID to all future dates
     future_data['id'] = df['id'].iloc[0]
 
+    # Define halving dates
     halving_dates = [pd.to_datetime('2012-11-28'), pd.to_datetime('2016-07-09'), pd.to_datetime('2020-05-11'), pd.to_datetime('2024-04-20'), pd.to_datetime('2028-03-28')]
+    
+    # Calculate days until the next halving event
     future_data['days_until_halving'] = future_data['timestamp'].apply(lambda x: min([(halving - x).days for halving in halving_dates if halving > x]) if any(halving > x for halving in halving_dates) else 0).astype('float64')
     
-
+    # Extract the exogenous variables for future dates
     exog_future = future_data[['timestamp', 'id', 'days_until_halving', 'week_sin', 'week_cos', 'month_sin', 'month_cos']]
+    
+    # Scale the 'days_until_halving' feature
     exog_future.loc[:, 'days_until_halving'] = exog_scaler.transform(exog_future[['days_until_halving']])
 
     return exog_future
 
-def create_all_future_exog(df: pd.DataFrame, exog_scaler: StandardScaler,days: int = 7, category: str = '') -> pd.DataFrame:
+def create_all_future_exog(df: pd.DataFrame, exog_scaler: StandardScaler, days: int = 7, category: str = '') -> pd.DataFrame:
     future_exog_list = []
     
+    # Generate future exogenous variables for each token ID
     for id, group in df.groupby('id'):
-        future_exog = create_future_exog(group, exog_scaler,days)
+        future_exog = create_future_exog(group, exog_scaler, days)
         future_exog_list.append(future_exog)
     
+    # Concatenate all future exogenous variables into a single dataframe
     all_future_exog = pd.concat(future_exog_list, ignore_index=True)
+    
     return all_future_exog
 
 def create_dictionaries(series_df: pd.DataFrame, exog_df: pd.DataFrame, future_exog_df: pd.DataFrame) -> tuple[series_long_to_dict, exog_long_to_dict, exog_long_to_dict]:
+    """
+    Create dictionaries from given dataframes for time series and exogenous variables.
+    Args:
+        series_df (pd.DataFrame): DataFrame containing the time series data with columns 'id', 'timestamp', and 'close'.
+        exog_df (pd.DataFrame): DataFrame containing the exogenous variables data with columns 'id' and 'timestamp'.
+        future_exog_df (pd.DataFrame): DataFrame containing the future exogenous variables data with columns 'id' and 'timestamp'.
+    Returns:
+        tuple: A tuple containing three dictionaries:
+            - series_dict: Dictionary created from series_df.
+            - exog_dict: Dictionary created from exog_df.
+            - future_exog_dict: Dictionary created from future_exog_df.
+    """
     series_dict = series_long_to_dict(
                  data=series_df, 
                  series_id='id', 
@@ -174,9 +234,12 @@ def create_dictionaries(series_df: pd.DataFrame, exog_df: pd.DataFrame, future_e
     return series_dict, exog_dict, future_exog_dict
 
 def train_forecaster(series_dict: dict, exog_dict: exog_long_to_dict) -> ForecasterAutoregMultiSeries:
+    # Initialize the CatBoostRegressor with specified parameters
     regressor = CatBoostRegressor(random_state=123, max_depth=5, silent=True)
-    # regressor = LGBMRegressor(random_state=123, max_depth=5)
+    # Print the parameters of the regressor
     print(regressor.get_params())
+    
+    # Initialize the ForecasterAutoregMultiSeries with the regressor and other parameters
     forecaster = ForecasterAutoregMultiSeries(
                     regressor          = regressor,
                     lags               = 10,
@@ -184,7 +247,8 @@ def train_forecaster(series_dict: dict, exog_dict: exog_long_to_dict) -> Forecas
                     dropna_from_series = False
                 )
     
-    forecaster.fit(series=series_dict, exog=exog_dict,suppress_warnings=True)
+    # Fit the forecaster with the provided series and exogenous data
+    forecaster.fit(series=series_dict, exog=exog_dict, suppress_warnings=True)
     
     return forecaster
 
@@ -476,6 +540,25 @@ def inverse_scaling_future(train_df: pd.DataFrame, pred_df: pd.DataFrame, scaler
     return train, pred
 
 def preprocess(data: pd.DataFrame, days_to_predict: int = 7):
+    """
+    Preprocesses the input data for machine learning tasks.
+    This function performs several preprocessing steps on the input data, including removing duplicates,
+    capping time series, converting timestamps to datetime, scaling the data, and splitting it into
+    training and testing sets. It also creates series and exogenous variables for model training and
+    prediction.
+    Args:
+        data (pd.DataFrame): The input data to preprocess.
+        days_to_predict (int, optional): The number of days to predict into the future. Defaults to 7.
+    Returns:
+        tuple: A tuple containing the following elements:
+            - train_data (pd.DataFrame): The preprocessed training data.
+            - test_data (pd.DataFrame): The preprocessed testing data.
+            - series_dict (dict): A dictionary containing the series data.
+            - exog_dict (dict): A dictionary containing the exogenous variables.
+            - future_exog_dict (dict): A dictionary containing the future exogenous variables.
+            - series_scaler (object): The scaler used for the series data.
+            - exog_scaler (object): The scaler used for the exogenous variables.
+    """
     future = False
     data_cleaned = removing_duplicates(data)
     data_capped = capping_time_series(data_cleaned)
@@ -503,6 +586,25 @@ def preprocess_future(data: pd.DataFrame, days_to_predict: int = 7):
     return data_final, series_dict, exog_dict, future_exog_dict, series_scaler, exog_scaler
 
 def get_last_close_info(historical_df: pd.DataFrame, test_df: pd.DataFrame, pred_df: pd.DataFrame):
+    """
+    Calculate the last close information and performance metrics for each token.
+    Args:
+        historical_df (pd.DataFrame): DataFrame containing historical data with columns ['id', 'timestamp', 'close'].
+        test_df (pd.DataFrame): DataFrame containing test data with columns ['id', 'timestamp', 'close'].
+        pred_df (pd.DataFrame): DataFrame containing predicted close prices with token IDs as columns.
+    Returns:
+        pd.DataFrame: DataFrame containing the last close information and performance metrics for each token.
+                      Columns include:
+                      - 'Token ID': The token identifier.
+                      - 'last_close': The last close price from historical data.
+                      - 'last_test_close': The last close price from test data.
+                      - 'last_pred_close': The last predicted close price.
+                      - 'real_difference': The difference between the last test close and the last historical close.
+                      - 'pred_difference': The difference between the last predicted close and the last historical close.
+                      - 'test_pred_difference': The difference between the last test close and the last predicted close.
+                      - 'real_went_up': Indicator (1 or 0) if the real close price went up.
+                      - 'pred_went_up': Indicator (1 or 0) if the predicted close price went up.
+    """
     tokens = list(pred_df.columns)
     close_performance = {}
     for token_id in tokens:
@@ -534,36 +636,50 @@ def get_last_close_info(historical_df: pd.DataFrame, test_df: pd.DataFrame, pred
     return close_performance_df
 
 def gen_complete_time_series(hist_df: pd.DataFrame, pred_df: pd.DataFrame, category: str):
+    # Get the list of unique IDs from the prediction DataFrame
     ids = list(pred_df.columns)
 
+    # Copy the prediction and historical DataFrames to avoid modifying the original data
     pred = pred_df.copy()
     hist = hist_df.copy()
 
+    # Get the last close price for each ID from the historical data
     close_df = hist.groupby('id').tail(1)[['id', 'close']]
 
+    # Add the predicted close price and whether it has increased to the close_df
     for i in ids:
         close_df.loc[close_df['id'] == i, 'pred_close'] = pred[i].tail(1).values[0]
         close_df['increase'] = (close_df['pred_close'] > close_df['close']).astype(int)
     close_df.reset_index(drop=True, inplace=True)
 
+    # Rename columns for clarity
     close_df.columns = ['id', 'last_close', 'last_pred_close', 'has_increased']
 
+    # Select relevant columns from the historical data
     hist = hist[['timestamp', 'id', 'name', 'symbol', 'category', 'marketcap', 'close']]
+    
+    # Reshape the prediction DataFrame
     pred = pred.stack().reset_index()
     pred.columns = ['timestamp', 'id', 'close']
 
+    # Get metadata from the historical data
     metadata_df = hist[['id', 'name', 'symbol', 'category', 'marketcap']].drop_duplicates()
 
+    # Merge the prediction data with metadata
     pred = pred.merge(metadata_df, on='id', how='left')
 
+    # Concatenate historical and prediction data
     final_df = pd.concat([hist, pred], ignore_index=True)
     final_df = final_df.sort_values(['id', 'timestamp']).reset_index(drop=True)
 
+    # Add the last close, last predicted close, and increase flag to the final DataFrame
     for i in ids:
         final_df.loc[final_df['id'] == i, ['last_close', 'last_pred_close', 'has_increased']] = close_df.loc[close_df['id'] == i, ['last_close', 'last_pred_close', 'has_increased']].values
 
+    # Convert timestamp to string for JSON serialization
     final_df['timestamp'] = final_df['timestamp'].astype(str)
 
+    # Group the data by relevant columns and convert to dictionary format
     result = (
         final_df.groupby(["id", "name", "symbol", "category", 'last_close', 'last_pred_close', 'has_increased', 'marketcap'])
         .apply(lambda group: group[["timestamp", "close"]].to_dict(orient="records"))
@@ -571,6 +687,7 @@ def gen_complete_time_series(hist_df: pd.DataFrame, pred_df: pd.DataFrame, categ
         .to_dict(orient="records")
     )
 
+    # Convert the result to JSON format
     json_result = json.dumps(result, indent=4)
 
     return json_result
